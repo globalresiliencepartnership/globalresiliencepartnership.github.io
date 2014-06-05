@@ -1,0 +1,46 @@
+---
+---
+{% include css/normalize.css %}
+{% include css/foundation.min.css %}
+h1,h2,h3,h4,h5,h6,p,li,a {font-family:'Arvo', serif;}
+h1 {font-weight:bold;}
+h2 p {font-size:0.8em;}
+li {
+	list-style:none;
+	}
+.header {
+	padding:20px 20px 0 20px;
+	}
+.header h1 {
+	text-align:center;
+	padding:0 20px 20px 20px;
+	}
+.nav {
+	padding:20px 0;
+	margin:0;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	}
+.nav.fixed {
+	position:fixed;
+	top:0;
+	width:100%;
+	background:#fff;
+	z-index:100;
+	}
+.nav li {
+	text-align: center;
+	}
+.sections {
+	position:absolute;
+	top:120px;
+	}
+.section {
+	position:relative;
+	min-height:100vh;
+	padding:80px;
+	border-bottom:1px solid #ddd;
+	}
+#map {
+	height:80vh;
+	}

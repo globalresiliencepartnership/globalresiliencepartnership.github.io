@@ -1,0 +1,10 @@
+exclude:
+  - README.md
+  - .gitignore
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title
+baseurl: 
+
+#prose

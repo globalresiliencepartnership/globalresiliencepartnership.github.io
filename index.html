@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class='header clearfix'>
+	<h1>Global Partnership for Resilience</h1>
+	<ul class='nav clearfix'>
+		{% for post in site.categories.section reversed %}
+			<li class='medium-3 left'>
+				<a href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
+			</li>
+		{% endfor %}
+	</ul>
+<!--
+	<ul>
+		<li class='left'><a herf='#'><i class="fa fa-lg fa-facebook"></i></a></li>
+		<li class='left'><a herf='#'><i class="fa fa-lg fa-twitter"></i></a></li>
+		<li class='left'><a herf='#'><i class="fa fa-lg fa-instagram"></i></a></li>
+		<li class='left'><a herf='#'><i class="fa fa-lg fa-linkedin"></i></a></li>
+	</ul> 
+-->
+</div>
+<div class='sections'>
+	{% for post in site.categories.section reversed %}
+	<div class='section clearfix'>
+		<a id='{{post.short}}'></a>
+		<h1>{{post.title}}</h1>
+		<h2>{{post.content}}</h2>
+		{% if post.tags contains 'map' %}
+		<div id='map'></div>
+		{% endif %}
+	</div>
+	{% endfor %}
+</div>

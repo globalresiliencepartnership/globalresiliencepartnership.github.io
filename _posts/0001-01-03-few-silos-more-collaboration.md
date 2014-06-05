@@ -1,0 +1,10 @@
+---
+categories: section
+title: "Few Silos, More Collaboration"
+short: "What We Do"
+---
+
+Currently organizations are working in silos without cross-sectoral collaborations. We are filling this gap by establishing a global-to-regional partnership. Both of the founding partners, RF and USAID, have done extensive work around resilience.
+
+<!-- example A: http://100resilientcities.rockefellerfoundation.org/resilience -->
+<!-- example B: some report from USAID with photos -->
