@@ -3,6 +3,8 @@ categories: section
 title: "The Challenges We Face"
 short: "Challenges"
 tags: map
+background: background-image:url(http://subtlepatterns.com/patterns/lightpaperfibers.png);
+
 ---
 
 <div class="row">

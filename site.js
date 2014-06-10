@@ -3,6 +3,7 @@
 {% include js/vendor/jquery.js %}
 {% include js/vendor/fastclick.js %}
 {% include js/foundation.min.js %}
+{% include js/foundation/foundation.magellan.js %}
 
 // site
 $(function(){

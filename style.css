@@ -6,12 +6,14 @@ h1,h2,h3,h4,h5,h6,p,li,a {font-family:'Montserrat', sans-serif;}
 p.main {
 	font-size:.8em; 
 	font-family:'Muli', sans-serif; 
-	color: #333333;
+	color: #2e3d48;
+	margin-top:1rem;
+	margin-bottom:3rem;
 }
 p.captions {
 	font-size:.6em; 
 	font-family:'Muli', sans-serif; 
-	color: #555555;
+	color: #43475a;
 }
 h1 {font-weight:bold;}
 h2 {
@@ -21,8 +23,9 @@ h2 {
   	margin-bottom: 2rem;
 	}
 h3 {
-	font-weight:bold; 
-	color:#333333;
+	font-family:'Muli', sans-serif; 
+	font-weight:normal; 
+	color:#ebe6e0;
 	margin-top: 1rem;
   	margin-bottom: 1rem;
 	}	
@@ -61,11 +64,11 @@ li {
 	text-align: center;
 	}
 .sections {
-	position:absolute;
+	position:center;
 	top:100px;
 	}
 .section {
-	position:relative;
+	position:center;
 	min-height:30vh;
 	padding:100px;
 	max-width: 1200px;

@@ -1,6 +1,32 @@
 ---
 layout: default
 ---
+<div class="fixed">
+<nav class="top-bar" data-topbar>
+<ul class="title-area">
+	<li class="name">
+	<h1><a href="#">My Site</a></h1>
+	</li>
+	<li class="toggle-topbar menu-icon">
+	<a href="#"><span>Menu</span></a>
+	</li>
+</ul>
+
+<section class="top-bar-section">
+    
+    <ul class="right">
+		<li class='right'><a herf='#'><i class="fa fa-lg fa-facebook"></i></a></li>
+		<li class='right'><a herf='#'><i class="fa fa-lg fa-twitter"></i></a></li>
+	</ul> 
+	<ul class="left">
+		<li><a href="#">Left Nav Button</a></li>
+	</ul> 
+</section>
+
+</nav>
+</div>
+
+
 <div class='header clearfix'>
 	<h1>Global Partnership for Resilience</h1>
 	<ul class='nav clearfix'>
@@ -19,8 +45,10 @@ layout: default
 	</ul> 
 -->
 </div>
-<div class='sections'>
+
+<div class='sections intro'>
 	{% for post in site.categories.section reversed %}
+	<section style="{{post.background}}">
 	<div class='section clearfix'>
 		<a id='{{post.short}}'></a>
 		<h2>{{post.title}}</h2>
@@ -37,10 +65,10 @@ layout: default
   <div class="small-6 large-4 columns">
   		<div id='map3' class="map"></div>
   </div>
-</div>
-		
+</div>	
 		{% endif %}
 	</div>
+	</section>
 	{% endfor %}
 </div>
 
