@@ -3,12 +3,12 @@ layout: default
 ---
 
 <div class='header clearfix'>
-	<div class="row">
+
 	
 	<h1>Global Partnership for Resilience</h1>
-	
 	<ul class='nav clearfix'>
 	  <div data-magellan-expedition="fixed" class="fixed hide-for-small">
+		<div class="row">
 		<dl class="sub-nav">
 		{% for post in site.categories.section reversed %}
 			<li class='medium-2 left '>
@@ -17,9 +17,10 @@ layout: default
 		{% endfor %}
 		</dl>
 		</div>
+		</div>	
 	</ul>
 
-	</div>
+
 <!--
 	<ul>
 		<li class='left'><a herf='#'><i class="fa fa-lg fa-facebook"></i></a></li>
