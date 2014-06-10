@@ -25,10 +25,13 @@ $(function(){
 // map object
 var map1 = L.mapbox.map('map1','jue.iddhipbe',{
 		zoomControl: false
-	}).setView([19.15,14.99],4);
+	}).setView([19.15,14.99],2);
 var map2 = L.mapbox.map('map2','jue.iddhipbe',{
 		zoomControl: false
-	}).setView([50,80],4);
+	}).setView([50,80],2);
+var map3 = L.mapbox.map('map3','jue.iddhipbe',{
+		zoomControl: false
+	}).setView([50,40],2);
 
 // Disable drag and zoom handlers.
 // map.dragging.disable();

@@ -1,14 +1,43 @@
 ---
 ---
 {% include css/normalize.css %}
-{% include css/foundation.min.css %}
-h1,h2,h3,h4,h5,h6,p,li,a {font-family:'Arvo', serif;}
+{% include css/foundation.css %}
+h1,h2,h3,h4,h5,h6,p,li,a {font-family:'Montserrat', sans-serif;}
+p.main {
+	font-size:.8em; 
+	font-family:'Muli', sans-serif; 
+	color: #333333;
+}
+p.captions {
+	font-size:.6em; 
+	font-family:'Muli', sans-serif; 
+	color: #555555;
+}
 h1 {font-weight:bold;}
-h2 p {font-size:0.8em;}
+h2 {
+	font-weight:bold; 
+	color:#60b88d;
+	margin-top: 1rem;
+  	margin-bottom: 2rem;
+	}
+h3 {
+	font-weight:bold; 
+	color:#333333;
+	margin-top: 1rem;
+  	margin-bottom: 1rem;
+	}	
+h5 {
+	font-size:.8em; 
+	font-weight: bold; 
+	color: #dd6343;
+	margin-top: 1rem;
+  	margin-bottom: 1rem;
+	}
+
 li {
 	list-style:none;
 	}
-.header {
+.header.fixed {
 	padding:20px 20px 0 20px;
 	}
 .header h1 {
@@ -16,7 +45,7 @@ li {
 	padding:0 20px 20px 20px;
 	}
 .nav {
-	padding:20px 0;
+	padding:30px 0;
 	margin:0;
 	border-top:1px solid #ddd;
 	border-bottom:1px solid #ddd;
@@ -33,14 +62,25 @@ li {
 	}
 .sections {
 	position:absolute;
-	top:120px;
+	top:100px;
 	}
 .section {
 	position:relative;
-	min-height:100vh;
-	padding:80px;
+	min-height:30vh;
+	padding:100px;
+	max-width: 1200px;
 	border-bottom:1px solid #ddd;
 	}
 .map {
-	height:80vh;
+	height:20vh;
+	border-radius: 5px;
 	}
+
+
+
+.wrapper {
+	position:relative; 
+	text-align: left;
+ 	width: 80%; 
+	max-width: 1200px;
+}
