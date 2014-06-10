@@ -25,11 +25,9 @@ background: background-image:url(http://subtlepatterns.com/patterns/lightpaperfi
 	</div>
 </div>
 
-<div class="row">
 
 <p class="main">It is becoming increasingly difficult to prepare for, respond to, and recover from such global catastrophes. Rockefeller Foundation and USAID are jointly launching a $100 million initiative that aims to build resilience around chronic shocks and stresses in some of the hardest hit regions.</p>
 
-</div>
 
 <div class="row">
   <div class="medium-4 small-4 columns">

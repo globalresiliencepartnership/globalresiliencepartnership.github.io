@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<div class="row">
 <div class="fixed">
 <nav class="top-bar" data-topbar>
 <ul class="title-area">
@@ -25,17 +26,18 @@ layout: default
 
 </nav>
 </div>
+</div>
 
 
 <div class='header clearfix'>
-	<h1>Global Partnership for Resilience</h1>
+	<div class="row"><h1>Global Partnership for Resilience</h1>
 	<ul class='nav clearfix'>
 		{% for post in site.categories.section reversed %}
 			<li class='medium-2 left '>
 				<a href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
 			</li>
 		{% endfor %}
-	</ul>
+	</ul></div>
 <!--
 	<ul>
 		<li class='left'><a herf='#'><i class="fa fa-lg fa-facebook"></i></a></li>
@@ -51,8 +53,8 @@ layout: default
 	<section style="{{post.background}}">
 	<div class='section clearfix'>
 		<a id='{{post.short}}'></a>
-		<h2>{{post.title}}</h2>
-		<h3>{{post.content}}</h3>
+		<div class="row"><h2>{{post.title}}</h2>
+		<h3>{{post.content}}</h3></div>
 		{% if post.tags contains 'map' %}
 		
 <div class="row">

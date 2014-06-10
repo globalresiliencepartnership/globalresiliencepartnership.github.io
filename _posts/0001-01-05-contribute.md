@@ -2,7 +2,7 @@
 categories: section
 title: "Contribute"
 short: "Contribute"
-background: background-image:url(http://subtlepatterns.com/patterns/light_toast.png);
+background: background-image:url(http://subtlepatterns.com/patterns/lghtmesh.png);
 ---
 
 <div class="row">
