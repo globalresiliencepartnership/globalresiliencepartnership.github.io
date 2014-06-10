@@ -2,9 +2,8 @@
 categories: section
 title: "Contribute"
 short: "Contribute"
+background: background-image:url(http://subtlepatterns.com/patterns/light_toast.png);
 ---
-
-<section style="background-color:#edeae6;">
 
 <div class="row">
   <div class="medium-4 small-4 columns">
@@ -24,4 +23,3 @@ short: "Contribute"
 	</div>
 </div>
 
-</section>
