@@ -4,34 +4,34 @@
 {% include css/foundation.css %}
 h1,h2,h3,h4,h5,h6,p,li,a {font-family:'Montserrat', sans-serif;}
 p.main {
-	font-size:.8em; 
-	font-family:'Muli', sans-serif; 
+	font-size:.8em;
+	font-family:'Muli', sans-serif;
 	color: #2e3d48;
 	margin-top:1rem;
 	margin-bottom:3rem;
 }
 p.captions {
-	font-size:.6em; 
-	font-family:'Muli', sans-serif; 
+	font-size:.6em;
+	font-family:'Muli', sans-serif;
 	color: #43475a;
 }
 h1 {font-weight:bold;}
 h2 {
-	font-weight:bold; 
+	font-weight:bold;
 	color:#60b88d;
 	margin-top: 1rem;
   	margin-bottom: 2rem;
 	}
 h3 {
-	font-family:'Muli', sans-serif; 
-	font-weight:normal; 
+	font-family:'Muli', sans-serif;
+	font-weight:normal;
 	color:#ebe6e0;
 	margin-top: 1rem;
   	margin-bottom: 1rem;
-	}	
+	}
 h5 {
-	font-size:.8em; 
-	font-weight: bold; 
+	font-size:.8em;
+	font-weight: bold;
 	color: #dd6343;
 	margin-top: 1rem;
   	margin-bottom: 1rem;
@@ -40,9 +40,9 @@ h5 {
 li {
 	list-style:none;
 	}
-.header.fixed {
+/*.header.fixed {
 	padding:20px 20px 0 20px;
-	}
+	}*/
 .header h1 {
 	text-align:center;
 	padding:0 20px 20px 20px;
@@ -50,16 +50,17 @@ li {
 .nav {
 	padding:30px 0;
 	margin:0;
-	border-top:1px solid #ddd;
 	border-bottom:1px solid #ddd;
+	left:0px;
+	width:100%;
 	}
-.nav.fixed {
+/*.nav.fixed {
 	position:fixed;
 	top:0;
 	width:100%;
 	background:#fff;
 	z-index:100;
-	}
+	}*/
 .nav li {
 	text-align: center;
 	}
@@ -81,8 +82,8 @@ li {
 
 
 .wrapper {
-	position:relative; 
+	position:relative;
 	text-align: left;
- 	width: 80%; 
+ 	width: 80%;
 	max-width: 1200px;
 }
