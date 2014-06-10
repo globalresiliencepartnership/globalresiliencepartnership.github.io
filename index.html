@@ -1,43 +1,25 @@
 ---
 layout: default
 ---
-<div class="row">
-<div class="fixed">
-<nav class="top-bar" data-topbar>
-<ul class="title-area">
-	<li class="name">
-	<h1><a href="#">My Site</a></h1>
-	</li>
-	<li class="toggle-topbar menu-icon">
-	<a href="#"><span>Menu</span></a>
-	</li>
-</ul>
-
-<section class="top-bar-section">
-    
-    <ul class="right">
-		<li class='right'><a herf='#'><i class="fa fa-lg fa-facebook"></i></a></li>
-		<li class='right'><a herf='#'><i class="fa fa-lg fa-twitter"></i></a></li>
-	</ul> 
-	<ul class="left">
-		<li><a href="#">Left Nav Button</a></li>
-	</ul> 
-</section>
-
-</nav>
-</div>
-</div>
-
 
 <div class='header clearfix'>
-	<div class="row"><h1>Global Partnership for Resilience</h1>
+	<div class="row">
+	
+	<h1>Global Partnership for Resilience</h1>
+	
 	<ul class='nav clearfix'>
+	  <div data-magellan-expedition="fixed" class="fixed hide-for-small">
+		<dl class="sub-nav">
 		{% for post in site.categories.section reversed %}
 			<li class='medium-2 left '>
 				<a href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
 			</li>
 		{% endfor %}
-	</ul></div>
+		</dl>
+		</div>
+	</ul>
+
+	</div>
 <!--
 	<ul>
 		<li class='left'><a herf='#'><i class="fa fa-lg fa-facebook"></i></a></li>
@@ -52,7 +34,7 @@ layout: default
 	{% for post in site.categories.section reversed %}
 	<section style="{{post.background}}">
 	<div class='section clearfix'>
-		<a id='{{post.short}}'></a>
+		<a id='{{post.short | downcase | split:' ' | join: '-' }}'></a>
 		<div class="row"><h2>{{post.title}}</h2>
 		<h3>{{post.content}}</h3></div>
 		{% if post.tags contains 'map' %}
