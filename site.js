@@ -24,13 +24,13 @@ $(function(){
 });
 
 // map object
-var map1 = L.mapbox.map('map1','jue.iddhipbe',{
+var map1 = L.mapbox.map('map1','mkhandekar.ifnjl97k',{
 		zoomControl: false
 	}).setView([19.15,14.99],2);
-var map2 = L.mapbox.map('map2','jue.iddhipbe',{
+var map2 = L.mapbox.map('map2','mkhandekar.ifnjp7h5',{
 		zoomControl: false
 	}).setView([50,80],2);
-var map3 = L.mapbox.map('map3','jue.iddhipbe',{
+var map3 = L.mapbox.map('map3','mkhandekar.ifm539i7',{
 		zoomControl: false
 	}).setView([50,40],2);
 

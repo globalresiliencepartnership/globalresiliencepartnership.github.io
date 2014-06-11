@@ -17,22 +17,29 @@ p.captions {
 }
 h1 {font-weight:bold;}
 h2 {
+	font-size:2.5em; 
 	font-weight:bold; 
 	color:#60b88d;
+	margin-top: 1rem;
+  	margin-bottom: 2rem;
+	}
+h2.intro {
+	font-weight:bold; 
+	color:#ffffff;
 	margin-top: 1rem;
   	margin-bottom: 2rem;
 	}
 h3 {
 	font-family:'Muli', sans-serif; 
 	font-weight:normal; 
-	color:#ebe6e0;
+	color:#eaf4ef;
 	margin-top: 1rem;
   	margin-bottom: 1rem;
 	}	
 h5 {
 	font-size:.8em; 
 	font-weight: bold; 
-	color: #dd6343;
+	color: #d34d35;
 	margin-top: 1rem;
   	margin-bottom: 1rem;
 	}
@@ -50,8 +57,7 @@ li {
 .nav {
 	padding:0px 0;
 	margin:0;
-	border-top:1px solid #ddd;
-	border-bottom:1px solid #ddd;
+	border-bottom:6px solid #60b88d;
 	}
 .nav.fixed {
 	position:fixed;
@@ -71,7 +77,7 @@ li {
 	position:center;
 	min-height:30vh;
 	padding:100px;
-	border-bottom:1px solid #ddd;
+	border-bottom:6px solid #60b88d;
 	}
 .map {
 	height:20vh;
