@@ -24,15 +24,21 @@ $(function(){
 });
 
 // map object
-var map1 = L.mapbox.map('map1','mkhandekar.ifnjl97k',{
-		zoomControl: false
-	}).setView([19.15,14.99],2);
-var map2 = L.mapbox.map('map2','mkhandekar.ifnjp7h5',{
-		zoomControl: false
-	}).setView([50,80],2);
-var map3 = L.mapbox.map('map3','mkhandekar.ifm539i7',{
-		zoomControl: false
-	}).setView([50,40],2);
+var map1 = L.mapbox.map('map1','mkhandekar.ig3hdlfh',{
+		zoomControl: false,
+		attributionControl: false,
+		infoControl: true
+	}).setView([12.211, 17.974],2);
+var map2 = L.mapbox.map('map2','mkhandekar.ig3j2688',{
+		zoomControl: false, 
+		attributionControl: false,
+		infoControl: true
+	}).setView([7.014, 115.884],2);
+var map3 = L.mapbox.map('map3','mkhandekar.ig3gl3j3',{
+		zoomControl: false,
+		attributionControl: false,
+		infoControl: true
+	}).setView([12.211, 17.974],2);
 
 // Disable drag and zoom handlers.
 // map.dragging.disable();
