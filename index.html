@@ -3,58 +3,45 @@ layout: default
 ---
 
 <div class='header clearfix'>
-
 	
 	<h1>Global Partnership for Resilience</h1>
-	<ul class='nav clearfix'>
-	  <div data-magellan-expedition="fixed" class="fixed hide-for-small">
-		<div class="row">
+
+	<div data-magellan-expedition="fixed">
 		<dl class="sub-nav">
-		{% for post in site.categories.section reversed %}
-			<li class='medium-2 left '>
+			{% for post in site.categories.section reversed %}
+				<dd data-magellan-arrival="{{post.short | downcase | split:' ' | join: '-' }}">
 				<a href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
-			</li>
-		{% endfor %}
+				</dd>
+			{% endfor %}
 		</dl>
-		</div>
-		</div>	
-	</ul>
+	</div>
 
-
-<!--
-	<ul>
-		<li class='left'><a herf='#'><i class="fa fa-lg fa-facebook"></i></a></li>
-		<li class='left'><a herf='#'><i class="fa fa-lg fa-twitter"></i></a></li>
-		<li class='left'><a herf='#'><i class="fa fa-lg fa-instagram"></i></a></li>
-		<li class='left'><a herf='#'><i class="fa fa-lg fa-linkedin"></i></a></li>
-	</ul> 
--->
 </div>
 
 <div class='sections intro'>
 	{% for post in site.categories.section reversed %}
+	
 	<section style="{{post.background}}">
 	<div class='section clearfix'>
 		<a id='{{post.short | downcase | split:' ' | join: '-' }}'></a>
 		<div class="row"><h2>{{post.title}}</h2>
 		<h3>{{post.content}}</h3></div>
-		
 		{% if post.tags contains 'map' %}
-<div class="row">
-	<div class="medium-4 columns">
-  		<div id='map1' class="map"></div>
-	</div>
-	<div class="medium-4 columns">
-  		<div id='map2' class="map"></div>
-	</div>
-	<div class="medium-4 columns">
-  		<div id='map3' class="map"></div>
-  </div>
-</div>	
-		{% endif %}
-		
+	<div class="row">
+		<div class="medium-4 columns">
+	  		<div id='map1' class="map"></div>
+		</div>
+		<div class="medium-4 columns">
+	  		<div id='map2' class="map"></div>
+		</div>
+		<div class="medium-4 columns">
+	  		<div id='map3' class="map"></div>
+	  	</div>
+	</div>	
+	{% endif %}	
 	</div>
 	</section>
+
 	{% endfor %}
 </div>
 

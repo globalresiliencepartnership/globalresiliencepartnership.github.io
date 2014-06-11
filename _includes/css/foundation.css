@@ -2477,13 +2477,13 @@ div.switch {
   background: white;
   z-index: 50;
   min-width: 100%;
-  padding: 10px; }
+  padding: 10px;}
   [data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
     margin-bottom: 0; }
     [data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
-      margin-bottom: 0; }
+      margin-bottom: 1; }
     [data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
-      line-height: 1.8em; }
+      line-height: 0em; }
 
 .text-left {
   text-align: left !important; }
@@ -3587,12 +3587,12 @@ dialog[open] {
     .sub-nav dd a,
     .sub-nav li a {
       text-decoration: none;
-      color: #999999;
+      color: #d1bfa9;
       padding: 0.1875rem 1rem; }
       .sub-nav dt a:hover,
       .sub-nav dd a:hover,
       .sub-nav li a:hover {
-        color: #737373; }
+        color: #dd6343; }
     .sub-nav dt.active a,
     .sub-nav dd.active a,
     .sub-nav li.active a {
@@ -3601,7 +3601,7 @@ dialog[open] {
       background: #008cba;
       padding: 0.1875rem 1rem;
       cursor: default;
-      color: white; }
+      color: #dd6343; }
       .sub-nav dt.active a:hover,
       .sub-nav dd.active a:hover,
       .sub-nav li.active a:hover {
