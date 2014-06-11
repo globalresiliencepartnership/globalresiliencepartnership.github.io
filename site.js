@@ -8,19 +8,19 @@
 // site
 $(function(){
 	$(document).foundation();
-	var isSticky = false;
-	$(window).scroll(function(){
-		var nav = $('.nav'),
-			header = $('.header'),
-			navDistToTop = $(document).scrollTop() - nav.offset().top,
-			headerDistToTop = $(document).scrollTop() - header.offset().top;
-
-		if (navDistToTop > 0){
-			nav.addClass('fixed');
-			isSticky = true;
-		}
-		console.log(isSticky)
-	})
+	// var isSticky = false;
+	// $(window).scroll(function(){
+	// 	var nav = $('.nav'),
+	// 		header = $('.header'),
+	// 		navDistToTop = $(document).scrollTop() - nav.offset().top,
+	// 		headerDistToTop = $(document).scrollTop() - header.offset().top;
+	//
+	// 	if (navDistToTop > 0){
+	// 		nav.addClass('fixed');
+	// 		isSticky = true;
+	// 	}
+	// 	console.log(isSticky)
+	// })
 });
 
 // map object
