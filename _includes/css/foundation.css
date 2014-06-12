@@ -2479,9 +2479,9 @@ div.switch {
   min-width: 100%;
   padding: 10px;}
   [data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
-    margin-bottom: 0; }
+    margin-bottom: 7px; }
     [data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
-      margin-bottom: 1; }
+      margin-bottom: 0; }
     [data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
       line-height: 0em; }
 
