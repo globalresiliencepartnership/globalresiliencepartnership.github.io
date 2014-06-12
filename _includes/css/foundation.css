@@ -3575,7 +3575,7 @@ dialog[open] {
   .sub-nav dt,
   .sub-nav dd,
   .sub-nav li {
-    float: left;
+    float: center;
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0.625rem;
