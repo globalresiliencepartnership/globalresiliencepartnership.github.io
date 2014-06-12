@@ -9,7 +9,7 @@ background: background-color:#eff4ef;
   <div class="medium-4 columns">
   <img src="img/grandchallenge.svg" />
 	<h5>Apply to the Grand Challenge</h5>
-	<p class="captions">The Grand Challenge for Climate Adaptation and Resilience will kick-start GPR's activities. It will begin with workshops in identified regions -- Horn of Africa, Southeast Asia and The Sahel -- to diagnose and prioritize systemic issues.</p>
+	<p class="captions">The Grand Challenge for Climate Adaptation and Resilience will kick-start GPR's activities. It will begin with workshops in identified regions to diagnose and prioritize systemic issues.</p>
 	<a href="#" class="button [tiny small large]">Apply to Grand Challenge</a>
 	</div>
   <div class="medium-4 columns">
