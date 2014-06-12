@@ -8,7 +8,7 @@ background: background-image:url(http://subtlepatterns.com/patterns/lightpaperfi
 ---
 
 <p class="main">Since 1990, natural disasters have affected about 217 million people every year. 
-There were three times as many natural disasters between 2000 to 2009 compared to the amount between 1980 and 1989. 80% of this growth is due to climate-related events. Over the last 30 years, one out of three dollars spent on development was lost as a result of recurrent crises
+There were three times as many natural disasters between 2000 to 2009 compared to the amount between 1980 and 1989. 80% of this growth is due to climate-related events. Over the last 30 years, one out of three dollars spent on development was lost as a result of recurrent crises.
 
 <br><br>It is becoming increasingly difficult to prepare for, respond to, and recover from such global catastrophes. Rockefeller Foundation and USAID are jointly launching a $100 million initiative that aims to build resilience around chronic shocks and stresses in some of the hardest hit regions.</p>
 
