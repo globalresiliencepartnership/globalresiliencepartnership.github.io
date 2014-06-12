@@ -14,17 +14,6 @@ There were three times as many natural disasters between 2000 to 2009 compared t
 
 
 <div class="row">
-<!-- 
-	  <div class="medium-4 small-4 columns"> 
-	  		<div id='map1' class="map"></div>
-	  </div>
-		<div class="medium-4 small-4 columns"> 
-			<div id='map2' class="map"></div>
-		</div>
-		<div class="medium-4 small-4 columns"> 
-			<div id='map3' class="map"></div>
-		</div> -->
-
 
 	<div class="medium-4 columns">
 	<h5>Horn of Africa</h5>
