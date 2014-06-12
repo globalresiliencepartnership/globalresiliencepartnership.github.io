@@ -27,6 +27,6 @@ There were three times as many natural disasters between 2000 to 2009 compared t
  
 	<div class="medium-4 columns">
   	<h5>The Sahel</h5>
-	<p class="captions">For much of the 1970s and 1980s, the region suffered repeated and devastating droughts, crop failures, and an encroaching desert, all of  which caused much suffering. The impact of this ecological crisis has steadily deepened, making economic and social fabric weak as well. In 2011 and 2012, the US Government spent $1.5 billion in the Horn and the Sahel</p>
+	<p class="captions">For much of the 1970s and 1980s, the region suffered repeated and devastating droughts, crop failures, and an encroaching desert, all of  which caused much suffering. The impact of this ecological crisis has steadily deepened, making economic and social fabric weak as well. In 2011 and 2012, the US Government spent $1.5 billion in the Horn and the Sahel.</p>
 	</div>
 </div>
