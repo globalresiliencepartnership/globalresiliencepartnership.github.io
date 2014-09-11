@@ -7,8 +7,9 @@
 
 $(function(){
 	$(document).foundation();
+	// Init map
 	L.mapbox.accessToken = 'pk.eyJ1IjoianVlIiwiYSI6InFsakR2UEkifQ.GSsNWZF7HVlLqwdhWuM2gA';
-	var map = L.mapbox.map('map', 'jue.iddhipbe',{
+	var map = L.mapbox.map('map', 'devseed.jfkl2aak',{
 		zoomControl: false
 	}).setView([26, 62],3);
 
@@ -20,5 +21,20 @@ $(function(){
 
 	// Disable tap handler, if present.
 	if (map.tap) map.tap.disable();
+
+	var style = {
+		'color':'#fff',
+		'weight':0.5,
+		'fillColor':'#0071B8', //009EDE
+		'fillOpacity':0.75
+	}
+
+	$.getJSON('geojson/regions.json',function(regions){
+		var geo = topojson.feature(regions,regions.objects.regions);
+		L.geoJson(geo,{
+			style:style
+		}).addTo(map);
+	});
+
 
 });
