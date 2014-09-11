@@ -1,8 +1,7 @@
 body {
   overflow-x: hidden; }
 
-h1, h2, h3, h4, h5, h6, a, p, li, footer
-.button {
+h1, h2, h3, a, p, li, footer {
   font: 1em "ITC Franklin Gothic", Arial, sans-serif;
   line-height: 1.65em;
   color: #58595B; }
@@ -30,11 +29,24 @@ h2 {
   word-spacing: 0.1em;
   margin: 2em 15%; }
 
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1em; }
+
 a {
   letter-spacing: 0.02em;
   color: #009EDE !important; }
   a:hover {
     color: #49853E !important; }
+
+.row .row {
+  padding: 2em 15%; }
+  .row .row h3 {
+    text-align: center; }
+  .row .row p {
+    margin: 2em 0;
+    padding: 0; }
 
 [data-magellan-expedition],
 [data-magellan-expedition-clone] {
@@ -54,7 +66,6 @@ ul {
   margin: 0;
   margin-bottom: 4em; }
   ul li {
-    font-weight: bold;
     list-style: none;
     margin: 0 15%;
     padding: 2em 2em 0;
@@ -73,7 +84,8 @@ ul {
       padding-bottom: 2em; }
 
 .intro,
-.map {
+.map,
+.challenge {
   height: 100vh; }
 
 .intro {
@@ -87,53 +99,57 @@ ul {
 
 .below-intro section {
   background: #f5f3f3 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat; }
-
-.absolute {
+  .below-intro section.challenge {
+    background: url(img/post-its-bw.jpg);
+    background-size: cover; }
+    .below-intro section.challenge h1, .below-intro section.challenge h2, .below-intro section.challenge p {
+      color: #fff;
+      text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
+.below-intro .absolute {
   position: absolute;
   left: 0;
   margin-top: -100vh; }
-  .absolute a {
-    display: block;
-    width: 30%;
-    margin: 2em auto;
-    padding: 2em;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #fff !important;
-    background: #0071B8;
-    background: rgba(0, 113, 184, 0.75); }
-    .absolute a:hover {
-      background: #0071B8; }
-
-.logo {
+.below-intro .logo {
   text-align: center;
   padding: 2em 15%; }
-
-.rubik {
-  width: 100%;
-  height: 25%;
-  text-align: center;
-  background: url("img/rubik.png") no-repeat 50%;
+.below-intro .icon {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 2em;
+  background-repeat: no-repeat;
   background-size: contain;
-  opacity: 0.1; }
-
-.mc-embed {
+  opacity: 0.6; }
+  .below-intro .icon.global {
+    background-image: url(img/global.png); }
+  .below-intro .icon.regional {
+    background-image: url(img/regional.png); }
+  .below-intro .icon.local {
+    background-image: url(img/local.png); }
+  .below-intro .icon.explore {
+    background-image: url(img/explore.png); }
+  .below-intro .icon.collaboration {
+    background-image: url(img/collaboration.png); }
+  .below-intro .icon.solution {
+    background-image: url(img/solution.png); }
+  .below-intro .icon.learn {
+    background-image: url(img/learn.png); }
+.below-intro .mc-embed {
   margin: 2em 15%;
   padding-bottom: 4em; }
-  .mc-embed input {
+  .below-intro .mc-embed input {
     float: left;
     height: 3em;
     margin: 0;
     padding: 1em;
     font-size: 1em !important;
     border: 1px solid #fff !important; }
-    .mc-embed input[type='email'] {
+    .below-intro .mc-embed input[type='email'] {
       width: 80%;
       box-shadow: none; }
-      .mc-embed input[type='email']:hover, .mc-embed input[type='email']:focus {
+      .below-intro .mc-embed input[type='email']:hover, .below-intro .mc-embed input[type='email']:focus {
         box-shadow: none; }
-    .mc-embed input[type='submit'] {
+    .below-intro .mc-embed input[type='submit'] {
       width: 20%; }
 
 footer {
