@@ -1,11 +1,10 @@
 ---
 categories: section
-short: "Resilience Design Challenge"
+short: Resilience Design Challenge
+class: challenge
 ---
 
-# Resilence Design Challenge
-
-<div class='rubik'></div>
+# Resilience Design Challenge
 
 ## An essential feature of the Resilience Partnership will be a multi-phase resilience design challenge, focused on bringing together people and organizations from across sectors to collaborate on bold and innovative solutions to the toughest resilience challenges in the three focus regions. These teams will collectively research and diagnose problems, and develop locally-driven, high-impact solutions that can build resilience at scale.
 

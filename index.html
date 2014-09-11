@@ -30,7 +30,7 @@
 	<div class='below-intro'>
 		{% for post in site.categories.section reversed %}
 
-		<section class='clearfix'>
+		<section class='clearfix {{post.class}}'>
 			<a id='{{post.short | downcase | split:' ' | join: '-' }}'></a>
 			<!-- <h1>{{post.title}}</h1> -->
 			{% if post.tag contains 'map'%}
@@ -50,7 +50,8 @@
 			</div>
 			<div class='medium-3 columns'>
 				<h2>Credits</h2>
-				<p>Photo credits: <a href='https://www.flickr.com/photos/chucksimmins/2947856660' target='_blank'>Chuck Simmins</a>. Rubik's Cube designed by <a href="http://www.thenounproject.com/dpapworth">David Papworth</a> from the <a href="http://www.thenounproject.com">Noun Project</a></p>
+				<p>Photos: <a href='https://www.flickr.com/photos/chucksimmins/2947856660' target='_blank'>Chuck Simmins</a> and <a href='https://www.flickr.com/photos/3oheme/5141328136' target='_blank'>Ignacio Palomo Duarte</a>. 
+				Icons: Explore, Group Talk, Writing, Presentation designed by <a href="http://www.thenounproject.com/takaoumehara">Takao Umehara</a>; Rubik's Cube designed by <a href="http://www.thenounproject.com/dpapworth">David Papworth</a> from the <a href="http://www.thenounproject.com">Noun Project</a></p>
 			</div>
 			<div class='medium-3 columns'>
 				<h2>Latest Tweets by GRP</h2>
