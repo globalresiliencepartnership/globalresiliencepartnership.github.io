@@ -1,12 +1,9 @@
 ---
 categories: section
-title: ""
 short: "The New Solution"
-background: ""
 ---
-<!-- background-image:url(http://subtlepatterns.com/patterns/lightpaperfibers.png) -->
 <div class='logo'>
-	<img src='img/logos/color-tagline.png'>
+	<img src='img/logos/grp-color-tagline.png'>
 </div>
 
 ## With an initial commitment of $100 million from [the Rockefeller Foundation]() and [USAID](), we are forming the Global Resilience Partnership, to improve resilience at multiple scales: from families to communities, countries to regions.
