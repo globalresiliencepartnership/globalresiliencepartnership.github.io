@@ -1,11 +1,11 @@
 body {
-  background: #f5f3f3;
   overflow-x: hidden; }
 
-h1, h2, h3, h4, h5, h6, a, p, li {
+h1, h2, h3, h4, h5, h6, a, p, li, footer
+.button {
   font: 1em "ITC Franklin Gothic", Arial, sans-serif;
   line-height: 1.65em;
-  color: #233f1e; }
+  color: #58595B; }
 
 h1 {
   font-size: 2.5em;
@@ -14,15 +14,15 @@ h1 {
   text-align: center;
   padding: 0 2em; }
   h1 em {
+    color: #fff;
     font-style: normal;
-    text-decoration: underline;
-    color: #49853E; }
+    background-color: #49853E; }
   h1.pop {
     text-align: left;
     color: #fff;
     text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
     h1.pop em {
-      text-shadow: 0 0 0.2em rgba(255, 255, 255, 0.4); }
+      text-shadow: none; }
 
 h2 {
   font-size: 1.25em;
@@ -31,12 +31,15 @@ h2 {
   margin: 2em 15%; }
 
 a {
+  letter-spacing: 0.02em;
   color: #009EDE !important; }
   a:hover {
     color: #49853E !important; }
 
 [data-magellan-expedition],
 [data-magellan-expedition-clone] {
+  z-index: 9999;
+  /* overwrite the map attribution */
   background: #f5f3f3;
   padding: 1em; }
   [data-magellan-expedition] .sub-nav a,
@@ -55,18 +58,18 @@ ul {
     list-style: none;
     margin: 0 15%;
     padding: 2em 2em 0;
-    color: #233f1e;
-    /*border-top:		  $border $green;*/
-    border-left: 1px solid #233f1e;
-    border-right: 1px solid #233f1e; }
+    color: #49853E;
+    border-left: 1px solid #49853E;
+    border-right: 1px solid #49853E;
+    background: #f5f3f3; }
     ul li:first-child {
-      border-top: 1px solid #233f1e;
-      border-bottom: 1px solid #233f1e;
+      background: #49853E;
+      color: #fff;
       text-transform: uppercase;
       text-align: center;
       padding: 1em 2em; }
     ul li:last-child {
-      border-bottom: 1px solid #233f1e;
+      border-bottom: 1px solid #49853E;
       padding-bottom: 2em; }
 
 .intro,
@@ -75,39 +78,49 @@ ul {
 
 .intro {
   background-size: cover;
-  background-image: url(img/grp1.jpg); }
+  background-image: url(img/flood-bw.jpg); }
   .intro nav {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0; }
 
+.below-intro section {
+  background: #f5f3f3 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat; }
+
 .absolute {
   position: absolute;
   left: 0;
   margin-top: -100vh; }
   .absolute a {
-    position: absolute;
-    bottom: -50vh;
-    margin: 0 38%;
-    color: #fff !important;
+    display: block;
+    width: 30%;
+    margin: 2em auto;
     padding: 2em;
-    background: #49853E; }
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff !important;
+    background: #0071B8;
+    background: rgba(0, 113, 184, 0.75); }
+    .absolute a:hover {
+      background: #0071B8; }
 
 .logo {
   text-align: center;
   padding: 2em 15%; }
 
 .rubik {
-  position: absolute;
-  height: 80%;
+  width: 100%;
+  height: 25%;
   text-align: center;
-  background: url("img/rubik.png") no-repeat 30%;
+  background: url("img/rubik.png") no-repeat 50%;
   background-size: contain;
   opacity: 0.1; }
 
 .mc-embed {
-  margin: 2em 15%; }
+  margin: 2em 15%;
+  padding-bottom: 4em; }
   .mc-embed input {
     float: left;
     height: 3em;
@@ -124,11 +137,20 @@ ul {
       width: 20%; }
 
 footer {
-  margin-top: 4em;
-  padding: 2em;
-  background: #fff;
-  text-align: center; }
+  font-size: 0.8em;
+  background: #fff; }
+  footer p {
+    margin: 0; }
+  footer h2 {
+    margin-left: 0; }
   footer a {
     color: #8b8c8e !important; }
+  footer img {
+    width: 150px;
+    padding: 2em; }
+  footer .twitter-timeline {
+    margin-bottom: 4em; }
+  footer .logos {
+    margin-top: 8px; }
 
 /*# sourceMappingURL=output.css.map */

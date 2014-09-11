@@ -1,8 +1,3 @@
-@mixin background-opacity($color, $opacity) {
-    background: $color; /* The Fallback */
-    background: rgba($color, $opacity);
-}
-
 $green: #49853E;
 $l-blue: #009EDE;
 $d-blue: #0071B8;
@@ -27,14 +22,14 @@ $border:1px solid;
 $border-thick:10px solid;
 
 body {
-	background:$off-white;
 	overflow-x:hidden;
 }
 
-h1,h2,h3,h4,h5,h6,a,p,li {
+h1,h2,h3,h4,h5,h6,a,p,li,footer
+.button {
 	font:$f-norm 'ITC Franklin Gothic', Arial, sans-serif;
 	line-height:$lh-norm;
-	color:$d-green;
+	color:$grey;
 }
 h1 {
 	font-size:$f-large;
@@ -44,9 +39,9 @@ h1 {
 	padding:0 $pad;
 
 	em {
+		color:$white;
 		font-style:normal;
-		text-decoration:underline;
-		color:$green;
+		background-color:$green;
 	}
 	&.pop {
 		text-align: left;
@@ -54,7 +49,7 @@ h1 {
 		text-shadow:0 0 0.4em rgba($black,0.4);
 
 		em {
-			text-shadow:0 0 0.2em rgba($white,0.4);
+			text-shadow:none;
 		}
 	}
 }
@@ -65,12 +60,14 @@ h2 {
 	margin:$pad $pad-large;
 }
 a {
+	letter-spacing:0.02em;
 	color:$l-blue!important;
 	&:hover {color:$green!important;}
 }
 
 [data-magellan-expedition],
 [data-magellan-expedition-clone]{
+	z-index:9999; /* overwrite the map attribution */
 	background:$off-white;
 	padding:$pad/2;
 	.sub-nav {
@@ -91,19 +88,19 @@ ul {
 		list-style:none;
 		margin:0 $pad-large;
 		padding:$pad $pad 0;
-		color:$d-green;
-		/*border-top:		  $border $green;*/
-		border-left:	  $border $d-green;
-		border-right:	  $border $d-green;
+		color:$green;
+		border-left:	  $border $green;
+		border-right:	  $border $green;
+		background:$off-white;
 		&:first-child {
-			border-top:$border $d-green;
-			border-bottom:$border $d-green;
+			background:$green;
+			color:$white;
 			text-transform: uppercase;
 			text-align: center;
 			padding:$pad/2 $pad;
 		}
 		&:last-child {
-			border-bottom:$border $d-green;
+			border-bottom:$border $green;
 			padding-bottom:$pad;
 		}
 	}
@@ -114,7 +111,7 @@ ul {
 }
 .intro {
 	background-size:cover;
-	background-image:url(img/grp1.jpg);
+	background-image:url(img/flood-bw.jpg);
 	nav {
 		position:absolute;
 		left:0;
@@ -122,17 +119,29 @@ ul {
 		bottom:0;
 	}
 }
+.below-intro {
+	section {
+		background:$off-white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat;
+	}
+}
 .absolute {
 	position:absolute;
 	left:0;
 	margin-top:-100vh;
 	a {	
-		position:absolute;
-		bottom:-50vh;
-		margin:0 38%;
-		color:$white!important;
+		display:block;
+		width:30%;
+		margin:$pad auto;
 		padding:$pad;
-		background:$green;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		color:$white!important;
+		background:$d-blue;
+		background:rgba($d-blue,0.75);
+		&:hover {
+			background:$d-blue;
+		}
 	}
 }
 .logo {
@@ -140,15 +149,16 @@ ul {
 	padding:$pad $pad-large;
 }
 .rubik {
-	position:absolute;
-	height:80%;
+	width:100%;
+	height:25%;
 	text-align:center;
-	background:url('img/rubik.png') no-repeat 30%;
+	background:url('img/rubik.png') no-repeat 50%;
 	background-size:contain;
 	opacity:0.1;
 }
 .mc-embed {
 	margin:$pad $pad-large;
+	padding-bottom:$pad*2;
 	input {
 		float:left;
 		height:3em;
@@ -167,11 +177,25 @@ ul {
 	}
 }
 footer {
-	margin-top:$pad*2;
-	padding:$pad;
+	font-size:$f-norm*0.8;
 	background:$white;
-	text-align:center;
+	p {
+		margin:0;
+	}
+	h2 {
+		margin-left:0;
+	}
 	a {
 		color:lighten($grey,20%)!important;
+	}
+	img {
+		width:150px;
+		padding:$pad;
+	}
+	.twitter-timeline {
+		margin-bottom:$pad*2;
+	}
+	.logos {
+		margin-top:8px;
 	}
 }
