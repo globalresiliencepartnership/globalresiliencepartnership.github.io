@@ -225,3 +225,45 @@ footer {
 		margin-top:8px;
 	}
 }
+
+@media only screen and (max-width: 1072px) {
+	nav {
+		top:0;
+	}
+	[data-magellan-expedition],
+	[data-magellan-expedition-clone]{
+		.sub-nav {
+			a {
+				font-size:$f-norm;
+				font-weight:normal;
+			}
+		}
+	}
+	h1 {
+		font-size:2em;
+	}
+	.intro,
+	.challenge {
+		height:auto;
+	}
+	.intro {
+		padding-top:$pad*2;
+	}
+}
+@media only screen and (max-width: 779px) {
+	[data-magellan-expedition],
+	[data-magellan-expedition-clone]{
+		padding:$pad/2 $pad*2;
+		.sub-nav {
+			a {
+				text-align: left;
+				width:auto;
+				padding:$pad/2;
+				display:block;
+			}
+		}
+	}
+	.intro {
+		padding-top:$pad*5;
+	}
+}

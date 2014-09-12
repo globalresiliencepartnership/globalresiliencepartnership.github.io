@@ -178,4 +178,36 @@ footer {
   footer .logos {
     margin-top: 8px; }
 
+@media only screen and (max-width: 1072px) {
+  nav {
+    top: 0; }
+
+  [data-magellan-expedition] .sub-nav a,
+  [data-magellan-expedition-clone] .sub-nav a {
+    font-size: 1em;
+    font-weight: normal; }
+
+  h1 {
+    font-size: 2em; }
+
+  .intro,
+  .challenge {
+    height: auto; }
+
+  .intro {
+    padding-top: 4em; } }
+@media only screen and (max-width: 779px) {
+  [data-magellan-expedition],
+  [data-magellan-expedition-clone] {
+    padding: 1em 4em; }
+    [data-magellan-expedition] .sub-nav a,
+    [data-magellan-expedition-clone] .sub-nav a {
+      text-align: left;
+      width: auto;
+      padding: 1em;
+      display: block; }
+
+  .intro {
+    padding-top: 10em; } }
+
 /*# sourceMappingURL=output.css.map */
