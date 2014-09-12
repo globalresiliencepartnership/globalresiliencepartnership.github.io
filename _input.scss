@@ -37,20 +37,6 @@ h1 {
 	text-align: center;
 	padding:0 $pad;
 
-	em {
-		color:$white;
-		font-style:normal;
-		background-color:$green;
-	}
-	&.pop {
-		text-align: left;
-		color:$white;
-		text-shadow:0 0 0.4em rgba($black,0.4);
-
-		em {
-			text-shadow:none;
-		}
-	}
 }
 h2 {
 	font-size:$f-medium;
@@ -62,18 +48,36 @@ h3 {
 	font-weight:bold;
 	text-transform: uppercase;
 	font-size:$f-norm;
+	text-align: center;
+}
+p {
+	line-height:$lh-norm;
+	word-spacing: 0.05em;
 }
 a {
 	letter-spacing:0.02em;
 	color:$l-blue!important;
 	&:hover {color:$green!important;}
 }
+.pop {
+	* {
+		text-align: left;
+		color:$white;
+		text-shadow:0 0 0.4em rgba($black,0.4);
+	}
+	h1 {
+		text-align:left;
+	}
+	em {
+		background-color:$green;
+		font-style:normal;
+		font-weight:normal;
+		text-shadow:none;
+	}
+}
 .row {
 	.row {
-		padding:$pad $pad-large;
-		h3 {
-			text-align: center;
-		}
+		margin:$pad $pad-large;
 		p {
 			margin:$pad 0;
 			padding:0;
@@ -149,6 +153,7 @@ ul {
 	.absolute {
 		position:absolute;
 		left:0;
+		right:0;
 		margin-top:-100vh;
 	}
 	.logo {
@@ -208,6 +213,10 @@ footer {
 	img {
 		width:150px;
 		padding:$pad;
+	}
+	.website {
+		background:url(img/logos/devseed.png) no-repeat 92%;
+		padding:$pad 0;
 	}
 	.twitter-timeline {
 		margin-bottom:$pad*2;
