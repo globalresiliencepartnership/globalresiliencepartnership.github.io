@@ -11,7 +11,14 @@
 </head>
 <body>
 	<div class='intro clearfix'>
-		<h1 class='pop'><em>We need a new solution for new realities.</em></br>Since 1990, the incidents of natural disasters have tripled, affecting 217 million people annually. Over the last 30 years, one-third of spending on development has been lost to recurrent crises, totaling 3,800 billion dollars worldwide. As climate change and population growth continue, disatsers strike faster and chronic stresses last even longer.</h1>
+		<div class='pop'>
+			{% for post in site.categories.intro %}
+				<h1>
+					<em>{{post.emphasize}}</em></br>
+					{{post.content}}
+				</h1>
+			{% endfor %}
+		</div>
 		<nav>
 			<div data-magellan-expedition="fixed">
 				<div align="center">
@@ -32,12 +39,27 @@
 
 		<section class='clearfix {{post.class}}'>
 			<a id='{{post.short | downcase | split:' ' | join: '-' }}'></a>
-			<!-- <h1>{{post.title}}</h1> -->
-			{% if post.tag contains 'map'%}
+			<!-- logo -->
+			{% if post.tags contains 'logo'%}
+			<div class='row'>
+				<div class='logo'>
+					<img src='img/logos/grp-color-tagline.png'>
+				</div>
+			</div>
+			{% endif %}
+			<!-- map -->
+			{% if post.tags contains 'map'%}
 			<div id='map' class='map'></div>
 			{% endif %}
+			<!-- section content -->
 			<div class="row">
+				{% if post.tags contains 'map' %}
+				<div class='absolute'>
+					<h1 class='pop'>{{post.content}}</h1>
+				</div>
+				{% else %}
 				{{post.content}}
+				{% endif %}
 			</div>
 		</section>
 
@@ -51,7 +73,8 @@
 			<div class='medium-3 columns'>
 				<h2>Credits</h2>
 				<p>Photos: <a href='https://www.flickr.com/photos/chucksimmins/2947856660' target='_blank'>Chuck Simmins</a> and <a href='https://www.flickr.com/photos/3oheme/5141328136' target='_blank'>Ignacio Palomo Duarte</a>. 
-				Icons: Explore, Group Talk, Writing, Presentation designed by <a href="http://www.thenounproject.com/takaoumehara">Takao Umehara</a>; Rubik's Cube designed by <a href="http://www.thenounproject.com/dpapworth">David Papworth</a> from the <a href="http://www.thenounproject.com">Noun Project</a></p>
+				Icons: World designed by Juan Pablo Bravo; Explore, Group Talk, Writing, Presentation designed by <a href="http://www.thenounproject.com/takaoumehara">Takao Umehara</a> from the <a href="http://www.thenounproject.com">Noun Project</a></p>
+				<p class='website'>Website by <a href='http://developmentseed.org'>Development Seed</a></p>
 			</div>
 			<div class='medium-3 columns'>
 				<h2>Latest Tweets by GRP</h2>
