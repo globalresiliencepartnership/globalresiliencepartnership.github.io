@@ -137,6 +137,12 @@ ul {
 .challenge {
 	height:100vh;
 }
+.region-name { /*leaflet icon*/
+	font-size:$f-large;
+	color:$white;
+	font-family:'ITC Franklin Gothic';
+	text-shadow:0 0 0.4em rgba($black,0.4);
+}
 .intro {
 	background-size:cover;
 	background-image:url(img/flood-bw.jpg);
