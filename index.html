@@ -5,8 +5,8 @@
   	<meta charset='UTF-8'/>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
-	<link href='style.css' rel='stylesheet'/>
 	<script src="modernizr.js"></script>
+	<link href='style.css' rel='stylesheet'/>
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 </head>
@@ -23,13 +23,13 @@
 		<nav>
 			<div data-magellan-expedition="fixed">
 				<div align="center">
-				<dl class="sub-nav">
-					{% for post in site.categories.section reversed %}
-						<dd data-magellan-arrival="{{post.short | downcase | split:' ' | join: '-' }}">
-						<a href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
-						</dd>
-					{% endfor %}
-				</dl>
+					<dl class="sub-nav">
+						{% for post in site.categories.section reversed %}
+							<dd data-magellan-arrival="{{post.short | downcase | split:' ' | join: '-' }}">
+							<a href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
+							</dd>
+						{% endfor %}
+					</dl>
 				</div>
 			</div>
 		</nav>
@@ -39,7 +39,7 @@
 		{% for post in site.categories.section reversed %}
 
 		<section class='clearfix {{post.class}}'>
-			<a id='{{post.short | downcase | split:' ' | join: '-' }}'></a>
+			<a data-magellan-destination='{{post.short | downcase | split:' ' | join: '-' }}' id='{{post.short | downcase | split:' ' | join: '-' }}'></a>
 			<!-- logo -->
 			{% if post.tags contains 'logo'%}
 			<div class='row'>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   overflow-x: hidden; }
 
@@ -39,10 +40,8 @@ a {
   text-align: left;
   color: #fff;
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
-.pop h1 {
-  text-align: left; }
 .pop em {
-  background-color: #49853E;
+  background: #49853E;
   font-style: normal;
   font-weight: normal;
   text-shadow: none; }
@@ -63,9 +62,21 @@ a {
   [data-magellan-expedition-clone] .sub-nav a {
     font-size: 1.25em;
     font-weight: bold; }
-  [data-magellan-expedition] .sub-nav dd:first-child a,
-  [data-magellan-expedition-clone] .sub-nav dd:first-child a {
+  [data-magellan-expedition] .sub-nav dd.active a,
+  [data-magellan-expedition-clone] .sub-nav dd.active a {
+    background: transparent;
+    font-weight: bold;
     color: #49853E !important; }
+  [data-magellan-expedition] .sub-nav:first-child,
+  [data-magellan-expedition-clone] .sub-nav:first-child {
+    /* arrow */ }
+    [data-magellan-expedition] .sub-nav:first-child:before,
+    [data-magellan-expedition-clone] .sub-nav:first-child:before {
+      content: '▼';
+      position: absolute;
+      margin: -50px 0 0 92px;
+      -webkit-animation: flash 6s both infinite;
+      animation: flash 6s both infinite; }
 
 ul {
   margin: 0;

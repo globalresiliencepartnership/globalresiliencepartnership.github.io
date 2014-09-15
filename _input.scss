@@ -65,11 +65,8 @@ a {
 		color:$white;
 		text-shadow:0 0 0.4em rgba($black,0.4);
 	}
-	h1 {
-		text-align:left;
-	}
 	em {
-		background-color:$green;
+		background:$green;
 		font-style:normal;
 		font-weight:normal;
 		text-shadow:none;
@@ -92,10 +89,22 @@ a {
 	.sub-nav {
 		a {
 			font-size:$f-medium;
-			font-weight:bold;		
+			font-weight:bold;
 		}
-		dd:first-child a {
+		dd.active a {
+			background:transparent;
+			font-weight: bold;
 			color:$green!important;
+		}
+		&:first-child { /* arrow */
+			&:before {
+				content:'▼';
+				position:absolute;
+				margin: -50px 0 0 92px;
+
+			-webkit-animation: flash 6s both infinite;
+					animation: flash 6s both infinite;
+			}
 		}
 	}
 }
