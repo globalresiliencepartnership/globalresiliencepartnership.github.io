@@ -267,19 +267,58 @@ footer {
 	}
 }
 @media only screen and (max-width: 779px) {
+	* {
+		font-size:$f-norm * 0.95;
+	}
 	[data-magellan-expedition],
 	[data-magellan-expedition-clone]{
-		padding:$pad/2 $pad*2;
+		/*padding:$pad/2 $pad*2;*/
 		.sub-nav {
-			a {
+			a, dd.active a {
 				text-align: left;
-				width:auto;
 				padding:$pad/2;
+				padding-left:$pad;
 				display:block;
 			}
 		}
 	}
+	h1 {
+		font-size:$f-medium;
+	}
+	h2,
+	.row .row,
+	.logo,
+	.mc-embed {
+		padding:$pad/2 0;
+	}
+	.map {
+		height:20em;
+	}
+	.below-intro {
+		.absolute {
+			margin-top:-15em;
+			h1 {
+				p:after {
+				content:'The Sahel, Horn of Africa, and South and Southeast Asia.';
+				}
+			}
+		}
+
+		.mc-embed {
+			input{
+				&[type='email'],
+				&[type='submit']{
+					border-radius:0;
+					display:block;
+					width:100%;
+				}
+				/*width:20%;*/
+			}
+		}
+
+	}
 	.intro {
 		padding-top:$pad*5;
 	}
+
 }

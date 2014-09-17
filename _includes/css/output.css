@@ -216,15 +216,42 @@ footer {
   .intro {
     padding-top: 4em; } }
 @media only screen and (max-width: 779px) {
+  * {
+    font-size: 0.95em; }
+
   [data-magellan-expedition],
   [data-magellan-expedition-clone] {
-    padding: 1em 4em; }
-    [data-magellan-expedition] .sub-nav a,
-    [data-magellan-expedition-clone] .sub-nav a {
+    /*padding:$pad/2 $pad*2;*/ }
+    [data-magellan-expedition] .sub-nav a, [data-magellan-expedition] .sub-nav dd.active a,
+    [data-magellan-expedition-clone] .sub-nav a,
+    [data-magellan-expedition-clone] .sub-nav dd.active a {
       text-align: left;
-      width: auto;
       padding: 1em;
+      padding-left: 2em;
       display: block; }
+
+  h1 {
+    font-size: 1.25em; }
+
+  h2,
+  .row .row,
+  .logo,
+  .mc-embed {
+    padding: 1em 0; }
+
+  .map {
+    height: 20em; }
+
+  .below-intro .absolute {
+    margin-top: -15em; }
+    .below-intro .absolute h1 p:after {
+      content: 'The Sahel, Horn of Africa, and South and Southeast Asia.'; }
+  .below-intro .mc-embed input {
+    /*width:20%;*/ }
+    .below-intro .mc-embed input[type='email'], .below-intro .mc-embed input[type='submit'] {
+      border-radius: 0;
+      display: block;
+      width: 100%; }
 
   .intro {
     padding-top: 10em; } }
