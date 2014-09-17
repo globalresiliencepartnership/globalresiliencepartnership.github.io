@@ -39,43 +39,40 @@ $(function(){
 		   "coordinates": [7,42]
 		},
 		{
-		  "name": "Southeast Asia",
-		  "coordinates": [11,112]
+		  "name": "South and Southeast Asia",
+		  "coordinates": [14,108]
 		}
 	];
 
-	$.getJSON('geojson/regions.json',function(regions){
+	$.getJSON('geojson/world_110m.json',function(world){
 
-		var horn = topojson.merge(regions,regions.objects.regions.geometries.filter(function(d){
-			return d.properties.region === 'Eastern Africa'
-		}));
+		var sahel = ["Mauritania","Senegal","Mali","Burkina Faso","Niger","Chad"],
+			horn = ["Eritrea","Ethiopia","Somalia","Kenya"],
+			asia = ["Bangladesh","Bhutan","Cambodia","India","Indonesia","Laos","Myanmar","Malaysia","Nepal","Phillippines","Sri Lanka","Thailand","Vietnam"];
 
-		var sahel = topojson.merge(regions, regions.objects.regions.geometries.filter(function(d){
-			return d.properties.region === 'Western Africa' || d.properties.region === 'Middle Africa'
-		}));
-
-		var seasia = topojson.merge(regions,regions.objects.regions.geometries.filter(function(d){
-			return d.properties.region === 'South-Eastern Asia'
-		}))
-
-		var regions = [horn,sahel,seasia];
+		var regions = [mergeRegion(sahel),mergeRegion(horn),mergeRegion(asia)];
 
 		regions.forEach(function(item){
 			L.geoJson(item,{
 				style:style,
 			}).addTo(map);
-		})
+		});
 
 		regionNames.forEach(function(item){
 			L.marker(new L.latLng(item.coordinates),{
 				icon:L.divIcon({
 					className:'region-name',
-					html: item.name, //feature.properties.name
-					iconSize:[200,20]
+					html: item.name,
+					iconSize:[200,40]
 				})
 			}).addTo(map);
 		});
 
+		function mergeRegion(regionArray){
+			return topojson.merge(world,world.objects.world_110m.geometries.filter(function(d){
+				return regionArray.indexOf(d.properties.name) > -1
+			}))
+		}
 	});
 
 
