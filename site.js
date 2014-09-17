@@ -24,9 +24,9 @@ $(function(){
 
 	var style = {
 		'color':'#009EDE',
-		'weight':2.2,
+		'weight':0,
 		'opacity':1,
-		'fillOpacity':0.4
+		'fillOpacity':0.6
 	}
 
 	var regionNames = [
