@@ -1,8 +1,12 @@
-rockefeller-gpr
-===============
+Global Resilience Partnership website
+---
 
-Navigate to the folder:
-`cd ../path/to/your/folder/
+The site runs on `jekyll`:
 
-Start up jekyll:
-`jekyll serve -w` The `-w` stands for `-watch`, which means if you change something in the project and refresh you'll get an update in the browser.
+1. Follow http://jekyllrb.com/docs/installation/ to install.
+2. Run `jekyll serve -w` to live load the site. The default port is 4000.
+
+Site uses `sass` for css compilation:
+
+1. Follow http://sass-lang.com/install to install.
+2. Run `sass -w _input.sass:_includes/css/output` to live load changes from `_input.sass`, the file that should be edited for style changes.
