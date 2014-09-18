@@ -192,24 +192,17 @@ ul {
 		&.solution		{background-image:url(img/solution.png);}
 		&.learn			{background-image:url(img/learn.png);}
 	}
-	.mc-embed {
-		margin:$pad $pad-large;
-		padding-bottom:$pad*2;
-		input {
-			float:left;
-			height:3em;
-			margin:0;
-			padding:$pad/2;
-			font-size:$f-norm!important;
-			border: $border $white!important;
-			&[type='email']{
-				width:80%;
-				box-shadow:none;
-				&:hover,&:focus{box-shadow:none;};
-			}
-			&[type='submit']{
-				width:20%;
-			}
+	.apply {
+		display:block;
+		margin:0 $pad-large;
+		padding:$pad/2;
+		text-align: center;
+		background:lighten($green,10%);
+		color:$white!important;
+		transition: all 300ms ease-out;
+
+		&:hover {
+			background:lighten($green,20%);
 		}
 	}
 }
@@ -231,14 +224,41 @@ footer {
 		padding:$pad;
 	}
 	.website {
+		margin-top:$pad/2;
 		background:url(img/logos/devseed.png) no-repeat 92%;
-		padding:$pad 0;
 	}
 	.twitter-timeline {
 		margin-bottom:$pad*2;
 	}
 	.logos {
 		margin-top:8px;
+	}
+	.mc-embed {
+		margin-top:$pad/2;
+		form {
+			margin-top:$pad/4;
+			input {
+				float:left;
+				height:3em;
+				margin:0;
+				padding:$pad/2;
+				font-size:$f-norm!important;
+				border:0;
+				&[type='email']{
+					width:95%;
+					border: $border lighten($grey,50%);
+					box-shadow:none;
+					&:hover,&:focus{box-shadow:none;};
+				}
+				&[type='submit']{
+					position:absolute;
+					right:20px;
+					color:$grey;
+					background:lighten($grey,50%);
+
+				}
+			}
+		}
 	}
 }
 
@@ -287,8 +307,7 @@ footer {
 	}
 	h2,
 	.row .row,
-	.logo,
-	.mc-embed {
+	.logo {
 		padding:$pad/2 0;
 	}
 	.map {
@@ -301,18 +320,6 @@ footer {
 				p:after {
 				content:'The Sahel, Horn of Africa, and South and Southeast Asia.';
 				}
-			}
-		}
-
-		.mc-embed {
-			input{
-				&[type='email'],
-				&[type='submit']{
-					border-radius:0;
-					display:block;
-					width:100%;
-				}
-				/*width:20%;*/
 			}
 		}
 

@@ -159,23 +159,16 @@ ul {
     background-image: url(img/solution.png); }
   .below-intro .icon.learn {
     background-image: url(img/learn.png); }
-.below-intro .mc-embed {
-  margin: 2em 15%;
-  padding-bottom: 4em; }
-  .below-intro .mc-embed input {
-    float: left;
-    height: 3em;
-    margin: 0;
-    padding: 1em;
-    font-size: 1em !important;
-    border: 1px solid #fff !important; }
-    .below-intro .mc-embed input[type='email'] {
-      width: 80%;
-      box-shadow: none; }
-      .below-intro .mc-embed input[type='email']:hover, .below-intro .mc-embed input[type='email']:focus {
-        box-shadow: none; }
-    .below-intro .mc-embed input[type='submit'] {
-      width: 20%; }
+.below-intro .apply {
+  display: block;
+  margin: 0 15%;
+  padding: 1em;
+  text-align: center;
+  background: #5ca84e;
+  color: #fff !important;
+  transition: all 300ms ease-out; }
+  .below-intro .apply:hover {
+    background: #7abb6e; }
 
 footer {
   font-size: 0.8em;
@@ -190,12 +183,34 @@ footer {
     width: 150px;
     padding: 2em; }
   footer .website {
-    background: url(img/logos/devseed.png) no-repeat 92%;
-    padding: 2em 0; }
+    margin-top: 1em;
+    background: url(img/logos/devseed.png) no-repeat 92%; }
   footer .twitter-timeline {
     margin-bottom: 4em; }
   footer .logos {
     margin-top: 8px; }
+  footer .mc-embed {
+    margin-top: 1em; }
+    footer .mc-embed form {
+      margin-top: 0.5em; }
+      footer .mc-embed form input {
+        float: left;
+        height: 3em;
+        margin: 0;
+        padding: 1em;
+        font-size: 1em !important;
+        border: 0; }
+        footer .mc-embed form input[type='email'] {
+          width: 95%;
+          border: 1px solid #d8d9da;
+          box-shadow: none; }
+          footer .mc-embed form input[type='email']:hover, footer .mc-embed form input[type='email']:focus {
+            box-shadow: none; }
+        footer .mc-embed form input[type='submit'] {
+          position: absolute;
+          right: 20px;
+          color: #58595B;
+          background: #d8d9da; }
 
 @media only screen and (max-width: 1072px) {
   nav {
@@ -235,8 +250,7 @@ footer {
 
   h2,
   .row .row,
-  .logo,
-  .mc-embed {
+  .logo {
     padding: 1em 0; }
 
   .map {
@@ -246,12 +260,6 @@ footer {
     margin-top: -15em; }
     .below-intro .absolute h1 p:after {
       content: 'The Sahel, Horn of Africa, and South and Southeast Asia.'; }
-  .below-intro .mc-embed input {
-    /*width:20%;*/ }
-    .below-intro .mc-embed input[type='email'], .below-intro .mc-embed input[type='submit'] {
-      border-radius: 0;
-      display: block;
-      width: 100%; }
 
   .intro {
     padding-top: 10em; } }
