@@ -46,9 +46,9 @@ $(function(){
 
 	$.getJSON('geojson/world_110m.json',function(world){
 
-		var sahel = ["Mauritania","Senegal","Mali","Burkina Faso","Niger","Chad"],
+		var sahel = ["Mauritania","Senegal","Mali","Burkina Faso","Niger","Chad","Gambia"],
 			horn = ["Eritrea","Ethiopia","Djibouti","Somaliland","Somalia","Kenya"],
-			asia = ["Bangladesh","Bhutan","Cambodia","India","Indonesia","Laos","Myanmar","Malaysia","Nepal","Phillippines","Sri Lanka","Thailand","Vietnam"];
+			asia = ["Bangladesh","Bhutan","Cambodia","India","Indonesia","Lao PDR","Myanmar","Malaysia","Nepal","Phillippines","Sri Lanka","Thailand","Vietnam"];
 
 		var regions = [mergeRegion(sahel),mergeRegion(horn),mergeRegion(asia)];
 
