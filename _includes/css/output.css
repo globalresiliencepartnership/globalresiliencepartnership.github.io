@@ -185,6 +185,8 @@ footer {
   footer .website {
     margin-top: 1em;
     background: url(img/logos/devseed.png) no-repeat 92%; }
+  footer .email {
+    margin-top: 1em; }
   footer .twitter-timeline {
     margin-bottom: 4em; }
   footer .logos {
