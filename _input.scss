@@ -144,6 +144,18 @@ ul {
 	font-family:'ITC Franklin Gothic';
 	text-shadow:0 0 0.4em rgba($black,0.4);
 }
+.ie-banner {
+	position:relative;
+	padding:15px 0 8px;
+	text-align: center;
+	font-weight:bold;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
 .intro {
 	background-size:cover;
 	background-image:url(img/flood-bw.jpg);
