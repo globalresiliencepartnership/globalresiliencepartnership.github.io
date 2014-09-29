@@ -10,4 +10,4 @@ class: challenge
 
 <a href='resource/GRP_Source_Document.pdf' download='GRP_Guideline.pdf' class='button apply'>Click to download the guidelines for participation</a>
 
-## Questions about the Global Resilience Challenge? <a href='resource/FAQ_GlobalResilienceChallenge.pdf' download='FAQ_GlobalResilienceChallenge.pdf'>Check out our FAQ.</a>
+## Questions about the Global Resilience Challenge? <a href='resource/FAQ_GlobalResilienceChallenge.pdf' download='FAQ_GlobalResilienceChallenge.pdf'>Check out our FAQ.</a> Application submission process will be made available here in the coming weeks.
