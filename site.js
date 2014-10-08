@@ -48,7 +48,7 @@ $(function(){
 
 		var sahel = ["Mauritania","Senegal","Mali","Burkina Faso","Niger","Chad","Gambia"],
 			horn = ["Eritrea","Ethiopia","Djibouti","Somaliland","Somalia","Kenya"],
-			asia = ["Bangladesh","Bhutan","Cambodia","India","Indonesia","Lao PDR","Myanmar","Malaysia","Nepal","Phillippines","Sri Lanka","Thailand","Vietnam"];
+			asia = ["Bangladesh","Bhutan","Cambodia","India","Indonesia","Lao PDR","Myanmar","Malaysia","Nepal","Philippines","Sri Lanka","Thailand","Vietnam"];
 
 		var regions = [mergeRegion(sahel),mergeRegion(horn),mergeRegion(asia)];
 
