@@ -13,5 +13,4 @@ published: true
 
 <a href='resource/GRP Challenge Source Document_Final_18sept2014_FRENCH.PDF' download='GRP Challenge Source Document_Final_18sept2014_FRENCH.PDF' class='button apply'>Click to download the guidelines for participation (French version)</a>
 
-
 ## Questions about the Global Resilience Challenge? <a href='resource/FAQ_GlobalResilienceChallenge.pdf' download='FAQ_GlobalResilienceChallenge.pdf'>Check out our FAQ.</a> Application submission process will be made available here in the coming weeks.
