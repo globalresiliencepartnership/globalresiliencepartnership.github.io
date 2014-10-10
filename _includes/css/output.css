@@ -102,7 +102,8 @@ ul {
 .intro,
 .map,
 .challenge {
-  height: 100vh; }
+  min-height: 100vh;
+  height: initial; }
 
 .region-name {
   /*leaflet icon*/
@@ -132,6 +133,8 @@ ul {
     left: 0;
     right: 0;
     bottom: 0; }
+    .intro nav.wide {
+      position: relative; }
 
 .below-intro section {
   background: #f5f3f3 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat; }
