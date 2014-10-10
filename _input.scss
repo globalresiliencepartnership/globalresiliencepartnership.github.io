@@ -135,7 +135,8 @@ ul {
 .intro,
 .map,
 .challenge {
-	height:100vh;
+	min-height:100vh;
+	height:initial;
 }
 .region-name { /*leaflet icon*/
 	font-size:$f-large;
