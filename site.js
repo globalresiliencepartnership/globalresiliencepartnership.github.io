@@ -7,6 +7,17 @@
 
 $(function(){
 	$(document).foundation();
+	// for wide screens
+	var introHeight = $('.intro .pop').height(),
+		windowHeight = $(window).height();
+
+	// nav bar location for wide big screens
+	if (introHeight >= windowHeight){
+		$('.intro nav').addClass('wide');
+	} else {
+		$('.intro nav').removeClass('wide');
+	}
+
 	// Init map
 	L.mapbox.accessToken = 'pk.eyJ1IjoianVlIiwiYSI6InFsakR2UEkifQ.GSsNWZF7HVlLqwdhWuM2gA';
 	var map = L.mapbox.map('map', 'devseed.jfkl2aak',{
