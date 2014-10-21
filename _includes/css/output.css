@@ -103,7 +103,7 @@ ul {
 .map,
 .challenge {
   min-height: 100vh;
-  height: initial; }
+  height: inherit; }
 
 .region-name {
   /*leaflet icon*/
@@ -174,16 +174,27 @@ ul {
     background-image: url(img/solution.png); }
   .below-intro .icon.learn {
     background-image: url(img/learn.png); }
-.below-intro .apply {
-  display: block;
-  margin: 0 15%;
-  padding: 1em;
-  text-align: center;
-  background: #5ca84e;
-  color: #fff !important;
-  transition: all 300ms ease-out; }
-  .below-intro .apply:hover {
-    background: #7abb6e; }
+.below-intro .applies {
+  margin: 0 15%; }
+  .below-intro .applies .apply {
+    display: block;
+    padding: 1em;
+    text-align: center;
+    background: #5ca84e;
+    color: #fff !important;
+    transition: all 300ms ease-out; }
+    .below-intro .applies .apply:hover {
+      background: #7abb6e; }
+    .below-intro .applies .apply:first-child {
+      border-right: 1px solid #fff; }
+
+.mc-embed .columns {
+  padding-left: 0; }
+.mc-embed label {
+  color: #f5f3f3; }
+.mc-embed .button {
+  margin: 21px 0 0 -14px;
+  padding: 9px; }
 
 footer {
   font-size: 0.8em;
@@ -206,28 +217,6 @@ footer {
     margin-bottom: 4em; }
   footer .logos {
     margin-top: 8px; }
-  footer .mc-embed {
-    margin-top: 1em; }
-    footer .mc-embed form {
-      margin-top: 0.5em; }
-      footer .mc-embed form input {
-        float: left;
-        height: 3em;
-        margin: 0;
-        padding: 1em;
-        font-size: 1em !important;
-        border: 0; }
-        footer .mc-embed form input[type='email'] {
-          width: 95%;
-          border: 1px solid #d8d9da;
-          box-shadow: none; }
-          footer .mc-embed form input[type='email']:hover, footer .mc-embed form input[type='email']:focus {
-            box-shadow: none; }
-        footer .mc-embed form input[type='submit'] {
-          position: absolute;
-          right: 20px;
-          color: #58595B;
-          background: #d8d9da; }
 
 @media only screen and (max-width: 1072px) {
   nav {
@@ -279,6 +268,9 @@ footer {
       content: 'The Sahel, Horn of Africa, and South and Southeast Asia.'; }
 
   .intro {
-    padding-top: 10em; } }
+    padding-top: 10em; }
+
+  .apply:first-child {
+    border-right: none !important; } }
 
 /*# sourceMappingURL=output.css.map */
