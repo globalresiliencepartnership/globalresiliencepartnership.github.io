@@ -57,7 +57,7 @@ $(function(){
 
 	$.getJSON('geojson/world_110m.json',function(world){
 
-		var sahel = ["Mauritania","Senegal","Mali","Burkina Faso","Niger","Chad","Gambia"],
+		var sahel = [],
 			horn = ["Eritrea","Ethiopia","Djibouti","Somaliland","Somalia","Kenya"],
 			asia = ["Bangladesh","Bhutan","Cambodia","India","Indonesia","Lao PDR","Myanmar","Malaysia","Nepal","Philippines","Sri Lanka","Thailand","Vietnam"];
 
