@@ -58,8 +58,8 @@ $(function(){
 	$.getJSON('geojson/world_110m.json',function(world){
 
 		var sahel = [],
-			horn = ["Eritrea","Ethiopia","Djibouti","Somaliland","Somalia","Kenya"],
-			asia = ["Bangladesh","Bhutan","Cambodia","India","Indonesia","Lao PDR","Myanmar","Malaysia","Nepal","Philippines","Sri Lanka","Thailand","Vietnam"];
+			horn = [],
+			asia = [];
 
 		var regions = [mergeRegion(sahel),mergeRegion(horn),mergeRegion(asia)];
 
