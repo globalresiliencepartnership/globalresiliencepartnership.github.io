@@ -65,7 +65,7 @@ $(function(){
 
 		regions.forEach(function(item){
 			L.geoJson(item,{
-				style:style,
+				style:style
 			}).addTo(map);
 		});
 
