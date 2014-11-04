@@ -191,6 +191,8 @@ ul {
 .mc-embed .columns {
   padding-left: 0; }
 .mc-embed label {
+  padding-right: 10px;
+  display: inline-block;
   color: #f5f3f3; }
 .mc-embed .button {
   margin: 21px 0 0 -14px;

@@ -9,6 +9,9 @@
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
 	<script src="modernizr.js"></script>
 	<link href='style.css' rel='stylesheet'/>
+    <!--[if lt IE 10]>
+	<link href='style-ie9.css' rel='stylesheet'/>
+	<![endif]-->
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 </head>
@@ -17,7 +20,10 @@
     <div class="ie-banner">
     	<p>For best experience of the site, please use a modern browser such as
         <a href='https://www.google.com/intl/en/chrome/browser/' target='_blank'>Chrome</a> or
-        <a href='http://www.mozilla.org/en-US/firefox/new/' target='_blank'>Firefox</a>.
+        <a href='http://www.mozilla.org/en-US/firefox/new/' target='_blank'>Firefox</a>.</p>
+        {% for post in site.categories.section reversed %}
+			<a class='ie-nav' href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
+		{% endfor %}
     </div>
     <![endif]-->
 	<div class='intro clearfix'>
@@ -49,7 +55,7 @@
 
 		<section class='clearfix {{post.class}}'>
 			<a data-magellan-destination='{{post.short | downcase | split:' ' | join: '-' }}' id='{{post.short | downcase | split:' ' | join: '-' }}'></a>
-			<!-- logo -->
+
 			{% if post.tags contains 'logo'%}
 			<div class='row'>
 				<div class='logo'>
@@ -57,11 +63,11 @@
 				</div>
 			</div>
 			{% endif %}
-			<!-- map -->
+
 			{% if post.tags contains 'map'%}
 			<div id='map' class='map'></div>
 			{% endif %}
-			<!-- section content -->
+
 			<div class="row">
 				{% if post.tags contains 'map' %}
 				<div class='absolute'>
