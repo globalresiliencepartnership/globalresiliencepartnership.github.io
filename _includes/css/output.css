@@ -125,34 +125,38 @@ ul {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px; }
 
+nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+  nav.wide {
+    position: relative; }
+
 .intro {
   background-size: cover;
   background-image: url(img/flood-bw.jpg); }
-  .intro nav {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0; }
-    .intro nav.wide {
-      position: relative; }
 
-.below-intro section {
+section {
   background: #f5f3f3 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat; }
-  .below-intro section.challenge {
+  section.challenge {
     background: url(img/post-its-bw.jpg);
     background-size: cover; }
-    .below-intro section.challenge h1, .below-intro section.challenge h2, .below-intro section.challenge p {
+    section.challenge h1, section.challenge h2, section.challenge p {
       color: #fff;
       text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
-.below-intro .absolute {
+
+.absolute {
   position: absolute;
   left: 0;
   right: 0;
   margin-top: -100vh; }
-.below-intro .logo {
+
+.logo {
   text-align: center;
   padding: 2em 15%; }
-.below-intro .icon {
+
+.icon {
   display: block;
   width: 100px;
   height: 100px;
@@ -160,33 +164,36 @@ ul {
   background-repeat: no-repeat;
   background-size: contain;
   opacity: 0.6; }
-  .below-intro .icon.global {
+  .icon.global {
     background-image: url(img/global.png); }
-  .below-intro .icon.regional {
+  .icon.regional {
     background-image: url(img/regional.png); }
-  .below-intro .icon.local {
+  .icon.local {
     background-image: url(img/local.png); }
-  .below-intro .icon.explore {
+  .icon.explore {
     background-image: url(img/explore.png); }
-  .below-intro .icon.collaboration {
+  .icon.collaboration {
     background-image: url(img/collaboration.png); }
-  .below-intro .icon.solution {
+  .icon.solution {
     background-image: url(img/solution.png); }
-  .below-intro .icon.learn {
+  .icon.learn {
     background-image: url(img/learn.png); }
-.below-intro .applies {
+
+.applies {
   margin: 0 15%; }
-  .below-intro .applies .apply {
+  .applies .apply {
     display: block;
     padding: 1em;
     text-align: center;
-    background: #5ca84e;
+    background: #49853E;
     color: #fff !important;
     transition: all 300ms ease-out; }
-    .below-intro .applies .apply:hover {
+    .applies .apply:hover {
       background: #7abb6e; }
-    .below-intro .applies .apply:first-child {
-      border-right: 1px solid #fff; }
+    .applies .apply.english {
+      border-right: 1px solid white; }
+  .applies .backhome {
+    text-align: center; }
 
 .mc-embed .columns {
   padding-left: 0; }
@@ -219,6 +226,14 @@ footer {
     margin-bottom: 4em; }
   footer .logos {
     margin-top: 8px; }
+
+.application nav {
+  position: absolute;
+  top: 0; }
+.application section {
+  padding-bottom: 4em; }
+.application small {
+  text-align: center; }
 
 @media only screen and (max-width: 1072px) {
   nav {
@@ -270,9 +285,6 @@ footer {
       content: 'The Sahel, Horn of Africa, and South and Southeast Asia.'; }
 
   .intro {
-    padding-top: 10em; }
-
-  .apply:first-child {
-    border-right: none !important; } }
+    padding-top: 10em; } }
 
 /*# sourceMappingURL=output.css.map */
