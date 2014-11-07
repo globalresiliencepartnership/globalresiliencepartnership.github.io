@@ -59,6 +59,13 @@ a {
 	color:$l-blue!important;
 	&:hover {color:$green!important;}
 }
+small {
+	&.confirm {
+		padding:$pad;
+		display:block;
+		text-align: center;
+	}
+}
 .pop {
 	* {
 		text-align: left;
@@ -284,9 +291,6 @@ footer {
 	}
 	section {
 		padding-bottom:$pad*2;
-	}
-	small {
-		text-align: center;
 	}
 }
 
