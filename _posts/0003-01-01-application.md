@@ -12,7 +12,13 @@ categories: application
 	<a href='resource/GRP Challenge Source Document_Final_11_4_FRENCH.pdf' download='GRP Challenge Source Document_FRENCH.PDF' class='button apply medium-6 columns'>Les Directives pour Participer (Française)</a>
 </div>
 
-## The application should be completed in one session -- there is no option to save and edit later. Note that required questions are marked with an asterisk (*). At the end of the application, you will be asked to upload all required documents compiled into **one** PDF. You will receive a confirmation after submitting the form. 
+## Please note that the application form is only available in English.
+
+* Before your start the application, please note:
+* The application should be completed in one session -- there is **no option to save** and edit later.
+* Required questions are marked with an asterisk (*).
+* You must upload all required documents compiled into **one** PDF.
+* Upon submitting the form, you will receive a confirmation email. Please [contact us](mailto:challenge@globalresiliencepartnership.org) only if you do not receive a confirmation email.
 
 <div class='applies row'>
 	<a href='https://secure.jotform.us/form/43085124615147' target='_blank' class='button apply medium-centered medium-6 columns'>Click to start the application</a>
@@ -20,4 +26,4 @@ categories: application
 
 # Got questions?
 
-## Check out the <a href='resource/FAQ_GlobalResilienceChallenge_ENGLISH_AMENDED.pdf' download='FAQ_GlobalResilienceChallenge.pdf'>FAQs</a> and <a href='resource/GRP_Challenge_Responses to Challenge Questions_24 Oct 2014_final.pdf' download='GRP_Challenge_Responses to Challenge Questions_24 Oct 2014_final.pdf'>our responses</a> to the questions that you submitted. The application submission process will be made available here in the coming weeks. Subscribe to our mailing list.
+## Check out the <a href='resource/FAQ_GlobalResilienceChallenge_ENGLISH_AMENDED.pdf' download='FAQ_GlobalResilienceChallenge.pdf'>FAQs</a> and <a href='resource/GRP_Challenge_Responses to Challenge Questions_24 Oct 2014_final.pdf' download='GRP_Challenge_Responses to Challenge Questions_24 Oct 2014_final.pdf'>our responses</a> to the questions that you submitted.
