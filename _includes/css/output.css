@@ -232,10 +232,10 @@ footer {
   footer .logos {
     margin-top: 8px; }
 
-.application nav {
+.challenge nav {
   position: absolute;
   top: 0; }
-.application section {
+.challenge section {
   padding-bottom: 4em; }
 
 @media only screen and (max-width: 1072px) {
