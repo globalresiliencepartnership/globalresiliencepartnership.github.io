@@ -10,7 +10,7 @@ published: true
 <ul>
 	<li>open for submission</li>
 	<li>The Global Resilience Challenge Stage One is open for submission. The deadline has been extended until
-November 30th, 2014.</li>
+November 30th, 2014. The online submission process may take 30 minutes or more. Please allow sufficient time to complete the application.</li>
 	<li>
 		<div class='row applies'>
 			<a href='{{site.baseurl}}/application' class='apply button medium-centered medium-12 columns'>
