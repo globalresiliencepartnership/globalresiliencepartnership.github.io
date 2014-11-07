@@ -36,6 +36,11 @@ a {
   a:hover {
     color: #49853E !important; }
 
+small.confirm {
+  padding: 2em;
+  display: block;
+  text-align: center; }
+
 .pop * {
   text-align: left;
   color: #fff;
@@ -232,8 +237,6 @@ footer {
   top: 0; }
 .application section {
   padding-bottom: 4em; }
-.application small {
-  text-align: center; }
 
 @media only screen and (max-width: 1072px) {
   nav {
