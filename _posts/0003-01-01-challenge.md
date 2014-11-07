@@ -1,5 +1,5 @@
 ---
-categories: application
+categories: challenge
 ---
 
 # Welcome to the Challenge!
