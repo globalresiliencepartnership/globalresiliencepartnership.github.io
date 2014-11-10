@@ -11,6 +11,10 @@ categories: challenge
 	<a href='{{site.baseurl}}/resource/GRP_Guideline_updated_11_3.pdf' download='GRP Challenge Source Document_ENGLISH.pdf' class='button apply medium-6 columns english'>Guidelines for Participation (English)</a>
 
 	<a href='{{site.baseurl}}/resource/GRP Challenge Source Document_Final_11_4_FRENCH.pdf' download='GRP Challenge Source Document_FRENCH.PDF' class='button apply medium-6 columns'>Les Directives pour Participer (Française)</a>
+
+</div>
+<div class='applies row'>
+	<a href='{{site.baseurl}}/resource/GRP_BudgetTemplate_StageOne.xlsx' download='GRP_BudgetTemplate_StageOne.xlsx' class='button apply medium-centered medium-6 columns'>Application Budget Template</a>
 </div>
 
 ## Please note that the application form is only available in English.
