@@ -8,9 +8,9 @@ categories: challenge
 
 
 <div class='applies row'>
-	<a href='resource/GRP_Guideline_updated_11_3.pdf' download='GRP Challenge Source Document_ENGLISH.pdf' class='button apply medium-6 columns english'>Guidelines for Participation (English)</a>
+	<a href='{{site.baseurl}}/resource/GRP_Guideline_updated_11_3.pdf' download='GRP Challenge Source Document_ENGLISH.pdf' class='button apply medium-6 columns english'>Guidelines for Participation (English)</a>
 
-	<a href='resource/GRP Challenge Source Document_Final_11_4_FRENCH.pdf' download='GRP Challenge Source Document_FRENCH.PDF' class='button apply medium-6 columns'>Les Directives pour Participer (Française)</a>
+	<a href='{{site.baseurl}}/resource/GRP Challenge Source Document_Final_11_4_FRENCH.pdf' download='GRP Challenge Source Document_FRENCH.PDF' class='button apply medium-6 columns'>Les Directives pour Participer (Française)</a>
 </div>
 
 ## Please note that the application form is only available in English.
@@ -27,4 +27,4 @@ categories: challenge
 
 # Questions?
 
-## Please refer to the <a href='resource/FAQ_GlobalResilienceChallenge_ENGLISH_AMENDED.pdf' download='FAQ_GlobalResilienceChallenge.pdf'>FAQs</a> and the <a href='resource/GRP_Challenge_Responses to Challenge Questions_24 Oct 2014_final.pdf' download='GRP_Challenge_Responses to Challenge Questions_24 Oct 2014_final.pdf'>official responses</a> to the questions already submitted.
+## Please refer to the <a href='{{site.baseurl}}/resource/FAQ_GlobalResilienceChallenge_ENGLISH_AMENDED.pdf' download='FAQ_GlobalResilienceChallenge.pdf'>FAQs</a> and the <a href='{{site.baseurl}}/resource/GRP_Challenge_Responses to Challenge Questions_24 Oct 2014_final.pdf' download='GRP_Challenge_Responses to Challenge Questions_24 Oct 2014_final.pdf'>official responses</a> to the questions already submitted.
