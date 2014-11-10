@@ -20,3 +20,6 @@ published: true
 </ul>
 
 ## An essential feature of the Resilience Partnership is a multi-phase resilience design challenge, focused on bringing together people and organizations from across sectors to collaborate on bold and innovative solutions to the toughest resilience challenges in the three focus regions: the Horn of Africa, the Sahel, and South and Southeast Asia. Multi-sectoral teams will collectively research and diagnose problems, and develop locally driven, high-impact solutions that can build resilience at scale.
+
+## Subscribe to our mailing list:
+{% include mailchimp.html %}
