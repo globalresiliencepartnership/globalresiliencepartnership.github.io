@@ -1,5 +1,6 @@
 ---
 categories: challenge
+published: true
 ---
 
 # Welcome to the Challenge!
