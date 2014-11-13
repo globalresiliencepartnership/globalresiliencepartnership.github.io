@@ -24,4 +24,4 @@ published: true
 ## Subscribe to our mailing list:
 {% include mailchimp.html %}
 
-<a href='resource\Privacy Policy.pdf'> Privacy Policy. <a>
+<a href='resource\Privacy Policy.pdf' download='Privacy Policy.pdf'> Privacy Policy. <\a>
