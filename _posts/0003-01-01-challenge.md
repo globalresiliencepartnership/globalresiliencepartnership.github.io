@@ -1,5 +1,6 @@
 ---
 categories: challenge
+published: true
 ---
 
 # Welcome to the Challenge!
@@ -31,4 +32,6 @@ categories: challenge
 
 # Questions?
 
-## Please refer to the FAQs ( <a href='{{site.baseurl}}/resource/FAQ_GlobalResilienceChallenge_ENGLISH_AMENDED.pdf' download='FAQ_GlobalResilienceChallenge.pdf'>English</a> | <a href='{{site.baseurl}}/resource/FAQ_GlobalResilienceChallenge_FRENCH_AMENDED.pdf' download='FAQ_GlobalResilienceChallenge_FRENCH_AMENDED.pdf'>French</a> ) and the <a href='{{site.baseurl}}/resource/GRP_Challenge_ResponsesToChallengeQuestions_27Oct2014.pdf' download='GRP_Challenge_ResponsesToChallengeQuestions_27Oct2014.pdf'>official responses</a> to the questions already submitted.
+## Please refer to the FAQs ( <a href='{{site.baseurl}}/resource/FAQ_GlobalResilienceChallenge_ENGLISH_AMENDED.pdf' download='FAQ_GlobalResilienceChallenge.pdf'>English</a> | <a href='{{site.baseurl}}/resource/FAQ_GlobalResilienceChallenge_FRENCH_AMENDED.pdf' download='FAQ_GlobalResilienceChallenge_FRENCH_AMENDED.pdf'>French</a> ) and the <a href='{{site.baseurl}}/resource/GRP_Challenge_ResponsesToChallengeQuestions_7Nov14.pdf' download='GRP_Challenge_ResponsesToChallengeQuestions_7Nov14.pdf'>official responses</a> to the questions already submitted.
+
+##Interested in applying to the Challenge, but still looking for team members? Visit the Global Resilience Partnership<a href='https://www.linkedin.com/groups?home=&gid=8194646&trk=anet_ug_hm' target='_blank'> LinkedIn page </a>to start building connections.
