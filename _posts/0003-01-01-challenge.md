@@ -5,7 +5,7 @@ published: true
 
 # Welcome to the Challenge!
 
-## We are pleased you are applying for the Global Resilience Challenge.  The application deadline is November 30, 2014.  Please follow the guidelines to submit your application. Please note applications must be submitted in English.
+## We are pleased you are applying for the Global Resilience Challenge.  The application deadline is November 30, 2014. All required documents are required to be submitted in English within one PDF file.
 
 
 <div class='applies row'>
@@ -24,7 +24,8 @@ published: true
 * The application should be completed in one session -- there is **no option to save** and edit later.
 * Required questions are marked with an asterisk (*).
 * You must upload all required documents compiled into **one** PDF.
-* Upon completing your application, you will receive a confirmation email. Please [contact us](mailto:challenge@globalresiliencepartnership.org) only if you do not receive a confirmation email.
+* Your one PDF file must include all submission requirements (i.e., Pre-Proposal; Summary of team’s strengths and experience; Notional budget up to $200,000; letter of commitment for each team member; and resume or CVs for each team member.) Without all of these elements, your application will not meet the submission requirements.
+* Upon submission of your application, you will receive an automatic notice confirming your submission  as well as a follow-up email confirmation. If the notice does not appear immediately, please [contact us](mailto:challenge@globalresiliencepartnership.org).
 
 <div class='applies row'>
 	<a href='https://secure.jotform.us/form/43085124615147' target='_blank' class='button apply medium-centered medium-6 columns'>Click to start the application process</a>
