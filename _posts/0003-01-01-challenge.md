@@ -5,34 +5,10 @@ published: true
 
 # Welcome to the Challenge!
 
-## We are pleased you are applying for the Global Resilience Challenge.  The application deadline is November 30, 2014. All required documents are required to be submitted in English within one PDF file.
+## Thank you to all the applicants who submitted a proposal by the deadline of 30 November 2014 at 5:00 p.m. EST.
 
+## The Global Resilience Partnership Challenge is now closed. These applications are now under review.
 
-<div class='applies row'>
-	<a href='{{site.baseurl}}/resource/GRP_Guideline_updated_11_3.pdf' download='GRP Challenge Source Document_ENGLISH.pdf' class='button apply medium-6 columns english'>Guidelines for Participation (English)</a>
+## An announcement of the selected Resilience Teams will be made on **30 January 2015**.
 
-	<a href='{{site.baseurl}}/resource/GRP Challenge Source Document_Final_11_4_FRENCH.pdf' download='GRP Challenge Source Document_FRENCH.PDF' class='button apply medium-6 columns'>Les Directives pour Participer (Française)</a>
-
-</div>
-<div class='applies row'>
-	<a href='{{site.baseurl}}/resource/GRP_BudgetTemplate_StageOne.xlsx' download='GRP_BudgetTemplate_StageOne.xlsx' class='button apply medium-centered medium-6 columns'>Application Budget Template</a>
-</div>
-
-## Please note that the application form is only available in English.
-
-* Before you start the application process, please note:
-* The application should be completed in one session -- there is **no option to save** and edit later.
-* Required questions are marked with an asterisk (*).
-* You must upload all required documents compiled into **one** PDF.
-* Your one PDF file must include all submission requirements (i.e., Pre-Proposal; Summary of team’s strengths and experience; Notional budget up to $200,000; letter of commitment for each team member; and resume or CVs for each team member.) Without all of these elements, your application will not meet the submission requirements.
-* Upon submission of your application, you will receive an automatic notice confirming your submission  as well as a follow-up email confirmation. If the notice does not appear immediately, please [contact us](mailto:challenge@globalresiliencepartnership.org).
-
-<div class='applies row'>
-	<a href='https://secure.jotform.us/form/43085124615147' target='_blank' class='button apply medium-centered medium-6 columns'>Click to start the application process</a>
-</div>
-
-# Questions?
-
-## Please refer to the FAQs ( <a href='{{site.baseurl}}/resource/FAQ_GlobalResilienceChallenge_ENGLISH_AMENDED.pdf' download='FAQ_GlobalResilienceChallenge.pdf'>English</a> | <a href='{{site.baseurl}}/resource/FAQ_GlobalResilienceChallenge_FRENCH_AMENDED.pdf' download='FAQ_GlobalResilienceChallenge_FRENCH_AMENDED.pdf'>French</a> ) and the <a href='{{site.baseurl}}/resource/GRP_Challenge_ResponsestoChallengeQuestions_19Nov14.pdf' download='GRP_Challenge_ResponsestoChallengeQuestions_19Nov14.pdf'>official responses</a> to the questions already submitted.
-
-##Interested in applying to the Challenge, but still looking for team members? Visit the Global Resilience Partnership<a href='https://www.linkedin.com/groups?home=&gid=8194646&trk=anet_ug_hm' target='_blank'> LinkedIn page </a>to start building connections.
+## Please continue to visit this Global Resilience Partnership portal for updated information closer to those dates.
