@@ -15,6 +15,7 @@ published: true
 	<li>The Global Resilience Partnership Challenge is now closed.</li>
 	<li>These applications are now under review. An announcement of the selected Resilience Teams will be made on <strong>30 January 2015</strong>.</li>
 	<li>Please continue to visit this Global Resilience Partnership portal for updated information closer to those dates.</li>
+	<li>Questions about the Challenge? Please <a href='mailto:challenge@globalresiliencepartnership.org'>contact us.</a></li>
 	<!-- <li>
 		<div class='row applies'>
 			<a href='{{site.baseurl}}/challenge' class='apply button medium-centered medium-12 columns'>
