@@ -12,3 +12,5 @@ published: true
 ## An announcement of the selected Resilience Teams will be made on **30 January 2015**.
 
 ## Please continue to visit this Global Resilience Partnership portal for updated information closer to those dates.
+
+## Questions about the Challenge? Please [contact us](challenge@globalresiliencepartnership.org).
