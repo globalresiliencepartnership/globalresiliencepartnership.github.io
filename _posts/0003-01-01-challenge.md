@@ -13,4 +13,4 @@ published: true
 
 ## Please continue to visit this Global Resilience Partnership portal for updated information closer to those dates.
 
-## Questions about the Challenge? Please [contact us](challenge@globalresiliencepartnership.org).
+## Questions about the Challenge? Please [contact us](mailto:challenge@globalresiliencepartnership.org).
