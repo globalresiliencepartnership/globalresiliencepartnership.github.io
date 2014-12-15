@@ -10,10 +10,8 @@ published: true
 ## An essential feature of the Resilience Partnership is a multi-phase resilience design challenge, focused on bringing together people and organizations from across sectors to collaborate on bold and innovative solutions to the toughest resilience challenges in the three focus regions: the Horn of Africa, the Sahel, and South and Southeast Asia. Multi-sectoral teams will collectively research and diagnose problems, and develop locally driven, high-impact solutions that can build resilience at scale.
 
 <ul>
-	<li>Closed for submission</li>
-	<li>Thank you to all the applicants who submitted a proposal by the deadline of 30 November 2014 at 5:00 p.m. EST.</li>
-	<li>The Global Resilience Partnership Challenge is now closed.</li>
-	<li>These applications are now under review. An announcement of the selected Resilience Teams will be made on <strong>30 January 2015</strong>.</li>
+	<li>Global Resilience Challenge Update</li>
+	<li>Thank you to everyone who participated in the Global Resilience Challenge. The first round of the Challenge closed on November 30, and nearly 500 applications were submitted – a testament to the great interest in and need for building resilience in the Resilience Partnership’s focus regions of the Sahel, the Horn of Africa, and South and Southeast Asia. Teams will be informed by January 30, 2015 if they have been selected to move to Stage Two and develop Problem Statements.</li>
 	<li>Please continue to visit this Global Resilience Partnership portal for updated information closer to those dates.</li>
 	<li>Questions about the Challenge? Please <a href='mailto:challenge@globalresiliencepartnership.org'>contact us.</a></li>
 	<!-- <li>
