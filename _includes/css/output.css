@@ -348,38 +348,49 @@ ul.winner-list {
 
 nav .sub-nav {
   overflow: visible; }
-  nav .sub-nav .global-resilience-challenge {
+  nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-challenge.active {
     position: relative; }
-  @media only screen and (min-width: 1072px) {
-    nav .sub-nav .winners-notif {
-      position: absolute;
-      top: -90px;
-      left: 50%;
-      z-index: 10;
-      width: 200px;
-      margin-left: -100px;
-      padding: 1rem;
-      display: block;
-      background: rgba(0, 0, 0, 0.64);
-      border-radius: 4px;
-      line-height: normal; }
-      nav .sub-nav .winners-notif:link, nav .sub-nav .winners-notif:visited {
-        color: #FFF !important; }
-      nav .sub-nav .winners-notif:hover {
-        color: #49853E !important; }
-      nav .sub-nav .winners-notif:after, nav .sub-nav .winners-notif:before {
+    @media only screen and (min-width: 1072px) {
+      nav .sub-nav .global-resilience-challenge .winners-notif, nav .sub-nav .global-resilience-challenge.active .winners-notif {
         position: absolute;
-        top: 100%;
+        top: -75px;
         left: 50%;
-        width: 0;
-        height: 0;
-        content: " ";
-        border: solid transparent;
-        pointer-events: none;
-        border-color: rgba(255, 255, 255, 0); }
-      nav .sub-nav .winners-notif:after {
-        border-top-color: rgba(0, 0, 0, 0.64);
-        border-width: 10px;
-        margin-left: -10px; } }
+        z-index: 10;
+        width: 200px;
+        margin-left: -100px;
+        padding: 1rem;
+        display: block;
+        background: rgba(0, 0, 0, 0.64);
+        border-radius: 4px;
+        line-height: normal; }
+        nav .sub-nav .global-resilience-challenge .winners-notif:link, nav .sub-nav .global-resilience-challenge .winners-notif:visited, nav .sub-nav .global-resilience-challenge.active .winners-notif:link, nav .sub-nav .global-resilience-challenge.active .winners-notif:visited {
+          color: #FFF !important; }
+        nav .sub-nav .global-resilience-challenge .winners-notif:hover, nav .sub-nav .global-resilience-challenge.active .winners-notif:hover {
+          color: #49853E !important; }
+        nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge .winners-notif:before, nav .sub-nav .global-resilience-challenge.active .winners-notif:after, nav .sub-nav .global-resilience-challenge.active .winners-notif:before {
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          width: 0;
+          height: 0;
+          content: " ";
+          border: solid transparent;
+          pointer-events: none;
+          border-color: rgba(255, 255, 255, 0); }
+        nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge.active .winners-notif:after {
+          border-top-color: rgba(0, 0, 0, 0.64);
+          border-width: 10px;
+          margin-left: -10px; } }
+
+@media only screen and (min-width: 1072px) {
+  [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif, [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif {
+    top: 35px; }
+    [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif:after, [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif:after {
+      border-top: none;
+      top: initial;
+      bottom: 100%;
+      border-bottom-color: rgba(0, 0, 0, 0.64);
+      border-width: 10px;
+      margin-left: -10px; } }
 
 /*# sourceMappingURL=output.css.map */

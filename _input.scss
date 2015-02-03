@@ -462,51 +462,72 @@ nav .sub-nav {
 	overflow: visible;
 	@extend .clearfix;
 
-	.global-resilience-challenge {
+	.global-resilience-challenge, .global-resilience-challenge.active {
 		position: relative;
-	}
 
-	@media only screen and (min-width: 1072px) {
-		.winners-notif {
-			position: absolute;
-			top: -90px;
-			left: 50%;
-			z-index: 10;
-			width: 200px;
-			margin-left: -100px; 
-			padding: 1rem;
-			display: block;
-			background: rgba(0, 0, 0, 0.64);
-			border-radius: 4px;
-			line-height: normal;
-
-			&:link, &:visited {
-				color: #FFF !important;
-			}
-
-			&:hover {
-				color: $green !important;
-			}
-
-			&:after, &:before {
+		@media only screen and (min-width: 1072px) {
+			.winners-notif {
 				position: absolute;
-				top: 100%;
+				top: -75px;
 				left: 50%;
-				width: 0;
-				height: 0;
-				content: " ";
-				border: solid transparent;
-				pointer-events: none;
-				border-color: rgba(255, 255, 255, 0);
+				z-index: 10;
+				width: 200px;
+				margin-left: -100px; 
+				padding: 1rem;
+				display: block;
+				background: rgba(0, 0, 0, 0.64);
+				border-radius: 4px;
+				line-height: normal;
+
+				&:link, &:visited {
+					color: #FFF !important;
+				}
+
+				&:hover {
+					color: $green !important;
+				}
+
+				&:after, &:before {
+					position: absolute;
+					top: 100%;
+					left: 50%;
+					width: 0;
+					height: 0;
+					content: " ";
+					border: solid transparent;
+					pointer-events: none;
+					border-color: rgba(255, 255, 255, 0);
+				}
+
+				&:after {
+					border-top-color: rgba(0, 0, 0, 0.64);
+					border-width: 10px;
+					margin-left: -10px;
+				}
 			}
+		}
 
-			&:after {
-				border-top-color: rgba(0, 0, 0, 0.64);
-				border-width: 10px;
-				margin-left: -10px;
+	}
+}
+
+@media only screen and (min-width: 1072px) {
+	[data-magellan-expedition-clone] + [data-magellan-expedition] {
+
+		.global-resilience-challenge, .global-resilience-challenge.active {
+				.winners-notif {
+				top: 35px;
+
+				&:after {
+					border-top: none;
+					top: initial;
+					bottom: 100%;
+
+					border-bottom-color: rgba(0, 0, 0, 0.64);
+					border-width: 10px;
+					margin-left: -10px;
+				}
 			}
-	}
+		}
 
 	}
-
 }
