@@ -6,8 +6,11 @@ layout: default
 		<div align="center">
 			<dl class="sub-nav">
 				{% for post in site.categories.section reversed %}
-					<dd data-magellan-arrival="{{post.short | downcase | split:' ' | join: '-' }}">
+					<dd data-magellan-arrival="{{post.short | downcase | split:' ' | join: '-' }}" class="{{post.short | downcase | split:' ' | join: '-' }}">
 					<a href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
+					{% if post.short == 'Global Resilience Challenge' %}
+						<a class="winners-notif" href="{{site.baseurl}}/winners" title="View challenge winners">Winners announced</a>
+					{% endif %}
 					</dd>
 				{% endfor %}
 			</dl>

@@ -289,10 +289,10 @@ footer {
 
   .intro {
     padding-top: 10em; } }
-.clearfix:before, ul.winner-list:before, .clearfix:after, ul.winner-list:after {
+.clearfix:before, ul.winner-list:before, nav .sub-nav:before, .clearfix:after, ul.winner-list:after, nav .sub-nav:after {
   content: " ";
   display: table; }
-.clearfix:after, ul.winner-list:after {
+.clearfix:after, ul.winner-list:after, nav .sub-nav:after {
   clear: both; }
 
 ul.winner-list {
@@ -345,5 +345,41 @@ ul.winner-list {
         ul.winner-list .card .stats li strong {
           color: #49853E;
           text-transform: uppercase; }
+
+nav .sub-nav {
+  overflow: visible; }
+  nav .sub-nav .global-resilience-challenge {
+    position: relative; }
+  @media only screen and (min-width: 1072px) {
+    nav .sub-nav .winners-notif {
+      position: absolute;
+      top: -90px;
+      left: 50%;
+      z-index: 10;
+      width: 200px;
+      margin-left: -100px;
+      padding: 1rem;
+      display: block;
+      background: rgba(0, 0, 0, 0.64);
+      border-radius: 4px;
+      line-height: normal; }
+      nav .sub-nav .winners-notif:link, nav .sub-nav .winners-notif:visited {
+        color: #FFF !important; }
+      nav .sub-nav .winners-notif:hover {
+        color: #49853E !important; }
+      nav .sub-nav .winners-notif:after, nav .sub-nav .winners-notif:before {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        content: " ";
+        border: solid transparent;
+        pointer-events: none;
+        border-color: rgba(255, 255, 255, 0); }
+      nav .sub-nav .winners-notif:after {
+        border-top-color: rgba(0, 0, 0, 0.64);
+        border-width: 10px;
+        margin-left: -10px; } }
 
 /*# sourceMappingURL=output.css.map */
