@@ -361,3 +361,98 @@ footer {
 	}
 
 }
+
+
+// Clearfix for modern browsers
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+///////////////////
+// Winners
+ul.winner-list {
+	@extend .clearfix;
+	padding: 0 2rem;
+
+	li {
+		background: none;
+		border: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	& > li {	
+		margin-bottom: 2rem;
+	}
+
+	@media only screen and (min-width: 779px) and (max-width: 1072px) {
+		& > li {
+			float: left;
+			width: 48%;
+			margin-right: 4%;
+
+			&:nth-child(2n) {
+				margin-right: 0;
+			}
+		}
+	}
+
+	@media only screen and (min-width: 1072px) {
+		padding: 0;
+		& > li {
+			float: left;
+			width: 30%;
+			margin-right: 5%;
+
+			&:nth-child(3n) {
+				margin-right: 0;
+			}
+		}
+	}
+
+	.card {
+		background: #FFF;
+		padding: 1rem;
+		border-bottom: 1px solid $green;
+
+		.avatar {
+			margin: -1rem -1rem 0 -1rem;
+		}
+
+		h1 {
+			padding: 0;
+	    margin: 2rem 0 1rem 0;
+			font-size: 1.5rem;
+	    text-transform: uppercase;
+		}
+
+		.prose {
+	    text-transform: none;
+	    font-size: 1rem;
+	    margin: 0 0 1rem 0;
+	    text-align: left;
+		}
+
+		.stats {
+			margin: 0;
+			padding: 0;
+
+			li {
+				text-align: left;
+				color: $grey;
+
+				strong {
+					color: $green;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}
