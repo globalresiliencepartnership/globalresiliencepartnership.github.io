@@ -1,6 +1,8 @@
 exclude:
   - README.md
   - .gitignore
+  - source_assets
+  - config.rb
 markdown: rdiscount
 rdiscount:
   extensions: [smart]

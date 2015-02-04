@@ -175,12 +175,12 @@ nav {
 }
 .intro {
 	background-size:cover;
-	background-image:url(img/flood-bw.jpg);
+	background-image:url(../../img/flood-bw.jpg);
 }
 section {
 	background:$off-white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat;
 	&.challenge {
-		background:url(img/post-its-bw.jpg);
+		background:url(../../img/post-its-bw.jpg);
 		background-size: cover;
 		h1,h2,p {
 			color:$white;
@@ -206,13 +206,13 @@ section {
 	background-repeat:no-repeat;
 	background-size:contain;
 	opacity:0.6;
-	&.global 		{background-image:url(img/global.png);}
-	&.regional 		{background-image:url(img/regional.png);}
-	&.local 		{background-image:url(img/local.png);}
-	&.explore 		{background-image:url(img/explore.png);}
-	&.collaboration {background-image:url(img/collaboration.png);}
-	&.solution		{background-image:url(img/solution.png);}
-	&.learn			{background-image:url(img/learn.png);}
+	&.global 		{background-image:url(../../img/global.png);}
+	&.regional 		{background-image:url(../../img/regional.png);}
+	&.local 		{background-image:url(../../img/local.png);}
+	&.explore 		{background-image:url(../../img/explore.png);}
+	&.collaboration {background-image:url(../../img/collaboration.png);}
+	&.solution		{background-image:url(../../img/solution.png);}
+	&.learn			{background-image:url(../../img/learn.png);}
 }
 .applies {
 	margin:0 $pad-large;
@@ -271,7 +271,7 @@ footer {
 	}
 	.website {
 		margin-top:$pad/2;
-		background:url(img/logos/devseed.png) no-repeat 92%;
+		background:url(../../img/logos/devseed.png) no-repeat 92%;
 	}
 	.email {
 		margin-top:$pad/2;
