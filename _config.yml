@@ -1,8 +1,14 @@
 exclude:
   - README.md
   - .gitignore
+  - source_assets
+  - config.rb
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
-permalink: /:title
+permalink: blog/:title
 baseurl: 
+
+collections:
+  index_sections:
+    output: false

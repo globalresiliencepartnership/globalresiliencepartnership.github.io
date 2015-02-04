@@ -1,5 +1,6 @@
 ---
-layout: privacy
+permalink: privacy/index.html
+layout: page
 ---
 
 ### Privacy Policy

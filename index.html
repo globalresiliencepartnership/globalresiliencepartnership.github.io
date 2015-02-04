@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
+{% assign sections = site.index_sections | where: "categories", "section" %}
 <nav>
 	<div data-magellan-expedition="fixed">
 		<div align="center">
 			<dl class="sub-nav">
-				{% for post in site.categories.section reversed %}
+				{% for post in sections %}
 					<dd data-magellan-arrival="{{post.short | downcase | split:' ' | join: '-' }}" class="{{post.short | downcase | split:' ' | join: '-' }}">
 					<a href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
 					{% if post.short == 'Global Resilience Challenge' %}
@@ -19,7 +20,8 @@ layout: default
 </nav>
 <div class='intro clearfix'>
 	<div class='pop'>
-		{% for post in site.categories.intro %}
+		{% assign intros = site.index_sections | where: "categories", "intro" | where: "published", true %}
+		{% for post in intros %}
 			<h1>
 				<em>{{post.emphasize}}</em></br>
 				{{post.content}}
@@ -29,7 +31,7 @@ layout: default
 </div>
 
 <div class='below-intro'>
-	{% for post in site.categories.section reversed %}
+	{% for post in sections %}
 
 	<section class='clearfix {{post.class}}'>
 		<a data-magellan-destination='{{post.short | downcase | split:' ' | join: '-' }}' id='{{post.short | downcase | split:' ' | join: '-' }}'></a>

@@ -1,9 +1,9 @@
 ---
 ---
-{% include js/vendor/jquery.js %}
-{% include js/vendor/fastclick.js %}
-{% include js/foundation.min.js %}
-{% include js/foundation/foundation.magellan.js %}
+{% include scripts/vendor/jquery.js %}
+{% include scripts/vendor/fastclick.js %}
+{% include scripts/foundation.min.js %}
+{% include scripts/foundation/foundation.magellan.js %}
 
 $(function(){
 	$(document).foundation();
