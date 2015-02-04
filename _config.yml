@@ -4,5 +4,9 @@ exclude:
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
-permalink: /:title
+permalink: blog/:title
 baseurl: 
+
+collections:
+  index_sections:
+    output: false

@@ -1,8 +1,8 @@
 ---
-categories: challenge
-published: true
+permalink: challenge/index.html
+layout: page
+class: challenge
 ---
-
 # Welcome to the Challenge!
 
 ## Thank you to all the applicants who submitted a proposal by the deadline of 30 November 2014 at 5:00 p.m. EST.

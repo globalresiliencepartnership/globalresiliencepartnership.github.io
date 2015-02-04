@@ -1,0 +1,16 @@
+---
+permalink: blog/index.html
+layout: page
+---
+<h1>Blog</h1>
+
+<ul class="winner-list">
+  {% for post in site.posts %}
+  <li>
+    <article class="card">
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      {{ post.excerpt }}
+    </article>
+  </li>
+  {% endfor %}
+</ul>
