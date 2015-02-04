@@ -9,7 +9,7 @@ layout: default
 					<dd data-magellan-arrival="{{post.short | downcase | split:' ' | join: '-' }}" class="{{post.short | downcase | split:' ' | join: '-' }}">
 					<a href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
 					{% if post.short == 'Global Resilience Challenge' %}
-						<a class="winners-notif" href="{{site.baseurl}}/winners" title="View challenge winners">Winners announced</a>
+						<a class="winners-notif" href="{{site.baseurl}}/teams" title="View challenge winners">Selected teams announced</a>
 					{% endif %}
 					</dd>
 				{% endfor %}
