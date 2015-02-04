@@ -1,0 +1,30 @@
+ul.posts-list {
+  @extend .cards;
+
+  .card {
+
+    h1 {
+      padding: 0;
+      margin: 1rem 0 1rem 0;
+      font-size: 1.5rem;
+      text-align: center;
+
+      a:link, a:visited {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $grey !important;
+      }
+    }
+
+  }
+}
+
+.post, .card {
+  .date {
+    display: block;
+    text-align: center;
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+    color: tint($grey, 32%);
+  }
+}
