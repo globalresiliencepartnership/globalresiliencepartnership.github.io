@@ -361,3 +361,183 @@ footer {
 	}
 
 }
+
+
+// Clearfix for modern browsers
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+///////////////////
+// Winners
+ul.winner-list {
+	@extend .clearfix;
+	padding: 0 2rem;
+
+	li {
+		background: none;
+		border: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	& > li {	
+		margin-bottom: 2rem;
+	}
+
+	* {
+		text-align: left;
+		color: $grey;
+		text-transform: initial;
+	}
+
+	//@media only screen and (min-width: 779px) and (max-width: 1072px) {
+	@media only screen and (min-width: 779px) {
+		& > li {
+			float: left;
+			width: 48%;
+			margin-right: 4%;
+
+			&:nth-child(2n) {
+				margin-right: 0;
+			}
+		}
+	}
+/*
+	@media only screen and (min-width: 1072px) {
+		padding: 0;
+		& > li {
+			float: left;
+			width: 30%;
+			margin-right: 5%;
+
+			&:nth-child(3n) {
+				margin-right: 0;
+			}
+		}
+	}
+*/
+	.card {
+		background: #FFF;
+		padding: 1rem;
+		border-bottom: 1px solid $green;
+
+		.avatar {
+			margin: -1rem -1rem 0 -1rem;
+		}
+
+		h1 {
+			padding: 0;
+	    margin: 2rem 0 1rem 0;
+			font-size: 1.5rem;
+	    text-transform: uppercase;
+	    text-align: center;
+		}
+
+		.metadata {
+			dt {
+				text-transform: uppercase;
+				color: $green;
+			}
+		}
+
+		.objectives {
+			li {
+				list-style-type: initial; 
+				text-transform: initial;
+				color: $grey;
+				text-align: left;
+			}
+		}
+
+		.prose {
+	    text-transform: none;
+	    font-size: 1rem;
+	    margin: 0 0 1rem 0;
+	    text-align: left;
+		}
+
+	}
+}
+
+// Homepage winners notification
+nav .sub-nav {
+	overflow: visible;
+	@extend .clearfix;
+
+	.global-resilience-challenge, .global-resilience-challenge.active {
+		position: relative;
+
+		@media only screen and (min-width: 1072px) {
+			.winners-notif {
+				position: absolute;
+				top: -98px;
+				left: 50%;
+				z-index: 10;
+				width: 200px;
+				margin-left: -100px; 
+				padding: 1rem;
+				display: block;
+				background: rgba(0, 0, 0, 0.64);
+				border-radius: 4px;
+				line-height: normal;
+
+				&:link, &:visited {
+					color: #FFF !important;
+				}
+
+				&:hover {
+					color: $green !important;
+				}
+
+				&:after, &:before {
+					position: absolute;
+					top: 100%;
+					left: 50%;
+					width: 0;
+					height: 0;
+					content: " ";
+					border: solid transparent;
+					pointer-events: none;
+					border-color: rgba(255, 255, 255, 0);
+				}
+
+				&:after {
+					border-top-color: rgba(0, 0, 0, 0.64);
+					border-width: 10px;
+					margin-left: -10px;
+				}
+			}
+		}
+
+	}
+}
+
+@media only screen and (min-width: 1072px) {
+	[data-magellan-expedition-clone] + [data-magellan-expedition] {
+
+		.global-resilience-challenge, .global-resilience-challenge.active {
+				.winners-notif {
+				top: 35px;
+
+				&:after {
+					border-top: none;
+					top: initial;
+					bottom: 100%;
+
+					border-bottom-color: rgba(0, 0, 0, 0.64);
+					border-width: 10px;
+					margin-left: -10px;
+				}
+			}
+		}
+
+	}
+}
