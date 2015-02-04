@@ -392,7 +392,14 @@ ul.winner-list {
 		margin-bottom: 2rem;
 	}
 
-	@media only screen and (min-width: 779px) and (max-width: 1072px) {
+	* {
+		text-align: left;
+		color: $grey;
+		text-transform: initial;
+	}
+
+	//@media only screen and (min-width: 779px) and (max-width: 1072px) {
+	@media only screen and (min-width: 779px) {
 		& > li {
 			float: left;
 			width: 48%;
@@ -403,7 +410,7 @@ ul.winner-list {
 			}
 		}
 	}
-
+/*
 	@media only screen and (min-width: 1072px) {
 		padding: 0;
 		& > li {
@@ -416,7 +423,7 @@ ul.winner-list {
 			}
 		}
 	}
-
+*/
 	.card {
 		background: #FFF;
 		padding: 1rem;
@@ -431,6 +438,23 @@ ul.winner-list {
 	    margin: 2rem 0 1rem 0;
 			font-size: 1.5rem;
 	    text-transform: uppercase;
+	    text-align: center;
+		}
+
+		.metadata {
+			dt {
+				text-transform: uppercase;
+				color: $green;
+			}
+		}
+
+		.objectives {
+			li {
+				list-style-type: initial; 
+				text-transform: initial;
+				color: $grey;
+				text-align: left;
+			}
 		}
 
 		.prose {
@@ -440,20 +464,6 @@ ul.winner-list {
 	    text-align: left;
 		}
 
-		.stats {
-			margin: 0;
-			padding: 0;
-
-			li {
-				text-align: left;
-				color: $grey;
-
-				strong {
-					color: $green;
-					text-transform: uppercase;
-				}
-			}
-		}
 	}
 }
 

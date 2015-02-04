@@ -296,7 +296,21 @@ footer {
   clear: both; }
 
 ul.winner-list {
-  padding: 0 2rem; }
+  padding: 0 2rem;
+  /*
+  	@media only screen and (min-width: 1072px) {
+  		padding: 0;
+  		& > li {
+  			float: left;
+  			width: 30%;
+  			margin-right: 5%;
+  
+  			&:nth-child(3n) {
+  				margin-right: 0;
+  			}
+  		}
+  	}
+  */ }
   ul.winner-list li {
     background: none;
     border: none;
@@ -304,22 +318,17 @@ ul.winner-list {
     margin: 0; }
   ul.winner-list > li {
     margin-bottom: 2rem; }
-  @media only screen and (min-width: 779px) and (max-width: 1072px) {
+  ul.winner-list * {
+    text-align: left;
+    color: #58595B;
+    text-transform: initial; }
+  @media only screen and (min-width: 779px) {
     ul.winner-list > li {
       float: left;
       width: 48%;
       margin-right: 4%; }
       ul.winner-list > li:nth-child(2n) {
         margin-right: 0; } }
-  @media only screen and (min-width: 1072px) {
-    ul.winner-list {
-      padding: 0; }
-      ul.winner-list > li {
-        float: left;
-        width: 30%;
-        margin-right: 5%; }
-        ul.winner-list > li:nth-child(3n) {
-          margin-right: 0; } }
   ul.winner-list .card {
     background: #FFF;
     padding: 1rem;
@@ -330,21 +339,21 @@ ul.winner-list {
       padding: 0;
       margin: 2rem 0 1rem 0;
       font-size: 1.5rem;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      text-align: center; }
+    ul.winner-list .card .metadata dt {
+      text-transform: uppercase;
+      color: #49853E; }
+    ul.winner-list .card .objectives li {
+      list-style-type: initial;
+      text-transform: initial;
+      color: #58595B;
+      text-align: left; }
     ul.winner-list .card .prose {
       text-transform: none;
       font-size: 1rem;
       margin: 0 0 1rem 0;
       text-align: left; }
-    ul.winner-list .card .stats {
-      margin: 0;
-      padding: 0; }
-      ul.winner-list .card .stats li {
-        text-align: left;
-        color: #58595B; }
-        ul.winner-list .card .stats li strong {
-          color: #49853E;
-          text-transform: uppercase; }
 
 nav .sub-nav {
   overflow: visible; }
