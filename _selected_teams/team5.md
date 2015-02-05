@@ -1,7 +1,7 @@
 ---
 title: Project title
 
-image: http://placehold.it/350x150
+image: 
 
 focus: India
 
