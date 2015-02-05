@@ -1,5 +1,6 @@
-Global Resilience Partnership website
----
+![](https://raw.githubusercontent.com/globalresiliencepartnership/globalresiliencepartnership.github.io/master/img/logos/grp-color.png)
+
+### Global Resilience Partnership website
 
 The site runs on `jekyll`:
 
