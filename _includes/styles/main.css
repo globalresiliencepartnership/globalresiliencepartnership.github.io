@@ -511,7 +511,7 @@ ul.winner-list .card .metadata dt {
   color: #49853E;
 }
 /* line 458, ../../source_assets/styles/_base.scss */
-ul.winner-list .card .objectives li {
+ul.winner-list .card .enum li {
   list-style-type: initial;
   text-transform: initial;
   color: #58595B;
@@ -604,14 +604,25 @@ ul.posts-list .card h1 a:link, ul.posts-list .card h1 a:visited {
   font-weight: bold;
   color: #58595B !important;
 }
+/* line 17, ../../source_assets/styles/_blog.scss */
+ul.posts-list .card h1 a:hover {
+  color: #49853E !important;
+}
 
-/* line 23, ../../source_assets/styles/_blog.scss */
+/* line 26, ../../source_assets/styles/_blog.scss */
 .post .date, .card .date {
   display: block;
   text-align: center;
   margin-top: -1.5rem;
   margin-bottom: 2rem;
   color: #8d8e8f;
+}
+
+/* line 36, ../../source_assets/styles/_blog.scss */
+.post .content {
+  background: #FFF;
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
 
 /* line 4, ../../source_assets/styles/_nav.scss */
