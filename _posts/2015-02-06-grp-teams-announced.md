@@ -3,7 +3,7 @@ layout: blog_post
 title: 15 Teams Selected to Develop Innovative Solutions to Global Resilience Challenges
 ---
 
-[DATE] -- The Global Resilience Partnership today announced 15 teams selected to move forward in the Global Resilience Challenge. Teams were chosen from among nearly 500 applicants across six continents. In applying for the Global Resilience Challenge, teams were asked to submit their vision and plan for taking a multi-disciplinary and multi-sectoral approach to solving the greatest resilience challenges across the Sahel, the Horn of Africa and South and Southeast Asia. 
+The Global Resilience Partnership today announced 15 teams selected to move forward in the Global Resilience Challenge. Teams were chosen from among nearly 500 applicants across six continents. In applying for the Global Resilience Challenge, teams were asked to submit their vision and plan for taking a multi-disciplinary and multi-sectoral approach to solving the greatest resilience challenges across the Sahel, the Horn of Africa and South and Southeast Asia. 
 
 The selected teams are:
 INSERT TEAM INFORMATION
