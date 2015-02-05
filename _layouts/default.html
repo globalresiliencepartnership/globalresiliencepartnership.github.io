@@ -7,15 +7,16 @@
 	<meta charset='UTF-8'/>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
-	<script src="{{site.baseurl}}/modernizr.js"></script>
-	<link href='{{site.baseurl}}/style.css' rel='stylesheet'/>
+	<script src="{{site.baseurl}}/assets/scripts/modernizr.js"></script>
+	<link href='{{site.baseurl}}/assets/styles/style.css' rel='stylesheet'/>
     <!--[if lt IE 10]>
-	<link href='style-ie9.css' rel='stylesheet'/>
+	<link href='{{site.baseurl}}/assets/styles/style-ie9.css' rel='stylesheet'/>
 	<![endif]-->
 	<link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon">
 </head>
 <body class='{{page.class}}'>
+
 
 	<!--[if lt IE 10]>
 	<div class="ie-banner">
@@ -27,6 +28,45 @@
 		{% endfor %}
 	</div>
 	<![endif]-->
+	
+	
+   <header>
+  <div class="fixed contain-to-grid">
+  <nav class="top-bar" data-topbar="">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="/">Global Resilience Partnership</a></h1>
+      </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+
+      <li class="toggle-topbar menu-icon">
+        <a href="#"><span>Menu</span></a>
+      </li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+
+      <ul class="right">
+        <li>
+          <a href="/approach">Approach</a>
+        </li>
+        <li>
+          <a href="/challenge">Challenge</a>
+        </li>
+          <li>
+          <a href="/teams">Teams</a>
+        </li>
+        <li>
+          <a href="/blog">Blog</a>
+        </li>
+      </ul><!-- Left Nav Section -->
+
+
+    </section>
+  </nav>
+</div>
+   </header>
 
 	{{content}}
 
@@ -55,9 +95,10 @@
 		</div>
 	</footer>
 
+	
 	<script src="http://d3js.org/topojson.v1.min.js"></script>
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.js'></script>
-	<script src='{{site.baseurl}}/site.js'></script>
+	<script src='{{site.baseurl}}/assets/scripts/site.js'></script>
 
 	<!-- Google Analytics -->
 	<script>

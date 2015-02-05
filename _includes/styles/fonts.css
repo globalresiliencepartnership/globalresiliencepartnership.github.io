@@ -1,0 +1,36 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=7cbc24fe-c084-43c7-85b0-4eea7722e0f0");
+@font-face{
+	font-family:"ITC Berkeley Oldstyle";
+	font-weight:normal;
+	font-style:none;
+	src:url("../fonts/653d75b8-8588-43fa-865f-68b9fd91b4a7.eot?#iefix");
+	src:url("../fonts/653d75b8-8588-43fa-865f-68b9fd91b4a7.eot?#iefix") format("eot"),url("../fonts/cdfc1b4e-836e-4915-a2df-b4fd050de63a.woff") format("woff"),url("../fonts/ad1d6cb1-7cf9-48bb-b189-95ed09c11eea.ttf") format("truetype"),url("../fonts/87342274-f97d-4ac5-ba07-34799a8e72b9.svg#87342274-f97d-4ac5-ba07-34799a8e72b9") format("svg");
+}
+@font-face{
+	font-family:"ITC Berkeley Oldstyle";
+	font-weight:normal;
+	font-style:italic;
+	src:url("../fonts/7bce88a5-576a-495a-a821-1ad1dfa30cda.eot?#iefix");
+	src:url("../fonts/7bce88a5-576a-495a-a821-1ad1dfa30cda.eot?#iefix") format("eot"),url("../fonts/77ba1fda-e201-434c-8d62-431e2130d133.woff") format("woff"),url("../fonts/2edf0397-453e-4eb7-af71-ef74035d7518.ttf") format("truetype"),url("../fonts/dca10493-a499-4b36-8461-b8df003e82a9.svg#dca10493-a499-4b36-8461-b8df003e82a9") format("svg");
+}
+@font-face{
+	font-family:"ITC Berkeley Oldstyle";
+	font-weight:bold;
+	font-style:none;
+	src:url("../fonts/6852fdfc-6d34-42ea-ada8-e581ac546acd.eot?#iefix");
+	src:url("../fonts/6852fdfc-6d34-42ea-ada8-e581ac546acd.eot?#iefix") format("eot"),url("../fonts/f13dd0d4-349a-41a5-a6ea-2bb7dc6797e7.woff") format("woff"),url("../fonts/036afdbe-5441-44c7-a54a-f75ec9343815.ttf") format("truetype"),url("../fonts/4fa4aae1-b708-47f5-bd32-8e9e8f25f12c.svg#4fa4aae1-b708-47f5-bd32-8e9e8f25f12c") format("svg");
+}
+@font-face{
+	font-family:"ITC Franklin Gothic";
+	font-weight:normal;
+	font-style:none;
+	src:url("../fonts/03dda592-ab39-4f26-9535-fdea194854cf.eot?#iefix");
+	src:url("../fonts/03dda592-ab39-4f26-9535-fdea194854cf.eot?#iefix") format("eot"),url("../fonts/41c174b1-68c1-41b7-a19f-5ec80929b115.woff") format("woff"),url("../fonts/06d99598-12aa-461b-b57e-81a137da1b9f.ttf") format("truetype"),url("../fonts/427cca04-e0ee-4395-a5d3-b7d45feeff62.svg#427cca04-e0ee-4395-a5d3-b7d45feeff62") format("svg");
+}
+@font-face{
+	font-family:"ITC Franklin Gothic";
+	font-weight:bold;
+	font-style:none;
+	src:url("../fonts/7745efd8-d203-4df8-b9be-eee8c80851e6.eot?#iefix");
+	src:url("../fonts/7745efd8-d203-4df8-b9be-eee8c80851e6.eot?#iefix") format("eot"),url("../fonts/af312497-11c0-4e85-8ee4-5a83120194be.woff") format("woff"),url("../fonts/48f6f00c-1835-49d7-aa63-c4d84d522a24.ttf") format("truetype"),url("../fonts/cf4776a5-63c5-4245-8417-043e5f148a52.svg#cf4776a5-63c5-4245-8417-043e5f148a52") format("svg");
+}
