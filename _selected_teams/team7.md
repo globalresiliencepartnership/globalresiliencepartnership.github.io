@@ -3,15 +3,13 @@ title: Project title
 
 image: 
 
-focus: India
+focus: South and Southeast Asia
 
 expertise:
-  - This
-  - That
+  - Climate Change
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - Institute for Sustainable Communities
 ---
 The description goes here as the content.
 

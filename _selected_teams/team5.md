@@ -3,15 +3,15 @@ title: Project title
 
 image: 
 
-focus: India
+focus: Sahel
 
 expertise:
-  - This
-  - That
+  - Agroecology
+  - Climate Change Adaptation
+  - Nutrition 
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - Groundswell International
 ---
 The description goes here as the content.
 

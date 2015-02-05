@@ -3,15 +3,14 @@ title: Project title
 
 image: 
 
-focus: India
+focus: Horn of Africa
 
 expertise:
-  - This
-  - That
+  - Tracking and measuring resilience
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - Overseas Development Institute
+  - CGIAR Research Programme on Climate Change, Agriculture and Food Security (CCAFS)
 ---
 The description goes here as the content.
 

@@ -3,15 +3,13 @@ title: Project title
 
 image: 
 
-focus: India
+focus: South and Southeast Asia
 
 expertise:
-  - This
-  - That
+  - Environmental & Economic Resilience
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - Grameen Foundation
 ---
 The description goes here as the content.
 

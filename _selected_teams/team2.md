@@ -3,15 +3,13 @@ title: Project title
 
 image: 
 
-focus: India
+focus: South and Southeast Asia
 
 expertise:
-  - This
-  - That
+  - Risk assessment, measurement and collaboration
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - BRAC USA
 ---
 The description goes here as the content.
 
