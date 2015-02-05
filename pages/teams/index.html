@@ -7,34 +7,37 @@ layout: page
   <h1>Teams</h1>
 
   <ul class="winner-list">
-{% for i in (1..4) %}
+    {% for post in site.selected_teams %}
     <li>
       <article class="card">
+        {% if post.image %}
         <div class="avatar">
-          <img src="http://placehold.it/350x150" alt="" width="100%">
+          <img src="{{ post.image }}" alt="" width="100%">
         </div>
-        <h1>Project name</h1>
-
-        <p class="prose">Project description. Mauris lobortis malesuada leo, in cursus ligula eleifend venenatis. Nulla eget auctor ipsum. Morbi suscipit auctor massa non fringilla. Fusce a felis nibh.</p>
-        <p class="prose">Sed bibendum mi turpis, ut finibus metus scelerisque et. Pellentesque fermentum massa eget nulla malesuada, ut ornare nulla maximus. </p>
+        {% endif %}
+        <h1>{{ post.title }}</h1>
+  
+        <div class="prose">{{ post.content }}</div>
 
         <dl class="metadata">
           <dt>Geographic focus</dt>
-          <dd>India</dd>
+          <dd>{{ post.focus }}</dd>
           
           <dt>Areas of expertise</dt>
           <dd>
             <ul class="enum">
-              <li>This</li>
-              <li>That</li>
+              {% for exp in post.expertise %}
+              <li>{{ exp }}</li>
+              {% endfor %}
             </ul>
           </dd>
 
           <dt>Organizations</dt>
           <dd>
             <ul class="enum">
-              <li>The other thing</li>
-              <li>Free cotton candy</li>
+              {% for org in post.organizations %}
+              <li>{{ org }}</li>
+              {% endfor %}
             </ul>
           </dd>
 
@@ -42,6 +45,6 @@ layout: page
 
       </article>
     </li>
-{% endfor %}
+    {% endfor %}
   </ul>
 </div>
