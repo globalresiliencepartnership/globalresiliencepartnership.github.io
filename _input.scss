@@ -59,6 +59,13 @@ a {
 	color:$l-blue!important;
 	&:hover {color:$green!important;}
 }
+small {
+	&.confirm {
+		padding:$pad;
+		display:block;
+		text-align: center;
+	}
+}
 .pop {
 	* {
 		text-align: left;
@@ -135,7 +142,8 @@ ul {
 .intro,
 .map,
 .challenge {
-	height:100vh;
+	min-height:100vh;
+	height:inherit;
 }
 .region-name { /*leaflet icon*/
 	font-size:$f-large;
@@ -144,66 +152,104 @@ ul {
 	font-family:'ITC Franklin Gothic';
 	text-shadow:0 0 0.4em rgba($black,0.4);
 }
+.ie-banner {
+	position:relative;
+	padding:15px 0 8px;
+	text-align: center;
+	font-weight:bold;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+nav {
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	&.wide {
+		position:relative;
+	}
+}
 .intro {
 	background-size:cover;
 	background-image:url(img/flood-bw.jpg);
-	nav {
-		position:absolute;
-		left:0;
-		right:0;
-		bottom:0;
-	}
 }
-.below-intro {
-	section {
-		background:$off-white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat;
-		&.challenge {
-			background:url(img/post-its-bw.jpg);
-			background-size: cover;
-			h1,h2,p {
-				color:$white;
-				text-shadow:0 0 0.4em rgba($black,0.4);
-			}
+section {
+	background:$off-white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat;
+	&.challenge {
+		background:url(img/post-its-bw.jpg);
+		background-size: cover;
+		h1,h2,p {
+			color:$white;
+			text-shadow:0 0 0.4em rgba($black,0.4);
 		}
 	}
-	.absolute {
-		position:absolute;
-		left:0;
-		right:0;
-		margin-top:-100vh;
-	}
-	.logo {
-		text-align:center;
-		padding:$pad $pad-large;
-	}
-	.icon {
-		display:block;
-		width:100px;
-		height:100px;
-		margin:0 auto $pad;
-		background-repeat:no-repeat;
-		background-size:contain;
-		opacity:0.6;
-		&.global 		{background-image:url(img/global.png);}
-		&.regional 		{background-image:url(img/regional.png);}
-		&.local 		{background-image:url(img/local.png);}
-		&.explore 		{background-image:url(img/explore.png);}
-		&.collaboration {background-image:url(img/collaboration.png);}
-		&.solution		{background-image:url(img/solution.png);}
-		&.learn			{background-image:url(img/learn.png);}
-	}
+}
+.absolute {
+	position:absolute;
+	left:0;
+	right:0;
+	margin-top:-100vh;
+}
+.logo {
+	text-align:center;
+	padding:$pad $pad-large;
+}
+.icon {
+	display:block;
+	width:100px;
+	height:100px;
+	margin:0 auto $pad;
+	background-repeat:no-repeat;
+	background-size:contain;
+	opacity:0.6;
+	&.global 		{background-image:url(img/global.png);}
+	&.regional 		{background-image:url(img/regional.png);}
+	&.local 		{background-image:url(img/local.png);}
+	&.explore 		{background-image:url(img/explore.png);}
+	&.collaboration {background-image:url(img/collaboration.png);}
+	&.solution		{background-image:url(img/solution.png);}
+	&.learn			{background-image:url(img/learn.png);}
+}
+.applies {
+	margin:0 $pad-large;
 	.apply {
 		display:block;
-		margin:0 $pad-large;
 		padding:$pad/2;
 		text-align: center;
-		background:lighten($green,10%);
+		background:$green;
 		color:$white!important;
 		transition: all 300ms ease-out;
 
 		&:hover {
 			background:lighten($green,20%);
 		}
+
+		&.english {
+			border-right:$border white;
+		}
+	}
+	.backhome {
+		text-align: center;
+	}
+}
+
+
+.mc-embed {
+	.columns {
+		padding-left:0;
+	}
+	label {
+		padding-right:10px;
+		display:inline-block;
+		color:$off-white;
+	}
+	.button {
+		margin:21px 0 0 -14px;
+		padding:9px;
 	}
 }
 
@@ -227,38 +273,24 @@ footer {
 		margin-top:$pad/2;
 		background:url(img/logos/devseed.png) no-repeat 92%;
 	}
+	.email {
+		margin-top:$pad/2;
+	}
 	.twitter-timeline {
 		margin-bottom:$pad*2;
 	}
 	.logos {
 		margin-top:8px;
 	}
-	.mc-embed {
-		margin-top:$pad/2;
-		form {
-			margin-top:$pad/4;
-			input {
-				float:left;
-				height:3em;
-				margin:0;
-				padding:$pad/2;
-				font-size:$f-norm!important;
-				border:0;
-				&[type='email']{
-					width:95%;
-					border: $border lighten($grey,50%);
-					box-shadow:none;
-					&:hover,&:focus{box-shadow:none;};
-				}
-				&[type='submit']{
-					position:absolute;
-					right:20px;
-					color:$grey;
-					background:lighten($grey,50%);
+}
 
-				}
-			}
-		}
+.challenge {
+	nav {
+		position:absolute;
+		top:0;
+	}
+	section {
+		padding-bottom:$pad*2;
 	}
 }
 

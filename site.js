@@ -7,6 +7,17 @@
 
 $(function(){
 	$(document).foundation();
+	// for wide screens
+	var introHeight = $('.intro .pop').height(),
+		windowHeight = $(window).height();
+
+	// nav bar location for wide big screens
+	if (introHeight >= windowHeight){
+		$('.intro nav').addClass('wide');
+	} else {
+		$('.intro nav').removeClass('wide');
+	}
+
 	// Init map
 	L.mapbox.accessToken = 'pk.eyJ1IjoianVlIiwiYSI6InFsakR2UEkifQ.GSsNWZF7HVlLqwdhWuM2gA';
 	var map = L.mapbox.map('map', 'devseed.jfkl2aak',{
@@ -46,15 +57,15 @@ $(function(){
 
 	$.getJSON('geojson/world_110m.json',function(world){
 
-		var sahel = ["Mauritania","Senegal","Mali","Burkina Faso","Niger","Chad","Gambia"],
-			horn = ["Eritrea","Ethiopia","Djibouti","Somaliland","Somalia","Kenya"],
-			asia = ["Bangladesh","Bhutan","Cambodia","India","Indonesia","Lao PDR","Myanmar","Malaysia","Nepal","Phillippines","Sri Lanka","Thailand","Vietnam"];
+		var sahel = [],
+			horn = [],
+			asia = [];
 
 		var regions = [mergeRegion(sahel),mergeRegion(horn),mergeRegion(asia)];
 
 		regions.forEach(function(item){
 			L.geoJson(item,{
-				style:style,
+				style:style
 			}).addTo(map);
 		});
 

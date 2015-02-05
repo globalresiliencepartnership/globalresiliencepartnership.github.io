@@ -1,0 +1,40 @@
+.logo img {height:200px;}
+/*footer img {height:auto;}*/
+.columns {float:none;}
+footer .columns {
+	float:left;
+	width:20%;
+	margin-left:4%;
+}
+.icon,
+.intro nav {
+	display:none!important;
+}
+
+.intro {
+	background:#333 url(img/flood-bw.jpg) no-repeat fixed;
+	margin:0;
+	padding:20px 0;
+}
+.below-intro {
+	display:block;
+	margin-top:-20px;
+}
+.below-intro ul li {
+	border:1px dotted #fff;
+	padding:20px;
+}
+.below-intro .absolute {
+	position:relative;
+}
+.below-intro .absolute .pop *{
+	color:#333!important;
+}
+.below-intro .absolute img {
+	width:100%;
+	margin-top:-120px;
+}
+.ie-banner .ie-nav {
+	display:inline-block;
+	margin:20px 15px 0;
+}
