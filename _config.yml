@@ -5,4 +5,4 @@ markdown: rdiscount
 rdiscount:
   extensions: [smart]
 permalink: /:title
-baseurl: 
+baseurl: rockefeller-grp
