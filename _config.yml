@@ -1,8 +1,17 @@
 exclude:
   - README.md
   - .gitignore
+  - source_assets
+  - config.rb
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
-permalink: /:title
-baseurl: /rockefeller-grp
+permalink: blog/:title
+baseurl: 
+
+collections:
+  index_sections:
+    output: false
+
+  selected_teams:
+    output: false

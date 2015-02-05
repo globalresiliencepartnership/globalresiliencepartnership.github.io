@@ -3,6 +3,7 @@ categories: section
 short: Global Resilience Challenge
 class: challenge
 published: true
+tags: challenge
 ---
 
 # Global Resilience Challenge

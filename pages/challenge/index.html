@@ -1,0 +1,24 @@
+---
+permalink: challenge/index.html
+layout: page
+---
+
+{% assign sections = site.index_sections | where: "categories", "section" %}
+
+<div class='below-intro'>
+
+  {% for post in sections %}
+  
+   {% if post.tags contains 'challenge' %}
+  
+  <section class='clearfix {{post.class}} index-post'>
+  	<div class="row">
+  	  {{post.content}}
+  	</div>  
+  </section>
+  
+   {% endif %}
+  
+  {% endfor %}
+
+</div>
