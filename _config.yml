@@ -12,3 +12,6 @@ baseurl:
 collections:
   index_sections:
     output: false
+
+  selected_teams:
+    output: false

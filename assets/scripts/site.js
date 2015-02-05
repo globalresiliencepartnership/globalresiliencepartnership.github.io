@@ -3,6 +3,9 @@
 {% include scripts/vendor/jquery.js %}
 {% include scripts/vendor/fastclick.js %}
 {% include scripts/foundation.min.js %}
+{% include scripts/foundation/foundation.dropdown.js %}
+{% include scripts/foundation/foundation.topbar.js %}
+{% include scripts/foundation/foundation.tooltip.js %}
 {% include scripts/foundation/foundation.magellan.js %}
 
 $(function(){

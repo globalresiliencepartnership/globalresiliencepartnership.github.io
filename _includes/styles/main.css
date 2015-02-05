@@ -5,13 +5,13 @@ body {
 }
 
 /* line 28, ../../source_assets/styles/_base.scss */
-h1, h2, h3, a, p, li, footer {
+h1, h2, h3, p, footer {
   font: 1em "ITC Franklin Gothic", Arial, sans-serif;
   line-height: 1.65em;
   color: #58595B;
 }
 
-/* line 33, ../../source_assets/styles/_base.scss */
+/* line 34, ../../source_assets/styles/_base.scss */
 h1 {
   font-size: 2.35em;
   font-weight: bold;
@@ -20,7 +20,7 @@ h1 {
   padding: 0 2em;
 }
 
-/* line 41, ../../source_assets/styles/_base.scss */
+/* line 42, ../../source_assets/styles/_base.scss */
 h2 {
   font-size: 1.25em;
   letter-spacing: 0.02em;
@@ -28,7 +28,7 @@ h2 {
   margin: 2em 15%;
 }
 
-/* line 47, ../../source_assets/styles/_base.scss */
+/* line 48, ../../source_assets/styles/_base.scss */
 h3 {
   font-weight: bold;
   text-transform: uppercase;
@@ -36,36 +36,36 @@ h3 {
   text-align: center;
 }
 
-/* line 53, ../../source_assets/styles/_base.scss */
+/* line 54, ../../source_assets/styles/_base.scss */
 p {
   line-height: 1.65em;
   word-spacing: 0.05em;
 }
 
-/* line 57, ../../source_assets/styles/_base.scss */
+/* line 58, ../../source_assets/styles/_base.scss */
 a {
   letter-spacing: 0.02em;
   color: #009EDE !important;
 }
-/* line 60, ../../source_assets/styles/_base.scss */
+/* line 61, ../../source_assets/styles/_base.scss */
 a:hover {
   color: #49853E !important;
 }
 
-/* line 63, ../../source_assets/styles/_base.scss */
+/* line 64, ../../source_assets/styles/_base.scss */
 small.confirm {
   padding: 2em;
   display: block;
   text-align: center;
 }
 
-/* line 70, ../../source_assets/styles/_base.scss */
+/* line 71, ../../source_assets/styles/_base.scss */
 .pop * {
   text-align: left;
   color: #fff;
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4);
 }
-/* line 75, ../../source_assets/styles/_base.scss */
+/* line 76, ../../source_assets/styles/_base.scss */
 .pop em {
   background: #49853E;
   font-style: normal;
@@ -73,17 +73,17 @@ small.confirm {
   text-shadow: none;
 }
 
-/* line 83, ../../source_assets/styles/_base.scss */
+/* line 84, ../../source_assets/styles/_base.scss */
 .row .row {
   margin: 2em 15%;
 }
-/* line 85, ../../source_assets/styles/_base.scss */
+/* line 86, ../../source_assets/styles/_base.scss */
 .row .row p {
   margin: 2em 0;
   padding: 0;
 }
 
-/* line 91, ../../source_assets/styles/_base.scss */
+/* line 92, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition],
 [data-magellan-expedition-clone] {
   z-index: 9999;
@@ -91,25 +91,25 @@ small.confirm {
   background: #f5f3f3;
   padding: 1em;
 }
-/* line 97, ../../source_assets/styles/_base.scss */
+/* line 98, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition] .sub-nav a,
 [data-magellan-expedition-clone] .sub-nav a {
   font-size: 1.25em;
   font-weight: bold;
 }
-/* line 101, ../../source_assets/styles/_base.scss */
+/* line 102, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition] .sub-nav dd.active a,
 [data-magellan-expedition-clone] .sub-nav dd.active a {
   background: transparent;
   font-weight: bold;
   color: #49853E !important;
 }
-/* line 106, ../../source_assets/styles/_base.scss */
+/* line 107, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition] .sub-nav:first-child,
 [data-magellan-expedition-clone] .sub-nav:first-child {
   /* arrow */
 }
-/* line 107, ../../source_assets/styles/_base.scss */
+/* line 108, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition] .sub-nav:first-child:before,
 [data-magellan-expedition-clone] .sub-nav:first-child:before {
   content: '▼';
@@ -119,44 +119,40 @@ small.confirm {
   animation: flash 6s both infinite;
 }
 
-/* line 118, ../../source_assets/styles/_base.scss */
+/*
 ul {
+	margin:0;
+	margin-bottom:$pad*2;
+	li {
+		list-style:none;
+		margin:0 $pad-large;
+		padding:$pad $pad 0;
+		color:$green;
+		border-left:	  $border $green;
+		border-right:	  $border $green;
+		background:$off-white;
+		&:first-child {
+			background:$green;
+			color:$white;
+			text-transform: uppercase;
+			text-align: center;
+			padding:$pad/2 $pad;
+		}
+		&:last-child {
+			border-bottom:$border $green;
+			padding-bottom:$pad;
+		}
+	}
+}
+*/
+/* line 145, ../../source_assets/styles/_base.scss */
+ul {
+  list-style-type: none;
+  padding: 0;
   margin: 0;
-  margin-bottom: 4em;
-}
-/* line 121, ../../source_assets/styles/_base.scss */
-ul li {
-  list-style: none;
-  margin: 0 15%;
-  padding: 2em 2em 0;
-  color: #49853E;
-  border-left: 1px solid #49853E;
-  border-right: 1px solid #49853E;
-  background: #f5f3f3;
-}
-/* line 129, ../../source_assets/styles/_base.scss */
-ul li:first-child {
-  background: #49853E;
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 1em 2em;
-}
-/* line 136, ../../source_assets/styles/_base.scss */
-ul li:last-child {
-  border-bottom: 1px solid #49853E;
-  padding-bottom: 2em;
 }
 
-/* line 142, ../../source_assets/styles/_base.scss */
-.intro,
-.map,
-.challenge {
-  min-height: 100vh;
-  height: inherit;
-}
-
-/* line 148, ../../source_assets/styles/_base.scss */
+/* line 152, ../../source_assets/styles/_base.scss */
 .region-name {
   /*leaflet icon*/
   font-size: 2.35em;
@@ -166,7 +162,7 @@ ul li:last-child {
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4);
 }
 
-/* line 155, ../../source_assets/styles/_base.scss */
+/* line 159, ../../source_assets/styles/_base.scss */
 .ie-banner {
   position: relative;
   padding: 15px 0 8px;
@@ -180,22 +176,16 @@ ul li:last-child {
   border-bottom-left-radius: 3px;
 }
 
-/* line 167, ../../source_assets/styles/_base.scss */
+/* line 171, ../../source_assets/styles/_base.scss */
 nav {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
 }
-/* line 172, ../../source_assets/styles/_base.scss */
+/* line 176, ../../source_assets/styles/_base.scss */
 nav.wide {
   position: relative;
-}
-
-/* line 176, ../../source_assets/styles/_base.scss */
-.intro {
-  background-size: cover;
-  background-image: url(../../img/flood-bw.jpg);
 }
 
 /* line 180, ../../source_assets/styles/_base.scss */
@@ -503,11 +493,40 @@ footer .logos {
   border-bottom: 1px solid #49853E;
 }
 
-/* line 438, ../../source_assets/styles/_base.scss */
+/* line 433, ../../source_assets/styles/_base.scss */
+.index-post ul {
+  margin: 0;
+  margin-bottom: 4em;
+}
+/* line 436, ../../source_assets/styles/_base.scss */
+.index-post ul li {
+  list-style: none;
+  margin: 0 15%;
+  padding: 2em 2em 0;
+  color: #49853E;
+  border-left: 1px solid #49853E;
+  border-right: 1px solid #49853E;
+  background: #f5f3f3;
+}
+/* line 444, ../../source_assets/styles/_base.scss */
+.index-post ul li:first-child {
+  background: #49853E;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em 2em;
+}
+/* line 451, ../../source_assets/styles/_base.scss */
+.index-post ul li:last-child {
+  border-bottom: 1px solid #49853E;
+  padding-bottom: 2em;
+}
+
+/* line 461, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .avatar {
   margin: -1rem -1rem 0 -1rem;
 }
-/* line 442, ../../source_assets/styles/_base.scss */
+/* line 465, ../../source_assets/styles/_base.scss */
 ul.winner-list .card h1 {
   padding: 0;
   margin: 2rem 0 1rem 0;
@@ -515,19 +534,19 @@ ul.winner-list .card h1 {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 451, ../../source_assets/styles/_base.scss */
+/* line 474, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .metadata dt {
   text-transform: uppercase;
   color: #49853E;
 }
-/* line 458, ../../source_assets/styles/_base.scss */
-ul.winner-list .card .objectives li {
+/* line 481, ../../source_assets/styles/_base.scss */
+ul.winner-list .card .enum li {
   list-style-type: initial;
   text-transform: initial;
   color: #58595B;
   text-align: left;
 }
-/* line 466, ../../source_assets/styles/_base.scss */
+/* line 489, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .prose {
   text-transform: none;
   font-size: 1rem;
@@ -535,16 +554,16 @@ ul.winner-list .card .prose {
   text-align: left;
 }
 
-/* line 477, ../../source_assets/styles/_base.scss */
+/* line 500, ../../source_assets/styles/_base.scss */
 nav .sub-nav {
   overflow: visible;
 }
-/* line 481, ../../source_assets/styles/_base.scss */
+/* line 504, ../../source_assets/styles/_base.scss */
 nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-challenge.active {
   position: relative;
 }
 @media only screen and (min-width: 1072px) {
-  /* line 485, ../../source_assets/styles/_base.scss */
+  /* line 508, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif, nav .sub-nav .global-resilience-challenge.active .winners-notif {
     position: absolute;
     top: -98px;
@@ -558,15 +577,15 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
     border-radius: 4px;
     line-height: normal;
   }
-  /* line 498, ../../source_assets/styles/_base.scss */
+  /* line 521, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:link, nav .sub-nav .global-resilience-challenge .winners-notif:visited, nav .sub-nav .global-resilience-challenge.active .winners-notif:link, nav .sub-nav .global-resilience-challenge.active .winners-notif:visited {
     color: #FFF !important;
   }
-  /* line 502, ../../source_assets/styles/_base.scss */
+  /* line 525, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:hover, nav .sub-nav .global-resilience-challenge.active .winners-notif:hover {
     color: #49853E !important;
   }
-  /* line 506, ../../source_assets/styles/_base.scss */
+  /* line 529, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge .winners-notif:before, nav .sub-nav .global-resilience-challenge.active .winners-notif:after, nav .sub-nav .global-resilience-challenge.active .winners-notif:before {
     position: absolute;
     top: 100%;
@@ -578,7 +597,7 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
     pointer-events: none;
     border-color: rgba(255, 255, 255, 0);
   }
-  /* line 518, ../../source_assets/styles/_base.scss */
+  /* line 541, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge.active .winners-notif:after {
     border-top-color: rgba(0, 0, 0, 0.64);
     border-width: 10px;
@@ -587,11 +606,11 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
 }
 
 @media only screen and (min-width: 1072px) {
-  /* line 533, ../../source_assets/styles/_base.scss */
+  /* line 556, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif, [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif {
     top: 35px;
   }
-  /* line 536, ../../source_assets/styles/_base.scss */
+  /* line 559, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif:after, [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif:after {
     border-top: none;
     top: initial;
@@ -614,14 +633,116 @@ ul.posts-list .card h1 a:link, ul.posts-list .card h1 a:visited {
   font-weight: bold;
   color: #58595B !important;
 }
+/* line 17, ../../source_assets/styles/_blog.scss */
+ul.posts-list .card h1 a:hover {
+  color: #49853E !important;
+}
 
-/* line 23, ../../source_assets/styles/_blog.scss */
+/* line 26, ../../source_assets/styles/_blog.scss */
 .post .date, .card .date {
   display: block;
   text-align: center;
   margin-top: -1.5rem;
   margin-bottom: 2rem;
   color: #8d8e8f;
+}
+
+/* line 36, ../../source_assets/styles/_blog.scss */
+.post .content {
+  background: #FFF;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* line 1, ../../source_assets/styles/_nav.scss */
+.contain-to-grid .top-bar {
+  background: #fff;
+}
+
+/* line 4, ../../source_assets/styles/_nav.scss */
+.contain-to-grid {
+  background: #fff;
+  box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+}
+
+/* line 8, ../../source_assets/styles/_nav.scss */
+.top-bar {
+  height: 85px;
+}
+
+/* line 11, ../../source_assets/styles/_nav.scss */
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 85px !important;
+  height: 85px !important;
+}
+
+/* line 18, ../../source_assets/styles/_nav.scss */
+.top-bar-section li:hover:not(.has-form) a:not(.button) {
+  background: #eee;
+}
+
+/* line 21, ../../source_assets/styles/_nav.scss */
+.top-bar .name {
+  height: 66px;
+}
+
+/* line 24, ../../source_assets/styles/_nav.scss */
+.top-bar .name h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 28, ../../source_assets/styles/_nav.scss */
+.top-bar .name h1 a {
+  text-indent: -9999px;
+  background-image: url(../../img/logos/grp-wordmark.png);
+  width: 138px;
+  height: 66px;
+  margin: 10px 0 0 10px;
+}
+
+/* line 35, ../../source_assets/styles/_nav.scss */
+.top-bar .name h1 a:hover {
+  opacity: 0.7;
+}
+
+/* line 38, ../../source_assets/styles/_nav.scss */
+.top-bar.expanded .title-area {
+  background: #fff;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* line 44, ../../source_assets/styles/_nav.scss */
+  .top-bar .name h1 a {
+    background-image: url(../../img/logos/grp-wordmark-x2.png);
+    background-size: 138px auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 50, ../../source_assets/styles/_nav.scss */
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    background: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1 !important;
+    height: 45px !important;
+  }
+}
+/* line 1, ../../source_assets/styles/_front.scss */
+.map,
+.intro {
+  background-image: url(../../img/flood-bw.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+/* line 7, ../../source_assets/styles/_front.scss */
+.map-intro {
+  margin-top: -640px;
+  position: absolute;
 }
 
 /*# sourceMappingURL=main.css.map */
