@@ -180,7 +180,7 @@ nav {
 section {
 	background:$off-white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat;
 	&.challenge {
-		/* background:url(../../img/post-its-bw.jpg); */
+		background:url(../../img/post-its-bw.jpg);
 		background-size: cover;
 		h1,h2,p {
 			color:$white;
@@ -430,7 +430,30 @@ footer {
 		border-bottom: 1px solid $green;
 	}
 }
-
+.index-post ul {
+	margin:0;
+	margin-bottom:$pad*2;
+	li {
+		list-style:none;
+		margin:0 $pad-large;
+		padding:$pad $pad 0;
+		color:$green;
+		border-left:	  $border $green;
+		border-right:	  $border $green;
+		background:$off-white;
+		&:first-child {
+			background:$green;
+			color:$white;
+			text-transform: uppercase;
+			text-align: center;
+			padding:$pad/2 $pad;
+		}
+		&:last-child {
+			border-bottom:$border $green;
+			padding-bottom:$pad;
+		}
+	}
+}
 ul.winner-list {
 	@extend .cards;
 

@@ -2,53 +2,10 @@
 layout: default
 ---
 
-<div class="intro intro-new-solution">
-  <div class="row">
-    <div class="line"></div>
-    <div class="text-intro with-emphasis">
-      <p>We need a new solution for new realities.</p>
-    </div>
-  </div>
-</div>
-
-<div class="intro intro-disaster">
-  <div class="row">
-    <div class="line"></div>
-    <div class="text-intro">
-      <p>As climate change and population growth continue, disasters strike
-      faster and chronic stresses last even longer.</p>
-    </div>
-  </div>
-</div>
-
-<div class="intro intro-spending">
-  <div class="row">
-    <div class="line"></div>
-    <div class="text-intro">
-      <p>Over the last 30 years, one-third of spending on development has been
-      lost to recurrent crises, totaling 3.8 trillion dollars worldwide.</p>
-    </div>
-  </div>
-</div>
-
-<div class="intro intro-grp">
-  <div class="row">
-    <div class="line"></div>
-    <div class="text-intro">
-      <p>The <b>Global Resilience Partnership</b> is building systemic
-      approaches to addressing climate and population change.</p>
-    </div>
-  </div>
-</div>
-
-<div class="intro intro-grp-challenge">
-  <div class="row">
-    <div class="line"></div>
-    <div class="text-intro">
-      <p>The <b>Global Resilience Challenge</b> is a multi-phase design
-      challenge, focused on bringing together people and organizations from
-      across sectors to collaborate on bold and innovative solutions to the
-      toughest resilience challenges.</p>
-    </div>
+<div class='intro clearfix'>
+  <div class='pop'>
+    {% assign intros = site.index_sections | where: "categories", "intro" | where: "published", true %} {% for post in intros %}
+    <h1><em>{{post.emphasize}}</em><br>
+    {{post.content}}</h1>{% endfor %}
   </div>
 </div>
