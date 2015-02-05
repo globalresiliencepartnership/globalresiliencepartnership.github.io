@@ -215,7 +215,7 @@ section {
 	&.learn			{background-image:url(../../img/learn.png);}
 }
 .applies {
-	margin:0 $pad-large;
+	margin:0 $pad-large!important;
 	.apply {
 		display:block;
 		padding:$pad/2;
@@ -272,6 +272,9 @@ footer {
 	.website {
 		margin-top:$pad/2;
 		background:url(../../img/logos/devseed.png) no-repeat 92%;
+	}
+	.link {
+		margin-top:$pad/2;
 	}
 	.email {
 		margin-top:$pad/2;

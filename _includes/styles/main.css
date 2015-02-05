@@ -258,7 +258,7 @@ section.challenge h1, section.challenge h2, section.challenge p {
 
 /* line 217, ../../source_assets/styles/_base.scss */
 .applies {
-  margin: 0 15%;
+  margin: 0 15% !important;
 }
 /* line 219, ../../source_assets/styles/_base.scss */
 .applies .apply {
@@ -326,69 +326,73 @@ footer .website {
   background: url(../../img/logos/devseed.png) no-repeat 92%;
 }
 /* line 276, ../../source_assets/styles/_base.scss */
-footer .email {
+footer .link {
   margin-top: 1em;
 }
 /* line 279, ../../source_assets/styles/_base.scss */
+footer .email {
+  margin-top: 1em;
+}
+/* line 282, ../../source_assets/styles/_base.scss */
 footer .twitter-timeline {
   margin-bottom: 4em;
 }
-/* line 282, ../../source_assets/styles/_base.scss */
+/* line 285, ../../source_assets/styles/_base.scss */
 footer .logos {
   margin-top: 8px;
 }
 
-/* line 288, ../../source_assets/styles/_base.scss */
+/* line 291, ../../source_assets/styles/_base.scss */
 .challenge nav {
   position: absolute;
   top: 0;
 }
-/* line 292, ../../source_assets/styles/_base.scss */
+/* line 295, ../../source_assets/styles/_base.scss */
 .challenge section {
   padding-bottom: 4em;
 }
 
 @media only screen and (max-width: 1072px) {
-  /* line 298, ../../source_assets/styles/_base.scss */
+  /* line 301, ../../source_assets/styles/_base.scss */
   nav {
     top: 0;
   }
 
-  /* line 304, ../../source_assets/styles/_base.scss */
+  /* line 307, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition] .sub-nav a,
   [data-magellan-expedition-clone] .sub-nav a {
     font-size: 1em;
     font-weight: normal;
   }
 
-  /* line 310, ../../source_assets/styles/_base.scss */
+  /* line 313, ../../source_assets/styles/_base.scss */
   h1 {
     font-size: 2em;
   }
 
-  /* line 313, ../../source_assets/styles/_base.scss */
+  /* line 316, ../../source_assets/styles/_base.scss */
   .intro,
   .challenge {
     height: auto;
   }
 
-  /* line 317, ../../source_assets/styles/_base.scss */
+  /* line 320, ../../source_assets/styles/_base.scss */
   .intro {
     padding-top: 4em;
   }
 }
 @media only screen and (max-width: 779px) {
-  /* line 322, ../../source_assets/styles/_base.scss */
+  /* line 325, ../../source_assets/styles/_base.scss */
   * {
     font-size: 0.95em;
   }
 
-  /* line 325, ../../source_assets/styles/_base.scss */
+  /* line 328, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition],
   [data-magellan-expedition-clone] {
     /*padding:$pad/2 $pad*2;*/
   }
-  /* line 329, ../../source_assets/styles/_base.scss */
+  /* line 332, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition] .sub-nav a, [data-magellan-expedition] .sub-nav dd.active a,
   [data-magellan-expedition-clone] .sub-nav a,
   [data-magellan-expedition-clone] .sub-nav dd.active a {
@@ -398,48 +402,48 @@ footer .logos {
     display: block;
   }
 
-  /* line 337, ../../source_assets/styles/_base.scss */
+  /* line 340, ../../source_assets/styles/_base.scss */
   h1 {
     font-size: 1.25em;
   }
 
-  /* line 340, ../../source_assets/styles/_base.scss */
+  /* line 343, ../../source_assets/styles/_base.scss */
   h2,
   .row .row,
   .logo {
     padding: 1em 0;
   }
 
-  /* line 345, ../../source_assets/styles/_base.scss */
+  /* line 348, ../../source_assets/styles/_base.scss */
   .map {
     height: 20em;
   }
 
-  /* line 349, ../../source_assets/styles/_base.scss */
+  /* line 352, ../../source_assets/styles/_base.scss */
   .below-intro .absolute {
     margin-top: -15em;
   }
-  /* line 352, ../../source_assets/styles/_base.scss */
+  /* line 355, ../../source_assets/styles/_base.scss */
   .below-intro .absolute h1 p:after {
     content: 'The Sahel, Horn of Africa, and South and Southeast Asia.';
   }
 
-  /* line 359, ../../source_assets/styles/_base.scss */
+  /* line 362, ../../source_assets/styles/_base.scss */
   .intro {
     padding-top: 10em;
   }
 }
-/* line 368, ../../source_assets/styles/_base.scss */
+/* line 371, ../../source_assets/styles/_base.scss */
 .clearfix:before, .cards:before, ul.winner-list:before, ul.posts-list:before, nav .sub-nav:before, .clearfix:after, .cards:after, ul.winner-list:after, ul.posts-list:after, nav .sub-nav:after {
   content: " ";
   display: table;
 }
-/* line 373, ../../source_assets/styles/_base.scss */
+/* line 376, ../../source_assets/styles/_base.scss */
 .clearfix:after, .cards:after, ul.winner-list:after, ul.posts-list:after, nav .sub-nav:after {
   clear: both;
 }
 
-/* line 380, ../../source_assets/styles/_base.scss */
+/* line 383, ../../source_assets/styles/_base.scss */
 .cards, ul.winner-list, ul.posts-list {
   padding: 0 2rem;
   /*
@@ -457,48 +461,48 @@ footer .logos {
   	}
   */
 }
-/* line 384, ../../source_assets/styles/_base.scss */
+/* line 387, ../../source_assets/styles/_base.scss */
 .cards li, ul.winner-list li, ul.posts-list li {
   background: none;
   border: none;
   padding: 0;
   margin: 0;
 }
-/* line 391, ../../source_assets/styles/_base.scss */
+/* line 394, ../../source_assets/styles/_base.scss */
 .cards > li, ul.winner-list > li, ul.posts-list > li {
   margin-bottom: 2rem;
 }
-/* line 395, ../../source_assets/styles/_base.scss */
+/* line 398, ../../source_assets/styles/_base.scss */
 .cards *, ul.winner-list *, ul.posts-list * {
   text-align: left;
   color: #58595B;
   text-transform: initial;
 }
 @media only screen and (min-width: 779px) {
-  /* line 403, ../../source_assets/styles/_base.scss */
+  /* line 406, ../../source_assets/styles/_base.scss */
   .cards > li, ul.winner-list > li, ul.posts-list > li {
     float: left;
     width: 48%;
     margin-right: 4%;
   }
-  /* line 408, ../../source_assets/styles/_base.scss */
+  /* line 411, ../../source_assets/styles/_base.scss */
   .cards > li:nth-child(2n), ul.winner-list > li:nth-child(2n), ul.posts-list > li:nth-child(2n) {
     margin-right: 0;
   }
 }
-/* line 427, ../../source_assets/styles/_base.scss */
+/* line 430, ../../source_assets/styles/_base.scss */
 .cards .card, ul.winner-list .card, ul.posts-list .card {
   background: #FFF;
   padding: 1rem;
   border-bottom: 1px solid #49853E;
 }
 
-/* line 433, ../../source_assets/styles/_base.scss */
+/* line 436, ../../source_assets/styles/_base.scss */
 .index-post ul {
   margin: 0;
   margin-bottom: 4em;
 }
-/* line 436, ../../source_assets/styles/_base.scss */
+/* line 439, ../../source_assets/styles/_base.scss */
 .index-post ul li {
   list-style: none;
   margin: 0 15%;
@@ -508,7 +512,7 @@ footer .logos {
   border-right: 1px solid #49853E;
   background: #f5f3f3;
 }
-/* line 444, ../../source_assets/styles/_base.scss */
+/* line 447, ../../source_assets/styles/_base.scss */
 .index-post ul li:first-child {
   background: #49853E;
   color: #fff;
@@ -516,17 +520,17 @@ footer .logos {
   text-align: center;
   padding: 1em 2em;
 }
-/* line 451, ../../source_assets/styles/_base.scss */
+/* line 454, ../../source_assets/styles/_base.scss */
 .index-post ul li:last-child {
   border-bottom: 1px solid #49853E;
   padding-bottom: 2em;
 }
 
-/* line 461, ../../source_assets/styles/_base.scss */
+/* line 464, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .avatar {
   margin: -1rem -1rem 0 -1rem;
 }
-/* line 465, ../../source_assets/styles/_base.scss */
+/* line 468, ../../source_assets/styles/_base.scss */
 ul.winner-list .card h1 {
   padding: 0;
   margin: 2rem 0 1rem 0;
@@ -534,19 +538,19 @@ ul.winner-list .card h1 {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 474, ../../source_assets/styles/_base.scss */
+/* line 477, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .metadata dt {
   text-transform: uppercase;
   color: #49853E;
 }
-/* line 481, ../../source_assets/styles/_base.scss */
+/* line 484, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .enum li {
   list-style-type: initial;
   text-transform: initial;
   color: #58595B;
   text-align: left;
 }
-/* line 489, ../../source_assets/styles/_base.scss */
+/* line 492, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .prose {
   text-transform: none;
   font-size: 1rem;
@@ -554,16 +558,16 @@ ul.winner-list .card .prose {
   text-align: left;
 }
 
-/* line 500, ../../source_assets/styles/_base.scss */
+/* line 503, ../../source_assets/styles/_base.scss */
 nav .sub-nav {
   overflow: visible;
 }
-/* line 504, ../../source_assets/styles/_base.scss */
+/* line 507, ../../source_assets/styles/_base.scss */
 nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-challenge.active {
   position: relative;
 }
 @media only screen and (min-width: 1072px) {
-  /* line 508, ../../source_assets/styles/_base.scss */
+  /* line 511, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif, nav .sub-nav .global-resilience-challenge.active .winners-notif {
     position: absolute;
     top: -98px;
@@ -577,15 +581,15 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
     border-radius: 4px;
     line-height: normal;
   }
-  /* line 521, ../../source_assets/styles/_base.scss */
+  /* line 524, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:link, nav .sub-nav .global-resilience-challenge .winners-notif:visited, nav .sub-nav .global-resilience-challenge.active .winners-notif:link, nav .sub-nav .global-resilience-challenge.active .winners-notif:visited {
     color: #FFF !important;
   }
-  /* line 525, ../../source_assets/styles/_base.scss */
+  /* line 528, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:hover, nav .sub-nav .global-resilience-challenge.active .winners-notif:hover {
     color: #49853E !important;
   }
-  /* line 529, ../../source_assets/styles/_base.scss */
+  /* line 532, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge .winners-notif:before, nav .sub-nav .global-resilience-challenge.active .winners-notif:after, nav .sub-nav .global-resilience-challenge.active .winners-notif:before {
     position: absolute;
     top: 100%;
@@ -597,7 +601,7 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
     pointer-events: none;
     border-color: rgba(255, 255, 255, 0);
   }
-  /* line 541, ../../source_assets/styles/_base.scss */
+  /* line 544, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge.active .winners-notif:after {
     border-top-color: rgba(0, 0, 0, 0.64);
     border-width: 10px;
@@ -606,11 +610,11 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
 }
 
 @media only screen and (min-width: 1072px) {
-  /* line 556, ../../source_assets/styles/_base.scss */
+  /* line 559, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif, [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif {
     top: 35px;
   }
-  /* line 559, ../../source_assets/styles/_base.scss */
+  /* line 562, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif:after, [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif:after {
     border-top: none;
     top: initial;
