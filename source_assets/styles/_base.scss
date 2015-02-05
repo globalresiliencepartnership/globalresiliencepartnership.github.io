@@ -25,11 +25,12 @@ body {
 	overflow-x:hidden;
 }
 
-h1,h2,h3,a,p,li,footer{
+h1,h2,h3,p,footer{
 	font:$f-norm 'ITC Franklin Gothic', Arial, sans-serif;
 	line-height:$lh-norm;
 	color:$grey;
 }
+
 h1 {
 	font-size:$f-large;
 	font-weight:bold;
@@ -115,6 +116,7 @@ small {
 		}
 	}
 }
+/*
 ul {
 	margin:0;
 	margin-bottom:$pad*2;
@@ -139,12 +141,14 @@ ul {
 		}
 	}
 }
-.intro,
-.map,
-.challenge {
-	min-height:100vh;
-	height:inherit;
+*/
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
+
+
 .region-name { /*leaflet icon*/
 	font-size:$f-large;
 	line-height:$lh-norm;
@@ -173,14 +177,10 @@ nav {
 		position:relative;
 	}
 }
-.intro {
-	background-size:cover;
-	background-image:url(../../img/flood-bw.jpg);
-}
 section {
 	background:$off-white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat;
 	&.challenge {
-		background:url(../../img/post-its-bw.jpg);
+		/* background:url(../../img/post-its-bw.jpg); */
 		background-size: cover;
 		h1,h2,p {
 			color:$white;

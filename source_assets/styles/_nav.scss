@@ -1,0 +1,47 @@
+
+
+
+.contain-to-grid .top-bar {
+  background: #fff;
+}
+.contain-to-grid {
+  background: #fff;
+  box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+}
+.top-bar {
+ height: 85px;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 85px !important;
+  height: 85px !important;
+}
+
+
+.top-bar-section li:hover:not(.has-form) a:not(.button) {
+  background: #eee;
+}
+.top-bar .name {
+  height: 66px;
+}
+.top-bar .name h1 {
+  margin: 0;
+  padding: 0;
+}
+.top-bar .name h1 a  {
+  text-indent: -9999px;
+  background-image:url(../../img/logos/grp-wordmark.png);
+  width: 138px;
+  height: 66px;
+  margin: 10px 0 0 10px;
+}
+.top-bar .name h1 a:hover {
+  opacity: 0.7;
+}
+.top-bar.expanded .title-area {
+    background: #fff;
+}
+
+

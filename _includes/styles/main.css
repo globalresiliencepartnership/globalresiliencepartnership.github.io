@@ -5,13 +5,13 @@ body {
 }
 
 /* line 28, ../../source_assets/styles/_base.scss */
-h1, h2, h3, a, p, li, footer {
+h1, h2, h3, p, footer {
   font: 1em "ITC Franklin Gothic", Arial, sans-serif;
   line-height: 1.65em;
   color: #58595B;
 }
 
-/* line 33, ../../source_assets/styles/_base.scss */
+/* line 34, ../../source_assets/styles/_base.scss */
 h1 {
   font-size: 2.35em;
   font-weight: bold;
@@ -20,7 +20,7 @@ h1 {
   padding: 0 2em;
 }
 
-/* line 41, ../../source_assets/styles/_base.scss */
+/* line 42, ../../source_assets/styles/_base.scss */
 h2 {
   font-size: 1.25em;
   letter-spacing: 0.02em;
@@ -28,7 +28,7 @@ h2 {
   margin: 2em 15%;
 }
 
-/* line 47, ../../source_assets/styles/_base.scss */
+/* line 48, ../../source_assets/styles/_base.scss */
 h3 {
   font-weight: bold;
   text-transform: uppercase;
@@ -36,36 +36,36 @@ h3 {
   text-align: center;
 }
 
-/* line 53, ../../source_assets/styles/_base.scss */
+/* line 54, ../../source_assets/styles/_base.scss */
 p {
   line-height: 1.65em;
   word-spacing: 0.05em;
 }
 
-/* line 57, ../../source_assets/styles/_base.scss */
+/* line 58, ../../source_assets/styles/_base.scss */
 a {
   letter-spacing: 0.02em;
   color: #009EDE !important;
 }
-/* line 60, ../../source_assets/styles/_base.scss */
+/* line 61, ../../source_assets/styles/_base.scss */
 a:hover {
   color: #49853E !important;
 }
 
-/* line 63, ../../source_assets/styles/_base.scss */
+/* line 64, ../../source_assets/styles/_base.scss */
 small.confirm {
   padding: 2em;
   display: block;
   text-align: center;
 }
 
-/* line 70, ../../source_assets/styles/_base.scss */
+/* line 71, ../../source_assets/styles/_base.scss */
 .pop * {
   text-align: left;
   color: #fff;
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4);
 }
-/* line 75, ../../source_assets/styles/_base.scss */
+/* line 76, ../../source_assets/styles/_base.scss */
 .pop em {
   background: #49853E;
   font-style: normal;
@@ -73,17 +73,17 @@ small.confirm {
   text-shadow: none;
 }
 
-/* line 83, ../../source_assets/styles/_base.scss */
+/* line 84, ../../source_assets/styles/_base.scss */
 .row .row {
   margin: 2em 15%;
 }
-/* line 85, ../../source_assets/styles/_base.scss */
+/* line 86, ../../source_assets/styles/_base.scss */
 .row .row p {
   margin: 2em 0;
   padding: 0;
 }
 
-/* line 91, ../../source_assets/styles/_base.scss */
+/* line 92, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition],
 [data-magellan-expedition-clone] {
   z-index: 9999;
@@ -91,25 +91,25 @@ small.confirm {
   background: #f5f3f3;
   padding: 1em;
 }
-/* line 97, ../../source_assets/styles/_base.scss */
+/* line 98, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition] .sub-nav a,
 [data-magellan-expedition-clone] .sub-nav a {
   font-size: 1.25em;
   font-weight: bold;
 }
-/* line 101, ../../source_assets/styles/_base.scss */
+/* line 102, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition] .sub-nav dd.active a,
 [data-magellan-expedition-clone] .sub-nav dd.active a {
   background: transparent;
   font-weight: bold;
   color: #49853E !important;
 }
-/* line 106, ../../source_assets/styles/_base.scss */
+/* line 107, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition] .sub-nav:first-child,
 [data-magellan-expedition-clone] .sub-nav:first-child {
   /* arrow */
 }
-/* line 107, ../../source_assets/styles/_base.scss */
+/* line 108, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition] .sub-nav:first-child:before,
 [data-magellan-expedition-clone] .sub-nav:first-child:before {
   content: '▼';
@@ -119,44 +119,40 @@ small.confirm {
   animation: flash 6s both infinite;
 }
 
-/* line 118, ../../source_assets/styles/_base.scss */
+/*
 ul {
+	margin:0;
+	margin-bottom:$pad*2;
+	li {
+		list-style:none;
+		margin:0 $pad-large;
+		padding:$pad $pad 0;
+		color:$green;
+		border-left:	  $border $green;
+		border-right:	  $border $green;
+		background:$off-white;
+		&:first-child {
+			background:$green;
+			color:$white;
+			text-transform: uppercase;
+			text-align: center;
+			padding:$pad/2 $pad;
+		}
+		&:last-child {
+			border-bottom:$border $green;
+			padding-bottom:$pad;
+		}
+	}
+}
+*/
+/* line 145, ../../source_assets/styles/_base.scss */
+ul {
+  list-style-type: none;
+  padding: 0;
   margin: 0;
-  margin-bottom: 4em;
-}
-/* line 121, ../../source_assets/styles/_base.scss */
-ul li {
-  list-style: none;
-  margin: 0 15%;
-  padding: 2em 2em 0;
-  color: #49853E;
-  border-left: 1px solid #49853E;
-  border-right: 1px solid #49853E;
-  background: #f5f3f3;
-}
-/* line 129, ../../source_assets/styles/_base.scss */
-ul li:first-child {
-  background: #49853E;
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 1em 2em;
-}
-/* line 136, ../../source_assets/styles/_base.scss */
-ul li:last-child {
-  border-bottom: 1px solid #49853E;
-  padding-bottom: 2em;
 }
 
-/* line 142, ../../source_assets/styles/_base.scss */
-.intro,
-.map,
-.challenge {
-  min-height: 100vh;
-  height: inherit;
-}
-
-/* line 148, ../../source_assets/styles/_base.scss */
+/* line 152, ../../source_assets/styles/_base.scss */
 .region-name {
   /*leaflet icon*/
   font-size: 2.35em;
@@ -166,7 +162,7 @@ ul li:last-child {
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4);
 }
 
-/* line 155, ../../source_assets/styles/_base.scss */
+/* line 159, ../../source_assets/styles/_base.scss */
 .ie-banner {
   position: relative;
   padding: 15px 0 8px;
@@ -180,22 +176,16 @@ ul li:last-child {
   border-bottom-left-radius: 3px;
 }
 
-/* line 167, ../../source_assets/styles/_base.scss */
+/* line 171, ../../source_assets/styles/_base.scss */
 nav {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
 }
-/* line 172, ../../source_assets/styles/_base.scss */
+/* line 176, ../../source_assets/styles/_base.scss */
 nav.wide {
   position: relative;
-}
-
-/* line 176, ../../source_assets/styles/_base.scss */
-.intro {
-  background-size: cover;
-  background-image: url(../../img/flood-bw.jpg);
 }
 
 /* line 180, ../../source_assets/styles/_base.scss */
@@ -204,7 +194,7 @@ section {
 }
 /* line 182, ../../source_assets/styles/_base.scss */
 section.challenge {
-  background: url(../../img/post-its-bw.jpg);
+  /* background:url(../../img/post-its-bw.jpg); */
   background-size: cover;
 }
 /* line 185, ../../source_assets/styles/_base.scss */
@@ -622,6 +612,157 @@ ul.posts-list .card h1 a:link, ul.posts-list .card h1 a:visited {
   margin-top: -1.5rem;
   margin-bottom: 2rem;
   color: #8d8e8f;
+}
+
+/* line 4, ../../source_assets/styles/_nav.scss */
+.contain-to-grid .top-bar {
+  background: #fff;
+}
+
+/* line 7, ../../source_assets/styles/_nav.scss */
+.contain-to-grid {
+  background: #fff;
+  box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+}
+
+/* line 11, ../../source_assets/styles/_nav.scss */
+.top-bar {
+  height: 85px;
+}
+
+/* line 14, ../../source_assets/styles/_nav.scss */
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 85px !important;
+  height: 85px !important;
+}
+
+/* line 23, ../../source_assets/styles/_nav.scss */
+.top-bar-section li:hover:not(.has-form) a:not(.button) {
+  background: #eee;
+}
+
+/* line 26, ../../source_assets/styles/_nav.scss */
+.top-bar .name {
+  height: 66px;
+}
+
+/* line 29, ../../source_assets/styles/_nav.scss */
+.top-bar .name h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 33, ../../source_assets/styles/_nav.scss */
+.top-bar .name h1 a {
+  text-indent: -9999px;
+  background-image: url(../../img/logos/grp-wordmark.png);
+  width: 138px;
+  height: 66px;
+  margin: 10px 0 0 10px;
+}
+
+/* line 40, ../../source_assets/styles/_nav.scss */
+.top-bar .name h1 a:hover {
+  opacity: 0.7;
+}
+
+/* line 43, ../../source_assets/styles/_nav.scss */
+.top-bar.expanded .title-area {
+  background: #fff;
+}
+
+/* line 1, ../../source_assets/styles/_front.scss */
+.intro {
+  height: 800px;
+  border-bottom: 4px solid #fff;
+}
+
+/* line 5, ../../source_assets/styles/_front.scss */
+.intro .row {
+  height: 800px;
+  position: relative;
+}
+
+/* line 9, ../../source_assets/styles/_front.scss */
+.text-intro {
+  background: #fff;
+  position: absolute;
+  top: 20%;
+  padding: 20px;
+  font-size: 24px;
+  box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.8);
+}
+
+/* line 17, ../../source_assets/styles/_front.scss */
+.text-intro p {
+  line-height: 1.2;
+}
+
+/* line 20, ../../source_assets/styles/_front.scss */
+.with-emphasis {
+  background: #006FBD;
+}
+
+/* line 23, ../../source_assets/styles/_front.scss */
+.with-emphasis p {
+  color: #fff;
+  font-size: 50px;
+}
+
+/* line 27, ../../source_assets/styles/_front.scss */
+.line {
+  width: 4px;
+  background: #fff;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+}
+
+/* line 34, ../../source_assets/styles/_front.scss */
+.intro-new-solution {
+  background-image: url(../../img/slum-bangladesh.png);
+  background-size: cover;
+}
+
+/* line 38, ../../source_assets/styles/_front.scss */
+.intro-disaster {
+  background-image: url(../../img/flood-pakistan.png);
+  background-size: cover;
+}
+
+/* line 42, ../../source_assets/styles/_front.scss */
+.intro-spending {
+  background-image: url(../../img/flood-bus.png);
+  background-size: cover;
+}
+
+/* line 46, ../../source_assets/styles/_front.scss */
+.intro-grp {
+  background-image: url(../../img/flood-morocco.png);
+  background-size: cover;
+}
+
+/* line 50, ../../source_assets/styles/_front.scss */
+.intro-grp-challenge {
+  background-image: url(../../img/slum-rio.png);
+  background-size: cover;
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 55, ../../source_assets/styles/_front.scss */
+  .text-intro {
+    width: 40%;
+  }
+}
+/* @todo - Move this out of here */
+/* line 61, ../../source_assets/styles/_front.scss */
+.the-challenge article {
+  padding: 20px;
+  margin: 30px 0;
+  background: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */
