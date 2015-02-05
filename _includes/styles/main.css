@@ -258,7 +258,7 @@ section.challenge h1, section.challenge h2, section.challenge p {
 
 /* line 217, ../../source_assets/styles/_base.scss */
 .applies {
-  margin: 0 15%;
+  margin: 0 15% !important;
 }
 /* line 219, ../../source_assets/styles/_base.scss */
 .applies .apply {
