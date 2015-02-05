@@ -3,15 +3,14 @@ title: Project title
 
 image: 
 
-focus: India
+focus: Horn of Africa
 
 expertise:
-  - This
-  - That
+  - Livestock trade
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - Mercy Corps
+  - Tango International
 ---
 The description goes here as the content.
 

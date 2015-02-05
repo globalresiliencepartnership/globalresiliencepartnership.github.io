@@ -3,15 +3,13 @@ title: Project title
 
 image: 
 
-focus: India
+focus: South and Southeast Asia
 
 expertise:
-  - This
-  - That
+  - Disaster Risk Reduction and Climate Resilience
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - FHI 360
 ---
 The description goes here as the content.
 

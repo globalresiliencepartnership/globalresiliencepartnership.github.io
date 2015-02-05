@@ -3,15 +3,14 @@ title: Project title
 
 image: 
 
-focus: India
+focus: South and Southeast Asia
 
 expertise:
-  - This
-  - That
+  - Disaster Risk Reduction
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - University of Sydney
+  - University of Sydney, Sydney AUS
 ---
 The description goes here as the content.
 

@@ -3,15 +3,14 @@ title: Project title
 
 image: 
 
-focus: India
+focus: Sahel
 
 expertise:
-  - This
-  - That
+  - Enhanced social and economic capital
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - Mercy Corps
+  - PlaNet Finance
 ---
 The description goes here as the content.
 

@@ -3,15 +3,15 @@ title: Project title
 
 image: 
 
-focus: India
+focus: South and Southeast Asia
 
 expertise:
-  - This
-  - That
+  - Community adaptation
+  - flood early warning
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - Mershon Center for International Security Studies, The Ohio State University
+  - School of Earth Science, The Ohio State University
 ---
 The description goes here as the content.
 

@@ -3,15 +3,13 @@ title: Project title
 
 image: 
 
-focus: India
+focus: South and Southeast Asia
 
 expertise:
-  - This
-  - That
+  - Applying risk information to community resilience
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - American Red Cross
 ---
 The description goes here as the content.
 

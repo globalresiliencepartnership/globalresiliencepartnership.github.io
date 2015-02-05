@@ -3,15 +3,14 @@ title: Project title
 
 image: 
 
-focus: India
+focus: South and Southeast Asia
 
 expertise:
-  - This
-  - That
+  - Climate Change
+  - Urban Slum Dwellers
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - Mahila Housing SEWA Trust
 ---
 The description goes here as the content.
 

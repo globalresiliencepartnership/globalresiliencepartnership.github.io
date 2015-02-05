@@ -3,15 +3,14 @@ title: Project title
 
 image: 
 
-focus: India
+focus: Horn of Africa
 
 expertise:
-  - This
-  - That
+  - Integrated Landscape Management
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - Horn of Africa Regional Environment Centre & Network
+  - EcoAgriculture Partners
 ---
 The description goes here as the content.
 

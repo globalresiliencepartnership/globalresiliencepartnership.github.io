@@ -3,15 +3,14 @@ title: Project title
 
 image: 
 
-focus: India
+focus: Horn of Africa
 
 expertise:
-  - This
-  - That
+  - Road Water Harvesting
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - MetaMeta Research
+  - MetaMeta Ethiopia
 ---
 The description goes here as the content.
 

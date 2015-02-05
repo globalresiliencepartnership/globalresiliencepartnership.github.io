@@ -3,15 +3,13 @@ title: Project title
 
 image: 
 
-focus: India
+focus: Horn of Africa
 
 expertise:
-  - This
-  - That
+  - Resilience against severe weather 
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - Stichting TAHMO
 ---
 The description goes here as the content.
 

@@ -3,15 +3,14 @@ title: Project title
 
 image: 
 
-focus: India
+focus: South and Southeast Asia
 
 expertise:
-  - This
-  - That
+  - Coastal Communities Resilience
 
 organizations:
-  - The other thing
-  - Free cotton candy
+  - The Nature Conservancy
+  - Wildlife Conservation Society
 ---
 The description goes here as the content.
 
