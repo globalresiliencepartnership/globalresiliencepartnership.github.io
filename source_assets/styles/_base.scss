@@ -215,7 +215,7 @@ section {
 	&.learn			{background-image:url(../../img/learn.png);}
 }
 .applies {
-	margin:0 $pad-large;
+	margin:0 $pad-large!important;
 	.apply {
 		display:block;
 		padding:$pad/2;
