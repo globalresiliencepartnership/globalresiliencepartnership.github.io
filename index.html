@@ -1,63 +1,53 @@
 ---
 layout: default
 ---
-{% assign sections = site.index_sections | where: "categories", "section" %}
-<nav>
-	<div data-magellan-expedition="fixed">
-		<div align="center">
-			<dl class="sub-nav">
-				{% for post in sections %}
-					<dd data-magellan-arrival="{{post.short | downcase | split:' ' | join: '-' }}" class="{{post.short | downcase | split:' ' | join: '-' }}">
-					<a href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
-					{% if post.short == 'Global Resilience Challenge' %}
-						<a class="winners-notif" href="{{site.baseurl}}/teams" title="View challenge winners">Selected teams announced</a>
-					{% endif %}
-					</dd>
-				{% endfor %}
-			</dl>
-		</div>
-	</div>
-</nav>
-<div class='intro clearfix'>
-	<div class='pop'>
-		{% assign intros = site.index_sections | where: "categories", "intro" | where: "published", true %}
-		{% for post in intros %}
-			<h1>
-				<em>{{post.emphasize}}</em></br>
-				{{post.content}}
-			</h1>
-		{% endfor %}
-	</div>
+<div class="intro intro-new-solution">
+  <div class="row">
+    <div class="line"></div>
+    <div class="text-intro with-emphasis">
+      <p>We need a new solution for new realities.</p>
+    </div>
+  </div>
 </div>
 
-<div class='below-intro'>
-	{% for post in sections %}
+<div class="intro intro-disaster">
+  <div class="row">
+    <div class="line"></div>
+    <div class="text-intro">
+      <p>As climate change and population growth continue, disasters strike
+      faster and chronic stresses last even longer.</p>
+    </div>
+  </div>
+</div>
 
-	<section class='clearfix {{post.class}}'>
-		<a data-magellan-destination='{{post.short | downcase | split:' ' | join: '-' }}' id='{{post.short | downcase | split:' ' | join: '-' }}'></a>
+<div class="intro intro-spending">
+  <div class="row">
+    <div class="line"></div>
+    <div class="text-intro">
+      <p>Over the last 30 years, one-third of spending on development has been
+      lost to recurrent crises, totaling 3.8 trillion dollars worldwide.</p>
+    </div>
+  </div>
+</div>
 
-		{% if post.tags contains 'logo'%}
-		<div class='row'>
-			<div class='logo'>
-				<img src='{{site.baseurl}}/img/logos/grp-color-tagline.png'>
-			</div>
-		</div>
-		{% endif %}
+<div class="intro intro-grp">
+  <div class="row">
+    <div class="line"></div>
+    <div class="text-intro">
+      <p>The <b>Global Resilience Partnership</b> is building systemic
+      approaches to addressing climate and population change.</p>
+    </div>
+  </div>
+</div>
 
-		{% if post.tags contains 'map'%}
-		<div id='map' class='map'></div>
-		{% endif %}
-
-		<div class="row">
-			{% if post.tags contains 'map' %}
-			<div class='absolute'>
-				<h1 class='pop'>{{post.content}}</h1>
-			</div>
-			{% else %}
-			{{post.content}}
-			{% endif %}
-		</div>
-	</section>
-
-	{% endfor %}
-<div>
+<div class="intro intro-grp-challenge">
+  <div class="row">
+    <div class="line"></div>
+    <div class="text-intro">
+      <p>The <b>Global Resilience Challenge</b> is a multi-phase design
+      challenge, focused on bringing together people and organizations from
+      across sectors to collaborate on bold and innovative solutions to the
+      toughest resilience challenges.</p>
+    </div>
+  </div>
+</div>

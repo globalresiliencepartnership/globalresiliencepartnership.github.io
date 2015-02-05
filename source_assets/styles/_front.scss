@@ -1,0 +1,65 @@
+.intro  {
+ height: 800px;
+ border-bottom: 4px solid #fff;
+}
+.intro .row {
+ height: 800px;
+ position: relative;
+}
+.text-intro {
+  background: #fff;
+  position: absolute;
+  top: 20%;
+  padding: 20px;
+  font-size: 24px;
+  box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.8);
+}
+.text-intro p {
+  line-height: 1.2;
+}
+.with-emphasis {
+  background: #006FBD;
+}
+.with-emphasis p {
+  color: #fff;
+  font-size: 50px;
+}
+.line {
+  width: 4px;
+  background: #fff;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+}
+.intro-new-solution {
+	background-image:url(../../img/slum-bangladesh.png);
+	background-size:cover;
+}
+.intro-disaster {
+	background-image:url(../../img/flood-pakistan.png);
+	background-size:cover;
+}
+.intro-spending {
+	background-image:url(../../img/flood-bus.png);
+	background-size:cover;
+}
+.intro-grp {
+	background-image:url(../../img/flood-morocco.png);
+	background-size:cover;
+}
+.intro-grp-challenge {
+	background-image:url(../../img/slum-rio.png);
+	background-size:cover;
+}
+@media only screen and (min-width: 600px) { 
+  .text-intro {
+    width: 40%;
+  }
+}
+
+/* @todo - Move this out of here */
+.the-challenge article {
+  padding: 20px;
+  margin: 30px 0;
+  background: #fff;
+}
