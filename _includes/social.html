@@ -1,0 +1,23 @@
+<!-- facebook -->
+<meta property="og:title" content="{{page.title}}"/>
+<meta property="og:image" content="{{site.baseurl}}/img/logos/grp-color-tagline.png"/>
+<meta property="og:site_name" content="Global Resilience Partnership"/>
+
+<!-- twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@grp_resilience">
+<meta name="twitter:title" content="{{page.title}}">
+<meta name="twitter:image:src" content="{{site.baseurl}}/img/logos/grp-color-tagline.png">
+<meta name="twitter:url" content="{{page.url}}" />
+
+{% if page.category == 'blog'%}
+	<!-- twitter -->
+	<meta name="twitter:description" content ="{{page.content | markdownify | strip_html | truncatewords: 30}}">
+	<!-- facebook -->
+	<meta property="og:description" content="{{page.content | markdownify | strip_html | truncatewords: 30}}"/>
+{% else %}
+	<!-- twitter -->
+	<meta name="twitter:description" content ="Convened by the Rockefeller Foundation, USAID, and Sida the Global Resilience Partnership is building systemic approaches to addressing climate and population change.">
+	<!-- facebook -->
+	<meta property="og:description" content="Convened by the Rockefeller Foundation, USAID, and Sida the Global Resilience Partnership is building systemic approaches to addressing climate and population change."/>
+{% endif %}
