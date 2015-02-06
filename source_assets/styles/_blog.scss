@@ -2,17 +2,18 @@ ul.posts-list {
   @extend .cards;
 
   .card {
-
+    border-top: 4px solid #46863C;
+    box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
     h1 {
       padding: 0;
-      margin: 1rem 0 1rem 0;
+      margin: 0 0 2rem 0;
       font-size: 1.5rem;
-      text-align: center;
+      line-height: 1.2;
 
       a:link, a:visited {
-        text-transform: uppercase;
         font-weight: bold;
-        color: $grey !important;
+        color: #46863C;
       }
       a:hover {
         color: $green !important;
@@ -22,10 +23,14 @@ ul.posts-list {
   }
 }
 
+.blog {
+  height: 200px;
+  margin: 30px 0 0 0;
+}
+
 .post, .card {
   .date {
     display: block;
-    text-align: center;
     margin-top: -1.5rem;
     margin-bottom: 2rem;
     color: tint($grey, 32%);
@@ -34,8 +39,41 @@ ul.posts-list {
 
 .post {
   .content {
+    border-top: 4px solid #46863C;
     background: #FFF;
-    padding: 1rem;
-    margin-bottom: 2rem; 
+    padding: 5rem;
+    margin: 2rem 0; 
+    box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+  }
+  .content h1 {
+    margin: 0 0 1rem 0;
+    padding: 0;
+    line-height: 1.3;
+    text-align: left;
+  }
+  .content h2 {
+    padding: 0;
+    line-height: 1.3;
+    margin: 2rem 0;
+    text-align: left;
+  }
+  .date {
+    margin: 1rem 0 2rem 0;
+  }
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin: 0 0 2rem 0;
+  }
+  ul li {
+    color: #58595b;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  ul.winner-list .card,
+  .blog {
+    height: auto;
   }
 }

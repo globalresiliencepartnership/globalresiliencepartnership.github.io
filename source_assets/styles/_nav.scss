@@ -18,6 +18,9 @@
 .top-bar-section li:hover:not(.has-form) a:not(.button) {
   background: #eee;
 }
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background: #eee;
+}
 .top-bar .name {
   height: 66px;
 }
