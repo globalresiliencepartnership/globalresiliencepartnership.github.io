@@ -1,5 +1,6 @@
 ---
 layout: blog_post
+category: blog
 title: Global Resilience Challenge Update
 subtitle: 
 ---
