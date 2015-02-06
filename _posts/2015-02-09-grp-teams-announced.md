@@ -1,6 +1,7 @@
 ---
 published: true
 layout: blog_post
+category: blog
 title: 17 Teams Selected to Develop Innovative Solutions to Global Resilience Challenges
 subtitle: The Global Resilience Partnership will fund the most transformative solutions with up to $1 million for implementation and continued innovation
 ---
