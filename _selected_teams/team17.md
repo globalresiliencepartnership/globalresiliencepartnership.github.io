@@ -1,5 +1,5 @@
 ---
-title: Project title
+title: "Disability and Disasters: Empowering People and Building Resilience to Risk"
 
 image: 
 
@@ -12,8 +12,3 @@ organizations:
   - University of Sydney
   - University of Sydney, Sydney AUS
 ---
-The description goes here as the content.
-
-Project description. Mauris lobortis malesuada leo, in cursus ligula eleifend venenatis. Nulla eget auctor ipsum. Morbi suscipit auctor massa non fringilla. Fusce a felis nibh.
-
-Sed bibendum mi turpis, ut finibus metus scelerisque et. Pellentesque fermentum massa eget nulla malesuada, ut ornare nulla maximus.
