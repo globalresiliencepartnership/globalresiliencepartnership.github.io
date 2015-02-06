@@ -72,19 +72,11 @@ ul.posts-list {
   }
 }
 
-
-@media only screen and (max-width: 700px) {
-  ul.winner-list .card,
-  .blog {
-    height: auto;
-  }
-}
-
 ul.social {
   @extend .clearfix;
-  margin: 0;
   position: absolute;
-  top: 3rem;
+  margin: 0;
+  top: 2rem;
   right: 5rem;
 
   li {
@@ -100,6 +92,7 @@ ul.social {
       display: block;
       width: 2rem;
       height: 2rem;
+      border-radius: 2rem;
       background: $grey;
       color: #FFF !important;
       font-size: 1rem;
@@ -107,6 +100,7 @@ ul.social {
       text-align: center;
       font-weight: bold;
       color: #FFF;
+
 
       &:hover {
         color: $green !important;
@@ -122,5 +116,13 @@ ul.social {
         @extend .icn-google-plus;
       }
     }
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  ul.winner-list .card,
+  .blog {
+    height: auto;
   }
 }
