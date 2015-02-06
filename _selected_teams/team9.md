@@ -1,5 +1,5 @@
 ---
-title: Project title
+title: Devising Local Coping Mechanisms and Adapation Technologies to Build Climate-Resilience Capacities of the Urban Poor in South Asia
 
 image: 
 
@@ -12,8 +12,3 @@ expertise:
 organizations:
   - Mahila Housing SEWA Trust
 ---
-The description goes here as the content.
-
-Project description. Mauris lobortis malesuada leo, in cursus ligula eleifend venenatis. Nulla eget auctor ipsum. Morbi suscipit auctor massa non fringilla. Fusce a felis nibh.
-
-Sed bibendum mi turpis, ut finibus metus scelerisque et. Pellentesque fermentum massa eget nulla malesuada, ut ornare nulla maximus.
