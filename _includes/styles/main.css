@@ -579,25 +579,20 @@ ul.winner-list .card h1 {
   margin: 0 0 1rem 0;
   line-height: 1.2;
   font-size: 1.5rem;
-  background: #46863C;
-  color: #fff;
-  min-height: 120px;
-  padding: 2rem;
-  margin: -2rem -2rem 2rem -2rem;
 }
-/* line 487, ../../source_assets/styles/_base.scss */
+/* line 482, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .metadata dt {
   text-transform: uppercase;
   color: #49853E;
 }
-/* line 494, ../../source_assets/styles/_base.scss */
+/* line 489, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .enum li {
   list-style-type: initial;
   text-transform: initial;
   color: #58595B;
   text-align: left;
 }
-/* line 502, ../../source_assets/styles/_base.scss */
+/* line 497, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .prose {
   text-transform: none;
   font-size: 1rem;
@@ -605,16 +600,16 @@ ul.winner-list .card .prose {
   text-align: left;
 }
 
-/* line 513, ../../source_assets/styles/_base.scss */
+/* line 508, ../../source_assets/styles/_base.scss */
 nav .sub-nav {
   overflow: visible;
 }
-/* line 517, ../../source_assets/styles/_base.scss */
+/* line 512, ../../source_assets/styles/_base.scss */
 nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-challenge.active {
   position: relative;
 }
 @media only screen and (min-width: 1072px) {
-  /* line 521, ../../source_assets/styles/_base.scss */
+  /* line 516, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif, nav .sub-nav .global-resilience-challenge.active .winners-notif {
     position: absolute;
     top: -98px;
@@ -628,15 +623,15 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
     border-radius: 4px;
     line-height: normal;
   }
-  /* line 534, ../../source_assets/styles/_base.scss */
+  /* line 529, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:link, nav .sub-nav .global-resilience-challenge .winners-notif:visited, nav .sub-nav .global-resilience-challenge.active .winners-notif:link, nav .sub-nav .global-resilience-challenge.active .winners-notif:visited {
     color: #FFF !important;
   }
-  /* line 538, ../../source_assets/styles/_base.scss */
+  /* line 533, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:hover, nav .sub-nav .global-resilience-challenge.active .winners-notif:hover {
     color: #49853E !important;
   }
-  /* line 542, ../../source_assets/styles/_base.scss */
+  /* line 537, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge .winners-notif:before, nav .sub-nav .global-resilience-challenge.active .winners-notif:after, nav .sub-nav .global-resilience-challenge.active .winners-notif:before {
     position: absolute;
     top: 100%;
@@ -648,7 +643,7 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
     pointer-events: none;
     border-color: rgba(255, 255, 255, 0);
   }
-  /* line 554, ../../source_assets/styles/_base.scss */
+  /* line 549, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge.active .winners-notif:after {
     border-top-color: rgba(0, 0, 0, 0.64);
     border-width: 10px;
@@ -657,11 +652,11 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
 }
 
 @media only screen and (min-width: 1072px) {
-  /* line 569, ../../source_assets/styles/_base.scss */
+  /* line 564, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif, [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif {
     top: 35px;
   }
-  /* line 572, ../../source_assets/styles/_base.scss */
+  /* line 567, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif:after, [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif:after {
     border-top: none;
     top: initial;
