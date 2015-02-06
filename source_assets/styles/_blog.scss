@@ -44,6 +44,8 @@ ul.posts-list {
     padding: 5rem;
     margin: 2rem 0; 
     box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 1;
   }
   .content h1 {
     margin: 0 0 1rem 0;
@@ -67,6 +69,53 @@ ul.posts-list {
   }
   ul li {
     color: #58595b;
+  }
+}
+
+ul.social {
+  @extend .clearfix;
+  position: absolute;
+  margin: 0;
+  top: 2rem;
+  right: 5rem;
+
+  li {
+    list-style: none;
+    float: left;
+    margin-right: 0.5rem;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    a {
+      display: block;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 2rem;
+      background: $grey;
+      color: #FFF !important;
+      font-size: 1rem;
+      line-height: 2rem;
+      text-align: center;
+      font-weight: bold;
+      color: #FFF;
+
+
+      &:hover {
+        color: $green !important;
+      }
+
+      &.twitter:before {
+        @extend .icn-twitter;
+      }
+      &.facebook:before {
+        @extend .icn-facebook;
+      }
+      &.google:before {
+        @extend .icn-google-plus;
+      }
+    }
   }
 }
 
