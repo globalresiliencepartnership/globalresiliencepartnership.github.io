@@ -1,7 +1,7 @@
 ---
+published: true
 layout: blog_post
-category: blog
-title: Global Resilience Challenge Update
+title: Teams to be Informed February 6
 subtitle: 
 ---
 

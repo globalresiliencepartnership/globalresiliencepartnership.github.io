@@ -1,4 +1,5 @@
 ---
+published: true
 layout: blog_post
 category: blog
 title: 17 Teams Selected to Develop Innovative Solutions to Global Resilience Challenges
