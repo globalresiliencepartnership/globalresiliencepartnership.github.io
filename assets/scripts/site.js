@@ -58,7 +58,7 @@ $(function(){
 		}
 	];
 
-	$.getJSON('geojson/world_110m.json',function(world){
+	$.getJSON('{{site.baseurl}}/geojson/world_110m.json',function(world){
 
 		var sahel = [],
 			horn = [],

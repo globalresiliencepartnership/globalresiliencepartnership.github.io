@@ -13,9 +13,7 @@ tags: challenge
 <ul>
 	<li>Global Resilience Challenge Update</li>
 	
-	<li>The Global Resilience Challenge, which closed on November 30th, received nearly 500 applications across six continents – a testament to the global commitment to building resilience, particularly in areas where crisis has become the new normal. Through the applications submitted, hundreds of experts weighed in from various sectors, contributing innovative ideas for tackling barriers to resilience. </li>
-	
-	<li>A diverse panel of experts from around the world undertook a rigorous evaluation process of the submitted applications, and selected the following teams to move forward to Stage Two of the Challenge: developing Problem Statements.</li>
+	<li>Congratulations to the selected teams and an enormous thank you to all who submitted an application. We were incredibly inspired by your passion, and invite you to continue to stay involved – Stage One was just the beginning.</li>
 
 	<li>
 		<div class='row applies'>
@@ -24,8 +22,6 @@ tags: challenge
 			</a>
 		</div>
 	</li>
-
-	<li>Congratulations to the selected teams and an enormous thank you to all who submitted an application. We were incredibly inspired by your passion, and invite you to continue to stay involved – Stage One was just the beginning.</li>
 	
 	<li>As the Challenge proceeds, the Wild Card feature will open in April, offering previously unfunded teams the opportunity to submit a proposal to address approved Problem Statements. From there, up to three additional teams will be selected to advance to the final, Implementation Stage.</li>
 
