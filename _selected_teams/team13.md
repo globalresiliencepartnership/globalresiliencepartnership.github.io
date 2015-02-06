@@ -1,5 +1,5 @@
 ---
-title: Project title
+title: "Connecting Roads, Groundwater and Livelihoods: Roads for Climate Resilience: Optimizing the Hydrological Potential of the Rural Infrastructure"
 
 image: 
 
@@ -12,8 +12,3 @@ organizations:
   - MetaMeta Research
   - MetaMeta Ethiopia
 ---
-The description goes here as the content.
-
-Project description. Mauris lobortis malesuada leo, in cursus ligula eleifend venenatis. Nulla eget auctor ipsum. Morbi suscipit auctor massa non fringilla. Fusce a felis nibh.
-
-Sed bibendum mi turpis, ut finibus metus scelerisque et. Pellentesque fermentum massa eget nulla malesuada, ut ornare nulla maximus.
