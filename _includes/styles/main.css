@@ -637,6 +637,48 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
     margin-left: -10px;
   }
 }
+/* line 588, ../../source_assets/styles/_base.scss */
+.page-card .content {
+  border-top: 4px solid #46863C;
+  background: #FFF;
+  padding: 5rem;
+  margin: 2rem 0;
+  box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+}
+/* line 595, ../../source_assets/styles/_base.scss */
+.page-card .content h1 {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  line-height: 1.3;
+  text-align: left;
+}
+/* line 602, ../../source_assets/styles/_base.scss */
+.page-card .content h2 {
+  padding: 0;
+  line-height: 1.3;
+  font-size: 2rem;
+  margin: 2rem 0;
+  text-align: left;
+}
+/* line 610, ../../source_assets/styles/_base.scss */
+.page-card .content h3 {
+  padding: 0;
+  line-height: 1.3;
+  font-size: 1rem;
+  margin: 2rem 0;
+  text-align: left;
+}
+/* line 618, ../../source_assets/styles/_base.scss */
+.page-card .content ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin: 0 0 2rem 0;
+}
+/* line 623, ../../source_assets/styles/_base.scss */
+.page-card .content ul li {
+  color: #58595b;
+}
+
 /* line 4, ../../source_assets/styles/_blog.scss */
 ul.posts-list .card {
   border-top: 4px solid #46863C;
