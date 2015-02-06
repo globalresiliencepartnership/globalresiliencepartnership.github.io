@@ -1,5 +1,5 @@
 ---
-title: Project title
+title: Increasing Resilience in the Ramsar Sites of the Lower Mekong Basin
 
 image: 
 
@@ -13,8 +13,3 @@ expertise:
 organizations:
   - International Union for Conversation of Nature
 ---
-The description goes here as the content.
-
-Project description. Mauris lobortis malesuada leo, in cursus ligula eleifend venenatis. Nulla eget auctor ipsum. Morbi suscipit auctor massa non fringilla. Fusce a felis nibh.
-
-Sed bibendum mi turpis, ut finibus metus scelerisque et. Pellentesque fermentum massa eget nulla malesuada, ut ornare nulla maximus.
