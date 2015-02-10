@@ -11,7 +11,7 @@ published: true
 
 <ul>
 	<li>Global Resilience Challenge Update</li>
-	<li>Thank you to everyone who participated in the Global Resilience Challenge. The first round of the Challenge closed on November 30, and nearly 500 applications were submitted – a testament to the great interest in and need for building resilience in the Resilience Partnership’s focus regions of the Sahel, the Horn of Africa, and South and Southeast Asia. Teams will be informed by February 9, 2015 if they have been selected to move to Stage Two and develop Problem Statements.</li>
+	<li>Thank you to everyone who participated in the Global Resilience Challenge. A list of selected teams for Stage One of the Global Resilience Challenge have been recommended for advancement to Stage Two. These teams are currently undergoing final consideration and approval processes and a public announcement will be made as soon as this process is complete. All teams that submitted an application for Stage One have received a communication indicating their status.</li>
 	<li>Please continue to visit this Global Resilience Partnership portal for updated information closer to those dates.</li>
 	<li>Questions about the Challenge? Please <a href='mailto:challenge@globalresiliencepartnership.org'>contact us.</a></li>
 	<!-- <li>
