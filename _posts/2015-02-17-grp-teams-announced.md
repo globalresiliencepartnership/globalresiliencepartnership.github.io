@@ -6,7 +6,7 @@ title: "16 Teams Selected to Develop Innovative Solutions to Global Resilience C
 subtitle: "The Global Resilience Partnership will fund the most transformative solutions with up to $1 million for implementation and continued innovation"
 ---
 
-The Global Resilience Partnership today announced 16 teams selected to move forward in the Global Resilience Challenge. Teams were chosen from among nearly 500 applicants across six continents. In applying for the Global Resilience Challenge, teams were asked to submit their vision and plan for taking a multi-disciplinary and multi-sectoral approach to solving the greatest resilience challenges across the Sahel, the Horn of Africa and South and Southeast Asia. 
+The Global Resilience Partnership today announced [16 teams](/teams) selected to move forward in the Global Resilience Challenge. Teams were chosen from among nearly 500 applicants across six continents. In applying for the Global Resilience Challenge, teams were asked to submit their vision and plan for taking a multi-disciplinary and multi-sectoral approach to solving the greatest resilience challenges across the Sahel, the Horn of Africa and South and Southeast Asia. 
 
 The selected resilience topics, team leaders, and lead organizations, designated by focus region are:
 
