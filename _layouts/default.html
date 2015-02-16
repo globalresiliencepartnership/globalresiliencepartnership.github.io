@@ -19,22 +19,22 @@
 	<link rel="icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon">
 </head>
 <body class='{{page.class}}'>
-
-
-	<!--[if lt IE 10]>
-	<div class="ie-banner">
-		<p>For best experience of the site, please use a modern browser such as
-	    <a href='https://www.google.com/intl/en/chrome/browser/' target='_blank'>Chrome</a> or
-	    <a href='http://www.mozilla.org/en-US/firefox/new/' target='_blank'>Firefox</a>.</p>
-	    {% for post in site.categories.section reversed %}
-			<a class='ie-nav' href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
-		{% endfor %}
-	</div>
-	<![endif]-->
 	
-	
-   <header>
+  <header>
+
   <div class="fixed contain-to-grid">
+
+  	<!--[if lt IE 10]>
+  	<div class="ie-banner">
+  		<p>For best experience of the site, please use a modern browser such as
+  	    <a href='https://www.google.com/intl/en/chrome/browser/' target='_blank'>Chrome</a> or
+  	    <a href='http://www.mozilla.org/en-US/firefox/new/' target='_blank'>Firefox</a>.</p>
+  	    {% for post in site.categories.section reversed %}
+  			<a class='ie-nav' href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
+  		{% endfor %}
+  	</div>
+  	<![endif]-->
+
   <nav class="top-bar" data-topbar="" data-options="is_hover: false">
     <ul class="title-area">
       <li class="name">
