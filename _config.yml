@@ -15,3 +15,6 @@ collections:
 
   selected_teams:
     output: false
+
+  events:
+    output: false
