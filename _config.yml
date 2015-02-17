@@ -7,7 +7,7 @@ markdown: rdiscount
 rdiscount:
   extensions: [smart]
 permalink: blog/:year/:month/:day/:title
-baseurl: 
+baseurl: /rockefeller-grp
 
 collections:
   index_sections:
