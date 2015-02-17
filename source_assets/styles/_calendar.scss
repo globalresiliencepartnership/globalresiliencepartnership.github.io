@@ -25,7 +25,6 @@
 }
 
 .calendar {
-  padding-bottom: 5rem;
 
   .section-title {
     padding: 0;
@@ -88,10 +87,6 @@
 
   }
 
-  li:last-child .card {
-    margin-bottom: 0; 
-  }
-
   .pub-date {
     position: absolute;
     top: -2rem;
@@ -100,4 +95,52 @@
     z-index: 10;
     text-align: center;
   }
+}
+
+
+
+.calendar-nav {
+  list-style: none;
+  display: none;
+  position: fixed;
+  top: 200px;
+
+  @media only screen and (min-width: 779px) {
+    display: block;
+  }
+
+  li {
+    position: relative;
+    margin-bottom: 1rem;
+    font-size: 0.825rem;
+
+    &:before {
+      position: absolute;
+      top: 8px;
+      left: -1rem;
+      z-index: 1;
+      display: block;
+      content: '';
+      width: 0.5rem;
+      height: 0.5rem;
+      background-color: $green;
+      border-radius: 60rem;
+    }
+    &:not(:last-child):after {
+      position: absolute;
+      top: 8px;
+      left: -0.825rem;
+      z-index: 1;
+      display: block;
+      content: '';
+      width: 2px;
+      height: 2.5rem;
+      background-color: $green;
+    }
+
+    a {
+      color: $green !important;
+    }
+  }
+
 }

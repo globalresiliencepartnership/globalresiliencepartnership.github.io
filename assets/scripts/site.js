@@ -96,6 +96,17 @@ $(function(){
 
 });
 
+Handlebars.registerHelper('toLowerCase', function(str) {
+  return str.toLowerCase();
+});
+
+Handlebars.registerHelper('shortMonth', function(date) {
+  return getMonthShort(date.getMonth() + 1);
+});
+
+Handlebars.registerHelper('monthTag', function(date) {
+  return getMonthShort(date.getMonth() + 1).toLowerCase() + date.getFullYear();
+});
 
 
 ////////////////////////////////////////////////
@@ -174,17 +185,26 @@ $(function() {
         return a.date < b.date;
       });
 
+      // Create a date for the group. Use the first entry's month.
+      var groupDate = (new Date(grouped[i][0].date));
+      groupDate.setDate(1);
+
       groupedArray.push({
         label: i,
+        date: groupDate,
         entries: grouped[i]
       });
     }
 
     groupedArray.sort(function(a, b) {
-      // Get a date based on the first entry for that month.
-      // Since we'll be ordering by month, not day, it's ok.
-      return (new Date(a.entries[0].date)).getTime() < (new Date(b.entries[0].date)).getTime();
+      return groupDate.getTime() > groupDate.getTime();
     })
+
+    // Remove past months
+    var now = new Date();
+    groupedArray = groupedArray.filter(function(obj) {
+      return obj.date.getMonth() >= now.getMonth();
+    });
 
     _data = groupedArray;
 
@@ -209,7 +229,7 @@ $(function() {
       if ($content[0].offsetHeight < $content[0].scrollHeight) {
 
         $this.find('.more').addClass('revealed').click(function(e) {
-          e.preventDefault();
+
           $content.animate({
             'max-height': '9999px'
           });
@@ -217,49 +237,24 @@ $(function() {
         });
 
       }
-
     });
-  }
 
-  function getMonth(num) {
-    switch(num) {
-      case 1:
-        return "January";
-        break;
-      case 2:
-        return "February";
-        break;
-      case 3:
-        return "March";
-        break;
-      case 4:
-        return "April";
-        break;
-      case 5:
-        return "May";
-        break;
-      case 6:
-        return "June";
-        break;
-      case 7:
-        return "July";
-        break;
-      case 8:
-        return "August";
-        break;
-      case 9:
-        return "September";
-        break;
-      case 10:
-        return "October";
-        break;
-      case 11:
-        return "November";
-        break;
-      case 12:
-        return "December";
-        break;
-    }
+    $('.calendar-nav a').click(function(e) {
+      e.preventDefault();
+      var target = this.getAttribute('href');
+      $(document).scrollTop($(target).offset().top - 100);
+    });
+
   }
 
 });
+
+function getMonth(num) {
+  var m = ["January", "February","March","April","May","June","July","August","September","October","November","December"];
+  return m[num - 1];
+}
+
+function getMonthShort(num) {
+  var m = ["Jan", "Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  return m[num - 1];
+}

@@ -1,3 +1,9 @@
+<ol class="calendar-nav">
+{{#each calendar}}
+  <li><a href="#{{monthTag date}}">{{shortMonth date}}</a></li>
+{{/each}}
+</ol>
+
 {{#each calendar}}
   {{>calendar-month}}
 {{/each}}

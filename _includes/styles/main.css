@@ -951,53 +951,49 @@ ul.social li a:hover {
   margin-bottom: 0;
 }
 
-/* line 27, ../../source_assets/styles/_calendar.scss */
-.calendar {
-  padding-bottom: 5rem;
-}
-/* line 30, ../../source_assets/styles/_calendar.scss */
+/* line 29, ../../source_assets/styles/_calendar.scss */
 .calendar .section-title {
   padding: 0;
   margin: 4rem 0 3rem 0;
 }
-/* line 35, ../../source_assets/styles/_calendar.scss */
+/* line 34, ../../source_assets/styles/_calendar.scss */
 .calendar .card-list {
   list-style: none;
   margin: 0;
 }
-/* line 39, ../../source_assets/styles/_calendar.scss */
+/* line 38, ../../source_assets/styles/_calendar.scss */
 .calendar .card-list li {
   max-width: 40rem;
   margin: 0 auto 3rem auto;
 }
 @media only screen and (min-width: 779px) {
-  /* line 39, ../../source_assets/styles/_calendar.scss */
+  /* line 38, ../../source_assets/styles/_calendar.scss */
   .calendar .card-list li {
     margin-bottom: 5rem;
   }
 }
-/* line 49, ../../source_assets/styles/_calendar.scss */
+/* line 48, ../../source_assets/styles/_calendar.scss */
 .calendar .card {
   position: relative;
   margin: 0 1rem;
 }
 @media only screen and (min-width: 779px) {
-  /* line 49, ../../source_assets/styles/_calendar.scss */
+  /* line 48, ../../source_assets/styles/_calendar.scss */
   .calendar .card {
     margin: 0;
   }
 }
-/* line 58, ../../source_assets/styles/_calendar.scss */
+/* line 57, ../../source_assets/styles/_calendar.scss */
 .calendar .card .content {
   overflow: hidden;
   max-height: 100px;
   margin-bottom: 2rem;
 }
-/* line 63, ../../source_assets/styles/_calendar.scss */
+/* line 62, ../../source_assets/styles/_calendar.scss */
 .calendar .card .content > *:last-child {
   margin-bottom: 0;
 }
-/* line 68, ../../source_assets/styles/_calendar.scss */
+/* line 67, ../../source_assets/styles/_calendar.scss */
 .calendar .card .more {
   display: none;
   margin: 0 auto;
@@ -1006,23 +1002,19 @@ ul.social li a:hover {
   padding: 0.5rem 1rem;
   text-align: center;
 }
-/* line 76, ../../source_assets/styles/_calendar.scss */
+/* line 75, ../../source_assets/styles/_calendar.scss */
 .calendar .card .more:link, .calendar .card .more:active {
   color: #FFF !important;
 }
-/* line 80, ../../source_assets/styles/_calendar.scss */
+/* line 79, ../../source_assets/styles/_calendar.scss */
 .calendar .card .more:hover {
   background: #009EDE;
 }
-/* line 84, ../../source_assets/styles/_calendar.scss */
+/* line 83, ../../source_assets/styles/_calendar.scss */
 .calendar .card .more.revealed {
   display: block;
 }
-/* line 91, ../../source_assets/styles/_calendar.scss */
-.calendar li:last-child .card {
-  margin-bottom: 0;
-}
-/* line 95, ../../source_assets/styles/_calendar.scss */
+/* line 90, ../../source_assets/styles/_calendar.scss */
 .calendar .pub-date {
   position: absolute;
   top: -2rem;
@@ -1030,6 +1022,55 @@ ul.social li a:hover {
   width: 100%;
   z-index: 10;
   text-align: center;
+}
+
+/* line 102, ../../source_assets/styles/_calendar.scss */
+.calendar-nav {
+  list-style: none;
+  display: none;
+  position: fixed;
+  top: 200px;
+}
+@media only screen and (min-width: 779px) {
+  /* line 102, ../../source_assets/styles/_calendar.scss */
+  .calendar-nav {
+    display: block;
+  }
+}
+/* line 112, ../../source_assets/styles/_calendar.scss */
+.calendar-nav li {
+  position: relative;
+  margin-bottom: 1rem;
+  font-size: 0.825rem;
+}
+/* line 117, ../../source_assets/styles/_calendar.scss */
+.calendar-nav li:before {
+  position: absolute;
+  top: 8px;
+  left: -1rem;
+  z-index: 1;
+  display: block;
+  content: '';
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #49853E;
+  border-radius: 60rem;
+}
+/* line 129, ../../source_assets/styles/_calendar.scss */
+.calendar-nav li:not(:last-child):after {
+  position: absolute;
+  top: 8px;
+  left: -0.825rem;
+  z-index: 1;
+  display: block;
+  content: '';
+  width: 2px;
+  height: 2.5rem;
+  background-color: #49853E;
+}
+/* line 141, ../../source_assets/styles/_calendar.scss */
+.calendar-nav li a {
+  color: #49853E !important;
 }
 
 /* line 7, ../../source_assets/styles/_helpers.scss */
