@@ -3,30 +3,73 @@
 <html>
 <head>
 	<title>Global Resilience Partnership</title>
-	<meta name="description" content="Convened by the Rockefeller Foundation and USAID, the Global Resilience Partnership is building systemic approaches to addressing climate and population change.">
+	<meta name="description" content="Convened by the Rockefeller Foundation, USAID, and Sida the Global Resilience Partnership is building systemic approaches to addressing climate and population change.">
 	<meta charset='UTF-8'/>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+
+    {% include social.html %}
+
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
-	<script src="{{site.baseurl}}/modernizr.js"></script>
-	<link href='{{site.baseurl}}/style.css' rel='stylesheet'/>
+	<script src="{{site.baseurl}}/assets/scripts/modernizr.js"></script>
+	<link href='{{site.baseurl}}/assets/styles/style.css' rel='stylesheet'/>
     <!--[if lt IE 10]>
-	<link href='style-ie9.css' rel='stylesheet'/>
+	<link href='{{site.baseurl}}/assets/styles/style-ie9.css' rel='stylesheet'/>
 	<![endif]-->
 	<link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon">
 </head>
 <body class='{{page.class}}'>
+	
+  <header>
 
-	<!--[if lt IE 10]>
-	<div class="ie-banner">
-		<p>For best experience of the site, please use a modern browser such as
-	    <a href='https://www.google.com/intl/en/chrome/browser/' target='_blank'>Chrome</a> or
-	    <a href='http://www.mozilla.org/en-US/firefox/new/' target='_blank'>Firefox</a>.</p>
-	    {% for post in site.categories.section reversed %}
-			<a class='ie-nav' href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
-		{% endfor %}
-	</div>
-	<![endif]-->
+  <div class="fixed contain-to-grid">
+
+  	<!--[if lt IE 10]>
+  	<div class="ie-banner">
+  		<p>For best experience of the site, please use a modern browser such as
+  	    <a href='https://www.google.com/intl/en/chrome/browser/' target='_blank'>Chrome</a> or
+  	    <a href='http://www.mozilla.org/en-US/firefox/new/' target='_blank'>Firefox</a>.</p>
+  	    {% for post in site.categories.section reversed %}
+  			<a class='ie-nav' href='#{{post.short | downcase | split:' ' | join: '-' }}'>{{post.short}}</a>
+  		{% endfor %}
+  	</div>
+  	<![endif]-->
+
+  <nav class="top-bar" data-topbar="" data-options="is_hover: false">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="/">Global Resilience Partnership</a></h1>
+      </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+
+      <li class="toggle-topbar menu-icon">
+        <a href="#"><span>Menu</span></a>
+      </li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+
+      <ul class="right">
+        <li>
+          <a href="/approach">Our Approach</a>
+        </li>
+        <li>
+          <a href="/challenge">The Challenge</a>
+        </li>
+          <li>
+          <a href="/teams">Teams</a>
+        </li>
+        <li>
+          <a href="/blog">Blog</a>
+        </li>
+      </ul><!-- Left Nav Section -->
+
+
+    </section>
+  </nav>
+</div>
+   </header>
 
 	{{content}}
 
@@ -35,6 +78,7 @@
 		<div class='medium-3 columns'>
 			<h2>Publications</h2>
 			<p>For more resilience-related literature, please visit <a href='http://www.rockefellerfoundation.org/blog/publications/32' target='_blank'>Rockefeller Foundation's site</a> and the <a href='http://www.usaid.gov/resilience/resources' target='_blank'>Resilience Resources</a> on USAID's site.</p>
+			<p class='link'><a href='{{site.baseurl}}/resource/GRP_Brochure.pdf' download='GRP_Brochure.pdf' onClick="_gaq.push(['_trackEvent', 'Click', 'Download', 'GRP_Brochure']);">Download the GRP Brochure </a>for additional information.</p>
 		</div>
 		<div class='medium-3 columns'>
 			<h2>Credits</h2>
@@ -55,19 +99,23 @@
 		</div>
 	</footer>
 
+	
 	<script src="http://d3js.org/topojson.v1.min.js"></script>
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.js'></script>
-	<script src='{{site.baseurl}}/site.js'></script>
+	<script src='{{site.baseurl}}/assets/scripts/site.js'></script>
 
 	<!-- Google Analytics -->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<script type="text/javascript">
 
-	  ga('create', 'UA-55784219-1', 'auto');
-	  ga('send', 'pageview');
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-55784219-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
 
 	</script>
 

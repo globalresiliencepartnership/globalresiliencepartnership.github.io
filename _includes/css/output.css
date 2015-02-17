@@ -140,12 +140,12 @@ nav {
 
 .intro {
   background-size: cover;
-  background-image: url(img/flood-bw.jpg); }
+  background-image: url(../../img/flood-bw.jpg); }
 
 section {
   background: #f5f3f3 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat; }
   section.challenge {
-    background: url(img/post-its-bw.jpg);
+    background: url(../../img/post-its-bw.jpg);
     background-size: cover; }
     section.challenge h1, section.challenge h2, section.challenge p {
       color: #fff;
@@ -170,19 +170,19 @@ section {
   background-size: contain;
   opacity: 0.6; }
   .icon.global {
-    background-image: url(img/global.png); }
+    background-image: url(../../img/global.png); }
   .icon.regional {
-    background-image: url(img/regional.png); }
+    background-image: url(../../img/regional.png); }
   .icon.local {
-    background-image: url(img/local.png); }
+    background-image: url(../../img/local.png); }
   .icon.explore {
-    background-image: url(img/explore.png); }
+    background-image: url(../../img/explore.png); }
   .icon.collaboration {
-    background-image: url(img/collaboration.png); }
+    background-image: url(../../img/collaboration.png); }
   .icon.solution {
-    background-image: url(img/solution.png); }
+    background-image: url(../../img/solution.png); }
   .icon.learn {
-    background-image: url(img/learn.png); }
+    background-image: url(../../img/learn.png); }
 
 .applies {
   margin: 0 15%; }
@@ -224,7 +224,7 @@ footer {
     padding: 2em; }
   footer .website {
     margin-top: 1em;
-    background: url(img/logos/devseed.png) no-repeat 92%; }
+    background: url(../../img/logos/devseed.png) no-repeat 92%; }
   footer .email {
     margin-top: 1em; }
   footer .twitter-timeline {
@@ -289,5 +289,137 @@ footer {
 
   .intro {
     padding-top: 10em; } }
+.clearfix:before, .cards:before, ul.winner-list:before, ul.posts-list:before, nav .sub-nav:before, .clearfix:after, .cards:after, ul.winner-list:after, ul.posts-list:after, nav .sub-nav:after {
+  content: " ";
+  display: table; }
+.clearfix:after, .cards:after, ul.winner-list:after, ul.posts-list:after, nav .sub-nav:after {
+  clear: both; }
+
+.cards, ul.winner-list, ul.posts-list {
+  padding: 0 2rem;
+  /*
+  	@media only screen and (min-width: 1072px) {
+  		padding: 0;
+  		& > li {
+  			float: left;
+  			width: 30%;
+  			margin-right: 5%;
+  
+  			&:nth-child(3n) {
+  				margin-right: 0;
+  			}
+  		}
+  	}
+  */ }
+  .cards li, ul.winner-list li, ul.posts-list li {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0; }
+  .cards > li, ul.winner-list > li, ul.posts-list > li {
+    margin-bottom: 2rem; }
+  .cards *, ul.winner-list *, ul.posts-list * {
+    text-align: left;
+    color: #58595B;
+    text-transform: initial; }
+  @media only screen and (min-width: 779px) {
+    .cards > li, ul.winner-list > li, ul.posts-list > li {
+      float: left;
+      width: 48%;
+      margin-right: 4%; }
+      .cards > li:nth-child(2n), ul.winner-list > li:nth-child(2n), ul.posts-list > li:nth-child(2n) {
+        margin-right: 0; } }
+  .cards .card, ul.winner-list .card, ul.posts-list .card {
+    background: #FFF;
+    padding: 1rem;
+    border-bottom: 1px solid #49853E; }
+
+ul.winner-list .card .avatar {
+  margin: -1rem -1rem 0 -1rem; }
+ul.winner-list .card h1 {
+  padding: 0;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center; }
+ul.winner-list .card .metadata dt {
+  text-transform: uppercase;
+  color: #49853E; }
+ul.winner-list .card .objectives li {
+  list-style-type: initial;
+  text-transform: initial;
+  color: #58595B;
+  text-align: left; }
+ul.winner-list .card .prose {
+  text-transform: none;
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+  text-align: left; }
+
+nav .sub-nav {
+  overflow: visible; }
+  nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-challenge.active {
+    position: relative; }
+    @media only screen and (min-width: 1072px) {
+      nav .sub-nav .global-resilience-challenge .winners-notif, nav .sub-nav .global-resilience-challenge.active .winners-notif {
+        position: absolute;
+        top: -98px;
+        left: 50%;
+        z-index: 10;
+        width: 200px;
+        margin-left: -100px;
+        padding: 1rem;
+        display: block;
+        background: rgba(0, 0, 0, 0.64);
+        border-radius: 4px;
+        line-height: normal; }
+        nav .sub-nav .global-resilience-challenge .winners-notif:link, nav .sub-nav .global-resilience-challenge .winners-notif:visited, nav .sub-nav .global-resilience-challenge.active .winners-notif:link, nav .sub-nav .global-resilience-challenge.active .winners-notif:visited {
+          color: #FFF !important; }
+        nav .sub-nav .global-resilience-challenge .winners-notif:hover, nav .sub-nav .global-resilience-challenge.active .winners-notif:hover {
+          color: #49853E !important; }
+        nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge .winners-notif:before, nav .sub-nav .global-resilience-challenge.active .winners-notif:after, nav .sub-nav .global-resilience-challenge.active .winners-notif:before {
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          width: 0;
+          height: 0;
+          content: " ";
+          border: solid transparent;
+          pointer-events: none;
+          border-color: rgba(255, 255, 255, 0); }
+        nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge.active .winners-notif:after {
+          border-top-color: rgba(0, 0, 0, 0.64);
+          border-width: 10px;
+          margin-left: -10px; } }
+
+@media only screen and (min-width: 1072px) {
+  [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif, [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif {
+    top: 35px; }
+    [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif:after, [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif:after {
+      border-top: none;
+      top: initial;
+      bottom: 100%;
+      border-bottom-color: rgba(0, 0, 0, 0.64);
+      border-width: 10px;
+      margin-left: -10px; } }
+ul.posts-list .card h1 {
+  padding: 0;
+  margin: 1rem 0 1rem 0;
+  font-size: 1.5rem;
+  text-align: center; }
+  ul.posts-list .card h1 a:link, ul.posts-list .card h1 a:visited {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #58595B !important; }
+
+.post .date, .card .date {
+  display: block;
+  text-align: center;
+  margin-top: -1.5rem;
+  margin-bottom: 2rem;
+  color: tint(#58595B, 32%); }
+
+body {
+  display: none; }
 
 /*# sourceMappingURL=output.css.map */
