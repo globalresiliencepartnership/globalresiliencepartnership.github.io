@@ -1,8 +1,19 @@
 exclude:
   - README.md
   - .gitignore
+  - source_assets
+  - config.rb
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
-permalink: /:title
+permalink: blog/:year/:month/:day/:title
 baseurl: 
+
+domain: http://www.globalresiliencepartnership.org
+
+collections:
+  index_sections:
+    output: false
+
+  selected_teams:
+    output: false
