@@ -966,22 +966,38 @@ ul.social li a:hover {
   margin: 0;
 }
 /* line 39, ../../source_assets/styles/_calendar.scss */
+.calendar .card-list li {
+  max-width: 40rem;
+  margin: 0 auto 3rem auto;
+}
+@media only screen and (min-width: 779px) {
+  /* line 39, ../../source_assets/styles/_calendar.scss */
+  .calendar .card-list li {
+    margin-bottom: 5rem;
+  }
+}
+/* line 49, ../../source_assets/styles/_calendar.scss */
 .calendar .card {
   position: relative;
-  max-width: 40rem;
-  margin: 0 auto 5rem auto;
+  margin: 0 1rem;
 }
-/* line 45, ../../source_assets/styles/_calendar.scss */
+@media only screen and (min-width: 779px) {
+  /* line 49, ../../source_assets/styles/_calendar.scss */
+  .calendar .card {
+    margin: 0;
+  }
+}
+/* line 58, ../../source_assets/styles/_calendar.scss */
 .calendar .card .content {
   overflow: hidden;
   max-height: 100px;
   margin-bottom: 2rem;
 }
-/* line 50, ../../source_assets/styles/_calendar.scss */
+/* line 63, ../../source_assets/styles/_calendar.scss */
 .calendar .card .content > *:last-child {
   margin-bottom: 0;
 }
-/* line 55, ../../source_assets/styles/_calendar.scss */
+/* line 68, ../../source_assets/styles/_calendar.scss */
 .calendar .card .more {
   display: none;
   margin: 0 auto;
@@ -990,23 +1006,23 @@ ul.social li a:hover {
   padding: 0.5rem 1rem;
   text-align: center;
 }
-/* line 63, ../../source_assets/styles/_calendar.scss */
+/* line 76, ../../source_assets/styles/_calendar.scss */
 .calendar .card .more:link, .calendar .card .more:active {
   color: #FFF !important;
 }
-/* line 67, ../../source_assets/styles/_calendar.scss */
+/* line 80, ../../source_assets/styles/_calendar.scss */
 .calendar .card .more:hover {
   background: #009EDE;
 }
-/* line 71, ../../source_assets/styles/_calendar.scss */
+/* line 84, ../../source_assets/styles/_calendar.scss */
 .calendar .card .more.revealed {
   display: block;
 }
-/* line 78, ../../source_assets/styles/_calendar.scss */
+/* line 91, ../../source_assets/styles/_calendar.scss */
 .calendar li:last-child .card {
   margin-bottom: 0;
 }
-/* line 82, ../../source_assets/styles/_calendar.scss */
+/* line 95, ../../source_assets/styles/_calendar.scss */
 .calendar .pub-date {
   position: absolute;
   top: -2rem;
