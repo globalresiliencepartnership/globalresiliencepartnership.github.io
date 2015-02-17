@@ -78,7 +78,7 @@
 		<div class='medium-3 columns'>
 			<h2>Publications</h2>
 			<p>For more resilience-related literature, please visit <a href='http://www.rockefellerfoundation.org/blog/publications/32' target='_blank'>Rockefeller Foundation's site</a> and the <a href='http://www.usaid.gov/resilience/resources' target='_blank'>Resilience Resources</a> on USAID's site.</p>
-			<p class='link'><a href='{{site.baseurl}}/resource/GRP_Brochure.pdf' download='GRP_Brochure.pdf'>Download the GRP Brochure </a>for additional information.</p>
+			<p class='link'><a href='{{site.baseurl}}/resource/GRP_Brochure.pdf' download='GRP_Brochure.pdf' onClick="_gaq.push(['_trackEvent', 'Click', 'Download', 'GRP_Brochure']);">Download the GRP Brochure </a>for additional information.</p>
 		</div>
 		<div class='medium-3 columns'>
 			<h2>Credits</h2>
@@ -105,14 +105,17 @@
 	<script src='{{site.baseurl}}/assets/scripts/site.js'></script>
 
 	<!-- Google Analytics -->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<script type="text/javascript">
 
-	  ga('create', 'UA-55784219-1', 'auto');
-	  ga('send', 'pageview');
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-55784219-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
 
 	</script>
 
