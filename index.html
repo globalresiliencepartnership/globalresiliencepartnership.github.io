@@ -2,10 +2,125 @@
 layout: default
 ---
 
-<div class='intro clearfix'>
-  <div class='pop'>
-    {% assign intros = site.index_sections | where: "categories", "intro" | where: "published", true %} {% for post in intros %}
-    <h1><em>{{post.emphasize}}</em><br>
-    {{post.content}}</h1>{% endfor %}
+<section class="hero">
+<div class="row row-intro">
+  <div class="medium-7 large-6 columns">
+   <h1>Welcome</h1>
+   <h2>The Global Resilience Partnership, convened by <a href="#">The Rockefeller Foundation</a>, <a href="#">USAID</a>, and <a href="#">SIDA</a> aims to help millions in Africa and Asia build more resilient futures.</h2>
   </div>
 </div>
+
+<div class="row">
+  <div class="medium-7 large-6 columns">
+    <p>Follow us on</p>
+    <ul class="button-group round even-3">
+    <li><a class="small button" href="#">Twitter</a></li>
+    <li><a class="small button" href="#">Facebook</a></li>
+    <li><a class="small button" href="#">LinkedIn</a></li>
+   </ul>
+  </div>
+ </div>
+ 
+ <div class="row">
+   <div class="medium-offset-9 medium-3 columns">
+      <a class="large round button" href="#">Latest updates</a>
+   </div>
+ </div>
+</section>
+
+
+<section class="sign-up">
+  <div class="row medium-6 offset-medium-3 small-7">
+	<p>Sign up for email updates</p>
+	{% include mailchimp.html %}
+  </div>
+</section>
+
+
+
+<section class="hero">
+<div class="row">
+  <div class="medium-7 large-6 columns">
+   <h1>Challenge</h1>
+   <h2>An essential feature of the Resilience Partnership is a multi-phase resilience design challenge, focused on bringing together people and organizations from across sectors to collaborate on bold and innovative solutions to the toughest resilience challenges.</h2>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="medium-7 large-6 columns">
+    <p>Learn more</p>
+    <ul class="button-group round even-3">
+    <li><a class="small button" href="#">Teams</a></li>
+    <li><a class="small button" href="#">Timeline</a></li>
+    <li><a class="small button" href="#">FAQ</a></li>
+   </ul>
+  </div>
+ </div>
+
+ <div class="row">
+   <div class="medium-offset-9 medium-3 columns">
+      <a class="large round button" href="#">Learn more</a>
+   </div>
+ </div>
+
+</section>
+
+ 
+
+<section class="hero">
+<div class="row">
+  <div class="medium-7 large-6 columns">
+  <h1>Data</h1>
+   <h2>The Global Resilience Partnership, convened by @RockefellerFdn, @USAID, and @SIDA aims to help millions in Africa and Asia build more resilient futures.</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="medium-6 large-5 columns">
+    <p>Browse data</p>
+    <ul class="button-group round even-2">
+    <li><a class="small button" href="develop/download.html">Map</a></li>
+    <li><a class="small button" href="develop/download.html">Download</a></li>
+   </ul>
+  </div>
+</div>
+
+ <div class="row">
+   <div class="medium-offset-9 medium-3 columns">
+      <a class="large round button" href="#">View the data</a>
+   </div>
+ </div>
+
+</section>
+
+
+<section class="hero">
+<div class="row">
+  <div class="medium-7 large-6 columns">
+  <h1>Blog</h1>
+   <h2>The Global Resilience Partnership, convened by @RockefellerFdn, @USAID, and @SIDA aims to help millions in Africa and Asia build more resilient futures.</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="medium-6 large-5 columns">
+    <p>Latest post</p>
+    <ul class="button-group round even-1">
+    <li><a class="small button" href="#">16 Teams Selected to Develop Innovative Solutions to Global Resilience Challenges</a></li>
+   </ul>
+ </div>
+</div>
+
+<div class="row">
+   <div class="medium-offset-9 medium-3 columns">
+      <a class="large round button" href="#">View all posts</a>
+   </div>
+ </div>
+
+</section>
+
+
+
+
+
