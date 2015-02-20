@@ -1,5 +1,6 @@
 ---
 title: Integrated Landscape Management for Resilience in the Horn of Africa
+layout: team
 
 image: 
 

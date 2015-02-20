@@ -5,39 +5,40 @@ title: Rethinking the approach
 ---
 {% assign sections = site.index_sections | where: "categories", "section" %}
 
-<div class='below-intro'>
-
-
   {% for post in sections %}
   <section class='clearfix {{post.class}} index-post'>
-  
     {% if post.tags contains 'challenge' %}
     
     {% else %}
     
-  
-    {% if post.tags contains 'logo'%}
-
-    <div class='row'>
-      <div class='logo'><img src=
-      '{{site.baseurl}}/img/logos/grp-color-tagline.png'></div>
-    </div>
     
-    {% endif %} {% if post.tags contains 'map'%}
+    {% if post.tags contains 'map'%}
 
     <div class='map' id='map'></div>
     
     {% endif %}
 
     <div class="row">
+      <div class="medium-12 columns">
       {% if post.tags contains 'map' %}
 
       <div class='map-intro'>
         <h1 class='pop'>{{post.content}}</h1>
       </div>{% else %} {{post.content}} 
       {% endif %}
+      </div>
     </div>
     
+   {% if post.tags contains 'logo'%}
+
+    <div class='row'>
+      <div class="medium-12 columns">
+      <div class='logo'>
+      <img src='{{site.baseurl}}/img/logos/grp-color-tagline.png'></div>
+      </div>
+    </div>
+    
+    {% endif %} 
     
   </section>
   
@@ -46,4 +47,3 @@ title: Rethinking the approach
   {% endfor %}
 
   <div></div>
-</div>

@@ -1,5 +1,6 @@
 ---
 title: Scaling Resilient Rural Livelihoods in Ecologically Fragile Drylands of the Sahel
+layout: team
 
 image: 
 

@@ -46,6 +46,7 @@ ul.posts-list {
     box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 1;
+    overflow: hidden;
   }
   .content h1 {
     margin: 0 0 1rem 0;
@@ -124,5 +125,10 @@ ul.social {
   ul.winner-list .card,
   .blog {
     height: auto;
+  }
+  .post {
+  .content {
+    padding: 5rem 2rem;  
+  }
   }
 }
