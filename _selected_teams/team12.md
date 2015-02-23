@@ -1,5 +1,6 @@
 ---
 title: Climate Change Challenges and Community Adaption in Coastal Bangladesh (CCAD)
+layout: team
 
 image: 
 

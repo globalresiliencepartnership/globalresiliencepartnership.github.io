@@ -1,5 +1,6 @@
 ---
 title: "Mitigating Pastoralists' Risks: Livestock Trade in the Horn of Africa"
+layout: team
 
 image: 
 

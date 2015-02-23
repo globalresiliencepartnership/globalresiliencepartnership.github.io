@@ -17,6 +17,7 @@ collections:
 
   selected_teams:
     output: false
+	permalink: /teams/:path/
 
 prose:
   metadata:

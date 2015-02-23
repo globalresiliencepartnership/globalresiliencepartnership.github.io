@@ -1,5 +1,6 @@
 ---
 title: Crowdsourcing Community Resilience in Urban Slums
+layout: team
 
 image: 
 

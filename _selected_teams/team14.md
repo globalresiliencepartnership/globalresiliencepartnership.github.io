@@ -1,5 +1,6 @@
 ---
 title: "Dialing Up Resilience: Mobilizing ICTs to Enhance Bottom-up Resilience Measurement, Programming, and Governance in the Horn of Africa"
+layout: team
 
 image: 
 

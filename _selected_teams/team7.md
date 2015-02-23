@@ -1,5 +1,6 @@
 ---
 title: Private Sector Action to Build Resilient Supply Chain Communities
+layout: team
 
 image: 
 
