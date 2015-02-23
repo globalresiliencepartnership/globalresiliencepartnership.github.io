@@ -9,10 +9,44 @@ focus: South and Southeast Asia
 expertise:
   - Applying risk information to community resilience
 
+innovation: Mobile technology to gather information for resilience
+
+thematic_area: urban
+
 organizations:
   - American Red Cross
+
+countries: 
+  - Bangladesh
+
+local_org: 
+  - Bangladesh Red Crescent Society
+  - Dnet
+  - bGlobal Interactive
+
+intl_org:
+  - ICLEI - Local Governments for Sustainability
+  - "World Bank's Global Facility for Disaster Reduction and Recovery (GFDRR)""
+  - Red Cross Red Crescent Climate Centre
+  - GroundTruth Initiative
+  - Ushahidi
+
+team_lead: "Robert Laprade, American Red Cross, US"
+
+budget: "US$ 199,995"
+
 ---
 
-Effective tracking and measurement of resilience can ensure that resilience-related policies and programs are supporting the right activities and targeting the right people. Monitoring of resilience program effectiveness, rapid post-disaster assessment, & targeted social protection activities all require robust tracking of resilience across different scales. Yet despite growing interest in supporting resilience in the Horn of Africa, approaches to tracking resilience have not been able to deliver desired policy support. Much of this relates to disagreements over the right indicators, and failure to address the context-specific nature of resilience. For the tracking and measurement of resilience to have substantial policy impact, alternative approaches are needed.
+Cities concurrently contain barriers and hold the seeds for building resilience. Traditional project-based interventions do not build enough on local capacities and are not transformational. Strengthening resilience requires approaches that engage communities to build, access, and utilize their own information resources to shift collective decision-making toward resilient outcomes, at both household and community levels. Solutions created by local change agents are much more likely to be inclusive, adaptive, and self-organizing – capitalizing on innovative ways of communicating, connecting, and acting. The Team will use a series of linked analysis and design activities to explore new ways to use information to assess risks and expand the adaptive strategies of urban slum communities through the following steps:
 
-We propose a new approach to understanding resilience in the Horn and elsewhere: a focus on subjective resilience. Unlike traditional approaches to measuring resilience that rely on objective indicators – such as levels of income, education, and other socio-economic variables – the tracking of subjective resilience operates from the bottom-up. It centers on an individual’s perception of their own livelihood resilience and captures people’s insights into their own capabilities, capacities, and limitations. At its simplest, it involves asking people to take into consideration the various factors that contribute to their livelihoods and judge how resilient they consider themselves to be to given shocks and stresses. This innovation builds on the recent success of the concept of subjective wellbeing, which has opened up an entirely new area of research and transformed how subjective information is fed into national development policies (Dolan 2014). Drawing on long-standing techniques used in the assessment of psychological resilience, subjective livelihood resilience will be measured by combining a series of targeted questions addressing different aspects of a person’s resilience: from their ability to cope with shocks and stresses, to their capacity to adapt to changing external pressures. Information on subjective resilience can either be used on its own, or combined with objective indicators to gain a more holistic understanding of who is (and isn’t) resilient, what specific factors contribute to resilience, and what impact resilience-building initiatives are having on people’s collective resilience.
+1. Improving access to risk information on the part of the most vulnerable to better diagnose local barriers to resilience themselves. The Team will leverage the Red Cross’ involvement in the Missing Maps project to explore solutions for engaging community teams in crowdsourcing community infrastructure, vulnerability, and other resilience data (including political, economic, social, and cultural drivers of risk). Gathering existing and new data and mapping it in an open, non-proprietary platform will engage wide audiences, including community members, civil society organizations, and city authorities. The Team will plan for transparency and coordination using Ushahidi’s online tools to report geocoded activities, adhering to International Aid Transparency Initiative standards and reporting at granular levels through the Foreign Assistance Dashboard, and using the USAID privacy policy and Open Data Privacy Analysis Template as guidance.
+
+2. Enhancing collective decision-making for local resilience solutions based on risk information. The Team will use a local ‘open design’ challenge to engage communities in designing resilience solutions that leverage risk information in innovative ways to inform:
+
+* DIY approaches that individuals and communities can self-organize and self-resource
+* creative resourcing to draw out hidden capacities, e.g. through local coalitions
+* advocacy and incentives for adoption, e.g. using minimum standards for resilience to guide decision-making
+* systems-based approaches that draw on and protect environmental and social goods and services
+* emerging technologies to reduce barriers to entry
+
+In addition to the solutions identified, the local design process itself will be a replicable product. Cross-learning and peer-sharing to increase networking and drive wider scaling. The leverage points identified for local solutions in the open design process will also provide insight into key elements needed to foster agency and self-organization on resilience that can be promoted for cross-learning and peer-sharing between communities and enable wider opt-in and scaling.

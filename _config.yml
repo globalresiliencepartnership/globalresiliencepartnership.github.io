@@ -16,5 +16,82 @@ collections:
     output: false
 
   selected_teams:
-    output: true
-    permalink: /teams/:path/
+    output: false
+	permalink: /teams/:path/
+
+prose:
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "Subtitle"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+    _selected_teams:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+      - name: "focus"
+        field:
+          element: "text"
+          label: "focus"
+      - name: "expertise"
+        field:
+          element: multiselect
+          label: "expertise"
+          help: "Enter expertise"
+          alterable: true
+      - name: "innovation"
+        field:
+          element: "text"
+          label: "innovation"
+      - name: "thematic_area"
+        field:
+          element: "text"
+          label: "thematic_area"
+      - name: "organizations"
+        field:
+          element: multiselect
+          label: "organizations"
+          help: "Enter organizations names"
+          alterable: true
+      - name: "countries"
+        field:
+          element: multiselect
+          label: "countries"
+          help: "Enter countries names"
+          alterable: true
+      - name: "local_org"
+        field:
+          element: multiselect
+          label: "local_org"
+          help: "Enter local organization names"
+          alterable: true
+      - name: "intl_org"
+        field:
+          element: multiselect
+          label: "intl_org"
+          help: "Enter intl organization names"
+          alterable: true
+      - name: "team_lead"
+        field:
+          element: multiselect
+          label: "team_lead"
+          help: "Enter team lead names"
+          alterable: true
+      - name: "budget"
+        field:
+          element: "text"
+          label: "budget"

@@ -11,4 +11,19 @@ expertise:
 
 organizations:
   - Stichting TAHMO
+
+innovation: 
+
+thematic_area:
+
+countries: 
+
+local_org: 
+
+intl_org:
+
+team_lead: 
+
+budget: 
+
 ---

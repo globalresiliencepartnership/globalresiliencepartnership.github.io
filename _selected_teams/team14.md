@@ -1,5 +1,5 @@
 ---
-title: "Dialling Up Resilience: Mobilizing ICTs to Enhance Bottom-up Resilience Measurement, Programming, and Governance in the Horn of Africa"
+title: "Dialing Up Resilience: Mobilizing ICTs to Enhance Bottom-up Resilience Measurement, Programming, and Governance in the Horn of Africa"
 layout: team
 
 image: 
@@ -12,4 +12,29 @@ expertise:
 organizations:
   - Overseas Development Institute
   - CGIAR Research Programme on Climate Change, Agriculture and Food Security (CCAFS)
+
+innovation: Using mobile phone technology to collect and analyze big data
+
+thematic_area: Research and Policy Think Tank
+
+countries: 
+  - Kenya
+
+local_org: 
+  - "Government of Kenya National Drought Management Authority (NDMA), Ministry for the Development of Northern Kenya and other Arid Lands"
+  - "Consultative Group on International Agricultural Research (CGIAR) program for Climate Change, Agriculture, and Food Security (CCAFS)"
+
+intl_org:
+  - Mobile Accord, Inc. (GeoPoll)
+  - Data-Pop Alliance
+  - Massachusetts Institute of Technology
+
+team_lead: 
+
+budget: "US$ 199,982"
+
 ---
+
+Effective tracking and measurement of resilience can ensure that   resilience-related policies and programs are supporting the right activities and targeting the right people. Monitoring of resilience program effectiveness, rapid post-disaster assessment, & targeted social protection activities all require robust tracking of resilience across different scales. Yet despite growing interest in supporting resilience in the Horn of Africa, approaches to tracking resilience have not been able to deliver desired policy support. Much of this relates to disagreements over the right indicators, and failure to address the context-specific nature of resilience. For the tracking and measurement of resilience to have substantial policy impact, alternative approaches are needed.
+
+We propose a new approach to understanding resilience in the Horn and elsewhere: a focus on subjective resilience. Unlike traditional approaches to measuring resilience that rely on objective indicators – such as levels of income, education, and other socio-economic variables – the tracking of subjective resilience operates from the bottom-up. It centers on an individual’s perception of their own livelihood resilience and captures people’s insights into their own capabilities, capacities, and limitations. At its simplest, it involves asking people to take into consideration the various factors that contribute to their livelihoods and judge how resilient they consider themselves to be to given shocks and stresses. This innovation builds on the recent success of the concept of subjective wellbeing, which has opened up an entirely new area of research and transformed how subjective information is fed into national development policies (Dolan 2014). Drawing on long-standing techniques used in the assessment of psychological resilience, subjective livelihood resilience will be measured by combining a series of targeted questions addressing different aspects of a person’s resilience: from their ability to cope with shocks and stresses, to their capacity to adapt to changing external pressures. Information on subjective resilience can either be used on its own, or combined with objective indicators to gain a more holistic understanding of who is (and isn’t) resilient,  what specific factors contribute to resilience, and what impact resilience-building initiatives are having on people’s collective resilience.
