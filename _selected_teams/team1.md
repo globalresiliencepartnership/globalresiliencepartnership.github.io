@@ -25,8 +25,8 @@ local_org:
   - bGlobal Interactive
 
 intl_org:
-  - ICLEI - Local Governments for Sustainability
-  - "World Bank's Global Facility for Disaster Reduction and Recovery (GFDRR)""
+  - "ICLEI - Local Governments for Sustainability"
+  - "World Bank's Global Facility for Disaster Reduction and Recovery (GFDRR)"
   - Red Cross Red Crescent Climate Centre
   - GroundTruth Initiative
   - Ushahidi
