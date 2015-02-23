@@ -90,6 +90,10 @@ small {
 		}
 	}
 }
+#map {
+  height: 700px;
+  width: 100%;
+}
 [data-magellan-expedition],
 [data-magellan-expedition-clone]{
 	z-index:9999; /* overwrite the map attribution */
