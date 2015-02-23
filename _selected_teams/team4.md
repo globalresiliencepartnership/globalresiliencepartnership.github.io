@@ -1,5 +1,6 @@
 ---
 title: Building Resilience of Smallholder Farmers in Southeast Asia
+layout: team
 
 image: 
 

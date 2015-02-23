@@ -1,5 +1,6 @@
 ---
 title: "Disability and Disasters: Empowering People and Building Resilience to Risk"
+layout: team
 
 image: 
 
