@@ -61,6 +61,12 @@ small {
 		text-shadow:none;
 	}
 }
+a:hover,
+a:focus {
+  color: #FF8000 !important;
+  color: #999 !important;
+}
+
 
 [data-magellan-expedition],
 [data-magellan-expedition-clone]{
@@ -89,32 +95,6 @@ small {
 		}
 	}
 }
-/*
-ul {
-	margin:0;
-	margin-bottom:$pad*2;
-	li {
-		list-style:none;
-		margin:0 $pad-large;
-		padding:$pad $pad 0;
-		color:$green;
-		border-left:	  $border $green;
-		border-right:	  $border $green;
-		background:$off-white;
-		&:first-child {
-			background:$green;
-			color:$white;
-			text-transform: uppercase;
-			text-align: center;
-			padding:$pad/2 $pad;
-		}
-		&:last-child {
-			border-bottom:$border $green;
-			padding-bottom:$pad;
-		}
-	}
-}
-*/
 ul {
   list-style-type: none;
   padding: 0;
@@ -209,9 +189,6 @@ section {
 		text-align: center;
 	}
 }
-
-
-
 
 
 
@@ -390,7 +367,7 @@ ul.winner-list {
     
 	.card {
 	    border-top: 4px solid #46863C;
-	    height: 475px;
+	    height: 200px;
 	    padding: 2rem;
 	    margin-top: 30px;
 	     box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
@@ -575,6 +552,42 @@ button,
   }
 }
 
+.row-partners {
+  padding: 80px 0;
+  #rockefeller-logo {
+    width: 150px;
+    height: 100px;
+    text-indent: -9999px;
+    background: url("../../img/rockefeller-desat.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: block;
+    float: left;
+    margin: 0 50px 0 0;
+  }
+  #usaid-logo {
+    width: 100px;
+    height: 100px;
+    text-indent: -9999px;
+    background: url("../../img/usaid-desat.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: block;
+    float: left;
+    margin: 0 50px 0 0;
+  }
+  #sweden-logo {
+    width: 100px;
+    height: 80px;
+    text-indent: -9999px;
+    background: url("../../img/sweden-desat.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: block;
+    float: left;
+  }
+}
+
 footer {
   padding: 40px 0;
   p {
@@ -584,5 +597,30 @@ footer {
   }
   a {
     color: #ccc;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  
+ .sign-up #mce-EMAIL {
+    width: 100%;
+  }
+ .sign-up #mc-embedded-subscribe {
+    width: 80%;
+    margin: 20px 0 0 20px;
+  }
+  .row-partners a {
+    float: none !important;
+    margin: 0 auto 40px auto !important;
+    width: 60% !important;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .row-partners a {
+    float: none !important;
+    margin: 0 auto 40px auto !important;
+    width: 60% !important;
   }
 }

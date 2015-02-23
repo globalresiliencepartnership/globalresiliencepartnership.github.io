@@ -6,7 +6,7 @@ layout: default
 <div class="row row-intro">
   <div class="medium-7 large-6 columns">
    <h1>Welcome</h1>
-   <h2>The Global Resilience Partnership, convened by <a href="#">The Rockefeller Foundation</a>, <a href="#">USAID</a>, and <a href="#">SIDA</a> aims to help millions in Africa and Asia build more resilient futures.</h2>
+   <h2>The Global Resilience Partnership, convened by <a target="blanc" href="http://www.rockefellerfoundation.org/">The Rockefeller Foundation</a>, <a target="blanc" href="http://www.usaid.gov/">USAID</a>, and <a target="blanc" href="http://www.sida.se/English">SIDA</a> aims to help millions in Africa and Asia build more resilient futures.</h2>
   </div>
 </div>
 
@@ -14,26 +14,21 @@ layout: default
   <div class="medium-7 large-6 columns">
     <p>Follow us on</p>
     <ul class="button-group round even-3">
-    <li><a class="small button" href="#">Twitter</a></li>
-    <li><a class="small button" href="#">Facebook</a></li>
-    <li><a class="small button" href="#">LinkedIn</a></li>
+    <li><a class="small button" target="blanc" href="https://twitter.com/grp_resilience">Twitter</a></li>
+    <li><a class="small button" target="blanc" href="#">Facebook</a></li>
+    <li><a class="small button" target="blanc" href="https://www.linkedin.com/groups/Global-Resilience-Challenge-Discussion-Group-8194646/about">LinkedIn</a></li>
    </ul>
+   <p><a href="#sign-up">Sign up</a> for email updates</p>
   </div>
  </div>
  
  <div class="row">
    <div class="medium-offset-9 medium-3 columns">
-      <a class="large round button" href="#">Latest updates</a>
+      <a class="large round button" href="{{site.baseurl}}/approach">Learn more</a>
    </div>
  </div>
 </section>
 
-<section class="sign-up">
-  <div class="row medium-6 offset-medium-3 small-7">
-	<p>Sign up for email updates</p>
-	{% include mailchimp.html %}
-  </div>
-</section>
 
 <section class="hero section-challenge">
 <div class="row">
@@ -48,16 +43,16 @@ layout: default
   <div class="medium-7 large-6 columns">
     <p>Learn more</p>
     <ul class="button-group round even-3">
-    <li><a class="small button" href="#">Teams</a></li>
+    <li><a class="small button" href="{{site.baseurl}}/teams">Teams</a></li>
     <li><a class="small button" href="#">Timeline</a></li>
-    <li><a class="small button" href="#">FAQ</a></li>
+    <li><a class="small button" href="{{site.baseurl}}/resource/challenge-docs/FAQ_GlobalResilienceChallenge_English.pdf">FAQ</a></li>
    </ul>
   </div>
  </div>
 
  <div class="row">
    <div class="medium-offset-9 medium-3 columns">
-      <a class="large round button" href="#">Learn more</a>
+      <a class="large round button" href="{{site.baseurl}}/challenge">Learn more</a>
    </div>
  </div>
 
@@ -104,14 +99,16 @@ layout: default
   <div class="medium-6 large-5 columns">
     <p>Latest post</p>
     <ul class="button-group round even-1">
-    <li><a class="small button" href="#">16 Teams Selected to Develop Innovative Solutions to Global Resilience Challenges</a></li>
+     {% for post in site.posts limit: 1 %}
+    <li><a class="small button" href="{{ post.url }}">{{ post.title }}</a></li>
+     {% endfor %}
    </ul>
  </div>
 </div>
 
 <div class="row">
    <div class="medium-offset-9 medium-3 columns">
-      <a class="large round button" href="#">View all posts</a>
+      <a class="large round button" href="{{site.baseurl}}/blog">View all posts</a>
    </div>
  </div>
 

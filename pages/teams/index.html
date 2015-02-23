@@ -16,35 +16,8 @@ title: Selected Teams
         </div>
         {% endif %}
         <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  
-       
-
-        <dl class="metadata">
-          <dt>Geographic focus</dt>
-          <dd>{{ post.focus }}</dd>
-          
-          <dt>Areas of expertise</dt>
-          <dd>
-            <ul class="enum">
-              {% for exp in post.expertise %}
-              <li>{{ exp }}</li>
-              {% endfor %}
-            </ul>
-          </dd>
-
-          <dt>Lead Organizations</dt>
-          <dd>
-            <ul class="enum">
-              {% for org in post.organizations %}
-              <li>{{ org }}</li>
-              {% endfor %}
-            </ul>
-          </dd>
-
-        </dl>
-
-      </article>
-    </li>
+      </li>
     {% endfor %}
   </ul>
+  
 </div>

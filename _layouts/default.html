@@ -16,7 +16,7 @@
 	<link href='{{site.baseurl}}/assets/styles/style-ie9.css' rel='stylesheet'/>
 	<![endif]-->
 	<link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="≈/img/favicon.ico" type="image/x-icon">
 </head>
 <body class='{{page.class}}'>
 	
@@ -38,7 +38,7 @@
   <nav class="top-bar" data-topbar="" data-options="is_hover: false">
     <ul class="title-area">
       <li class="name">
-        <h1><a href="/">Global Resilience Partnership</a></h1>
+        <h1><a href="{{site.baseurl}}/">Global Resilience Partnership</a></h1>
       </li>
       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 
@@ -52,24 +52,26 @@
 
       <ul class="right">
         <li>
-          <a href="/approach">Approach</a>
+          <a href="{{site.baseurl}}/approach">Approach</a>
         </li>
         <li>
-          <a href="/challenge">Challenge</a>
+          <a href="{{site.baseurl}}/challenge">Challenge</a>
         </li>
           <li>
-          <a href="/teams">Teams</a>
+          <a href="{{site.baseurl}}/teams">Teams</a>
         </li>
         <!--
         <li>
           <a href="/data">Data</a>
         </li>
         -->
+        <!--
         <li>
           <a href="/events">Events</a>
         </li>
+        -->
         <li>
-          <a href="/blog">Blog</a>
+          <a href="{{site.baseurl}}/blog">Blog</a>
         </li>
       </ul><!-- Left Nav Section -->
 
@@ -84,16 +86,25 @@
 
 	<section class="sign-up">
 	  <div class="row medium-6 offset-medium-3 small-7">
-	    <p>Sign up for email updates</p>
+	    <p><a id="sign-up"></a> Sign up for email updates</p>
         {% include mailchimp.html %}
 	  </div>
 	</section>
 
+	<section class="partners">
+		<div class="row row-partners">
+		  <div class="medium-6 medium-offset-3">
+		  <a id="rockefeller-logo" href="http://www.rockefellerfoundation.org/">The Rockefeller Foundation</a>
+		  <a id="usaid-logo" href="http://www.usaid.gov/">USAID</a>
+		  <a id="sweden-logo" href="http://www.sida.se/English/">SIDA</a>
+		  </div>
+		</div>
+	</section>
 
 	<footer>
 	
-	<div class='row'>
-		<div class='medium-8 columns'>
+	<div class="row">
+		<div class="medium-8 columns">
 		 <p><a href="{{site.baseurl}}/privacy">Privacy Policy</a></p>
 		  <!--<p>For more resilience-related literature, please visit <a href='http://www.rockefellerfoundation.org/blog/publications/32' target='_blank'>Rockefeller Foundation's site</a> and the <a href='http://www.usaid.gov/resilience/resources' target='_blank'>Resilience Resources</a> on USAID's site.</p>-->
 		  <!--<p class='link'><a href='{{site.baseurl}}/resource/GRP_Brochure.pdf' download='GRP_Brochure.pdf' onClick="_gaq.push(['_trackEvent', 'Click', 'Download', 'GRP_Brochure']);">Download the GRP Brochure </a>for additional information.</p>-->
@@ -102,13 +113,13 @@
 			Icons: World designed by Juan Pablo Bravo; Explore, Group Talk, Writing, Presentation designed by <a href="http://www.thenounproject.com/takaoumehara">Takao Umehara</a> from the <a href="http://www.thenounproject.com">Noun Project</a></p>-->
 		</div>	
 		
-		<div class='medium-3 columns'>		
+		<div class="medium-3 columns">		
 			<p class='website'>Website by <a href='http://developmentseed.org'>Development Seed</a></p>
 			
 		</div>
 		
 		
-		<div class='medium-3 columns'>
+		<div class="medium-3 columns">
 		  
 		</div>	
 			<!--
