@@ -11,7 +11,7 @@ layout: page
     </ul>
 
     <h1>{{ page.title }}</h1>
- 	<h2>Using mobile phone technology to collect and analyze big data</h2>
+ 	<h2>{{ page.innovation }}</h2>
  	
  	 </div>
  	</div> 
@@ -22,53 +22,47 @@ layout: page
 	  <div class="content">
 		<div class="medium-4 columns">
 		  <h3>Region</h3>
-		  <p>Horn of Africa</p>
+		  <p>{{ page.focus }}</p>
 		</div>
 
 		<div class="medium-4 columns">
 		  <h3>Countries</h3>
-		  <p>Kenya</p>
+		  <p>{{ page.countries }}</p>
 		</div>
 
 		<div class="medium-4 columns">
 		  <h3>Technical Focus Area</h3>
-		  <p>Tracking and measuring resilience</p>
+		  <p>{{ page.expertise }}</p>
 		</div>
 
 		<div class="medium-4 columns">
 		  <h3>Initial Budget</h3>
-		  <p>US$ 199,982</p>
+		  <p>{{ page.budget }}</p>
 		</div>
 
 		<div class="medium-4 columns">
 		  <h3>Thematic Area</h3>
-		  <p>Research and Policy Think Tank</p>
+		  <p>{{ page.thematic_area }}</p>
+		</div>
+		
+		<div class="medium-4 columns">
+		  <h3>Team Lead</h3>
+		  <p>{{ page.team_lead }}</p>
 		</div>
 
 		<div class="medium-4 columns">
-		  <h3>Type of Lead Organization</h3>
-		  <p>Other</p>
-		</div>
-
-		<div class="medium-4 columns">
-		  <h3>Disciplines</h3>
-		  <p>Academics, scientists, researchers, pollsters, change management
-		  professionals, data and survey managers</p>
+		  <h3>Lead Organization</h3>
+		  <p>{{ page.organizations }}</p>
 		</div>
 
 		<div class="medium-4 columns">
 		  <h3>Local Partners</h3>
-		  <p>Government of Kenya National Drought Management Authority (NDMA),
-		  Ministry for the Development of Northern Kenya and other Arid Lands,
-		  government; Consultative Group on International Agricultural Research
-		  (CGIAR) program for Climate Change, Agriculture, and Food Security
-		  (CCAFS)</p>
+		  <p>{{ page.local_org }}</p>
 		</div>
 
 		<div class="medium-4 columns">
 		  <h3>International Partners</h3>
-		  <p>Mobile Accord, Inc. (GeoPoll), private sector; Data-Pop Alliance,
-		  academic consortium; Massachusetts Institute of Technology, academia</p>
+		  <p>{{ page.intl_org }}</p>
 		</div>
 	  </div>
 	</div>
