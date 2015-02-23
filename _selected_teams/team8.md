@@ -12,4 +12,19 @@ expertise:
 
 organizations:
   - International Union for Conversation of Nature
+
+innovation: 
+
+thematic_area:
+
+countries: 
+
+local_org: 
+
+intl_org:
+
+team_lead: 
+
+budget: 
+
 ---
