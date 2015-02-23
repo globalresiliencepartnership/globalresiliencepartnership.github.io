@@ -10,7 +10,7 @@ expertise:
 
 innovation: Mobile technology to gather information for resilience
 
-thematic-area: urban
+thematic_area: urban
 
 organizations:
   - American Red Cross
@@ -18,19 +18,19 @@ organizations:
 countries: 
   - Bangladesh
 
-local-org: 
+local_org: 
   - Bangladesh Red Crescent Society
   - Dnet
   - bGlobal Interactive
 
-intl-org:
+intl_org:
   - ICLEI - Local Governments for Sustainability
   - "World Bank's Global Facility for Disaster Reduction and Recovery (GFDRR)""
   - Red Cross Red Crescent Climate Centre
   - GroundTruth Initiative
   - Ushahidi
 
-team-lead: "Robert Laprade, American Red Cross, US"
+team_lead: "Robert Laprade, American Red Cross, US"
 
 budget: "US$ 199,995"
 
