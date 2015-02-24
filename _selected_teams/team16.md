@@ -38,7 +38,7 @@ intl_org:
   - Deltares
   - Wildlife Conservation Society
 
-team_lead: "Michael W. Beck, The Nature Conservancy, USA
+team_lead: "Michael W. Beck, The Nature Conservancy, USA"
 
 budget: "US$ 225,000"
 
