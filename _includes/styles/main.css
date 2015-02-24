@@ -1031,45 +1031,46 @@ ul.social li a:hover {
 .calendar .section-title {
   padding: 0;
   margin: 4rem 0 3rem 0;
+  text-align: center;
 }
-/* line 34, ../../source_assets/styles/_calendar.scss */
+/* line 35, ../../source_assets/styles/_calendar.scss */
 .calendar .card-list {
   list-style: none;
   margin: 0;
 }
-/* line 38, ../../source_assets/styles/_calendar.scss */
+/* line 39, ../../source_assets/styles/_calendar.scss */
 .calendar .card-list li {
   max-width: 40rem;
   margin: 0 auto 3rem auto;
 }
 @media only screen and (min-width: 779px) {
-  /* line 38, ../../source_assets/styles/_calendar.scss */
+  /* line 39, ../../source_assets/styles/_calendar.scss */
   .calendar .card-list li {
     margin-bottom: 5rem;
   }
 }
-/* line 48, ../../source_assets/styles/_calendar.scss */
+/* line 49, ../../source_assets/styles/_calendar.scss */
 .calendar .card {
   position: relative;
   margin: 0 1rem;
 }
 @media only screen and (min-width: 779px) {
-  /* line 48, ../../source_assets/styles/_calendar.scss */
+  /* line 49, ../../source_assets/styles/_calendar.scss */
   .calendar .card {
     margin: 0;
   }
 }
-/* line 57, ../../source_assets/styles/_calendar.scss */
+/* line 58, ../../source_assets/styles/_calendar.scss */
 .calendar .card .content {
   overflow: hidden;
   max-height: 100px;
   margin-bottom: 2rem;
 }
-/* line 62, ../../source_assets/styles/_calendar.scss */
+/* line 63, ../../source_assets/styles/_calendar.scss */
 .calendar .card .content > *:last-child {
   margin-bottom: 0;
 }
-/* line 67, ../../source_assets/styles/_calendar.scss */
+/* line 68, ../../source_assets/styles/_calendar.scss */
 .calendar .card .more {
   display: none;
   margin: 0 auto;
@@ -1078,19 +1079,19 @@ ul.social li a:hover {
   padding: 0.5rem 1rem;
   text-align: center;
 }
-/* line 75, ../../source_assets/styles/_calendar.scss */
+/* line 76, ../../source_assets/styles/_calendar.scss */
 .calendar .card .more:link, .calendar .card .more:active {
   color: #FFF !important;
 }
-/* line 79, ../../source_assets/styles/_calendar.scss */
+/* line 80, ../../source_assets/styles/_calendar.scss */
 .calendar .card .more:hover {
   background: #009EDE;
 }
-/* line 83, ../../source_assets/styles/_calendar.scss */
+/* line 84, ../../source_assets/styles/_calendar.scss */
 .calendar .card .more.revealed {
   display: block;
 }
-/* line 90, ../../source_assets/styles/_calendar.scss */
+/* line 91, ../../source_assets/styles/_calendar.scss */
 .calendar .pub-date {
   position: absolute;
   top: -2rem;
@@ -1100,7 +1101,7 @@ ul.social li a:hover {
   text-align: center;
 }
 
-/* line 102, ../../source_assets/styles/_calendar.scss */
+/* line 103, ../../source_assets/styles/_calendar.scss */
 .calendar-nav {
   list-style: none;
   display: none;
@@ -1108,18 +1109,18 @@ ul.social li a:hover {
   top: 200px;
 }
 @media only screen and (min-width: 779px) {
-  /* line 102, ../../source_assets/styles/_calendar.scss */
+  /* line 103, ../../source_assets/styles/_calendar.scss */
   .calendar-nav {
     display: block;
   }
 }
-/* line 112, ../../source_assets/styles/_calendar.scss */
+/* line 113, ../../source_assets/styles/_calendar.scss */
 .calendar-nav li {
   position: relative;
   margin-bottom: 1rem;
   font-size: 0.825rem;
 }
-/* line 117, ../../source_assets/styles/_calendar.scss */
+/* line 118, ../../source_assets/styles/_calendar.scss */
 .calendar-nav li:before {
   position: absolute;
   top: 8px;
@@ -1132,7 +1133,7 @@ ul.social li a:hover {
   background-color: #49853E;
   border-radius: 60rem;
 }
-/* line 129, ../../source_assets/styles/_calendar.scss */
+/* line 130, ../../source_assets/styles/_calendar.scss */
 .calendar-nav li:not(:last-child):after {
   position: absolute;
   top: 8px;
@@ -1144,7 +1145,7 @@ ul.social li a:hover {
   height: 2.5rem;
   background-color: #49853E;
 }
-/* line 141, ../../source_assets/styles/_calendar.scss */
+/* line 142, ../../source_assets/styles/_calendar.scss */
 .calendar-nav li a {
   color: #49853E !important;
 }
