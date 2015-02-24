@@ -119,6 +119,12 @@ small.confirm {
 }
 
 /* line 93, ../../source_assets/styles/_base.scss */
+#map {
+  height: 700px;
+  width: 100%;
+}
+
+/* line 97, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition],
 [data-magellan-expedition-clone] {
   z-index: 9999;
@@ -126,25 +132,25 @@ small.confirm {
   background: #f5f3f3;
   padding: 1em;
 }
-/* line 99, ../../source_assets/styles/_base.scss */
+/* line 103, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition] .sub-nav a,
 [data-magellan-expedition-clone] .sub-nav a {
   font-size: 1.25em;
   font-weight: bold;
 }
-/* line 103, ../../source_assets/styles/_base.scss */
+/* line 107, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition] .sub-nav dd.active a,
 [data-magellan-expedition-clone] .sub-nav dd.active a {
   background: transparent;
   font-weight: bold;
   color: #49853E !important;
 }
-/* line 108, ../../source_assets/styles/_base.scss */
+/* line 112, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition] .sub-nav:first-child,
 [data-magellan-expedition-clone] .sub-nav:first-child {
   /* arrow */
 }
-/* line 109, ../../source_assets/styles/_base.scss */
+/* line 113, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition] .sub-nav:first-child:before,
 [data-magellan-expedition-clone] .sub-nav:first-child:before {
   content: '▼';
@@ -180,14 +186,14 @@ ul {
 	}
 }
 */
-/* line 146, ../../source_assets/styles/_base.scss */
+/* line 150, ../../source_assets/styles/_base.scss */
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-/* line 153, ../../source_assets/styles/_base.scss */
+/* line 157, ../../source_assets/styles/_base.scss */
 .region-name {
   /*leaflet icon*/
   font-size: 2.35em;
@@ -197,7 +203,7 @@ ul {
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4);
 }
 
-/* line 160, ../../source_assets/styles/_base.scss */
+/* line 164, ../../source_assets/styles/_base.scss */
 .ie-banner {
   position: relative;
   padding: 15px 0 8px;
@@ -211,34 +217,34 @@ ul {
   border-bottom-left-radius: 3px;
 }
 
-/* line 172, ../../source_assets/styles/_base.scss */
+/* line 176, ../../source_assets/styles/_base.scss */
 nav {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
 }
-/* line 177, ../../source_assets/styles/_base.scss */
+/* line 181, ../../source_assets/styles/_base.scss */
 nav.wide {
   position: relative;
 }
 
-/* line 181, ../../source_assets/styles/_base.scss */
+/* line 185, ../../source_assets/styles/_base.scss */
 section {
   background: #f5f3f3 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat;
 }
-/* line 183, ../../source_assets/styles/_base.scss */
+/* line 187, ../../source_assets/styles/_base.scss */
 section.challenge {
   background: url(../../img/post-its-bw.jpg);
   background-size: cover;
 }
-/* line 186, ../../source_assets/styles/_base.scss */
+/* line 190, ../../source_assets/styles/_base.scss */
 section.challenge h1, section.challenge h2, section.challenge p {
   color: #fff;
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4);
 }
 
-/* line 192, ../../source_assets/styles/_base.scss */
+/* line 196, ../../source_assets/styles/_base.scss */
 .absolute {
   position: absolute;
   left: 0;
@@ -246,13 +252,13 @@ section.challenge h1, section.challenge h2, section.challenge p {
   margin-top: -100vh;
 }
 
-/* line 198, ../../source_assets/styles/_base.scss */
+/* line 202, ../../source_assets/styles/_base.scss */
 .logo {
   text-align: center;
   padding: 2em 15%;
 }
 
-/* line 202, ../../source_assets/styles/_base.scss */
+/* line 206, ../../source_assets/styles/_base.scss */
 .icon {
   display: block;
   width: 100px;
@@ -262,40 +268,40 @@ section.challenge h1, section.challenge h2, section.challenge p {
   background-size: contain;
   opacity: 0.6;
 }
-/* line 210, ../../source_assets/styles/_base.scss */
+/* line 214, ../../source_assets/styles/_base.scss */
 .icon.global {
   background-image: url(../../img/global.png);
 }
-/* line 211, ../../source_assets/styles/_base.scss */
+/* line 215, ../../source_assets/styles/_base.scss */
 .icon.regional {
   background-image: url(../../img/regional.png);
 }
-/* line 212, ../../source_assets/styles/_base.scss */
+/* line 216, ../../source_assets/styles/_base.scss */
 .icon.local {
   background-image: url(../../img/local.png);
 }
-/* line 213, ../../source_assets/styles/_base.scss */
+/* line 217, ../../source_assets/styles/_base.scss */
 .icon.explore {
   background-image: url(../../img/explore.png);
 }
-/* line 214, ../../source_assets/styles/_base.scss */
+/* line 218, ../../source_assets/styles/_base.scss */
 .icon.collaboration {
   background-image: url(../../img/collaboration.png);
 }
-/* line 215, ../../source_assets/styles/_base.scss */
+/* line 219, ../../source_assets/styles/_base.scss */
 .icon.solution {
   background-image: url(../../img/solution.png);
 }
-/* line 216, ../../source_assets/styles/_base.scss */
+/* line 220, ../../source_assets/styles/_base.scss */
 .icon.learn {
   background-image: url(../../img/learn.png);
 }
 
-/* line 218, ../../source_assets/styles/_base.scss */
+/* line 222, ../../source_assets/styles/_base.scss */
 .applies {
   margin: 0 15% !important;
 }
-/* line 220, ../../source_assets/styles/_base.scss */
+/* line 224, ../../source_assets/styles/_base.scss */
 .applies .apply {
   display: block;
   padding: 1em;
@@ -304,131 +310,131 @@ section.challenge h1, section.challenge h2, section.challenge p {
   color: #fff !important;
   transition: all 300ms ease-out;
 }
-/* line 228, ../../source_assets/styles/_base.scss */
+/* line 232, ../../source_assets/styles/_base.scss */
 .applies .apply:hover {
   background: #7abb6e;
 }
-/* line 232, ../../source_assets/styles/_base.scss */
+/* line 236, ../../source_assets/styles/_base.scss */
 .applies .apply.english {
   border-right: 1px solid white;
 }
-/* line 236, ../../source_assets/styles/_base.scss */
+/* line 240, ../../source_assets/styles/_base.scss */
 .applies .backhome {
   text-align: center;
 }
 
-/* line 243, ../../source_assets/styles/_base.scss */
+/* line 247, ../../source_assets/styles/_base.scss */
 .mc-embed .columns {
   padding-left: 0;
 }
-/* line 246, ../../source_assets/styles/_base.scss */
+/* line 250, ../../source_assets/styles/_base.scss */
 .mc-embed label {
   padding-right: 10px;
   display: inline-block;
   color: #f5f3f3;
 }
-/* line 251, ../../source_assets/styles/_base.scss */
+/* line 255, ../../source_assets/styles/_base.scss */
 .mc-embed .button {
   margin: 21px 0 0 -14px;
   padding: 9px;
 }
 
-/* line 257, ../../source_assets/styles/_base.scss */
+/* line 261, ../../source_assets/styles/_base.scss */
 footer {
   font-size: 0.8em;
   background: #fff;
 }
-/* line 260, ../../source_assets/styles/_base.scss */
+/* line 264, ../../source_assets/styles/_base.scss */
 footer p {
   margin: 0;
 }
-/* line 263, ../../source_assets/styles/_base.scss */
+/* line 267, ../../source_assets/styles/_base.scss */
 footer h2 {
   margin-left: 0;
   text-align: left;
 }
-/* line 267, ../../source_assets/styles/_base.scss */
+/* line 271, ../../source_assets/styles/_base.scss */
 footer a {
   color: #8b8c8e !important;
 }
-/* line 270, ../../source_assets/styles/_base.scss */
+/* line 274, ../../source_assets/styles/_base.scss */
 footer img {
   width: 150px;
   padding: 2em;
 }
-/* line 274, ../../source_assets/styles/_base.scss */
+/* line 278, ../../source_assets/styles/_base.scss */
 footer .website {
   margin-top: 1em;
   background: url(../../img/logos/devseed.png) no-repeat 92%;
 }
-/* line 278, ../../source_assets/styles/_base.scss */
+/* line 282, ../../source_assets/styles/_base.scss */
 footer .link {
   margin-top: 1em;
 }
-/* line 281, ../../source_assets/styles/_base.scss */
+/* line 285, ../../source_assets/styles/_base.scss */
 footer .email {
   margin-top: 1em;
 }
-/* line 284, ../../source_assets/styles/_base.scss */
+/* line 288, ../../source_assets/styles/_base.scss */
 footer .twitter-timeline {
   margin-bottom: 1em;
 }
-/* line 287, ../../source_assets/styles/_base.scss */
+/* line 291, ../../source_assets/styles/_base.scss */
 footer .logos {
   margin-top: 8px;
 }
 
-/* line 293, ../../source_assets/styles/_base.scss */
+/* line 297, ../../source_assets/styles/_base.scss */
 .challenge nav {
   position: absolute;
   top: 0;
 }
-/* line 297, ../../source_assets/styles/_base.scss */
+/* line 301, ../../source_assets/styles/_base.scss */
 .challenge section {
   padding-bottom: 4em;
 }
 
 @media only screen and (max-width: 1072px) {
-  /* line 303, ../../source_assets/styles/_base.scss */
+  /* line 307, ../../source_assets/styles/_base.scss */
   nav {
     top: 0;
   }
 
-  /* line 309, ../../source_assets/styles/_base.scss */
+  /* line 313, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition] .sub-nav a,
   [data-magellan-expedition-clone] .sub-nav a {
     font-size: 1em;
     font-weight: normal;
   }
 
-  /* line 315, ../../source_assets/styles/_base.scss */
+  /* line 319, ../../source_assets/styles/_base.scss */
   h1 {
     font-size: 2em;
   }
 
-  /* line 318, ../../source_assets/styles/_base.scss */
+  /* line 322, ../../source_assets/styles/_base.scss */
   .intro,
   .challenge {
     height: auto;
   }
 
-  /* line 322, ../../source_assets/styles/_base.scss */
+  /* line 326, ../../source_assets/styles/_base.scss */
   .intro {
     padding-top: 4em;
   }
 }
 @media only screen and (max-width: 779px) {
-  /* line 327, ../../source_assets/styles/_base.scss */
+  /* line 331, ../../source_assets/styles/_base.scss */
   * {
     font-size: 0.95em;
   }
 
-  /* line 330, ../../source_assets/styles/_base.scss */
+  /* line 334, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition],
   [data-magellan-expedition-clone] {
     /*padding:$pad/2 $pad*2;*/
   }
-  /* line 334, ../../source_assets/styles/_base.scss */
+  /* line 338, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition] .sub-nav a, [data-magellan-expedition] .sub-nav dd.active a,
   [data-magellan-expedition-clone] .sub-nav a,
   [data-magellan-expedition-clone] .sub-nav dd.active a {
@@ -438,48 +444,48 @@ footer .logos {
     display: block;
   }
 
-  /* line 342, ../../source_assets/styles/_base.scss */
+  /* line 346, ../../source_assets/styles/_base.scss */
   h1 {
     font-size: 1.25em;
   }
 
-  /* line 345, ../../source_assets/styles/_base.scss */
+  /* line 349, ../../source_assets/styles/_base.scss */
   h2,
   .row .row,
   .logo {
     padding: 1em 0;
   }
 
-  /* line 350, ../../source_assets/styles/_base.scss */
+  /* line 354, ../../source_assets/styles/_base.scss */
   .map {
     height: 20em;
   }
 
-  /* line 354, ../../source_assets/styles/_base.scss */
+  /* line 358, ../../source_assets/styles/_base.scss */
   .below-intro .absolute {
     margin-top: -15em;
   }
-  /* line 357, ../../source_assets/styles/_base.scss */
+  /* line 361, ../../source_assets/styles/_base.scss */
   .below-intro .absolute h1 p:after {
     content: 'The Sahel, Horn of Africa, and South and Southeast Asia.';
   }
 
-  /* line 364, ../../source_assets/styles/_base.scss */
+  /* line 368, ../../source_assets/styles/_base.scss */
   .intro {
     padding-top: 10em;
   }
 }
-/* line 373, ../../source_assets/styles/_base.scss */
+/* line 377, ../../source_assets/styles/_base.scss */
 .clearfix:before, .cards:before, ul.winner-list:before, ul.posts-list:before, nav .sub-nav:before, ul.social:before, .clearfix:after, .cards:after, ul.winner-list:after, ul.posts-list:after, nav .sub-nav:after, ul.social:after {
   content: " ";
   display: table;
 }
-/* line 378, ../../source_assets/styles/_base.scss */
+/* line 382, ../../source_assets/styles/_base.scss */
 .clearfix:after, .cards:after, ul.winner-list:after, ul.posts-list:after, nav .sub-nav:after, ul.social:after {
   clear: both;
 }
 
-/* line 385, ../../source_assets/styles/_base.scss */
+/* line 389, ../../source_assets/styles/_base.scss */
 .cards, ul.winner-list, ul.posts-list {
   padding: 0 2rem;
   /*
@@ -497,48 +503,48 @@ footer .logos {
   	}
   */
 }
-/* line 389, ../../source_assets/styles/_base.scss */
+/* line 393, ../../source_assets/styles/_base.scss */
 .cards li, ul.winner-list li, ul.posts-list li {
   background: none;
   border: none;
   padding: 0;
   margin: 0;
 }
-/* line 396, ../../source_assets/styles/_base.scss */
+/* line 400, ../../source_assets/styles/_base.scss */
 .cards > li, ul.winner-list > li, ul.posts-list > li {
   margin-bottom: 2rem;
 }
-/* line 400, ../../source_assets/styles/_base.scss */
+/* line 404, ../../source_assets/styles/_base.scss */
 .cards *, ul.winner-list *, ul.posts-list * {
   text-align: left;
   color: #58595B;
   text-transform: initial;
 }
 @media only screen and (min-width: 779px) {
-  /* line 408, ../../source_assets/styles/_base.scss */
+  /* line 412, ../../source_assets/styles/_base.scss */
   .cards > li, ul.winner-list > li, ul.posts-list > li {
     float: left;
     width: 48%;
     margin-right: 4%;
   }
-  /* line 413, ../../source_assets/styles/_base.scss */
+  /* line 417, ../../source_assets/styles/_base.scss */
   .cards > li:nth-child(2n), ul.winner-list > li:nth-child(2n), ul.posts-list > li:nth-child(2n) {
     margin-right: 0;
   }
 }
-/* line 432, ../../source_assets/styles/_base.scss */
+/* line 436, ../../source_assets/styles/_base.scss */
 .cards .card, ul.winner-list .card, ul.posts-list .card {
   background: #FFF;
   padding: 1rem;
   border-bottom: 1px solid #49853E;
 }
 
-/* line 438, ../../source_assets/styles/_base.scss */
+/* line 442, ../../source_assets/styles/_base.scss */
 .index-post ul {
   margin: 0;
   margin-bottom: 4em;
 }
-/* line 441, ../../source_assets/styles/_base.scss */
+/* line 445, ../../source_assets/styles/_base.scss */
 .index-post ul li {
   list-style: none;
   margin: 0 15%;
@@ -548,7 +554,7 @@ footer .logos {
   border-right: 1px solid #49853E;
   background: #f5f3f3;
 }
-/* line 449, ../../source_assets/styles/_base.scss */
+/* line 453, ../../source_assets/styles/_base.scss */
 .index-post ul li:first-child {
   background: #49853E;
   color: #fff;
@@ -556,13 +562,13 @@ footer .logos {
   text-align: center;
   padding: 1em 2em;
 }
-/* line 456, ../../source_assets/styles/_base.scss */
+/* line 460, ../../source_assets/styles/_base.scss */
 .index-post ul li:last-child {
   border-bottom: 1px solid #49853E;
   padding-bottom: 2em;
 }
 
-/* line 465, ../../source_assets/styles/_base.scss */
+/* line 469, ../../source_assets/styles/_base.scss */
 ul.winner-list .card {
   border-top: 4px solid #46863C;
   height: 475px;
@@ -570,30 +576,30 @@ ul.winner-list .card {
   margin-top: 30px;
   box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
 }
-/* line 471, ../../source_assets/styles/_base.scss */
+/* line 475, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .avatar {
   margin: -1rem -1rem 0 -1rem;
 }
-/* line 475, ../../source_assets/styles/_base.scss */
+/* line 479, ../../source_assets/styles/_base.scss */
 ul.winner-list .card h1 {
   padding: 0;
   margin: 0 0 1rem 0;
   line-height: 1.2;
   font-size: 1.5rem;
 }
-/* line 483, ../../source_assets/styles/_base.scss */
+/* line 487, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .metadata dt {
   text-transform: uppercase;
   color: #49853E;
 }
-/* line 490, ../../source_assets/styles/_base.scss */
+/* line 494, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .enum li {
   list-style-type: initial;
   text-transform: initial;
   color: #58595B;
   text-align: left;
 }
-/* line 498, ../../source_assets/styles/_base.scss */
+/* line 502, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .prose {
   text-transform: none;
   font-size: 1rem;
@@ -601,16 +607,16 @@ ul.winner-list .card .prose {
   text-align: left;
 }
 
-/* line 509, ../../source_assets/styles/_base.scss */
+/* line 513, ../../source_assets/styles/_base.scss */
 nav .sub-nav {
   overflow: visible;
 }
-/* line 513, ../../source_assets/styles/_base.scss */
+/* line 517, ../../source_assets/styles/_base.scss */
 nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-challenge.active {
   position: relative;
 }
 @media only screen and (min-width: 1072px) {
-  /* line 517, ../../source_assets/styles/_base.scss */
+  /* line 521, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif, nav .sub-nav .global-resilience-challenge.active .winners-notif {
     position: absolute;
     top: -98px;
@@ -624,15 +630,15 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
     border-radius: 4px;
     line-height: normal;
   }
-  /* line 530, ../../source_assets/styles/_base.scss */
+  /* line 534, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:link, nav .sub-nav .global-resilience-challenge .winners-notif:visited, nav .sub-nav .global-resilience-challenge.active .winners-notif:link, nav .sub-nav .global-resilience-challenge.active .winners-notif:visited {
     color: #FFF !important;
   }
-  /* line 534, ../../source_assets/styles/_base.scss */
+  /* line 538, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:hover, nav .sub-nav .global-resilience-challenge.active .winners-notif:hover {
     color: #49853E !important;
   }
-  /* line 538, ../../source_assets/styles/_base.scss */
+  /* line 542, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge .winners-notif:before, nav .sub-nav .global-resilience-challenge.active .winners-notif:after, nav .sub-nav .global-resilience-challenge.active .winners-notif:before {
     position: absolute;
     top: 100%;
@@ -644,7 +650,7 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
     pointer-events: none;
     border-color: rgba(255, 255, 255, 0);
   }
-  /* line 550, ../../source_assets/styles/_base.scss */
+  /* line 554, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge.active .winners-notif:after {
     border-top-color: rgba(0, 0, 0, 0.64);
     border-width: 10px;
@@ -653,11 +659,11 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
 }
 
 @media only screen and (min-width: 1072px) {
-  /* line 565, ../../source_assets/styles/_base.scss */
+  /* line 569, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif, [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif {
     top: 35px;
   }
-  /* line 568, ../../source_assets/styles/_base.scss */
+  /* line 572, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif:after, [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif:after {
     border-top: none;
     top: initial;
@@ -667,7 +673,7 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
     margin-left: -10px;
   }
 }
-/* line 584, ../../source_assets/styles/_base.scss */
+/* line 588, ../../source_assets/styles/_base.scss */
 .page-card .content {
   border-top: 4px solid #46863C;
   background: #FFF;
@@ -675,14 +681,14 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
   margin: 2rem 0;
   box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
 }
-/* line 591, ../../source_assets/styles/_base.scss */
+/* line 595, ../../source_assets/styles/_base.scss */
 .page-card .content h1 {
   margin: 0 0 1rem 0;
   padding: 0;
   line-height: 1.3;
   text-align: left;
 }
-/* line 598, ../../source_assets/styles/_base.scss */
+/* line 602, ../../source_assets/styles/_base.scss */
 .page-card .content h2 {
   padding: 0;
   line-height: 1.3;
@@ -690,7 +696,7 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
   margin: 2rem 0;
   text-align: left;
 }
-/* line 606, ../../source_assets/styles/_base.scss */
+/* line 610, ../../source_assets/styles/_base.scss */
 .page-card .content h3 {
   padding: 0;
   line-height: 1.3;
@@ -698,13 +704,13 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
   margin: 2rem 0;
   text-align: left;
 }
-/* line 614, ../../source_assets/styles/_base.scss */
+/* line 618, ../../source_assets/styles/_base.scss */
 .page-card .content ul {
   list-style-type: disc;
   list-style-position: inside;
   margin: 0 0 2rem 0;
 }
-/* line 619, ../../source_assets/styles/_base.scss */
+/* line 623, ../../source_assets/styles/_base.scss */
 .page-card .content ul li {
   color: #58595b;
 }
