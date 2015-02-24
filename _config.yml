@@ -5,9 +5,11 @@ exclude:
   - config.rb
 markdown: rdiscount
 rdiscount:
-extensions: [smart]
+  extensions: [smart]
 permalink: blog/:year/:month/:day/:title
-baseurl: /rockefeller-grp
+baseurl: 
+
+domain: http://www.globalresiliencepartnership.org
 
 collections:
   index_sections:
@@ -15,7 +17,7 @@ collections:
 
   events:
     output: false
-
+    
   selected_teams:
     output: true
     permalink: /teams/:path/
