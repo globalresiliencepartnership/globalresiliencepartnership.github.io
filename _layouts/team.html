@@ -11,65 +11,87 @@ layout: page
     </ul>
 
     <h1>{{ page.title }}</h1>
- 	<h2>Using mobile phone technology to collect and analyze big data</h2>
+ 	<h2>{{ page.innovation }}</h2>
  	
  	 </div>
  	</div> 
  	
-	<div class="row post">
+	<div class="row post team-meta">
 	  <div class="team-map"></div>
 
 	  <div class="content">
+	  
+	    <div class="row">
 		<div class="medium-4 columns">
 		  <h3>Region</h3>
-		  <p>Horn of Africa</p>
+		  <p>{{ page.focus }}</p>
 		</div>
 
 		<div class="medium-4 columns">
 		  <h3>Countries</h3>
-		  <p>Kenya</p>
+		  {% for country in page.countries %}
+		  <ul>
+		  <li>{{ country }}</li>
+		  {% endfor %}
+		  </ul>
 		</div>
 
 		<div class="medium-4 columns">
 		  <h3>Technical Focus Area</h3>
-		  <p>Tracking and measuring resilience</p>
+		  <ul>
+		  {% for expertise in page.expertise %}
+		    <li>{{ expertise }}</li>
+		  {% endfor %}
+		  </ul>
 		</div>
-
+		</div>
+		
+		<div class="row">
 		<div class="medium-4 columns">
 		  <h3>Initial Budget</h3>
-		  <p>US$ 199,982</p>
+		  <p>{{ page.budget }}</p>
 		</div>
 
 		<div class="medium-4 columns">
 		  <h3>Thematic Area</h3>
-		  <p>Research and Policy Think Tank</p>
+		  <p>{{ page.thematic_area }}</p>
 		</div>
-
+		
 		<div class="medium-4 columns">
-		  <h3>Type of Lead Organization</h3>
-		  <p>Other</p>
+		  <h3>Team Lead</h3>
+		  <p>{{ page.team_lead }}</p>
 		</div>
-
+		</div>
+		
+		<div class="row">
 		<div class="medium-4 columns">
-		  <h3>Disciplines</h3>
-		  <p>Academics, scientists, researchers, pollsters, change management
-		  professionals, data and survey managers</p>
+		  <h3>Lead Organization</h3>
+		  <ul>
+		  {% for organization in page.organizations %}
+		    <li>{{ organization }}</li>
+		  {% endfor %}
+		  </ul>
 		</div>
 
 		<div class="medium-4 columns">
 		  <h3>Local Partners</h3>
-		  <p>Government of Kenya National Drought Management Authority (NDMA),
-		  Ministry for the Development of Northern Kenya and other Arid Lands,
-		  government; Consultative Group on International Agricultural Research
-		  (CGIAR) program for Climate Change, Agriculture, and Food Security
-		  (CCAFS)</p>
+		  <ul>
+		  {% for local_org in page.local_org %}
+		    <li>{{ local_org }}</li>
+		  {% endfor %}
+		  </ul>
 		</div>
 
 		<div class="medium-4 columns">
 		  <h3>International Partners</h3>
-		  <p>Mobile Accord, Inc. (GeoPoll), private sector; Data-Pop Alliance,
-		  academic consortium; Massachusetts Institute of Technology, academia</p>
+		  <ul>
+		  {% for intl_org in page.intl_org %}
+		    <li>{{ intl_org }}</li>
+		  {% endfor %}
+		  </ul>
 		</div>
+		</div>
+		
 	  </div>
 	</div>
  	 

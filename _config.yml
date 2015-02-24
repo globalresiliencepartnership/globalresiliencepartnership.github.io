@@ -16,7 +16,7 @@ collections:
     output: false
 
   selected_teams:
-    output: false
+    output: true
     permalink: /teams/:path/
 
 prose:
