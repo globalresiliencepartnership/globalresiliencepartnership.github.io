@@ -1,5 +1,6 @@
 ---
 title: New Measurement Technologies for Resilience-Building
+layout: team
 
 image: 
 
@@ -10,4 +11,19 @@ expertise:
 
 organizations:
   - BRAC USA
+
+innovation: 
+
+thematic_area:
+
+countries: 
+
+local_org: 
+
+intl_org:
+
+team_lead: 
+
+budget: 
+
 ---

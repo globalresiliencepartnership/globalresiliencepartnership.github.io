@@ -15,11 +15,7 @@ ul.posts-list {
         font-weight: bold;
         color: #46863C;
       }
-      a:hover {
-        color: $green !important;
-      }
     }
-
   }
 }
 
@@ -45,7 +41,13 @@ ul.posts-list {
     margin: 2rem 0; 
     box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
     position: relative;
+    
     z-index: 1;
+    overflow: hidden;
+    font-size: 16px;
+  }
+  p {
+    line-height: 1.5;
   }
   .content h1 {
     margin: 0 0 1rem 0;
@@ -66,6 +68,8 @@ ul.posts-list {
     list-style-type: disc;
     list-style-position: inside;
     margin: 0 0 2rem 0;
+    line-height: 1.5;
+    font-size: 16px;
   }
   ul li {
     color: #58595b;
@@ -124,5 +128,10 @@ ul.social {
   ul.winner-list .card,
   .blog {
     height: auto;
+  }
+  .post {
+  .content {
+    padding: 5rem 2rem;  
+  }
   }
 }
