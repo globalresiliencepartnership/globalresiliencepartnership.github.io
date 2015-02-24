@@ -6,10 +6,10 @@ title: Rethinking the approach
 {% assign sections = site.index_sections | where: "categories", "section" %}
 
   {% for post in sections %}
-  <section class='clearfix {{post.class}} index-post'>
     {% if post.tags contains 'challenge' %}
     
     {% else %}
+    <section class='clearfix {{post.class}} index-post'>
     
     {% if post.tags contains 'logo'%}
 
