@@ -30,6 +30,3 @@ tags: challenge
 	<li>Questions about the Challenge? Please <a href='mailto:challenge@globalresiliencepartnership.org'>contact us</a> or <a href='{{site.baseurl}}/resource/challenge-docs/FAQ_GlobalResilienceChallenge_English.pdf' download='FAQ_GlobalResilienceChallenge_English.pdf' onClick="_gaq.push(['_trackEvent', 'Click', 'Download', 'FAQ_GlobalResilienceChallenge']);">download the Challenge FAQs</a>.
 	</li>
 </ul>
-
-## Subscribe to our mailing list:
-{% include mailchimp.html %}
