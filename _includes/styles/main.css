@@ -848,6 +848,12 @@ ul.social li a:hover {
   margin: 0px;
 }
 
+/* line 13, ../../source_assets/styles/_team.scss */
+.team-meta .row {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
 /* line 1, ../../source_assets/styles/_nav.scss */
 .contain-to-grid .top-bar {
   background: #fff;

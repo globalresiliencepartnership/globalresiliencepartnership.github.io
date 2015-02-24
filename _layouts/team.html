@@ -16,10 +16,12 @@ layout: page
  	 </div>
  	</div> 
  	
-	<div class="row post">
+	<div class="row post team-meta">
 	  <div class="team-map"></div>
 
 	  <div class="content">
+	  
+	    <div class="row">
 		<div class="medium-4 columns">
 		  <h3>Region</h3>
 		  <p>{{ page.focus }}</p>
@@ -27,14 +29,24 @@ layout: page
 
 		<div class="medium-4 columns">
 		  <h3>Countries</h3>
-		  <p>{{ page.countries }}</p>
+		  {% for country in page.countries %}
+		  <ul>
+		  <li>{{ country }}</li>
+		  {% endfor %}
+		  </ul>
 		</div>
 
 		<div class="medium-4 columns">
 		  <h3>Technical Focus Area</h3>
-		  <p>{{ page.expertise }}</p>
+		  <ul>
+		  {% for expertise in page.expertise %}
+		    <li>{{ expertise }}</li>
+		  {% endfor %}
+		  </ul>
 		</div>
-
+		</div>
+		
+		<div class="row">
 		<div class="medium-4 columns">
 		  <h3>Initial Budget</h3>
 		  <p>{{ page.budget }}</p>
@@ -49,21 +61,37 @@ layout: page
 		  <h3>Team Lead</h3>
 		  <p>{{ page.team_lead }}</p>
 		</div>
-
+		</div>
+		
+		<div class="row">
 		<div class="medium-4 columns">
 		  <h3>Lead Organization</h3>
-		  <p>{{ page.organizations }}</p>
+		  <ul>
+		  {% for organization in page.organizations %}
+		    <li>{{ organization }}</li>
+		  {% endfor %}
+		  </ul>
 		</div>
 
 		<div class="medium-4 columns">
 		  <h3>Local Partners</h3>
-		  <p>{{ page.local_org }}</p>
+		  <ul>
+		  {% for local_org in page.local_org %}
+		    <li>{{ local_org }}</li>
+		  {% endfor %}
+		  </ul>
 		</div>
 
 		<div class="medium-4 columns">
 		  <h3>International Partners</h3>
-		  <p>{{ page.intl_org }}</p>
+		  <ul>
+		  {% for intl_org in page.intl_org %}
+		    <li>{{ intl_org }}</li>
+		  {% endfor %}
+		  </ul>
 		</div>
+		</div>
+		
 	  </div>
 	</div>
  	 
