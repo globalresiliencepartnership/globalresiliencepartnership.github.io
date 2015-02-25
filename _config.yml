@@ -13,6 +13,9 @@ collections:
   index_sections:
     output: false
 
+  events:
+    output: false
+    
   selected_teams:
     output: true
     permalink: /teams/:path/

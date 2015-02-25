@@ -167,7 +167,7 @@ nav.wide {
 
 /* line 133, ../../source_assets/styles/_base.scss */
 section {
-  background: #eee;
+  background: #f5f3f3 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat;
 }
 /* line 135, ../../source_assets/styles/_base.scss */
 section.challenge {
@@ -998,6 +998,156 @@ ul.social li a:hover {
 .section-blog {
   background: url("https://cloud.githubusercontent.com/assets/306782/6309362/aa10950a-b91a-11e4-8532-baa8e138f5dd.png") center center;
   background-size: cover;
+}
+
+/* line 1, ../../source_assets/styles/_calendar.scss */
+.card-skin, .calendar .card {
+  border-top: 4px solid #49853E;
+  border-bottom: 1px solid #49853E;
+  box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+  background: #FFF;
+  padding: 2rem;
+  text-align: left;
+}
+/* line 9, ../../source_assets/styles/_calendar.scss */
+.card-skin *, .calendar .card * {
+  text-align: left;
+  color: #58595B;
+  text-transform: initial;
+}
+/* line 15, ../../source_assets/styles/_calendar.scss */
+.card-skin h1, .calendar .card h1 {
+  padding: 0;
+  margin: 0 0 1rem 0;
+  line-height: 1.2;
+  font-size: 1.5rem;
+}
+/* line 22, ../../source_assets/styles/_calendar.scss */
+.card-skin > *:last-child, .calendar .card > *:last-child {
+  margin-bottom: 0;
+}
+
+/* line 29, ../../source_assets/styles/_calendar.scss */
+.calendar .section-title {
+  padding: 0;
+  margin: 4rem 0 3rem 0;
+  text-align: center;
+}
+/* line 35, ../../source_assets/styles/_calendar.scss */
+.calendar .card-list {
+  list-style: none;
+  margin: 0;
+}
+/* line 39, ../../source_assets/styles/_calendar.scss */
+.calendar .card-list li {
+  max-width: 40rem;
+  margin: 0 auto 3rem auto;
+}
+@media only screen and (min-width: 779px) {
+  /* line 39, ../../source_assets/styles/_calendar.scss */
+  .calendar .card-list li {
+    margin-bottom: 5rem;
+  }
+}
+/* line 49, ../../source_assets/styles/_calendar.scss */
+.calendar .card {
+  position: relative;
+  margin: 0 1rem;
+}
+@media only screen and (min-width: 779px) {
+  /* line 49, ../../source_assets/styles/_calendar.scss */
+  .calendar .card {
+    margin: 0;
+  }
+}
+/* line 58, ../../source_assets/styles/_calendar.scss */
+.calendar .card .content {
+  overflow: hidden;
+  max-height: 100px;
+  margin-bottom: 2rem;
+}
+/* line 63, ../../source_assets/styles/_calendar.scss */
+.calendar .card .content > *:last-child {
+  margin-bottom: 0;
+}
+/* line 68, ../../source_assets/styles/_calendar.scss */
+.calendar .card .more {
+  display: none;
+  margin: 0 auto;
+  background: #49853E;
+  width: 6rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+/* line 76, ../../source_assets/styles/_calendar.scss */
+.calendar .card .more:link, .calendar .card .more:active {
+  color: #FFF !important;
+}
+/* line 80, ../../source_assets/styles/_calendar.scss */
+.calendar .card .more:hover {
+  background: #009EDE;
+}
+/* line 84, ../../source_assets/styles/_calendar.scss */
+.calendar .card .more.revealed {
+  display: block;
+}
+/* line 91, ../../source_assets/styles/_calendar.scss */
+.calendar .pub-date {
+  position: absolute;
+  top: -2rem;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+}
+
+/* line 103, ../../source_assets/styles/_calendar.scss */
+.calendar-nav {
+  list-style: none;
+  display: none;
+  position: fixed;
+  top: 200px;
+}
+@media only screen and (min-width: 779px) {
+  /* line 103, ../../source_assets/styles/_calendar.scss */
+  .calendar-nav {
+    display: block;
+  }
+}
+/* line 113, ../../source_assets/styles/_calendar.scss */
+.calendar-nav li {
+  position: relative;
+  margin-bottom: 1rem;
+  font-size: 0.825rem;
+}
+/* line 118, ../../source_assets/styles/_calendar.scss */
+.calendar-nav li:before {
+  position: absolute;
+  top: 8px;
+  left: -1rem;
+  z-index: 1;
+  display: block;
+  content: '';
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #49853E;
+  border-radius: 60rem;
+}
+/* line 130, ../../source_assets/styles/_calendar.scss */
+.calendar-nav li:not(:last-child):after {
+  position: absolute;
+  top: 8px;
+  left: -0.825rem;
+  z-index: 1;
+  display: block;
+  content: '';
+  width: 2px;
+  height: 2.5rem;
+  background-color: #49853E;
+}
+/* line 142, ../../source_assets/styles/_calendar.scss */
+.calendar-nav li a {
+  color: #49853E !important;
 }
 
 /* line 7, ../../source_assets/styles/_helpers.scss */

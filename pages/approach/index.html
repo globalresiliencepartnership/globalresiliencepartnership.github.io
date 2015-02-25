@@ -6,10 +6,21 @@ title: Rethinking the approach
 {% assign sections = site.index_sections | where: "categories", "section" %}
 
   {% for post in sections %}
-  <section class='clearfix {{post.class}} index-post'>
     {% if post.tags contains 'challenge' %}
     
     {% else %}
+    <section class='clearfix {{post.class}} index-post'>
+    
+    {% if post.tags contains 'logo'%}
+
+    <div class='row'>
+      <div class="medium-12 columns">
+      <div class='logo'>
+      <img src='{{site.baseurl}}/img/logos/grp-color-tagline.png'></div>
+      </div>
+    </div>
+    
+    {% endif %} 
     
     
     {% if post.tags contains 'map'%}
@@ -29,16 +40,7 @@ title: Rethinking the approach
       </div>
     </div>
     
-   {% if post.tags contains 'logo'%}
 
-    <div class='row'>
-      <div class="medium-12 columns">
-      <div class='logo'>
-      <img src='{{site.baseurl}}/img/logos/grp-color-tagline.png'></div>
-      </div>
-    </div>
-    
-    {% endif %} 
     
   </section>
   
