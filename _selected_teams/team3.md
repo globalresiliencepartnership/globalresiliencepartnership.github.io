@@ -1,5 +1,6 @@
 ---
 title: "Viral, Angry Birds: Fostering Climate Resilience through Entertaining Games"
+layout: team
 
 image: 
 
