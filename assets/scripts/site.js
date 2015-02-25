@@ -182,7 +182,7 @@ $(function() {
     var groupedArray = [];
     for (var  i in grouped) {
       grouped[i].sort(function(a, b) {
-        return a.date < b.date;
+        return a.date > b.date;
       });
 
       // Create a date for the group. Use the first entry's month.
