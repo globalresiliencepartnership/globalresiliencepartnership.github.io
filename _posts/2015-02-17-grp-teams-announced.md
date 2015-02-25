@@ -20,7 +20,7 @@ The selected resilience topics, team leaders, and lead organizations, designated
 * “Integrated Landscape Management for Resilience in the Horn of Africa,” Araya Asfaw, Horn of Africa Regional Environment Centre & Network, and Sara Scherr, EcoAgriculture Partners 
 * “Mitigating Pastoralists’ Risks: Livestock Trade in the Horn of Africa,” Tate Munro, Mercy Corps, and Tim Frankenberger, Tango International  
 * “Connecting Roads, Groundwater and Livelihoods: Roads for Climate Resilience: Optimizing the Hydrological Potential of the Rural Infastructure,” Frank Van Steenbergen and Assefa Kumsa, MetaMeta Research  
-* “Dialling Up Resilience: Mobilizing ICTs to Enhance Bottom-up Resilience Measurement, Programming, and Governance in the Horn of Africa,” Lindsey Jones, Overseas Development Institute, and Philip Thorton, CGAIR  
+* “Dialling Up Resilience: Mobilizing ICTs to Enhance Bottom-up Resilience Measurement, Programming, and Governance in the Horn of Africa,” Lindsey Jones, Overseas Development Institute, and Philip Thorton, CGIAR  
 * “Meteorological Early Warning Systems to Build Resilience to Acute Climate-Induced Shocks,” Nick van de Giesen and John Davidov, Stichting TAHMO 
 
 **South and Southeast Asia**  
