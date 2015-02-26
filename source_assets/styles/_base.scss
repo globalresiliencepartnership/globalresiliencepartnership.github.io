@@ -61,10 +61,13 @@ small {
 		text-shadow:none;
 	}
 }
+
+a {
+  color: #009EDE !important;
+}
 a:hover,
 a:focus {
-  color: #FF8000 !important;
-  color: #999 !important;
+  color: #49853E !important;
 }
 
 
@@ -531,7 +534,12 @@ nav .sub-nav {
 button, 
 .button {
   background: #009ede;
-  color: #fff;
+  color: #fff !important;
+}
+button:hover,
+.button:hover {
+ background: #49853E !important;
+ color: #fff !important;
 }
 
 .sign-up {
