@@ -960,20 +960,19 @@ ul.social li a:hover {
   padding: 100px 0;
   background: #ccc;
   border-bottom: 2px solid #fff;
-  background: url("../../img/sunset-desat.png") no-repeat;
   background-size: cover;
 }
-/* line 7, ../../source_assets/styles/_front.scss */
+/* line 6, ../../source_assets/styles/_front.scss */
 .hero h1 {
   color: #fff;
   margin-bottom: 10px;
 }
-/* line 11, ../../source_assets/styles/_front.scss */
+/* line 10, ../../source_assets/styles/_front.scss */
 .hero h2 {
   color: #fff;
   margin-bottom: 30px;
 }
-/* line 15, ../../source_assets/styles/_front.scss */
+/* line 14, ../../source_assets/styles/_front.scss */
 .hero p {
   color: #eee;
   text-align: center;
@@ -981,33 +980,39 @@ ul.social li a:hover {
   font-size: 0.8em;
 }
 
-/* line 23, ../../source_assets/styles/_front.scss */
+/* line 22, ../../source_assets/styles/_front.scss */
 .map,
 .intro {
   height: 100%;
 }
 
-/* line 27, ../../source_assets/styles/_front.scss */
+/* line 26, ../../source_assets/styles/_front.scss */
 .map-intro {
   margin-top: -640px;
   position: absolute;
 }
 
-/* line 32, ../../source_assets/styles/_front.scss */
+/* line 31, ../../source_assets/styles/_front.scss */
+.section-intro {
+  background: url("../../img/sunset-desat.png") center center;
+  background-size: cover;
+}
+
+/* line 35, ../../source_assets/styles/_front.scss */
 .section-data {
   background: url("../../img/sunset-desat.png") center center;
   background-size: cover;
 }
 
-/* line 36, ../../source_assets/styles/_front.scss */
+/* line 39, ../../source_assets/styles/_front.scss */
 .section-challenge {
-  background: url("../../img/women-desat.png") center center;
+  background: url("../../img/harvest-desat.png") center center;
   background-size: cover;
 }
 
-/* line 40, ../../source_assets/styles/_front.scss */
+/* line 43, ../../source_assets/styles/_front.scss */
 .section-blog {
-  background: url("../../img/harvest-desat.png") center center;
+  background: url("../../img/garden-desat.png") center center;
   background-size: cover;
 }
 

@@ -2,7 +2,6 @@
   padding: 100px 0;
   background: #ccc;
   border-bottom: 2px solid #fff;
-  background: url("../../img/sunset-desat.png") no-repeat;
   background-size: cover;
   h1 {
     color: #fff;
@@ -29,16 +28,20 @@
   position: absolute;
 }
 
+.section-intro {
+  background: url("../../img/sunset-desat.png") center center;
+  background-size: cover;
+}
 .section-data {
   background: url("../../img/sunset-desat.png") center center;
   background-size: cover;
 }
 .section-challenge {
-  background: url("../../img/women-desat.png") center center;
+  background: url("../../img/harvest-desat.png") center center;
   background-size: cover;
 }
 .section-blog {
-  background: url("../../img/harvest-desat.png") center center;
+  background: url("../../img/garden-desat.png") center center;
   background-size: cover;
 }
 
