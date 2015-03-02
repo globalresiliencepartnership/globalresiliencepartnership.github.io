@@ -61,12 +61,19 @@ small {
 		text-shadow:none;
 	}
 }
+
+a {
+  color: #009EDE !important;
+}
 a:hover,
 a:focus {
-  color: #FF8000 !important;
-  color: #999 !important;
+  color: #49853E !important;
 }
 
+#map {
+	height: 700px;
+	width: 100%;
+}
 
 [data-magellan-expedition],
 [data-magellan-expedition-clone]{
@@ -531,7 +538,12 @@ nav .sub-nav {
 button, 
 .button {
   background: #009ede;
-  color: #fff;
+  color: #fff !important;
+}
+button:hover,
+.button:hover {
+ background: #49853E !important;
+ color: #fff !important;
 }
 
 .sign-up {
