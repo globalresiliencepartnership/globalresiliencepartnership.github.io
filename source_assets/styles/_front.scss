@@ -2,7 +2,6 @@
   padding: 100px 0;
   background: #ccc;
   border-bottom: 2px solid #fff;
-  background: url("../../img/boy-desat.png") no-repeat;
   background-size: cover;
   h1 {
     color: #fff;
@@ -11,6 +10,7 @@
   h2 {
    color: #fff;
    margin-bottom: 30px;
+   padding-top: 0px;
   }
   p {
     color: #eee;
@@ -29,16 +29,20 @@
   position: absolute;
 }
 
+.section-intro {
+  background: url("../../img/sunset-desat.png") center center;
+  background-size: cover;
+}
 .section-data {
-  background: url("https://cloud.githubusercontent.com/assets/306782/6309227/14485748-b919-11e4-82c8-8194432cc460.png") center center;
+  background: url("../../img/sunset-desat.png") center center;
   background-size: cover;
 }
 .section-challenge {
-  background: url("https://cloud.githubusercontent.com/assets/306782/6309330/375192e4-b91a-11e4-8aef-300b48e251b7.png") center center;
+  background: url("../../img/harvest-desat.png") center center;
   background-size: cover;
 }
 .section-blog {
-  background: url("https://cloud.githubusercontent.com/assets/306782/6309362/aa10950a-b91a-11e4-8532-baa8e138f5dd.png") center center;
+  background: url("../../img/garden-desat.png") center center;
   background-size: cover;
 }
 
