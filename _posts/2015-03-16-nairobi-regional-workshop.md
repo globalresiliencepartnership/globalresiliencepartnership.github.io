@@ -2,13 +2,15 @@
 published: true
 layout: blog_post
 category: blog
-title: "Global Resilience Challenge teams collaborate on resilience at Nairobi Regional Workshop"
+title: Global Resilience Challenge teams collaborate on resilience at Nairobi Regional Workshop
 subtitle: ""
 ---
 
 This week, from March 17-20, members from seven of our 17 Global Resilience Challenge teams will meet in Nairobi, Kenya at our first Regional workshop. The teams, whose projects are all focused in the Horn of Africa or the Sahel, will be meeting to discuss the broad scale of resilience and how best to incorporate innovation, technology, assessment tools, partnerships and more into their resilience projects. 
 
-The teams will also be working directly on the Global Resilience Challenge, learning more about grants and refining their problem statements. Global Resilience Partnership Executive Sponsors the U.S. Agency for International Development (USAID), the Rockefeller Foundation, and the Swedish International Development Agency (SIDA) will have representatives present to be a further resource as teams collaborate and discuss the serious resilience challenges of the region.
+The teams will also be working directly on the Global Resilience Challenge, working together to think critically about their project design, testing their assumptions, discussing vulnerabilities and interdependencies and refining their problem statements based on those discussions. 
+
+Global Resilience Partnership Executive Sponsors, the U.S. Agency for International Development (USAID), the Rockefeller Foundation, and the Swedish International Development Agency (SIDA), will have representatives present to be a further resource as teams collaborate and discuss the serious resilience challenges of the region.
 
 Representatives from the following [teams](/teams) will be in attendance at the workshop:  
 
