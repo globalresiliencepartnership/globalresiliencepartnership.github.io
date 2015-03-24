@@ -27,7 +27,7 @@ tags: challenge
 
 	<li>We invite you to continue to engage with the Global Resilience Partnership and the Challenge. To stay informed of the latest updates and opportunities please subscribe to our newsletter (below), follow us on <a href='https://twitter.com/grp_resilience'>Twitter</a>, and become part of our official Global Resilience Challenge <a href='https://www.linkedin.com/groups?gid=8194646&mostPopular=&trk=tyah&trkInfo=idx%3A3-1-5%2CtarId%3A1423144886008%2Ctas%3Aglobal+resilience'>LinkedIn discussion group</a>.</li>
 
-	<li>Questions about the Challenge? Please <a href='mailto:challenge@globalresiliencepartnership.org'>contact us</a> or <a href='{{site.baseurl}}/resource/challenge-docs/FAQ_GlobalResilienceChallenge_English.pdf' download='FAQ_GlobalResilienceChallenge_English.pdf' onClick="_gaq.push(['_trackEvent', 'Click', 'Download', 'FAQ_GlobalResilienceChallenge']);">download the Challenge FAQs</a>.
+	<li>Questions about the Challenge? Please <a href='mailto:challenge@globalresiliencepartnership.org'>contact us</a> or <a href='{{site.baseurl}}/resource/challenge-docs/FAQ_GlobalResilienceChallenge_English.pdf' download='FAQ_GlobalResilienceChallenge_English.pdf' onClick="_gaq.push(['_trackEvent', 'Click', 'Download', 'FAQ_GlobalResilienceChallenge']);">download the Challenge FAQs</a> and <a href='{{site.baseurl}}/resource/challenge-docs/FAQ_GlobalResilienceChallenge_English.pdf' download='FAQ_GlobalResilienceChallenge_English.pdf' onClick="_gaq.push(['_trackEvent', 'Click', 'Download', 'FAQ_GlobalResilienceChallenge']);">Challenge source document</a>.
 	</li>
 </ul>
 
