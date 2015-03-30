@@ -6,7 +6,7 @@ title: Global Resilience Challenge teams join forces to build resilience at Bang
 subtitle: ""
 ---
 
-From March 30-April 2, members from 10 of our 17 Global Resilience Challenge teams will meet in Bangkok, Thailand at our first Asia Regional workshop. The teams, whose projects are all focused in South or Southeast Asia, will be meeting to discuss the broad scale of resilience and collaborating on how best to incorporate innovation, technology, assessment tools, partnerships and more into their resilience projects. The other seven Global Resilience Challenge teams met in Nairobi, Kenya from March 17-20 to collaborate on resilience innovations in the Horn of Africa and the Sahel.
+From March 30-April 2, members from 10 of our 17 Global Resilience Challenge teams will meet in Bangkok, Thailand at our first Asia Regional workshop. The teams, whose projects are all focused in South or Southeast Asia, will be meeting to discuss the broad scale of resilience and collaborating on how best to incorporate innovation, technology, assessment tools, partnerships and more into their resilience projects. The other seven Global Resilience Challenge teams met in Nairobi, Kenya from March 17-21 to collaborate on resilience innovations in the Horn of Africa and the Sahel.
 
 The teams will also be working directly on the Global Resilience Challenge, working together to think critically about their project design, testing their assumptions, discussing vulnerabilities and interdependencies and refining their problem statements based on those discussions. 
 
@@ -26,4 +26,3 @@ Representatives from the following [teams](http://www.globalresiliencepartnershi
 * “Devising Local Coping Mechanisms and Adaption Technologies to Build Climate-Resilience Capacities of the Urban Poor in South Asia,” Mahila Housing SEWA Trust
 
 For updates from the workshop, follow us on Twitter [@GRP_Resilience](https://twitter.com/grp_resilience) and through #AsiaWorkshop.
-
