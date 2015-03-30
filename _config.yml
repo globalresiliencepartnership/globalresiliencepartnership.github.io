@@ -17,3 +17,8 @@ collections:
 
   selected_teams:
     output: false
+
+prose:
+  rooturl: _posts
+  site: http://www.globalresiliencepartnership.org
+  media: resource
