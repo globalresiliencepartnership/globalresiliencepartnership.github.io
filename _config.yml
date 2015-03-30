@@ -22,21 +22,21 @@ prose:
   rooturl: _posts
   site: http://www.globalresiliencepartnership.org
   media: resource
-  metadata: 
-  	_posts:
-	  	- name: "layout"
-	  	  field:
-	  	    element: "hidden"
-	  	    value: "blog_post"
-		- name: "category"
-	  	  field:
-	  	    element: "hidden"
-	  	    value: "blog"
-		- name: "title"
-	  	  field:
-	  	    element: "text"
-	  	    value: "title"
-		- name: "subtitle"
-	  	  field:
-	  	    element: "text"
-	  	    value: "subtitle"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog_post"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          value: "title"
+      - name: "subtitle"
+        field:
+          element: "text"
+          value: "subtitle"
