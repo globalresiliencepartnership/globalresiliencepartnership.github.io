@@ -2,7 +2,7 @@
 title: "Building Coastal Resilience in South & Southeast Asia through Mangrove Restoration for Risk Reduction"
 layout: team
 
-image: 
+image: mangrove.jpg
 
 focus: South and Southeast Asia
 

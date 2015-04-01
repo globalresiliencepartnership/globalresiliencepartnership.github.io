@@ -2,7 +2,7 @@
 title: "Disability and Disasters: Empowering people and building resilience to risk"
 layout: team
 
-image: 
+image: disaster.jpg
 
 focus: South and Southeast Asia
 

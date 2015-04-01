@@ -2,7 +2,7 @@
 title: "Mitigating Pastoralists’ Risk: Livestock Trade in the Horn of Africa"
 layout: team
 
-image: 
+image: livestock.jpg
 
 focus: Horn of Africa
 

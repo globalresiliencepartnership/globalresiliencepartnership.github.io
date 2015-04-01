@@ -2,7 +2,7 @@
 title: Integrated Landscape Management for Resilience in the Horn of Africa
 layout: team
 
-image: 
+image: horn.jpg
 
 focus: Horn of Africa
 

@@ -2,7 +2,7 @@
 title: "Connecting Roads, Water and Livelihoods for Resilience"
 layout: team
 
-image: 
+image: bridge.jpg
 
 focus: Horn of Africa
 

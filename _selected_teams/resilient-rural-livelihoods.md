@@ -2,7 +2,7 @@
 title: "Resilient Rural Livelihoods in Ecologically Fragile Drylands of the Sahel"
 layout: team
 
-image: 
+image: fragile.jpg
 
 focus: Sahel
 

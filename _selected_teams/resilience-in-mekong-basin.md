@@ -2,7 +2,7 @@
 title: Increasing Resilience in the Ramsar Sites of the Lower Mekong Basin
 layout: team
 
-image: 
+image: mekong.jpg
 
 focus: South and Southeast Asia
 

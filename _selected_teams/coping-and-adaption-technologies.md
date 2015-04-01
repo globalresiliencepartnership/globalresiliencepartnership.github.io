@@ -2,7 +2,7 @@
 title:  "Devising local coping mechanisms and adaptation technologies to build climate-resilience capacities of urban poor in South Asia"
 layout: team
 
-image: 
+image: urban.jpg
 
 focus: South and Southeast Asia
 

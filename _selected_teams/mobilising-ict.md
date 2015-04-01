@@ -2,7 +2,7 @@
 title: "Dialling up resilience: Mobilising ICTs to enhance bottom-up resilience measurement, programming and governance in the Horn of Africa"
 layout: team
 
-image: 
+image: drought.jpg
 
 focus: Horn of Africa
 

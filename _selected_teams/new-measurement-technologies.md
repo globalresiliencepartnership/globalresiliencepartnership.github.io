@@ -2,7 +2,7 @@
 title: New Measurement Technologies for Resilience-Building
 layout: team
 
-image: 
+image: sensing.jpg
 
 focus: South and Southeast Asia
 

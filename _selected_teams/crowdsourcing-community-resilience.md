@@ -2,7 +2,7 @@
 title: Crowdsourcing Community Resilience in Urban Slums
 layout: team
 
-image: 
+image: slum.jpg
 
 focus: South and Southeast Asia
 

@@ -2,7 +2,7 @@
 title: Private Sector Action to Build Resilient Supply Chain Communities
 layout: team
 
-image: 
+image: supplychain.jpg
 
 focus: South and Southeast Asia
 

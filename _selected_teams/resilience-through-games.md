@@ -2,7 +2,7 @@
 title: "Fostering Climate Resilience through Entertaining Games"
 layout: team
 
-image: 
+image: games.jpg
 
 focus: South and Southeast Asia
 

@@ -2,7 +2,7 @@
 title: "Meteorological Early Warning Systems to Build Resilience to Acute Climate‐Induced Shocks"
 layout: team
 
-image: 
+image: storm.jpg
 
 focus: Horn of Africa
 

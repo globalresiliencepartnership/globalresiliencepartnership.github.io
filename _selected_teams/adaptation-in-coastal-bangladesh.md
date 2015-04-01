@@ -2,7 +2,7 @@
 title: "Climate Change Challenges and Community Adaption in Coastal Bangladesh"
 layout: team
 
-image: 
+image: team-1.jpg
 
 focus: South and Southeast Asia
 
