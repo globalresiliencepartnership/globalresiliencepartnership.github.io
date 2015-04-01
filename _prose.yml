@@ -10,6 +10,8 @@ prose:
     - robots.txt
     - /_prose.yml
     - /_config.yml
+    - CNAME
+    - source_assets
     
     # Development stuff
     - /.gitignore
