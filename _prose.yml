@@ -59,3 +59,17 @@ prose:
           element: "text"
           value: ""
           label: "Short Header"
+    
+    # Teams
+    _selected_teams:
+      - name: "image"
+        field:
+          element: "text"
+          value: ""
+          label: "Image URL"
+      - name: "focus"
+        field:
+          element: "text"
+          value: ""
+          label: "Geographic Focus"
+          
