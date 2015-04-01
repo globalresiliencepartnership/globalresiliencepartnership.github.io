@@ -39,3 +39,5 @@ prose:
         field:
           element: "text"
           value: "subtitle"
+          label: "Subtitle"
+          
