@@ -10,12 +10,9 @@ title: Selected Teams
     {% for post in site.selected_teams %}
     <li>
       <article class="card">
-        {% if post.image %}
-        <div class="avatar">
-          <img src="{{ post.image }}" alt="" width="100%">
-        </div>
-        {% endif %}
+        <div class="mask" style="background: url({{ site.baseurl}}/img/{{ post.image }}); backgroun-size: contain;"></div>
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        
       </li>
     {% endfor %}
   </ul>
