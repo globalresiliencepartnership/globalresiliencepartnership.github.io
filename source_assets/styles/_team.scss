@@ -10,7 +10,32 @@
   color: #46863c;
   margin: 0px;
 }
+.row .content {
+  position: relative;
+}
 .team-meta .row {
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px; 
+}
+
+.team-image {
+  height: 7rem;
+  margin-bottom: -2.5rem;
+  margin-top: -2.5rem;
+  position: relative;
+  background: #000;
+  
+  .mask {
+    opacity: 0.6;
+  }
+  
+}
+.mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
 }
