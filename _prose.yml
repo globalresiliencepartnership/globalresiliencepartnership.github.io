@@ -20,23 +20,22 @@ prose:
   site: http://www.globalresiliencepartnership.org
   media: resource
   metadata:
-    # Blog posts 
-    _posts:
-      - name: "layout"
+    # Main section content
+    _index_sections:
+      - name: "categories"
         field:
           element: "hidden"
-          value: "blog_post"
-      - name: "category"
+          value: "section"
+      - name: "class"
         field:
           element: "hidden"
-          value: "blog"
-      - name: "title"
+          value: ""
+      - name: "tags"
         field:
-          element: "text"
-          value: "title"
-      - name: "subtitle"
+          element: "hidden"
+          value: ""
+      - name: "short"
         field:
           element: "text"
           value: ""
-          label: "Subtitle"
-          
+          label: "Short Header"
