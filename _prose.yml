@@ -1,0 +1,75 @@
+prose:
+  ignore:
+    - /_includes
+    - /_layouts
+    - /assets
+    - geojson
+    - img
+    - pages
+    - config.rb
+    - robots.txt
+    - /_prose.yml
+    - /_config.yml
+    - CNAME
+    - source_assets
+    
+    # Development stuff
+    - /.gitignore
+    - /LICENSE.md
+    - /README.md
+  site: http://www.globalresiliencepartnership.org
+  media: resource
+  metadata:
+    # Blog posts 
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog_post"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          value: "title"
+      - name: "subtitle"
+        field:
+          element: "text"
+          value: ""
+          label: "Subtitle"
+  
+    # Main section content
+    _index_sections:
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "section"
+      - name: "class"
+        field:
+          element: "hidden"
+          value: ""
+      - name: "tags"
+        field:
+          element: "hidden"
+          value: ""
+      - name: "short"
+        field:
+          element: "text"
+          value: ""
+          label: "Short Header"
+    
+    # Teams
+    _selected_teams:
+      - name: "image"
+        field:
+          element: "text"
+          value: ""
+          label: "Image URL"
+      - name: "focus"
+        field:
+          element: "text"
+          value: ""
+          label: "Geographic Focus"
+          
