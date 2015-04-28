@@ -6,13 +6,6 @@ image: livestock.jpg
 
 focus: Horn of Africa
 
-expertise:
-  - Livestock trade
-
-innovation: "Transferring/reducing risk for pastoralists in the Horn of Africa"
-
-thematic_area: Livelihoods
-
 organizations:
   - Mercy Corps
   - Tango International
@@ -33,8 +26,6 @@ intl_org:
 
 team_lead: "Tate Munro, Mercy Corps, US, Europe"
 
-budget: "US$ 200,000"
-
 ---
 
-Over 30 million people across the Horn of Africa depend on pastoralism for their livelihoods, but prolonged and chronic droughts are increasingly disrupting and threatening these livelihoods and the community structures that rely on them. These risks could be managed by converting a livestock herd to cash in the early drought stages when the livestock are still healthy, known as ‘commercial destocking,’ but pastoralists who do not use markets to manage their livelihood risk usually lose most or all of their herds in cycles of shocks. This team’s key innovation is to research, address, and design financial vehicles to overcome existing barriers for pastoralists to use markets to build economic resilience to chronic drought. The diverse team of experienced NGOs, researchers, and local private sector partners will then apply their findings to pilot scalable solutions across the region.
+More than 30 million people across the Horn of Africa depend on pastoralism for their livelihoods, but prolonged and chronic droughts are increasingly disrupting and threatening this way of life and the community structures that rely on it. One effective way to manage these risks is to sell livestock for cash in the early stages of drought when the herd is still healthy. However, many pastoralists aren’t accustomed to harnessing the power of markets to manage their risk, and so usually lose most or all of their herds in cycles of drought. This team’s key innovation is to research, address, and design financial vehicles to empower pastoralists to overcome the barriers that block their use of markets, and help them build economic resilience to the chronic drought they face. The diverse team of experienced NGOs, evidence-driven researchers, and local private sector partners will then apply their findings from the pilot to develop scalable solutions across the region.
