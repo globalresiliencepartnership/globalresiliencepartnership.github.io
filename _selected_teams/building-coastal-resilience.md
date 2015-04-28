@@ -6,16 +6,9 @@ image: mangrove.jpg
 
 focus: South and Southeast Asia
 
-expertise:
-  - Coastal Communities Resilience
-
 organizations:
   - The Nature Conservancy
   - Wildlife Conservation Society
-
-innovation: 
-
-thematic_area: Natural Resource
 
 countries: 
   - Indonesia
@@ -39,8 +32,6 @@ intl_org:
   - Wildlife Conservation Society
 
 team_lead: "Michael W. Beck, The Nature Conservancy, USA"
-
-budget: "US$ 225,000"
 
 ---
 
