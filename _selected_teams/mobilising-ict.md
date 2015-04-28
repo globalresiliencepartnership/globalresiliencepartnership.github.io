@@ -6,16 +6,9 @@ image: drought.jpg
 
 focus: Horn of Africa
 
-expertise:
-  - Tracking and measuring resilience
-
 organizations:
   - Overseas Development Institute
   - CGIAR Research Programme on Climate Change, Agriculture and Food Security (CCAFS)
-
-innovation: Using mobile phone technology to collect and analyze big data
-
-thematic_area: Research and Policy Think Tank
 
 countries: 
   - Kenya
@@ -30,8 +23,6 @@ intl_org:
   - Massachusetts Institute of Technology
 
 team_lead: 
-
-budget: "US$ 199,982"
 
 ---
 
