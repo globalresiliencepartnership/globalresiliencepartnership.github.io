@@ -6,15 +6,8 @@ image: smallholder.jpg
 
 focus: South and Southeast Asia
 
-expertise:
-  - Environmental & Economic Resilience
-
 organizations:
   - Grameen Foundation
-
-innovation: "mobile technology for financial / info services"
-
-thematic_area: Livelihoods
 
 countries: 
   - Philippines
@@ -33,8 +26,6 @@ intl_org:
   - Progreso
 
 team_lead: "Joshua Tripp, Grameen Foundation USA, USA"
-
-budget: "US$ 199,551"
 
 ---
 
