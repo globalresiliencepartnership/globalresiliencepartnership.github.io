@@ -6,15 +6,8 @@ image: games.jpg
 
 focus: South and Southeast Asia
 
-expertise:
-  - Disaster Risk Reduction and Climate Resilience
-
 organizations:
   - FHI 360
-
-innovation: Fostering Climate Resilience through Entertaining Games
-
-thematic_area: DRR
 
 countries: 
   - Thailand
@@ -33,8 +26,6 @@ intl_org:
   - Debuz Co Ltd
 
 team_lead: "Josh Woodard, FHI 360 Asia Pacific Regional Office"
-
-budget: "US$ 200,000"
 
 ---
 
