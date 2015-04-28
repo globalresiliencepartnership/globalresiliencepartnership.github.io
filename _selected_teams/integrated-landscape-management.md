@@ -6,16 +6,9 @@ image: horn.jpg
 
 focus: Horn of Africa
 
-expertise:
-  - Integrated Landscape Management
-
 organizations:
   - Horn of Africa Regional Environment Centre & Network
   - EcoAgriculture Partners
-
-innovation: Innovation in the method of implementation
-
-thematic_area: Natural resource
 
 countries: 
   - Ethiopia
@@ -32,8 +25,6 @@ intl_org:
   - Eco-Agriculture Partners
 
 team_lead: "Dr. Araya Asfaw, Horn of Africa Regional Environment Centre & Network, Ethiopia"
-
-budget: "US$ 200,000"
 
 ---
 
