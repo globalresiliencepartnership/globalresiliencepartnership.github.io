@@ -6,17 +6,8 @@ image: fragile.jpg
 
 focus: Sahel
 
-expertise:
-  - Agroecology
-  - Climate Change Adaptation
-  - Nutrition 
-
 organizations:
   - Groundswell International
-
-innovation: integrated approaches to foster resilience through a proof of concept
-
-thematic_area: Health
 
 countries: 
   - Senegal
@@ -32,8 +23,6 @@ intl_org:
   - ETC
 
 team_lead: "Peter Gubbels, Groundswell International, Ghana"
-
-budget: "US$ 162,868"
 
 ---
 
