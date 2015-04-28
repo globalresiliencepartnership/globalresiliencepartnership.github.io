@@ -6,15 +6,8 @@ image: sensing.jpg
 
 focus: South and Southeast Asia
 
-expertise:
-  - Risk assessment, measurement and collaboration
-
 organizations:
   - BRAC USA
-
-innovation: Measurement innovation
-
-thematic_area: Livelihoods
 
 countries: 
   - Asia
@@ -28,8 +21,6 @@ intl_org:
   - Premise Data Corp
 
 team_lead: "Manisha Bhinge, BRAC USA, US"
-
-budget: "US$ 199,947"
 
 ---
 
