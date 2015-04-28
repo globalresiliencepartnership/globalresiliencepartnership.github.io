@@ -6,13 +6,6 @@ image: slum.jpg
 
 focus: South and Southeast Asia
 
-expertise:
-  - Applying risk information to community resilience
-
-innovation: Mobile technology to gather information for resilience
-
-thematic_area: Urban
-
 organizations:
   - American Red Cross
 
@@ -33,10 +26,8 @@ intl_org:
 
 team_lead: "Robert Laprade, American Red Cross, US"
 
-budget: "US$ 199,995"
-
 ---
 
-Already producing numerous challenges to governance, the dense and informal characteristics of urban slums make disaster planning a serious challenge. The team’s key resilience innovation is improving access to information that will help communities respond to disasters and build resilience.
+The South Asia region has been witnessing numerous climate related events in the recent past, leaving the dense urban populations vulnerable to negative impacts of acute water stress, heat extremes, flash flooding, and diseases. For South Asia, this translates to susceptibility of around 190.7 million people living in slums and informal settlements. Currently there exists a wide gap between the knowledge, understanding and skills of technical experts and the affected communities and local governments. 
 
-The team plans to leverage the Red Cross’ involvement in the Missing Maps project to help crowdsource information on the infrastructure that already exists in communities and where communities are vulnerable. By crowdsourcing information via mobile technology, members of a community can work with NGOs and other responders immediately during disasters, without having to wait to gather data, assess resources available and understand the local community.  And by encouraging local agents in combating these problems, those who know the ins and outs of their communities, solutions will be more inclusive, adaptive, self-organizing and effective.
+The team’s main innovation is to bridge barriers between technical experts, slum residents and city officials through community based vulnerability assessments, targeted community leaders training and implementing a range of resilience-building technologies. Specifically, the team aims to create a unique socio-technical partnership between communities and technical experts in 100 slum communities and in seven cities of South Asia. The overall goal is to directly impact the lives of more than 125,000 poor families living in urban slums and indirectly impact as many as 5.75 million people. 
