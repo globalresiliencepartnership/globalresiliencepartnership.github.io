@@ -16,12 +16,13 @@ layout: page
  	 </div>
  	</div> 
  	
- 	
+ 	{% if content %}
  	 <div class="post row">
      <div class="content">
     	<p>{{ content }}</p>
      </div>
     </div>
+    {% endif %}
  	
 	<div class="row post team-meta">
 
@@ -41,28 +42,15 @@ layout: page
 		  {% endfor %}
 		  </ul>
 		</div>
-
-		<div class="medium-4 columns">
-		  <h3>Technical Focus Area</h3>
-		  <ul>
-		  {% for expertise in page.expertise %}
-		    <li>{{ expertise }}</li>
-		  {% endfor %}
-		  </ul>
-		</div>
-		</div>
-		
-		<div class="row">
-
-		<div class="medium-4 columns">
-		  <h3>Thematic Area</h3>
-		  <p>{{ page.thematic_area }}</p>
-		</div>
 		
 		<div class="medium-4 columns">
 		  <h3>Team Lead</h3>
 		  <p>{{ page.team_lead }}</p>
 		</div>
+
+		</div>
+
+		<div class="row">
 		
 		<div class="medium-4 columns">
 		  <h3>Lead Organization</h3>
@@ -71,11 +59,7 @@ layout: page
 		    <li>{{ organization }}</li>
 		  {% endfor %}
 		  </ul>
-		</div>
-		
-		</div>
-		
-		<div class="row">
+		</div>	
 	
 
 		<div class="medium-4 columns">
@@ -87,14 +71,7 @@ layout: page
 		  </ul>
 		</div>
 
-		<div class="medium-8 columns">
-		  <h3>International Partners</h3>
-		  <ul>
-		  {% for intl_org in page.intl_org %}
-		    <li>{{ intl_org }}</li>
-		  {% endfor %}
-		  </ul>
-		</div>
+		<div class="medium-4 columns">
 		</div>
 		
 	  </div>
