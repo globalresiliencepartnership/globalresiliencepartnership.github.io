@@ -14,7 +14,7 @@ Global Resilience Partnership Executive Sponsors the U.S. Agency for Internation
 
 Representatives from the following [teams](http://www.globalresiliencepartnership.org/teams/) will be in attendance at the workshop:
 
-* “Viral, Angry Birds: Fostering Climate Resilience through Entertaining Games,” FHI 360
+* “Fostering Climate Resilience through Entertaining Games,” FHI 360
 * “Crowdsourcing Community Resilience in Urban Slums,” American Red Cross
 * “Climate Change Challenges and Community Adaption in Coastal Bangladesh (CCAD),” Mershon Center for International Security Studies, The Ohio State University
 * “Building Coastal Resilience in South & Southeast Asia through Mangrove Restoration for Risk Reduction,” The Nature Conservancy
