@@ -1,0 +1,10 @@
+<section>
+  <h1 class="section-title" id="{{monthTag date}}">{{label}}</h1>
+  <ol class="card-list">
+    {{#each entries}}
+    <li>
+      {{>calendar-entry}}
+    </li>
+    {{/each}}
+  </ol>
+</section>

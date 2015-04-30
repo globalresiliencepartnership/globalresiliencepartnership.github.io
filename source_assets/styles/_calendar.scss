@@ -1,0 +1,147 @@
+.card-skin {
+  border-top: 4px solid $green;
+  border-bottom: 1px solid $green;
+  box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+  background: #FFF;
+  padding: 2rem;
+  text-align: left;
+
+  * {
+    text-align: left;
+    color: $grey;
+    text-transform: initial;
+  }
+
+  h1 {
+    padding: 0;
+    margin: 0 0 1rem 0;
+    line-height: 1.2;
+    font-size: 1.5rem;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.calendar {
+
+  .section-title {
+    padding: 0;
+    margin: 4rem 0 3rem 0;
+    text-align: center;
+  }
+
+  .card-list {
+    list-style: none;
+    margin: 0;
+
+    li {
+      max-width: 40rem;
+      margin: 0 auto 3rem auto;
+
+      @media only screen and (min-width: 779px) {
+        margin-bottom: 5rem;
+      }
+    }
+
+  }
+  .card {
+    @extend .card-skin;
+    position: relative;
+    margin: 0 1rem;
+
+    @media only screen and (min-width: 779px) {
+      margin: 0;
+    }
+
+    .content {
+      overflow: hidden;
+      max-height: 100px;
+      margin-bottom: 2rem;
+
+      & > *:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .more {
+      display: none;
+      margin: 0 auto;
+      background: $green;
+      width: 6rem;
+      padding: 0.5rem 1rem;
+      text-align: center;
+      
+      &:link, &:active {
+        color: #FFF !important;
+      }
+
+      &:hover {
+        background: $l-blue;
+      }
+
+      &.revealed {
+        display: block;
+      }
+    }
+
+  }
+
+  .pub-date {
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+  }
+}
+
+
+
+.calendar-nav {
+  list-style: none;
+  display: none;
+  position: fixed;
+  top: 200px;
+
+  @media only screen and (min-width: 779px) {
+    display: block;
+  }
+
+  li {
+    position: relative;
+    margin-bottom: 1rem;
+    font-size: 0.825rem;
+
+    &:before {
+      position: absolute;
+      top: 8px;
+      left: -1rem;
+      z-index: 1;
+      display: block;
+      content: '';
+      width: 0.5rem;
+      height: 0.5rem;
+      background-color: $green;
+      border-radius: 60rem;
+    }
+    &:not(:last-child):after {
+      position: absolute;
+      top: 8px;
+      left: -0.825rem;
+      z-index: 1;
+      display: block;
+      content: '';
+      width: 2px;
+      height: 2.5rem;
+      background-color: $green;
+    }
+
+    a {
+      color: $green !important;
+    }
+  }
+
+}

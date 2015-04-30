@@ -10,41 +10,11 @@ title: Selected Teams
     {% for post in site.selected_teams %}
     <li>
       <article class="card">
-        {% if post.image %}
-        <div class="avatar">
-          <img src="{{ post.image }}" alt="" width="100%">
-        </div>
-        {% endif %}
-        <h1>{{ post.title }}</h1>
-  
-        <div class="prose">{{ post.content }}</div>
-
-        <dl class="metadata">
-          <dt>Geographic focus</dt>
-          <dd>{{ post.focus }}</dd>
-          
-          <dt>Areas of expertise</dt>
-          <dd>
-            <ul class="enum">
-              {% for exp in post.expertise %}
-              <li>{{ exp }}</li>
-              {% endfor %}
-            </ul>
-          </dd>
-
-          <dt>Lead Organizations</dt>
-          <dd>
-            <ul class="enum">
-              {% for org in post.organizations %}
-              <li>{{ org }}</li>
-              {% endfor %}
-            </ul>
-          </dd>
-
-        </dl>
-
-      </article>
-    </li>
+        <div class="mask" style="background: url({{ site.baseurl}}/img/{{ post.image }}); backgroun-size: contain;"></div>
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        
+      </li>
     {% endfor %}
   </ul>
+  
 </div>

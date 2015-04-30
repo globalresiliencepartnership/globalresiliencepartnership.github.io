@@ -8,7 +8,7 @@ $off-white:#f5f3f3;
 $d-green: darken($green,20%);
 
 $f-norm:1em;
-$f-medium: 1.25em;
+$f-medium: 1.5em;
 $f-large: 2.35em;
 
 $lh-norm:1.65em;
@@ -21,46 +21,26 @@ $pad-large:15%;
 $border:1px solid;
 $border-thick:10px solid;
 
-body {
-	overflow-x:hidden;
-}
 
 h1,h2,h3,p,footer{
 	font:$f-norm 'ITC Franklin Gothic', Arial, sans-serif;
-	line-height:$lh-norm;
 	color:$grey;
 }
 
 h1 {
 	font-size:$f-large;
 	font-weight:bold;
-	letter-spacing:0.05em;
-	padding:0 $pad;
-	text-align: center;
-
+	margin-bottom: 10px;
 }
 h2 {
 	font-size:$f-medium;
-	letter-spacing:0.02em;
-	word-spacing: 0.1em;
-	margin:$pad $pad-large;
-	text-align: center;
 }
 h3 {
 	font-weight:bold;
 	text-transform: uppercase;
 	font-size:$f-norm;
-	text-align: center;
 }
-p {
-	line-height:$lh-norm;
-	word-spacing: 0.05em;
-}
-a {
-	letter-spacing:0.02em;
-	color:$l-blue!important;
-	&:hover {color:$green!important;}
-}
+
 small {
 	&.confirm {
 		padding:$pad;
@@ -81,19 +61,20 @@ small {
 		text-shadow:none;
 	}
 }
-.row {
-	.row {
-		margin:$pad $pad-large;
-		p {
-			margin:$pad 0;
-			padding:0;
-		}
-	}
+
+a {
+  color: #009EDE !important;
 }
+a:hover,
+a:focus {
+  color: #49853E !important;
+}
+
 #map {
-  height: 700px;
-  width: 100%;
+	height: 700px;
+	width: 100%;
 }
+
 [data-magellan-expedition],
 [data-magellan-expedition-clone]{
 	z-index:9999; /* overwrite the map attribution */
@@ -121,32 +102,6 @@ small {
 		}
 	}
 }
-/*
-ul {
-	margin:0;
-	margin-bottom:$pad*2;
-	li {
-		list-style:none;
-		margin:0 $pad-large;
-		padding:$pad $pad 0;
-		color:$green;
-		border-left:	  $border $green;
-		border-right:	  $border $green;
-		background:$off-white;
-		&:first-child {
-			background:$green;
-			color:$white;
-			text-transform: uppercase;
-			text-align: center;
-			padding:$pad/2 $pad;
-		}
-		&:last-child {
-			border-bottom:$border $green;
-			padding-bottom:$pad;
-		}
-	}
-}
-*/
 ul {
   list-style-type: none;
   padding: 0;
@@ -183,7 +138,7 @@ nav {
 	}
 }
 section {
-	background:$off-white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat;
+    background:$off-white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQYV2M8eO/kf3slc0YGHACnBEw9DRSgu4kGVqD7FgDdLwgJAa/HoQAAAABJRU5ErkJggg==) repeat;
 	&.challenge {
 		background:url(../../img/post-its-bw.jpg);
 		background-size: cover;
@@ -243,55 +198,6 @@ section {
 }
 
 
-.mc-embed {
-	.columns {
-		padding-left:0;
-	}
-	label {
-		padding-right:10px;
-		display:inline-block;
-		color:$off-white;
-	}
-	.button {
-		margin:21px 0 0 -14px;
-		padding:9px;
-	}
-}
-
-footer {
-	font-size:$f-norm*0.8;
-	background:$white;
-	p {
-		margin:0;
-	}
-	h2 {
-		margin-left:0;
-		text-align:left;
-	}
-	a {
-		color:lighten($grey,20%)!important;
-	}
-	img {
-		width:150px;
-		padding:$pad;
-	}
-	.website {
-		margin-top:$pad/2;
-		background:url(../../img/logos/devseed.png) no-repeat 92%;
-	}
-	.link {
-		margin-top:$pad/2;
-	}
-	.email {
-		margin-top:$pad/2;
-	}
-	.twitter-timeline {
-		margin-bottom:$pad/2;
-	}
-	.logos {
-		margin-top:8px;
-	}
-}
 
 .challenge {
 	nav {
@@ -342,9 +248,6 @@ footer {
 				display:block;
 			}
 		}
-	}
-	h1 {
-		font-size:$f-medium;
 	}
 	h2,
 	.row .row,
@@ -439,8 +342,11 @@ footer {
 		border-bottom: 1px solid $green;
 	}
 }
+.index-post {
+  padding: 40px 0;
+}
 .index-post ul {
-	margin:0;
+	margin:40px 0;
 	margin-bottom:$pad*2;
 	li {
 		list-style:none;
@@ -465,23 +371,34 @@ footer {
 }
 ul.winner-list {
 	@extend .cards;
-    
-	.card {
-	    border-top: 4px solid #46863C;
-	    height: 475px;
-	    padding: 2rem;
-	    margin-top: 30px;
-	     box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
-		.avatar {
-			margin: -1rem -1rem 0 -1rem;
+	
+	.card:hover {
+		  background: #B25900 !important;
 		}
 
+	.card {
+	    border-top: 4px solid #46863C;
+	    height: 200px;
+	    padding: 2rem;
+	    position: relative;
+	    background: #000;
+	    margin-top: 30px;
+	    box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+		
+		.avatar {
+			margin: -1rem -1rem 0 -1rem;
+		  }
+		
 		h1 {
 	      padding: 0;
 	      margin: 0 0 1rem 0;
-	      line-height: 1.2;
 	      font-size: 1.5rem;
+	      position: relative;
 		}
+		h1 a {
+		  color: #fff !important;
+		}
+		
 
 		.metadata {
 			dt {
@@ -625,4 +542,109 @@ nav .sub-nav {
 			}
 		}
 	}
+}
+
+button, 
+.button {
+  background: #009ede;
+  color: #fff !important;
+}
+button:hover,
+.button:hover {
+ background: #49853E !important;
+ color: #fff !important;
+}
+
+.sign-up {
+  background: #009ede;
+  padding: 30px 0;
+  #mc-embedded-subscribe {
+    margin-top: 20px;
+    padding: 10px;
+    background: #FFA64D;
+    margin-left: -15px;
+  }
+  #mce-EMAIL {
+    width: 95%;
+  }
+  p {
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+}
+
+.row-partners {
+  padding: 80px 0;
+  #rockefeller-logo {
+    width: 150px;
+    height: 100px;
+    text-indent: -9999px;
+    background: url("../../img/rockefeller-desat.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: block;
+    float: left;
+    margin: 0 50px 0 0;
+  }
+  #usaid-logo {
+    width: 100px;
+    height: 100px;
+    text-indent: -9999px;
+    background: url("../../img/usaid-desat.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: block;
+    float: left;
+    margin: 0 50px 0 0;
+  }
+  #sweden-logo {
+    width: 100px;
+    height: 80px;
+    text-indent: -9999px;
+    background: url("../../img/sweden-desat.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: block;
+    float: left;
+  }
+}
+
+footer {
+  padding: 40px 0;
+  p {
+    font-size: 12px;
+    color: #bbb;
+    margin: 0;
+  }
+  a {
+    color: #ccc;
+  }
+  .website {
+    text-align: right;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  
+ .sign-up #mce-EMAIL {
+    width: 100%;
+  }
+ .sign-up #mc-embedded-subscribe {
+    width: 80%;
+    margin: 20px 0 0 20px;
+  }
+  .row-partners a {
+    float: none !important;
+    margin: 0 auto 40px auto !important;
+    width: 60% !important;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .row-partners a {
+    float: none !important;
+    margin: 0 auto 40px auto !important;
+    width: 60% !important;
+  }
 }

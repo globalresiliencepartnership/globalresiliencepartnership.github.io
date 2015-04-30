@@ -1,0 +1,83 @@
+---
+layout: page
+---
+<div class="post row">
+  <div class="content">
+    
+    <ul class="social">
+      <li><a class="twitter" href="https://twitter.com/share?url={{ site.domain }}{{ page.url }}" onClick="_gaq.push(['_trackEvent', 'Click', 'Social', 'Twitter']);"><span class="visually-hidden">Twitter</span></a></li>
+      <li><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.domain }}{{ page.url }}" onClick="_gaq.push(['_trackEvent', 'Click', 'Social', 'Facebook']);"><span class="visually-hidden">Facebook</span></a></li>
+      <li><a class="google" href="https://plus.google.com/share?url={{ site.domain }}{{ page.url }}" onClick="_gaq.push(['_trackEvent', 'Click', 'Social', 'Google+']);"><span class="visually-hidden">google</span></a></li>
+    </ul>
+
+    <h1>{{ page.title }}</h1>
+ 	<h2>{{ page.innovation }}</h2>
+ 	
+ 	 </div>
+ 	</div> 
+ 	
+ 	{% if content %}
+ 	 <div class="post row">
+     <div class="content">
+    	<p>{{ content }}</p>
+     </div>
+    </div>
+    {% endif %}
+ 	
+	<div class="row post team-meta">
+
+	  <div class="content">
+	  
+	    <div class="row">
+		<div class="medium-4 columns">
+		  <h3>Region</h3>
+		  <p>{{ page.focus }}</p>
+		</div>
+
+		<div class="medium-4 columns">
+		  <h3>Countries</h3>
+		  {% for country in page.countries %}
+		  <ul>
+		  <li>{{ country }}</li>
+		  {% endfor %}
+		  </ul>
+		</div>
+		
+		<div class="medium-4 columns">
+		  <h3>Team Lead</h3>
+		  <p>{{ page.team_lead }}</p>
+		</div>
+
+		</div>
+
+		<div class="row">
+		
+		<div class="medium-4 columns">
+		  <h3>Lead Organization</h3>
+		  <ul>
+		  {% for organization in page.organizations %}
+		    <li>{{ organization }}</li>
+		  {% endfor %}
+		  </ul>
+		</div>	
+	
+
+		<div class="medium-4 columns">
+		  <h3>Local Partners</h3>
+		  <ul>
+		  {% for local_org in page.local_org %}
+		    <li>{{ local_org }}</li>
+		  {% endfor %}
+		  </ul>
+		</div>
+
+		<div class="medium-4 columns">
+		</div>
+		
+	  </div>
+	</div>
+ 	 
+
+   
+  	</div>
+</div>

@@ -23,13 +23,10 @@ tags: challenge
 		</div>
 	</li>
 	
-	<li>During Stage Two, teams will propose Solutions and Implementation Plans. In September, we will announce the final winners who will receive up to $1 million to implement and scale up their solutions in each region.</li>
+	<li>During Stage Two, teams will propose Solutions and Implementation Plans. In September, we will announce the final winners who will receive up to $1 million to implement and scale up their solutions in each region. <a href='{{site.baseurl}}/calendar'>Check out the timeline for additional information.</a></li>
 
 	<li>We invite you to continue to engage with the Global Resilience Partnership and the Challenge. To stay informed of the latest updates and opportunities please subscribe to our newsletter (below), follow us on <a href='https://twitter.com/grp_resilience'>Twitter</a>, and become part of our official Global Resilience Challenge <a href='https://www.linkedin.com/groups?gid=8194646&mostPopular=&trk=tyah&trkInfo=idx%3A3-1-5%2CtarId%3A1423144886008%2Ctas%3Aglobal+resilience'>LinkedIn discussion group</a>.</li>
 
 	<li>Questions about the Challenge? Please <a href='mailto:challenge@globalresiliencepartnership.org'>contact us</a> or <a href='{{site.baseurl}}/resource/challenge-docs/FAQ_GlobalResilienceChallenge_English.pdf' download='FAQ_GlobalResilienceChallenge_English.pdf' onClick="_gaq.push(['_trackEvent', 'Click', 'Download', 'FAQ_GlobalResilienceChallenge']);">download the Challenge FAQs</a> and <a href='{{site.baseurl}}/resource/challenge-docs/GRP_Source_Document_English.pdf' download='GRP_Source_Document_English.pdf' onClick="_gaq.push(['_trackEvent', 'Click', 'Download', 'GRP_Source_Document_English']);">Challenge source document</a>.
 	</li>
 </ul>
-
-## Subscribe to our mailing list:
-{% include mailchimp.html %}
