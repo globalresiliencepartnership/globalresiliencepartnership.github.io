@@ -62,14 +62,43 @@ prose:
     
     # Teams
     _selected_teams:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
       - name: "image"
         field:
           element: "text"
-          value: ""
           label: "Image URL"
       - name: "focus"
         field:
           element: "text"
-          value: ""
           label: "Geographic Focus"
-          
+      - name: "organizations"
+        field:
+          element: multiselect
+          label: "Organizations"
+          help: "Enter organizations names"
+          alterable: true
+      - name: "countries"
+        field:
+          element: multiselect
+          label: "Countries"
+          help: "Enter countries names"
+          alterable: true
+      - name: "local_org"
+        field:
+          element: multiselect
+          label: "Local Organization Names"
+          help: "Enter local organization names"
+          alterable: true
+      - name: "intl_org"
+        field:
+          element: multiselect
+          label: "International Organization Names"
+          help: "Enter intl organization names"
+          alterable: true
+      - name: "team_lead"
+        field:
+          element: "text"
+          label: "Team Lead"
