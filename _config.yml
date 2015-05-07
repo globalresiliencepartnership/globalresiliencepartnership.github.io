@@ -7,7 +7,9 @@ markdown: rdiscount
 rdiscount:
   extensions: [smart]
 permalink: blog/:year/:month/:day/:title
-baseurl: /rockefeller-grp
+baseurl: 
+
+domain: http://www.globalresiliencepartnership.org
 
 collections:
   index_sections:
