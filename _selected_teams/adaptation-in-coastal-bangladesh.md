@@ -22,7 +22,7 @@ intl_org:
   - Iowa State University
   - South Dakota State University
   - U. of Adelaide
-team_lead: "Prof J. Craig Jenkins, Mershon Center for International Security, Ohio State University, USA"
+team_lead: "Prof. J. Craig Jenkins, Mershon Center for International Security, Ohio State University, USA"
 published: true
 ---
 
