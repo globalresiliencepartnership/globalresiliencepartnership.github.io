@@ -77,25 +77,25 @@ prose:
       - name: "organizations"
         field:
           element: multiselect
-          label: "organizations"
+          label: "Organizations"
           help: "Enter organizations names"
           alterable: true
       - name: "countries"
         field:
           element: multiselect
-          label: "countries"
+          label: "Countries"
           help: "Enter countries names"
           alterable: true
       - name: "local_org"
         field:
           element: multiselect
-          label: "local_org"
+          label: "Local Organization Names"
           help: "Enter local organization names"
           alterable: true
       - name: "intl_org"
         field:
           element: multiselect
-          label: "intl_org"
+          label: "International Organization Names"
           help: "Enter intl organization names"
           alterable: true
       - name: "team_lead"
