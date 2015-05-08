@@ -15,18 +15,20 @@ countries:
   - Bangladesh
 
 local_org: 
-  - Homenet South Asia
-  - Indian Institute of Public Health Gandhinagar
-  - Ahmedabad Municipal Corporation 
-  - Geotech 
-  - Himadiri Enviro-Protection Consultants Pvt. Ltd
-  - Urban Management Centre 
-  - Development Alternatives 
-  - Vandemataram Projects Private Limited
-  - SELCO Solar Light Pvt Ltd
-  - National Insurance VimoSEWA Co-operative Ltd
+  - HomeNet South Asia
   - Centre for Environment Education
-  - EMBARQ India
+  - EMBARQ India Geotech Consultant
+  - Himadiri Enviro-Protection Consultants Pvt. Ltd
+  - "Indian Institute of Public Health (Gandhinagar)"
+  - "P H Shah & Co. Chartered Accountants"
+  - SELCO Solar Light Pvt Ltd
+  - Urban Management Centre
+  - Development Alternatives
+  - Vandemataram Projects Private Limited
+  - "Dr. Vijay Kohli (Entomologist)"
+  - "Mr. Anindya Sarkar, (Disaster Management)"
+  - "Mr. Kirtee Shah (Architect)"
+  - "Mr. Arman Oza (Insurance Consultant)"
 
 intl_org:
   - Freie Universität Berlin
