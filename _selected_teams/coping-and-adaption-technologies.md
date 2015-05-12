@@ -31,8 +31,8 @@ local_org:
   - "Mr. Arman Oza (Insurance Consultant)"
 
 intl_org:
-  - Freie Universität Berlin
-  - Georgia Institute of Technology
+  - "Prof. Dr. Michael Schneider from (Freie Universität Berlin)"
+  - "Prof. Michael Elliott (Georgia Institute of Technology)"
 
 team_lead: "Renana Jhabvala, Mahila Housing SEWA Trust, India"
 
