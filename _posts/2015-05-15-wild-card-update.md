@@ -12,6 +12,9 @@ To apply to become Wild Cards, teams must:
 *	Develop solutions that focus on the regions of the Sahel and the Horn of Africa
 *	Put forth solutions to the Designated Problem Statement with a focus on innovative financing, technology, or both
 
+* “Fostering Climate Resilience through Entertaining Games,” FHI 360
+* “Crowdsourcing Community Resilience in Urban Slums,” American Red Cross
+
 The Designated Problem Statement that teams are invited to respond with solutions to is as follows:
 
 TECHNOLOGY – MOBILE NETWORKS: 
