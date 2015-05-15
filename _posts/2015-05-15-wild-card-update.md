@@ -9,10 +9,8 @@ subtitle: ""
 The Global Resilience Partnership is now accepting applications from new teams to join the Global Resilience Challenge as “Wild Cards”. Wild Card teams will join the 17 teams currently participating in the Challenge and will be eligible for up to $1 million to implement solutions to build resilience in some of the world’s most vulnerable regions. 
 
 To apply to become Wild Cards, teams must: 
-
-•	Develop solutions that focus on the regions of the Sahel and the Horn of Africa
-
-•	Put forth solutions to the Designated Problem Statement with a focus on innovative financing, technology, or both
+*	Develop solutions that focus on the regions of the Sahel and the Horn of Africa
+*	Put forth solutions to the Designated Problem Statement with a focus on innovative financing, technology, or both
 
 The Designated Problem Statement that teams are invited to respond with solutions to is as follows:
 
