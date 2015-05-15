@@ -18,13 +18,10 @@ The Designated Problem Statement that teams are invited to respond with solution
 TECHNOLOGY – MOBILE NETWORKS: 
 Around the globe, mobile devices and network technologies are transforming the way resources flow, people connect, and information is circulated. In the Sahel and Horn of Africa, for instance, mobile payments have transformed the nature of commerce. 
 
-•	How can established and emergent mobile networks and technologies be harnessed to increase the resilience of vulnerable communities/geographies in this region? 
-
-•	Consider how such platforms and technologies could be further developed, applied, and scaled to enhance the resilience of social, ecological, physical, and economic systems.  
-
-•	How can current activities be broadened or calibrated to have co-benefits in adjacent spaces?  
-
-•	How can these technological systems, for instance, foster inclusive economies, strengthen and diversify markets, and grow social capital?
+* How can established and emergent mobile networks and technologies be harnessed to increase the resilience of vulnerable communities/geographies in this region? 
+* Consider how such platforms and technologies could be further developed, applied, and scaled to enhance the resilience of social, ecological, physical, and economic systems.
+* How can current activities be broadened or calibrated to have co-benefits in adjacent spaces?  
+* How can these technological systems, for instance, foster inclusive economies, strengthen and diversify markets, and grow social capital?
 
 Applications will be accepted until July 15. Wild Card Team applications with private sector participation are strongly encouraged. Interested teams should continue to check this page for updates. In the coming weeks, we will be sharing additional information about an open conference call for potential teams, and further details on the application submission process.
 
