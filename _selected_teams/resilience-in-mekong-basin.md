@@ -7,7 +7,7 @@ image: mekong.jpg
 focus: South and Southeast Asia
 
 organizations:
-  - International Union for Conversation of Nature
+  - International Union for Conservation of Nature
 
 countries: 
   - Thailand
