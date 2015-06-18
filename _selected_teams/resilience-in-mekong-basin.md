@@ -22,7 +22,7 @@ intl_org:
   - SEI Asia Centre
   - Ramsar Convention Secretariat
 
-team_lead: "Dr. Robert Mather, International Union for Conversation of Nature"
+team_lead: "Dr. Robert Mather, International Union for Conservation of Nature"
 
 ---
 
