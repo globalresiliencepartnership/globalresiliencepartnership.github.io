@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: blog_post
 category: blog
 title: 'Global Resilience Challenge' Teams Identify Major Barriers to Building Resilience
