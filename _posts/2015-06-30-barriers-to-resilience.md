@@ -2,7 +2,7 @@
 published: true
 layout: blog_post
 category: blog
-title: 'Global Resilience Challenge' Teams Identify Major Barriers to Building Resilience 
+title: Global Resilience Challenge Teams Identify Major Barriers to Building Resilience
 subtitle: Seventeen Challenge Teams Focusing on Solutions that will Help Millions
 ---
 
