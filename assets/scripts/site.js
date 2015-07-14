@@ -330,7 +330,7 @@ $(function(){
       console.log(reqData);
         $.post('http://204.93.210.208/~grp/apply.php',(reqData))
         .done(function(data, textStatus, jqXHR) {    
-            $('#message').html("<p class='alert alert-success'>Your application has being submitted successfully</p>");
+            $('#message').html("<p class='alert alert-success'>Your application has been submitted successfully</p>");
             clearForm();
             $('#applyFormBtn').prop('disabled',false);
             $('#applyFormBtn').val('Submitted Successfully');
