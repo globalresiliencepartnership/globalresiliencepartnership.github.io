@@ -1,7 +1,9 @@
 ---
 ---
 {% include styles/animate.css %}
+{% include styles/bootstrap.min.css %}
 {% include styles/foundation.css %}
 {% include styles/fonts.css %}
 {% include styles/normalize.css %}
 {% include styles/main.css %}
+{% include styles/multiselect.css %}
