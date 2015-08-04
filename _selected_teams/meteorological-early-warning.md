@@ -14,7 +14,7 @@ countries:
 
 local_org:
   - African Centers for Lightning and Electromagnetics
-  - Uganda Chartered Health Net
+  - Climate Change Adaptation Innovation
   - Human Network International
 
 intl_org:
