@@ -23,9 +23,7 @@ tags: challenge
 		</div>
 	</li>
 	
-	<li>During Stage Two, teams will propose Solutions and Implementation Plans. In September, we will announce the final winners who will receive up to $1 million to implement and scale up their solutions in each region. 
-	
-	<li>The Global Resilience Partnership is now accepting applications from new teams to join the Global Resilience Challenge as “Wild Cards”. For more information, <a href='{{site.baseurl}}/blog/2015/05/15/wild-card-update/'>check out the Wild Card blog post.</a></li> 
+	<li>During Stage Two, teams will propose Solutions and Implementation Plans. In September, we will announce the final winners who will receive up to $1 million to implement and scale up their solutions in each region. </li>
 
 	<li>We invite you to continue to engage with the Global Resilience Partnership and the Challenge. To stay informed of the latest updates and opportunities please subscribe to our newsletter (below), follow us on <a href='https://twitter.com/grp_resilience'>Twitter</a>, and become part of our official Global Resilience Challenge <a href='https://www.linkedin.com/groups?gid=8194646&mostPopular=&trk=tyah&trkInfo=idx%3A3-1-5%2CtarId%3A1423144886008%2Ctas%3Aglobal+resilience'>LinkedIn discussion group</a>.</li>
 
