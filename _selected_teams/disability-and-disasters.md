@@ -31,3 +31,5 @@ team_lead: "Dr. Emma Calgaro, Natural Hazards Research GroupUniversity of Sydney
 While climate-related disasters are more threatening for Southeast Asian populations than ever before, people with disabilities are disproportionately affected. People with disabilities are rarely considered in disaster risk reduction strategies and programs, experiencing inaccessibility to evacuation facilities and emergency provisions and cultural exclusion. 
 
 To identify how to best integrate the needs of this sizeable and particularly vulnerable population into disaster risk reduction strategies and resilience-building programs, this team will seek a better understanding of critical capacity gaps for people with disabilities and best practices for properly communicating and overcoming the barriers they face.
+
+[Click here](http://www.globalresiliencepartnership.org/assets/downloads/GRP-DisabilityandDisasters_ProblemStatement.pdf) to download the problem statement.
