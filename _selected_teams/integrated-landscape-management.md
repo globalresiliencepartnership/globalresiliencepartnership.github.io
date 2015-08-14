@@ -32,4 +32,4 @@ Land and water resources in the arid and semi-arid parts of the Horn of Africa h
 
 This team will seek to improve landscape planning, governance and investment, and strategically link and scale up existing innovations, both ‘quick wins’ and longer-term investments. A series of landscape leader workshops, strategic mapping analyses and key informant interviews will help identify solutions for inherently connected challenges in the field of land, water, energy and biodiversity.
 
-[Click here](http://www.globalresiliencepartnership.org/assets/downloads/GRP-Problem-Statement-HoARECN.pdf) to download the problem statement.
+[Click here](http://www.globalresiliencepartnership.org/assets/downloads/GRP-Problem-Statement-HOA_RECN.pdf) to download the problem statement.
