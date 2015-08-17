@@ -24,3 +24,5 @@ published: true
 Already producing numerous challenges to governance, the dense and informal characteristics of urban slums make disaster planning a serious challenge. The team’s key resilience innovation is improving access to information that will help communities respond to disasters and build resilience.
 
 The team plans to leverage the Red Cross’ involvement in the Missing Maps project to help crowdsource information on the infrastructure that already exists in communities and where communities are vulnerable. By crowdsourcing information via mobile technology, members of a community can work with NGOs and other responders immediately during disasters, without having to wait to gather data, assess resources available and understand the local community.  And by encouraging local agents in combating these problems, those who know the ins and outs of their communities, solutions will be more inclusive, adaptive, self-organizing and effective.
+
+[Click here](http://www.globalresiliencepartnership.org/assets/downloads/GRP_ARC_Problem_Statement.pdf) to download the problem statement.
