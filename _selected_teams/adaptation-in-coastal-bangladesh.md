@@ -29,3 +29,5 @@ published: true
 Coastal Bangladesh, with its complex network of river deltas and wetlands communities, is fast-becoming one of the most disaster-prone populated regions in the world. Increasing monsoon rainfall and intensifying cyclone seasons are disrupting communities’ traditional preparations for flooding and preventing a coordinated response. 
 
 This team aims to employ data-gathering at the regional and highly-localized levels to develop a cyclone and flood satellite-based monitoring, early warning and response system that is community-centric. The data gathered would also fill critical gaps in the national government and World Bank’s effort to repair Bangladesh’s levee system.
+
+[Click here](http://www.globalresiliencepartnership.org/assets/downloads/Building-Community-Resilience-Problem-Statement.pdf) to download the problem statement.
