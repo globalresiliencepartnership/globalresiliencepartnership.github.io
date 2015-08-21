@@ -1834,7 +1834,7 @@ meta.foundation-mq-topbar {
       border-left: 0; }
     .button-group.even-3 li button, .button-group.even-3 li .button {
       width: 100%; }
-	.button-group.double-line li .small{min-height: 60px;}
+	.button-group.double-line li .small{min-height: 61px;}
 	.button-group.double-line button.small,.button-group.double-line .button.small{padding-left: 0.75rem;padding-right: 0.75rem;}
   .button-group.even-4 li {
     width: 25%; }
