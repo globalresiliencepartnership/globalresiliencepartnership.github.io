@@ -11,13 +11,13 @@ The Global Resilience Partnership will engage experts, donors, and leaders on th
 
 On Tuesday, August 25 from 16:00-17:30 CEST (10:00-11:00 EDT), the Resilience Partnership will host a high-level panel discussion titled “<a href="http://programme.worldwaterweek.org/event/4907" target="_blank">Building Resilience to Floods and Droughts: Private Sector Opportunity</a>.”
 
-Chris Holmes, Deputy Assistant Administrator in USAID’s Bureau for Economic Growth, Education, and Environment (E3), and the Agency's first Global Water Coordinator, will be the panel moderator. 
+<strong>Chris Holmes</strong>, Deputy Assistant Administrator in USAID’s Bureau for Economic Growth, Education, and Environment (E3), and the Agency's first Global Water Coordinator, will be the panel moderator. 
 
 Panelists will include:
 <ul>
 <li>Anders Granlund is Lead Policy Specialist, Environment and Climate at the Swedish International Development Cooperation Agency (Sida) Policy Support Unit</li>
 <li>Linda Freiner is the Flood Resilience Program Manager at Zurich Insurance Group</li>
-<li>Johan Rockström is a Professor in Environmental Science with emphasis on water resources and global Sustainability at Stockholm University, and the Executive Director of Stockholm Resilience Centre</li>
+<li>Belinda Reyers is a Professor at Stellenbosch University, South Africa, and a researcher at the Stockholm Resilience Centre</li>
 </ul> 
 
 The panel will look at how communities can build resilient systems to better manage water resources, promote effective use of water for food security, and get ahead of water-related shocks and stresses, such as disruptive patterns of floods and droughts.  It will also look at how we can best incentivize and strengthen the role of the private sector in contributing to resilient solutions to water issues, including by expanding the use of innovative financing tools, so that communities can get ahead of shocks, and stay on a path toward sustainable development.
