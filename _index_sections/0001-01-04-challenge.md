@@ -17,7 +17,7 @@ tags: challenge
 	
 	<li>An announcement of the Challenge winners, who will receive up to $1 million to implement and scale up their solutions in each region, will be made during the United Nations General Assembly week activities in late September.</li>
 	
-	<li>We invite you to continue to engage with the Global Resilience Partnership and the Challenge. To stay informed of the latest updates and opportunities please subscribe to our newsletter (below), follow us on a href='https://twitter.com/grp_resilience'>Twitter</a>, and become part of our official Global Resilience Challenge <a href='https://www.linkedin.com/groups?gid=8194646&mostPopular=&trk=tyah&trkInfo=idx%3A3-1-5%2CtarId%3A1423144886008%2Ctas%3Aglobal+resilience'>LinkedIn discussion group</a>.</li>
+	<li>We invite you to continue to engage with the Global Resilience Partnership and the Challenge. To stay informed of the latest updates and opportunities please subscribe to our newsletter (below), follow us on <a href='https://twitter.com/grp_resilience'>Twitter</a>, and become part of our official Global Resilience Challenge <a href='https://www.linkedin.com/groups?gid=8194646&mostPopular=&trk=tyah&trkInfo=idx%3A3-1-5%2CtarId%3A1423144886008%2Ctas%3Aglobal+resilience'>LinkedIn discussion group</a>.</li>
 
 	<li>
 		<div class='row applies'>
