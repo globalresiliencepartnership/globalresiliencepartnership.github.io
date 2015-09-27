@@ -367,7 +367,7 @@ section.challenge h1, section.challenge h2, section.challenge p {
 
 /* line 292, ../../source_assets/styles/_base.scss */
 .cards, ul.winner-list, ul.posts-list {
-  padding: 0 2rem;
+  padding: 0 2rem 0 0;
   /*
   	@media only screen and (min-width: 1072px) {
   		padding: 0;
@@ -389,6 +389,28 @@ section.challenge h1, section.challenge h2, section.challenge p {
   border: none;
   padding: 0;
   margin: 0;
+}
+.triangle-bottomright {
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid #009EDE;
+	border-left: 50px solid transparent;
+	position:absolute;
+	bottom:0;
+	right:0;
+	z-index:1;
+	transition: all 1s ease;
+}
+.team-title:hover .triangle-bottomright{
+	width:100%;
+	height:100%;
+	border-bottom:none;
+	border-left:none;
+	background:#009EDE;
+}
+.team-title h3{
+	position:relative;
+	z-index:2;
 }
 /* line 303, ../../source_assets/styles/_base.scss */
 .cards > li, ul.winner-list > li, ul.posts-list > li {
@@ -416,7 +438,6 @@ section.challenge h1, section.challenge h2, section.challenge p {
 .cards .card, ul.winner-list .card, ul.posts-list .card {
   background: #FFF;
   padding: 1rem;
-  border-bottom: 1px solid #49853E;
 }
 
 /* line 345, ../../source_assets/styles/_base.scss */
@@ -454,18 +475,55 @@ section.challenge h1, section.challenge h2, section.challenge p {
 }
 
 /* line 375, ../../source_assets/styles/_base.scss */
-ul.winner-list .card:hover {
+/* ul.winner-list .card:hover {
   background: #B25900 !important;
-}
+} */
 /* line 379, ../../source_assets/styles/_base.scss */
 ul.winner-list .card {
-  border-top: 4px solid #46863C;
   height: 200px;
   padding: 2rem;
   position: relative;
-  background: #000;
+  background: #46863C;
   margin-top: 30px;
   box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+}
+ul.winner-list li:nth-child(2) .card,ul.winner-list li:nth-child(3) .card,ul.winner-list li:nth-child(6) .card,ul.winner-list li:nth-child(7) .card{
+	background: #009EDE;
+}
+ul.winner-list li:nth-child(2) .triangle-bottomright,
+ul.winner-list li:nth-child(3) .triangle-bottomright,
+ul.winner-list li:nth-child(6) .triangle-bottomright,
+ul.winner-list li:nth-child(7) .triangle-bottomright
+{
+	border-bottom: 50px solid #46863C;
+	border-left: 50px solid transparent;
+}
+ul.winner-list li:nth-child(2) .team-title:hover .triangle-bottomright,
+ul.winner-list li:nth-child(3) .team-title:hover .triangle-bottomright,
+ul.winner-list li:nth-child(6) .team-title:hover .triangle-bottomright,
+ul.winner-list li:nth-child(7) .team-title:hover .triangle-bottomright
+{
+	background: #46863C;
+	border-bottom: none;
+    border-left: none;
+}
+ul.winner-list .card2 {
+  height: 100px;
+  padding: 1rem;
+  position: relative;
+  margin-top: 30px;
+  box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+  background:#009ede;
+}
+ul.winner-list .card2 h3 a{
+	color:#fff !important;
+}
+ul.winner-list > li{
+	margin-right: 4%;
+}
+.blue-header{
+	color:#009ede;
+	font-weight:bold;
 }
 /* line 388, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .avatar {
@@ -479,7 +537,7 @@ ul.winner-list .card h1 {
   position: relative;
 }
 /* line 398, ../../source_assets/styles/_base.scss */
-ul.winner-list .card h1 a {
+ul.winner-list .card h3 a {
   color: #fff !important;
 }
 /* line 404, ../../source_assets/styles/_base.scss */
@@ -897,7 +955,7 @@ ul.social li a:hover {
 }
 /* line 28, ../../source_assets/styles/_team.scss */
 .team-image .mask {
-  opacity: 0.6;
+  opacity: 1;
 }
 
 /* line 33, ../../source_assets/styles/_team.scss */
@@ -906,9 +964,16 @@ ul.social li a:hover {
   left: 0;
   top: 0;
   z-index: 0;
-  opacity: 0.6;
-  width: 100%;
+  width: 60%;
   height: 100%;
+}
+.team-title{
+	position:absolute;
+	width:40%;
+	right:0;
+	height:100%;
+	top:0;
+	padding:1em;
 }
 
 /* line 1, ../../source_assets/styles/_nav.scss */

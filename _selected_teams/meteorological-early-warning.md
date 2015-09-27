@@ -1,7 +1,7 @@
 ---
 title: "Meteorological Early Warning Systems to Build Resilience to Acute Climate‐Induced Shocks"
 layout: team
-
+category: winner
 image: storm.jpg
 
 focus: Horn of Africa
@@ -24,8 +24,6 @@ team_lead: "Nick van de Giesen, Trans-African Hydro, Meteorological Observatory 
 
 ---
 
-In developed nations, advanced meteorological systems allow for early warning, preparation and long-term monitoring of climate-shocks. Costs and technological expertise present major barriers to creating simple early-warning systems in the Horn of Africa, allowing heavy rains and flash floods to destroy important crops and disrupt livelihoods.
- 
-This team’s key innovation looks at how new technologies can help deliver an early-warning system across the region. Their approach considers how this information can help prevent weather related damage occurring in the first place, minimize impact, bounce back from it when it does occur and adapt to new weather patterns. With agriculture accounting for 26% of Uganda’s GDP, this system has the potential to have wide ranging and lasting impact on the lives of local people, and is something that also has the potential to be scaled across the Horn of Africa.
+Trans African Hydro-Meteorological Observatory (TAHMO) will empower local communities and vulnerable agriculturists across Uganda with an innovative early warning weather system for severe weather across the drought prone Cattle Corridor, the accident prone areas of Lake Victoria, Kyoga, and Wamala, and Uganda’s flash flood prone highlands. Leveraging the prevalence of cell phones across the country, the team will partner with mobile operators and the Ugandan National Meteorological Authority to provide low cost, on-demand access to weather alerts to more than 16 million Ugandan cell phone users and free access to all 8 million Airtel subscribers.
 
-[Click here](http://www.globalresiliencepartnership.org/assets/downloads/TAMHO-Problem-statement.pdf) to download the problem statement.
+[Click here](../../assets/downloads/solution-statements/TAHMO-Solution-Statement.pdf) to download the solution statement.

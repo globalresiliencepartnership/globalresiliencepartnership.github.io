@@ -1,7 +1,7 @@
 ---
 title: "Mitigating Pastoralists’ Risk: Livestock Trade in the Horn of Africa"
 layout: team
-
+category: winner
 image: livestock.jpg
 
 focus: Horn of Africa
@@ -28,4 +28,6 @@ team_lead: "Tate Munro, Mercy Corps, US, Europe"
 
 ---
 
-More than 30 million people across the Horn of Africa depend on pastoralism for their livelihoods, but prolonged and chronic droughts are increasingly disrupting and threatening this way of life and the community structures that rely on it. One effective way to manage these risks is to sell livestock for cash in the early stages of drought when the herd is still healthy. However, many pastoralists aren’t accustomed to harnessing the power of markets to manage their risk, and so usually lose most or all of their herds in cycles of drought. This team’s key innovation is to research, address, and design financial vehicles to empower pastoralists to overcome the barriers that block their use of markets, and help them build economic resilience to the chronic drought they face. The diverse team of experienced NGOs, evidence-driven researchers, and local private sector partners will then apply their findings from the pilot to develop scalable solutions across the region.
+MercyCorps will be a catalyst for transformation in the livestock market system, increasing resilience for hundreds of thousands of the most vulnerable people in one of the most shock exposed places in the world: the Horn of Africa. The project will help livestock owners manage their assets and livelihood risks while simultaneously increasing their household-level productivity and wealth.  The project aims to benefit 50,000 vulnerable households.
+
+[Click here](../../assets/downloads/solution-statements/Mercy-Corps-TRADER-Solution-Statement.pdf) to download the solution statement.

@@ -1,7 +1,7 @@
 ---
 title: "Linking Social and Financial Capital to Enhance Resilience of Agro-Pastoral Communities (LEAP) in Niger and Mali"
 layout: team
-
+category: winner
 image: pastoral.jpg
 
 focus: Sahel
@@ -26,6 +26,6 @@ team_lead: "Julie Snorek, Mercy Corps, US"
 
 ---
 
-Most farmers in the Sahel also rely on livestock, and this livelihood is increasingly at risk of a dangerous convergence of chronic drought, political instability, and erratic weather. Many families, particularly those led by women, lack basic access to financial services and savings mechanisms that would empower them to become more resilient to these persistent shocks. This team’s key innovation is to deeply understand the demand for micro-credit, insurance and savings mechanisms, as well as cash transfers through state-led social safety nets, in order to communicate these demands to private sector and public actors. By doing so, the team will identify critical barriers and previously unknown market demands for financial services that would help families build resilience to future urgent shocks and persistent stresses.
+MercyCorps will strengthen the resilience of agro-pastoralists in Mali and Niger, by expanding their access to formal financial services. The project will educate agro-pastoralist men and women so that they can make informed decisions about their household finances and better manage risk. It will unlock access to new credit options, including warehouse credit for farmers and tailored credit products for women’s groups. Using mobile banking and other technologies, 50,000 agro-pastoralists will be brought into the formal financial market.
 
-[Click here](http://www.globalresiliencepartnership.org/assets/downloads/Mercy-Corps-LEAP.pdf) to download the problem statement.
+[Click here](../../assets/downloads/solution-statements/Mercy-Corps-LEAP-Solution-Statement.pdf) to download the solution statement.

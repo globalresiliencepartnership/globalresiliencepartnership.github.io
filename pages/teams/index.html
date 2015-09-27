@@ -5,16 +5,27 @@ title: Selected Teams
 ---
 
 <div class="row">
-
-  <ul class="winner-list">
-    {% for post in site.selected_teams %}
-    <li>
-      <article class="card">
-        <div class="mask" style="background: url({{ site.baseurl}}/img/{{ post.image }}); backgroun-size: contain;"></div>
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-        
-      </li>
-    {% endfor %}
-  </ul>
-  
+	<h2 class="blue-header">Global Resilience Challenge Winning Teams</h2>
+	<ul class="winner-list">
+		{% for post in site.selected_teams %}
+			{% if post.category == 'winner' %}
+			<li class="winner">
+			  <article class="card">
+				<div class="mask" style="background: url({{ site.baseurl}}/img/{{ post.image }}); backgroun-size: contain;"></div>
+				<div class="team-title"><h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3><div class="triangle-bottomright"></div></div>	
+			</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+	<h2 class="blue-header">Other Global Resilience Challenge Finalists</h2>
+	<ul class="winner-list">
+		{% for post in site.selected_teams %}
+			{% if post.category == null %}
+			<li class="finalist">
+			  <article class="card2">
+				<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+			</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
 </div>

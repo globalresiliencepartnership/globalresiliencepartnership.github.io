@@ -1,7 +1,7 @@
 ---
 title: "Connecting Roads, Water and Livelihoods for Resilience"
 layout: team
-
+category: winner
 image: bridge.jpg
 
 focus: Horn of Africa
@@ -26,8 +26,6 @@ team_lead: "Dr. Frank Van Steenbergen, MetaMeta Research, Netherlands"
 
 ---
 
-As chronic droughts and flash flooding increase in severity across the Horn of Africa, cost-effective water management solutions are sorely needed. The explosion of rural road infrastructure construction, particularly highways and feeder roads, often contributes to the problem by dramatically changing water flow patterns.
- 
-This team’s key innovation lies in harnessing the positive opportunity that roads present to systematically harvest and retain water, prevent erosion, and contribute to productive livelihoods. With annual direct investments to improve road infrastructure in the Horn of Africa of close to $4 billion, this team would bring together major stakeholders in the infrastructure, water management and disaster reduction fields to inform and build an alliance to leverage road-building for resilience-building purposes. The best practices for training and education that will be developed would be translated and offered for use in other countries to help integrate road-water-climate governance.
+MetaMeta Research and partners will transform the way roads – conduits for modern commerce and life – are planned and built in the Horn of Africa by introducing innovative designs and improved guidelines to harvest rainwater, prevent soil erosion, and improve use of roadside land. By bringing together government authorities, water and climate experts, and roadside communities – especially women and the poor, this team will ensure that road construction efforts produce multiple benefits for all communities and enhance resilience.
 
-[Click here](http://www.globalresiliencepartnership.org/assets/downloads/MetaMeta-problem-statement.pdf) to download the problem statement.
+[Click here](../../assets/downloads/solution-statements/Meta-Meta-Solution-Statement.pdf) to download the solution statement.

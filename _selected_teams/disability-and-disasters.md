@@ -1,7 +1,7 @@
 ---
 title: "Disability and Disasters: Empowering people and building resilience to risk"
 layout: team
-
+category: winner
 image: disaster.jpg
 
 focus: South and Southeast Asia
@@ -28,8 +28,6 @@ team_lead: "Dr. Emma Calgaro, Natural Hazards Research GroupUniversity of Sydney
 
 ---
 
-While climate-related disasters are more threatening for Southeast Asian populations than ever before, people with disabilities are disproportionately affected. People with disabilities are rarely considered in disaster risk reduction strategies and programs, experiencing inaccessibility to evacuation facilities and emergency provisions and cultural exclusion. 
+University of Sydney, in collaboration with partners in Australia and Southeast Asia, will strengthen the voices of people with disabilities in the region who are disproportionately affected by climate-related disasters, and often overlooked in traditional disaster risk reduction efforts. Taking a multi-action approach, the team will support the generation of knowledge, risk awareness and skills needed to help people with disabilities to gain institutional and social support needed to effectively prepare for hazards and disasters. Through coordinated advocacy, they will also empower people with disabilities to influence governmental resilience strategies and become champions of resilience in their communities.
 
-To identify how to best integrate the needs of this sizeable and particularly vulnerable population into disaster risk reduction strategies and resilience-building programs, this team will seek a better understanding of critical capacity gaps for people with disabilities and best practices for properly communicating and overcoming the barriers they face.
-
-[Click here](http://www.globalresiliencepartnership.org/assets/downloads/GRP-DisabilityandDisasters_ProblemStatement.pdf) to download the problem statement.
+[Click here](../../assets/downloads/solution-statements/UniversityofSydney-Solution-Statement.pdf) to download the solution statement.

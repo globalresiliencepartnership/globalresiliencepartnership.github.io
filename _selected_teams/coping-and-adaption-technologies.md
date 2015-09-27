@@ -1,7 +1,7 @@
 ---
 title:  "Devising local coping mechanisms and adaptation technologies to build climate-resilience capacities of urban poor in South Asia"
 layout: team
-
+category: winner
 image: urban.jpg
 
 focus: South and Southeast Asia
@@ -38,6 +38,6 @@ team_lead: "Renana Jhabvala, Mahila Housing SEWA Trust, India"
 
 ---
 
-The South Asia region has been witnessing numerous climate related events in the recent past, leaving the dense urban populations vulnerable to negative impacts of acute water stress, heat extremes, flash flooding, and diseases. For South Asia, this translates to susceptibility of around 190.7 million people living in slums and informal settlements. Currently there exists a wide gap between the knowledge, understanding and skills of technical experts and the affected communities and local governments. 
+Mahila Housing SEWA Trust will empower women from slums in seven South Asian cities to take action against the most pressing climate-related risks facing their communities: heat waves, flooding, water scarcity; and water and vector borne diseases. Through the improved availability of real-time micro data, the team will equip the urban poor with the tools and know-how to undertake vulnerability and risk assessments and implement their own resilience plans. Utilizing a network of woman advocates, they will empower these communities to influence city planning so that their cities adopt adaptation and resilience actions that reflect a pro-poor agenda.
 
-The team’s main innovation is to bridge barriers between technical experts, slum residents and city officials through community based vulnerability assessments, targeted community leaders training and implementing a range of resilience-building technologies. Specifically, the team aims to create a unique socio-technical partnership between communities and technical experts in 100 slum communities and in seven cities of South Asia. The overall goal is to directly impact the lives of more than 125,000 poor families living in urban slums and indirectly impact as many as 5.75 million people. 
+[Click here](../../assets/downloads/solution-statements/MHT-GRP-Solutions-Statement.pdf) to download the solution statement.

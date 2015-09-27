@@ -1,6 +1,7 @@
 ---
 title: Building Resilience of Smallholder Farmers in Southeast Asia
 layout: team
+category: winner
 image: smallholder.jpg
 focus: South and Southeast Asia
 organizations: 
@@ -22,8 +23,6 @@ team_lead: "Whitney Gantt, Grameen Foundation USA, USA"
 published: true
 ---
 
-Thirty-two percent of the population in the Philippines and 40 percent in Indonesia are directly employed in agriculture, particularly in rural areas. The team’s key resilience innovation is to ensure that smallholder farmers have access to information to help increase productivity and to help improve agricultural practices to become more sustainable and resilient.
+Grameen Foundation will build resilience among coconut farmers in the Philippines who, despite forming the backbone of the country’s top agricultural industry, are chronically poor and especially vulnerable to climate change. The team will help farmers to improve productivity, access financial services, expand market access, and use early warning systems to control pest and disease outbreaks. Working with government, agribusiness, and financial services partners, the team will leverage mobile technology to provide coconut farmers with real-time data and services to help strengthen their businesses and reduce losses to their families due to extreme weather events and volatile markets.
 
-By providing mobile-based information on real-time weather feeds, historic climate trends, and pest and disease outbreaks, farmers can improve both productivity and their income. The team will also provide farmers with financial information on crop insurance, household insurance, and agricultural financial services. This will enable farmers to stabilize their income and achieve more resilient livelihoods.  The team plans to launch their project in the Philippines with 1,800 coconut farmers in Southern Luzon and 10,000 cacao farmers in Mindanao, eventually working to scale out the project nationally.
-
-[Click here](http://www.globalresiliencepartnership.org/assets/downloads/GRP_Grameen Foundation_Refined-Problem-Statement.pdf) to download the problem statement.
+[Click here](../../assets/downloads/solution-statements/Grameen-Foundation-Solution-Statement.pdf) to download the solution statement.
