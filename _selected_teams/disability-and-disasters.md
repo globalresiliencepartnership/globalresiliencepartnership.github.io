@@ -17,12 +17,15 @@ countries:
   - Indonesia
 
 local_org: 
-  - Cebu Gualandi Association of the Deaf
-  - Gualandi Volunteer Service Programme
+  - KPC Consultant Co. Ltd
+  - Philippine Accessible Deaf Services (PADS)
+  - Inclusive Development and Empowerment Agenda (IDEA)
+  -  Cambodian Disabled People’s Organization (CDPO)
 
 intl_org:
+  - Cambodian Disabled People’s Organization (CDPO)
   - Stockholm Environment Institute Asia Centre
-  - Australian Red Cross volunteer - for the Gualandi Volunteer Service Programme
+  - Monash University
 
 team_lead: "Dr. Emma Calgaro, Natural Hazards Research GroupUniversity of Sydney, Australia"
 

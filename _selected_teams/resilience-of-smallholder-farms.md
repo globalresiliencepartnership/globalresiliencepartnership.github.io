@@ -8,17 +8,19 @@ organizations:
   - Grameen Foundation
 countries: 
   - Philippines
-  - Indonesia
 local_org: 
   - Chokolate de San Isidro
-  - "ASKI, NWTF, PBC"
-  - Peter Paul Philippines Corporation
-  - Patrick Belisario
-  - Dr.Calixto Protacio
+  - "PBC"
+  - Philippine Coconut Authority
+  - People's Bank of Caraga
+  - Franklin Baker Company of the Philippines
+  - Malagos Chocolates
 intl_org: 
   - Nutiva
   - Palantir
-  - Progreso
+  - Stichting Progreso
+  - Planet Labs
+  - aWhere
 team_lead: "Whitney Gantt, Grameen Foundation USA, USA"
 published: true
 ---
