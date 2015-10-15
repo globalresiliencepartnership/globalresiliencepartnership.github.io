@@ -22,7 +22,7 @@ local_org:
 intl_org:
   - PlaNet Finance
 
-team_lead: "Julie Snorek, Mercy Corps, US"
+team_lead: "Allison Huggins, Mercy Corps"
 
 ---
 
