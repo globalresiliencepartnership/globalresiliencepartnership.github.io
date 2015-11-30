@@ -1,0 +1,12 @@
+---
+published: true
+layout: blog_post
+category: blog
+title: Resilience Day at COP21 Marks Important Shift
+---
+
+As representatives gather in Paris to establish a global plan to address climate change, there are early signs that an important shift is taking place. The Paris Climate Conference, COP21, will feature the first ever “Resilience Day,” bringing a focus on how to help communities to prepare for, adapt to, and recover from climate stresses and shocks that hit the poorest communities hardest.  The timing has never been more important. This year alone we have seen Hurricane Patricia break historic records on sustained winds, Cyclone Pam devastate Vanuatu, the worst drought in Ethiopia in decades and a rapidly strengthening El Niño phenomenon.
+
+At the Lima-Peru Action Agenda (LPAA) event on December 2, newly appointed Resilience Partnership Executive Director, Dr. Luca Alinovi, and other global leaders will discuss opportunities to accelerate resilience-building initiatives for the world’s most vulnerable populations.   To meet the scale of the problem, we need to break from traditional practices and bring together a cross sector of experts and communities. 
+
+We have seen through the <a href="http://www.globalresiliencepartnership.org/teams">Global Resilience Challenge</a> that when we bring experts across sectors to apply fresh thinking and a holistic approach to interconnected challenges—such as food security, climate change, and population stresses—we can surface new solutions to build resilience. Resilience Day is an important part of bringing new actors to the table and ensuring that resilience is at the heart of the climate change response.  Efforts like those by <a href="http://www.globalresiliencepartnership.org/teams/resilience-of-smallholder-farms/">Grameen Foundation</a>, <a href="http://www.globalresiliencepartnership.org/teams/resilient-rural-livelihoods/">Groundswell International</a>, <a href="http://www.globalresiliencepartnership.org/teams/coping-and-adaption-technologies/">Mahila Housing SEWA Trust</a>, <a href="http://www.globalresiliencepartnership.org/teams/roads-water-livelihoods/">MetaMeta</a>,  <a href="http://www.globalresiliencepartnership.org/teams/meteorological-early-warning/">TAHMO</a> and <a href="http://www.globalresiliencepartnership.org/teams/disability-and-disasters/">University of Sydney</a> are helping to show how this can be in done in a way that will make a tangible difference.
