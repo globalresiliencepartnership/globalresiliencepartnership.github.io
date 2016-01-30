@@ -26,7 +26,7 @@
   background: #000;
   
   .mask {
-    opacity: 0.6;
+    opacity: 1;
   }
   
 }
@@ -35,7 +35,36 @@
   left: 0;
   top: 0;
   z-index: 0;
-  opacity: 0.6;
-  width: 100%;
+  width: 60%;
   height: 100%;
+}
+.triangle-bottomright {
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid #009EDE;
+	border-left: 50px solid transparent;
+	position:absolute;
+	bottom:0;
+	right:0;
+	z-index:1;
+	transition: all 1s ease;
+}
+.team-title{
+	position:absolute;
+	width:40%;
+	right:0;
+	height:100%;
+	top:0;
+	padding:1em;
+}
+.team-title:hover .triangle-bottomright{
+	width:100%;
+	height:100%;
+	border-bottom:none;
+	border-left:none;
+	background:#009EDE;
+}
+.team-title h3{
+	position:relative;
+	z-index:2;
 }

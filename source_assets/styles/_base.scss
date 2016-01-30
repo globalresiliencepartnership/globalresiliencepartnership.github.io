@@ -291,7 +291,7 @@ section {
 // Winners
 .cards {
 	@extend .clearfix;
-	padding: 0 2rem;
+	padding: 0 2rem 0 0;
 
 	li {
 		background: none;
@@ -371,19 +371,56 @@ section {
 }
 ul.winner-list {
 	@extend .cards;
-	
-	.card:hover {
-		  background: #B25900 !important;
+	li:nth-child(2),li:nth-child(3), li:nth-child(6), li:nth-child(7){
+		.card{
+			background: #009EDE;
 		}
+	}
+	li:nth-child(2),li:nth-child(3),li:nth-child(6),li:nth-child(7) 
+	{
+		.triangle-bottomright{
+			border-bottom: 50px solid #46863C;
+			border-left: 50px solid transparent;
+		}
+	}
+	li:nth-child(2),li:nth-child(3),li:nth-child(6),li:nth-child(7){
+		.team-title:hover{
+			.triangle-bottomright{
+				background: #46863C;
+				border-bottom: none;
+				border-left: none;
+			}
+		}
+	}
+	.card2{
+		background:#009ede;
+		height: 100px;
+		padding: 1rem;
+		position: relative;
+		margin-top: 30px;
+		box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+		
+		h3{
+			a{
+				color:#fff !important;
+			}
+		}
+	}
+	li{
+		margin-right: 4%;
+	}
+	.blue-header{
+		color:#009ede;
+		font-weight:bold;
+	}
 
 	.card {
-	    border-top: 4px solid #46863C;
 	    height: 200px;
 	    padding: 2rem;
 	    position: relative;
-	    background: #000;
 	    margin-top: 30px;
 	    box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+		background: #46863C;
 		
 		.avatar {
 			margin: -1rem -1rem 0 -1rem;
@@ -395,7 +432,7 @@ ul.winner-list {
 	      font-size: 1.5rem;
 	      position: relative;
 		}
-		h1 a {
+		h3	 a {
 		  color: #fff !important;
 		}
 		

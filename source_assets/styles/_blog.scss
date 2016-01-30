@@ -122,6 +122,11 @@ ul.social {
     }
   }
 }
+.amplify-winners{
+	width:47%;
+	float:left;
+	margin:0 20px 20px 0;
+}
 
 
 @media only screen and (max-width: 700px) {
@@ -134,4 +139,8 @@ ul.social {
     padding: 5rem 2rem;  
   }
   }
+  .amplify-winners{
+	width:100%;
+	margin:10px 0;
+}
 }

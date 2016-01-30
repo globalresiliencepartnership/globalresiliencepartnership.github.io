@@ -125,7 +125,7 @@ a:focus {
 /* line 94, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition] .sub-nav:first-child:before,
 [data-magellan-expedition-clone] .sub-nav:first-child:before {
-  content: '▼';
+  content: 'Γû╝';
   position: absolute;
   margin: -50px 0 0 92px;
   -webkit-animation: flash 6s both infinite;
@@ -390,28 +390,6 @@ section.challenge h1, section.challenge h2, section.challenge p {
   padding: 0;
   margin: 0;
 }
-.triangle-bottomright {
-	width: 0;
-	height: 0;
-	border-bottom: 50px solid #009EDE;
-	border-left: 50px solid transparent;
-	position:absolute;
-	bottom:0;
-	right:0;
-	z-index:1;
-	transition: all 1s ease;
-}
-.team-title:hover .triangle-bottomright{
-	width:100%;
-	height:100%;
-	border-bottom:none;
-	border-left:none;
-	background:#009EDE;
-}
-.team-title h3{
-	position:relative;
-	z-index:2;
-}
 /* line 303, ../../source_assets/styles/_base.scss */
 .cards > li, ul.winner-list > li, ul.posts-list > li {
   margin-bottom: 2rem;
@@ -438,6 +416,7 @@ section.challenge h1, section.challenge h2, section.challenge p {
 .cards .card, ul.winner-list .card, ul.posts-list .card {
   background: #FFF;
   padding: 1rem;
+  border-bottom: 1px solid #49853E;
 }
 
 /* line 345, ../../source_assets/styles/_base.scss */
@@ -475,84 +454,79 @@ section.challenge h1, section.challenge h2, section.challenge p {
 }
 
 /* line 375, ../../source_assets/styles/_base.scss */
-/* ul.winner-list .card:hover {
-  background: #B25900 !important;
-} */
-/* line 379, ../../source_assets/styles/_base.scss */
-ul.winner-list .card {
-  height: 200px;
-  padding: 2rem;
-  position: relative;
+ul.winner-list li:nth-child(2) .card, ul.winner-list li:nth-child(3) .card, ul.winner-list li:nth-child(6) .card, ul.winner-list li:nth-child(7) .card {
+  background: #009EDE;
+}
+/* line 381, ../../source_assets/styles/_base.scss */
+ul.winner-list li:nth-child(2) .triangle-bottomright, ul.winner-list li:nth-child(3) .triangle-bottomright, ul.winner-list li:nth-child(6) .triangle-bottomright, ul.winner-list li:nth-child(7) .triangle-bottomright {
+  border-bottom: 50px solid #46863C;
+  border-left: 50px solid transparent;
+}
+/* line 388, ../../source_assets/styles/_base.scss */
+ul.winner-list li:nth-child(2) .team-title:hover .triangle-bottomright, ul.winner-list li:nth-child(3) .team-title:hover .triangle-bottomright, ul.winner-list li:nth-child(6) .team-title:hover .triangle-bottomright, ul.winner-list li:nth-child(7) .team-title:hover .triangle-bottomright {
   background: #46863C;
-  margin-top: 30px;
-  box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+  border-bottom: none;
+  border-left: none;
 }
-ul.winner-list li:nth-child(2) .card,ul.winner-list li:nth-child(3) .card,ul.winner-list li:nth-child(6) .card,ul.winner-list li:nth-child(7) .card{
-	background: #009EDE;
-}
-ul.winner-list li:nth-child(2) .triangle-bottomright,
-ul.winner-list li:nth-child(3) .triangle-bottomright,
-ul.winner-list li:nth-child(6) .triangle-bottomright,
-ul.winner-list li:nth-child(7) .triangle-bottomright
-{
-	border-bottom: 50px solid #46863C;
-	border-left: 50px solid transparent;
-}
-ul.winner-list li:nth-child(2) .team-title:hover .triangle-bottomright,
-ul.winner-list li:nth-child(3) .team-title:hover .triangle-bottomright,
-ul.winner-list li:nth-child(6) .team-title:hover .triangle-bottomright,
-ul.winner-list li:nth-child(7) .team-title:hover .triangle-bottomright
-{
-	background: #46863C;
-	border-bottom: none;
-    border-left: none;
-}
+/* line 395, ../../source_assets/styles/_base.scss */
 ul.winner-list .card2 {
+  background: #009ede;
   height: 100px;
   padding: 1rem;
   position: relative;
   margin-top: 30px;
   box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
-  background:#009ede;
 }
-ul.winner-list .card2 h3 a{
-	color:#fff !important;
+/* line 404, ../../source_assets/styles/_base.scss */
+ul.winner-list .card2 h3 a {
+  color: #fff !important;
 }
-ul.winner-list > li{
-	margin-right: 4%;
+/* line 409, ../../source_assets/styles/_base.scss */
+ul.winner-list li {
+  margin-right: 4%;
 }
-.blue-header{
-	color:#009ede;
-	font-weight:bold;
+/* line 412, ../../source_assets/styles/_base.scss */
+ul.winner-list .blue-header {
+  color: #009ede;
+  font-weight: bold;
 }
-/* line 388, ../../source_assets/styles/_base.scss */
+/* line 417, ../../source_assets/styles/_base.scss */
+ul.winner-list .card {
+  height: 200px;
+  padding: 2rem;
+  position: relative;
+  margin-top: 30px;
+  box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+  background: #46863C;
+}
+/* line 425, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .avatar {
   margin: -1rem -1rem 0 -1rem;
 }
-/* line 392, ../../source_assets/styles/_base.scss */
+/* line 429, ../../source_assets/styles/_base.scss */
 ul.winner-list .card h1 {
   padding: 0;
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
   position: relative;
 }
-/* line 398, ../../source_assets/styles/_base.scss */
+/* line 435, ../../source_assets/styles/_base.scss */
 ul.winner-list .card h3 a {
   color: #fff !important;
 }
-/* line 404, ../../source_assets/styles/_base.scss */
+/* line 441, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .metadata dt {
   text-transform: uppercase;
   color: #49853E;
 }
-/* line 411, ../../source_assets/styles/_base.scss */
+/* line 448, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .enum li {
   list-style-type: initial;
   text-transform: initial;
   color: #58595B;
   text-align: left;
 }
-/* line 419, ../../source_assets/styles/_base.scss */
+/* line 456, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .prose {
   text-transform: none;
   font-size: 1rem;
@@ -560,16 +534,16 @@ ul.winner-list .card .prose {
   text-align: left;
 }
 
-/* line 430, ../../source_assets/styles/_base.scss */
+/* line 467, ../../source_assets/styles/_base.scss */
 nav .sub-nav {
   overflow: visible;
 }
-/* line 434, ../../source_assets/styles/_base.scss */
+/* line 471, ../../source_assets/styles/_base.scss */
 nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-challenge.active {
   position: relative;
 }
 @media only screen and (min-width: 1072px) {
-  /* line 438, ../../source_assets/styles/_base.scss */
+  /* line 475, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif, nav .sub-nav .global-resilience-challenge.active .winners-notif {
     position: absolute;
     top: -98px;
@@ -583,15 +557,15 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
     border-radius: 4px;
     line-height: normal;
   }
-  /* line 451, ../../source_assets/styles/_base.scss */
+  /* line 488, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:link, nav .sub-nav .global-resilience-challenge .winners-notif:visited, nav .sub-nav .global-resilience-challenge.active .winners-notif:link, nav .sub-nav .global-resilience-challenge.active .winners-notif:visited {
     color: #FFF !important;
   }
-  /* line 455, ../../source_assets/styles/_base.scss */
+  /* line 492, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:hover, nav .sub-nav .global-resilience-challenge.active .winners-notif:hover {
     color: #49853E !important;
   }
-  /* line 459, ../../source_assets/styles/_base.scss */
+  /* line 496, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge .winners-notif:before, nav .sub-nav .global-resilience-challenge.active .winners-notif:after, nav .sub-nav .global-resilience-challenge.active .winners-notif:before {
     position: absolute;
     top: 100%;
@@ -603,7 +577,7 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
     pointer-events: none;
     border-color: rgba(255, 255, 255, 0);
   }
-  /* line 471, ../../source_assets/styles/_base.scss */
+  /* line 508, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge.active .winners-notif:after {
     border-top-color: rgba(0, 0, 0, 0.64);
     border-width: 10px;
@@ -612,11 +586,11 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
 }
 
 @media only screen and (min-width: 1072px) {
-  /* line 486, ../../source_assets/styles/_base.scss */
+  /* line 523, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif, [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif {
     top: 35px;
   }
-  /* line 489, ../../source_assets/styles/_base.scss */
+  /* line 526, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif:after, [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif:after {
     border-top: none;
     top: initial;
@@ -626,7 +600,7 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
     margin-left: -10px;
   }
 }
-/* line 505, ../../source_assets/styles/_base.scss */
+/* line 542, ../../source_assets/styles/_base.scss */
 .page-card .content {
   border-top: 4px solid #46863C;
   background: #FFF;
@@ -634,14 +608,14 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
   margin: 2rem 0;
   box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
 }
-/* line 512, ../../source_assets/styles/_base.scss */
+/* line 549, ../../source_assets/styles/_base.scss */
 .page-card .content h1 {
   margin: 0 0 1rem 0;
   padding: 0;
   line-height: 1.3;
   text-align: left;
 }
-/* line 519, ../../source_assets/styles/_base.scss */
+/* line 556, ../../source_assets/styles/_base.scss */
 .page-card .content h2 {
   padding: 0;
   line-height: 1.3;
@@ -649,7 +623,7 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
   margin: 2rem 0;
   text-align: left;
 }
-/* line 527, ../../source_assets/styles/_base.scss */
+/* line 564, ../../source_assets/styles/_base.scss */
 .page-card .content h3 {
   padding: 0;
   line-height: 1.3;
@@ -657,58 +631,58 @@ nav .sub-nav .global-resilience-challenge, nav .sub-nav .global-resilience-chall
   margin: 2rem 0;
   text-align: left;
 }
-/* line 535, ../../source_assets/styles/_base.scss */
+/* line 572, ../../source_assets/styles/_base.scss */
 .page-card .content ul {
   list-style-type: disc;
   list-style-position: inside;
   margin: 0 0 2rem 0;
 }
-/* line 540, ../../source_assets/styles/_base.scss */
+/* line 577, ../../source_assets/styles/_base.scss */
 .page-card .content ul li {
   color: #58595b;
 }
 
-/* line 547, ../../source_assets/styles/_base.scss */
+/* line 584, ../../source_assets/styles/_base.scss */
 button,
 .button {
   background: #009ede;
   color: #fff !important;
 }
 
-/* line 552, ../../source_assets/styles/_base.scss */
+/* line 589, ../../source_assets/styles/_base.scss */
 button:hover,
 .button:hover {
   background: #49853E !important;
   color: #fff !important;
 }
 
-/* line 558, ../../source_assets/styles/_base.scss */
+/* line 595, ../../source_assets/styles/_base.scss */
 .sign-up {
   background: #009ede;
   padding: 30px 0;
 }
-/* line 561, ../../source_assets/styles/_base.scss */
+/* line 598, ../../source_assets/styles/_base.scss */
 .sign-up #mc-embedded-subscribe {
   margin-top: 20px;
   padding: 10px;
   background: #FFA64D;
   margin-left: -15px;
 }
-/* line 567, ../../source_assets/styles/_base.scss */
+/* line 604, ../../source_assets/styles/_base.scss */
 .sign-up #mce-EMAIL {
   width: 95%;
 }
-/* line 570, ../../source_assets/styles/_base.scss */
+/* line 607, ../../source_assets/styles/_base.scss */
 .sign-up p {
   text-transform: uppercase;
   font-size: 13px;
 }
 
-/* line 576, ../../source_assets/styles/_base.scss */
+/* line 613, ../../source_assets/styles/_base.scss */
 .row-partners {
   padding: 80px 0;
 }
-/* line 578, ../../source_assets/styles/_base.scss */
+/* line 615, ../../source_assets/styles/_base.scss */
 .row-partners #rockefeller-logo {
   width: 150px;
   height: 100px;
@@ -720,7 +694,7 @@ button:hover,
   float: left;
   margin: 0 50px 0 0;
 }
-/* line 589, ../../source_assets/styles/_base.scss */
+/* line 626, ../../source_assets/styles/_base.scss */
 .row-partners #usaid-logo {
   width: 100px;
   height: 100px;
@@ -732,7 +706,7 @@ button:hover,
   float: left;
   margin: 0 50px 0 0;
 }
-/* line 600, ../../source_assets/styles/_base.scss */
+/* line 637, ../../source_assets/styles/_base.scss */
 .row-partners #sweden-logo {
   width: 100px;
   height: 80px;
@@ -744,38 +718,38 @@ button:hover,
   float: left;
 }
 
-/* line 612, ../../source_assets/styles/_base.scss */
+/* line 649, ../../source_assets/styles/_base.scss */
 footer {
   padding: 40px 0;
 }
-/* line 614, ../../source_assets/styles/_base.scss */
+/* line 651, ../../source_assets/styles/_base.scss */
 footer p {
   font-size: 12px;
   color: #bbb;
   margin: 0;
 }
-/* line 619, ../../source_assets/styles/_base.scss */
+/* line 656, ../../source_assets/styles/_base.scss */
 footer a {
   color: #ccc;
 }
-/* line 622, ../../source_assets/styles/_base.scss */
+/* line 659, ../../source_assets/styles/_base.scss */
 footer .website {
   text-align: right;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 631, ../../source_assets/styles/_base.scss */
+  /* line 668, ../../source_assets/styles/_base.scss */
   .sign-up #mce-EMAIL {
     width: 100%;
   }
 
-  /* line 634, ../../source_assets/styles/_base.scss */
+  /* line 671, ../../source_assets/styles/_base.scss */
   .sign-up #mc-embedded-subscribe {
     width: 80%;
     margin: 20px 0 0 20px;
   }
 
-  /* line 638, ../../source_assets/styles/_base.scss */
+  /* line 675, ../../source_assets/styles/_base.scss */
   .row-partners a {
     float: none !important;
     margin: 0 auto 40px auto !important;
@@ -783,7 +757,7 @@ footer .website {
   }
 }
 @media only screen and (max-width: 900px) {
-  /* line 645, ../../source_assets/styles/_base.scss */
+  /* line 682, ../../source_assets/styles/_base.scss */
   .row-partners a {
     float: none !important;
     margin: 0 auto 40px auto !important;
@@ -906,16 +880,29 @@ ul.social li a:hover {
   color: #49853E !important;
 }
 
+/* line 125, ../../source_assets/styles/_blog.scss */
+.amplify-winners {
+  width: 47%;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
 @media only screen and (max-width: 700px) {
-  /* line 128, ../../source_assets/styles/_blog.scss */
+  /* line 133, ../../source_assets/styles/_blog.scss */
   ul.winner-list .card,
   .blog {
     height: auto;
   }
 
-  /* line 133, ../../source_assets/styles/_blog.scss */
+  /* line 138, ../../source_assets/styles/_blog.scss */
   .post .content {
     padding: 5rem 2rem;
+  }
+
+  /* line 142, ../../source_assets/styles/_blog.scss */
+  .amplify-winners {
+    width: 100%;
+    margin: 10px 0;
   }
 }
 /* line 1, ../../source_assets/styles/_team.scss */
@@ -967,13 +954,43 @@ ul.social li a:hover {
   width: 60%;
   height: 100%;
 }
-.team-title{
-	position:absolute;
-	width:40%;
-	right:0;
-	height:100%;
-	top:0;
-	padding:1em;
+
+/* line 41, ../../source_assets/styles/_team.scss */
+.triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #009EDE;
+  border-left: 50px solid transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  transition: all 1s ease;
+}
+
+/* line 52, ../../source_assets/styles/_team.scss */
+.team-title {
+  position: absolute;
+  width: 40%;
+  right: 0;
+  height: 100%;
+  top: 0;
+  padding: 1em;
+}
+
+/* line 60, ../../source_assets/styles/_team.scss */
+.team-title:hover .triangle-bottomright {
+  width: 100%;
+  height: 100%;
+  border-bottom: none;
+  border-left: none;
+  background: #009EDE;
+}
+
+/* line 67, ../../source_assets/styles/_team.scss */
+.team-title h3 {
+  position: relative;
+  z-index: 2;
 }
 
 /* line 1, ../../source_assets/styles/_nav.scss */
@@ -1112,7 +1129,7 @@ ul.social li a:hover {
 
 /* line 36, ../../source_assets/styles/_front.scss */
 .section-data {
-  background: url("../../img/surat-satellite.png") center center;
+  background: url("../../img/surat.png") center center;
   background-size: cover;
 }
 
@@ -1340,6 +1357,17 @@ ul.social li a:hover {
   pointer-events: none;
   cursor: not-allowed;
   opacity: 0.32;
+}
+
+/* line 1, ../../source_assets/styles/_apply.scss */
+span.phone-field {
+  width: 33.33%;
+  float: left;
+}
+
+/* line 5, ../../source_assets/styles/_apply.scss */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 /*# sourceMappingURL=main.css.map */
