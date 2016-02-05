@@ -3,7 +3,9 @@ published: true
 layout: blog_post
 category: blog
 title: Planning for the Effects of El Niño
+subtitle: Author&#58; Dr. Luca Alinovi
 ---
+<img alt="BRAC" src="{{ site.url }}/img/blog/Ggrp_tweet_slide.gif" />
 
 While we are only just into 2016, we are already hearing forecasts about the impacts of the current El Niño on vulnerable communities around the world. Climatologists are predicting this phase of El Niño is likely to be one of the strongest in recorded history. Droughts, floods and other extreme weather exacerbated by El Niño are driving families from their homes, hurting people’s ability to earn an income, triggering food shortages, and threatening health and nutrition. 
 
