@@ -10,6 +10,8 @@
 {% include scripts/foundation/foundation.topbar.js %}
 {% include scripts/foundation/foundation.tooltip.js %}
 {% include scripts/foundation/foundation.magellan.js %}
+{% include scripts/vendor/jquery.plugin.js %}
+{% include scripts/vendor/jquery.countdown.js %}
 
 $(function(){
 	$(document).foundation();
