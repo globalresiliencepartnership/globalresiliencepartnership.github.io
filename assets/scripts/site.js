@@ -14,10 +14,12 @@
 $(function(){
 	$(document).foundation();
 
+  console.log($(".large-6 p").text());
+
   //Home page countdown
   var windowDate = new Date();
-    windowDate = new Date(windowDate.getFullYear(), 4, 9, 7, 00, 00);
-    $('.countdown').countdown({until: windowDate,format: 'DHMS',tickInterval: 3600});
+  windowDate = new Date(windowDate.getFullYear(), 4, 9, 7, 00, 00);
+  $('.countdown').countdown({until: windowDate,format: 'DHMS',tickInterval: 3600});
 
 	// for wide screens
 	var introHeight = $('.intro .pop').height(),
