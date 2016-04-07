@@ -1145,7 +1145,8 @@ ul.social li a:hover {
 
 /* line 40, ../../source_assets/styles/_front.scss */
 .section-challenge {
-  background: url("../../img/harvest-desat.png") center center;
+  /*background: url("../../img/harvest-desat.png") center center;*/
+  background: url("../../img/flood02.jpg") center center no-repeat;
   background-size: cover;
 }
 
