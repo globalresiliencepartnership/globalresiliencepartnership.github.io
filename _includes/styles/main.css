@@ -190,6 +190,14 @@ section.challenge h1, section.challenge h2, section.challenge p {
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4);
 }
 
+.section-webinar{
+  
+  background: url(../../img/flood01.jpg);
+  background-size: cover;
+
+}
+
+
 /* line 151, ../../source_assets/styles/_base.scss */
 .absolute {
   position: absolute;
