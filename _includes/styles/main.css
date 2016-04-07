@@ -190,12 +190,7 @@ section.challenge h1, section.challenge h2, section.challenge p {
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4);
 }
 
-.section-webinar{
-  
-  background: url(../../img/flood01.jpg) no-repeat center center !important;
-  background-size: cover !important;
 
-}
 
 
 /* line 151, ../../source_assets/styles/_base.scss */
@@ -1115,6 +1110,13 @@ ul.social li a:hover {
   text-align: center;
   text-transform: uppercase;
   font-size: 0.8em;
+}
+
+.section-webinar{
+  
+  background: url(../../img/flood01.jpg) no-repeat center center !important;
+  background-size: cover !important;
+
 }
 
 /* line 23, ../../source_assets/styles/_front.scss */
