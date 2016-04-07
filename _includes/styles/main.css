@@ -192,8 +192,8 @@ section.challenge h1, section.challenge h2, section.challenge p {
 
 .section-webinar{
   
-  background: url(../../img/flood01.jpg);
-  background-size: cover;
+  background: url(../../img/flood01.jpg) no-repeat center center !important;
+  background-size: cover !important;
 
 }
 
