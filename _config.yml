@@ -5,7 +5,9 @@ exclude:
   - config.rb
 permalink: news/:year/:month/:day/:title
 baseurl: 
+
 domain: http://www.globalresiliencepartnership.org
+
 collections:
   index_sections:
     output: false
