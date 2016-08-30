@@ -2,5 +2,4 @@ _site/
 _includes/css/output.css.map
 .sass-cache/
 .DS_Store
-_config.yml
 grp/
