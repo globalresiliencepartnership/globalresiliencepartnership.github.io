@@ -1,18 +1,55 @@
 ---
 permalink: blog/index.html
-layout: page
+layout: news
 ---
 
+<section class="carousel">
+
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <img src="{{site.baseurl}}/img/sliders/1_homepage.jpg" />
+        <div class="content">
+          <h1>Latest News</h1>
+        </div>
+      </li>
+      <li>
+        <img src="{{site.baseurl}}/img/sliders/2_about_us.jpg" />
+        <div class="content">
+          <h1>Persist. Adapt. Transform</h1>
+          <p>The Global Resilience Partnership plans to help millions of vulnerable people in the Sahel, the Horn of Africa and South East Asia better adapt to shocks and chronic stresses and thrive in a more resilient future.</p>
+          <span class="arrow"></span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="custom-navigation">
+    <a href="#" class="flex-prev"><img src="{{site.baseurl}}/img/sliders/left_arrow.png" /></a>
+    <a href="#" class="flex-next"><img src="{{site.baseurl}}/img/sliders/right_arrow.png" /></a>
+  </div>
+  
+</section>
+
 <div class="row">
-<ul class="posts-list">
-  {% for post in site.posts %}
-  <li>
-    <article class="card blog">
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <time class="date" datetime="{{ post.date | date: '%d/%m/%Y' }}" pubdate>{{ post.date | date: '%e %B %Y' }}</time>
-     
-    </article>
-  </li>
-  {% endfor %}
-</ul>
+
+	<div class="columns large-8">
+
+		<ul class="posts-list">
+		  {% for post in site.posts %}
+		  <li>
+		    <article class="card blog">
+		      <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+		      <!-- <time class="date" datetime="{{ post.date | date: '%d/%m/%Y' }}" pubdate>{{ post.date | date: '%e %B %Y' }}</time> -->
+		     
+		    </article>
+		  </li>
+		  {% endfor %}
+		</ul>
+
+	</div>
+
+	<div class="columns large-4">
+		<img src="{{ site.baseurl }}/img/blog/side.jpg" alt="">
+	</div>
+
 </div>

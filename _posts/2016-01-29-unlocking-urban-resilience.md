@@ -4,6 +4,7 @@ layout: blog_post
 category: blog
 title: Unlocking Urban Resilience Through Innovative Partnerships
 subtitle: Authors&#58; Sam Carter, Rurik Marsden, Chioma Ume
+thumbnail: unlocking_urban.jpg
 ---
 
 For the first time in history, more than half of the world’s population lives in cities—a figure that is expected to reach 65 percent by 2045. According to UN-Habitat, approximately one third of the urban population in the developing world resides in slum communities. This figure jumps to more than 60 percent in African cities. Often lacking reliable sanitation services, clean water, access to electricity and emergency services the residents of these densely populated informal settlements face significant risks.

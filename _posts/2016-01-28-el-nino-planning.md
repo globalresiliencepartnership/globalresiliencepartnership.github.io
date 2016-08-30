@@ -4,6 +4,7 @@ layout: blog_post
 category: blog
 title: Planning for the Effects of El Niño
 subtitle: Author&#58; Dr. Luca Alinovi
+thumbnail: el_nino.jpg
 ---
 <img alt="BRAC" src="{{ site.url }}/img/blog/Ggrp_tweet_slide.gif" />
 

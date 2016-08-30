@@ -10,13 +10,19 @@
 {% include scripts/foundation/foundation.topbar.js %}
 {% include scripts/foundation/foundation.tooltip.js %}
 {% include scripts/foundation/foundation.magellan.js %}
+{% include scripts/foundation/foundation.accordion.js %}
+{% include scripts/foundation/foundation.tab.js %}
 {% include scripts/vendor/jquery.plugin.js %}
 {% include scripts/vendor/jquery.countdown.js %}
 
 $(function(){
-	$(document).foundation();
 
-  console.log($(".large-6 p").text());
+	$(document).foundation();
+  $(document).foundation('accordion', 'reflow');
+
+  $(".arrow").click(function(event) {
+    $("body").animate({scrollTop:$(".firstSection").offset().top - 80}, '500');
+  });
 
   //Home page countdown
   var windowDate = new Date();
@@ -410,4 +416,5 @@ $(function(){
     function clearForm(){
       $('#applicationForm').find("input[type=text],input[type=number],input[type=checkbox],input[type=email],input[type=url],textarea,select,input[type=file]").val("");
     }
+
   });

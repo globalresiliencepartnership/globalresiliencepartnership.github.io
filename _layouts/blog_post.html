@@ -4,14 +4,18 @@ layout: page
 <div class="post row">
   <div class="content">
     
-    <ul class="social">
+    <!-- <ul class="social">
       <li><a class="twitter" href="https://twitter.com/share?url={{ site.domain }}{{ page.url }}&via=grp_resilience&text={{ page.title }}" target="_blank" onClick="_gaq.push(['_trackEvent', 'Click', 'Social', 'Twitter']);"><span class="visually-hidden">Twitter</span></a></li>
       <li><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.domain }}{{ page.url }}" target="_blank" onClick="_gaq.push(['_trackEvent', 'Click', 'Social', 'Facebook']);"><span class="visually-hidden">Facebook</span></a></li>
       <li><a class="google" href="https://plus.google.com/share?url={{ site.domain }}{{ page.url }}" target="_blank" onClick="_gaq.push(['_trackEvent', 'Click', 'Social', 'Google+']);"><span class="visually-hidden">google</span></a></li>
-    </ul>
+    </ul> -->
 
-    <h1>{{ page.title }}</h1>
- 	  <h2>{{ page.subtitle }}</h2>
+    <div class="titleHighlight">
+    	<h1>{{ page.title }}</h1>
+ 	  	<h2>{{ page.subtitle }}</h2>
+    </div>
+
+    
  	 <time class="date" datetime="{{ page.date | date: '%d/%m/%Y' }}" pubdate>{{ page.date | date: '%e %B %Y' }}</time>
     	{{ content }}
   	</div>

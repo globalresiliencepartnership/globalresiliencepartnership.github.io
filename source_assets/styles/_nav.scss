@@ -63,4 +63,29 @@
     line-height: 1 !important;
     height: 45px !important;
   }
+
+  .top-bar-section {
+    .headerSocial {
+      padding:0 20px;
+      margin-right: 10px;
+    }
+    .twitter {
+      background: #fff url(../../img/header/social_links2.png) center 0px no-repeat !important;
+    }
+    .twitter:hover {
+      background: #fff url(../../img/header/social_links_hover2.png) center 0px no-repeat !important;
+    }
+    .news {
+      background: #fff url(../../img/header/social_links2.png) center -171px no-repeat !important;
+    }
+    .news:hover {
+      background: #fff url(../../img/header/social_links_hover2.png) center -171px no-repeat !important;
+    }
+    .instagram {
+      background: #fff url(../../img/header/social_links2.png) center -85px no-repeat !important;
+    }
+    .instagram:hover {
+      background: #fff url(../../img/header/social_links_hover2.png) center -85px no-repeat !important;
+    }
+  }
 }

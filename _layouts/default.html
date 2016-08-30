@@ -1,33 +1,31 @@
----
----
 <!DOCTYPE html >
 <html>
+
 <head>
-	<title>Global Resilience Partnership</title>
-	<meta name="description" content="Convened by the Rockefeller Foundation, USAID, and Sida the Global Resilience Partnership is building systemic approaches to addressing climate and population change.">
-	<meta charset='UTF-8'/>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <title>Global Resilience Partnership</title>
+  <meta name="description" content="Convened by the Rockefeller Foundation, USAID, and Sida the Global Resilience Partnership is building systemic approaches to addressing climate and population change.">
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' /> {% include social.html %}
 
-    {% include social.html %}
-
-	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
-	<script src="{{site.baseurl}}/assets/scripts/modernizr.js"></script>
-	<script src="{{site.baseurl}}/assets/scripts/iframeResizer.min.js"></script>
-	<link href='{{site.baseurl}}/assets/styles/style.css' rel='stylesheet'/>
-	<link href='{{site.baseurl}}/assets/styles/jquery.countdown.css' rel='stylesheet'/>
-    <!--[if lt IE 10]>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
+  <script src="{{site.baseurl}}/assets/scripts/modernizr.js"></script>
+  <script src="{{site.baseurl}}/assets/scripts/iframeResizer.min.js"></script>
+  <link href='{{site.baseurl}}/assets/styles/style.css' rel='stylesheet' />
+  <link href='{{site.baseurl}}/assets/styles/jquery.countdown.css' rel='stylesheet' />
+  <!--[if lt IE 10]>
 	<link href='{{site.baseurl}}/assets/styles/style-ie9.css' rel='stylesheet'/>
 	<![endif]-->
-	<link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon">
 </head>
+
 <body class='{{page.class}}'>
-	
+
   <header>
 
-  <div class="fixed contain-to-grid">
+    <div class="fixed contain-to-grid">
 
-  	<!--[if lt IE 10]>
+      <!--[if lt IE 10]>
   	<div class="ie-banner">
   		<p>For best experience of the site, please use a modern browser such as
   	    <a href='https://www.google.com/intl/en/chrome/browser/' target='_blank'>Chrome</a> or
@@ -38,141 +36,152 @@
   	</div>
   	<![endif]-->
 
-  <nav class="top-bar" data-topbar="" data-options="is_hover: false">
-    <ul class="title-area">
-      <li class="name">
-        <h1><a href="{{site.baseurl}}/">Global Resilience Partnership</a></h1>
-      </li>
-      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <nav class="top-bar" data-topbar="" data-options="is_hover: false">
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="{{site.baseurl}}/">Global Resilience Partnership</a></h1>
+          </li>
+          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 
-      <li class="toggle-topbar menu-icon">
-        <a href="#"><span>Menu</span></a>
-      </li>
-    </ul>
+          <li class="toggle-topbar menu-icon">
+            <a href="#"><span>Menu</span></a>
+          </li>
+        </ul>
 
-    <section class="top-bar-section">
-      <!-- Right Nav Section -->
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
 
-      <ul class="right">
-		<li>
-          <a href="{{site.baseurl}}/approach">Approach</a>
-        </li>
-        <li>
-          <a href="{{site.baseurl}}/challenge">Challenge</a>
-        </li>
-		<li>
-          <a href="http://waterwindow.globalresiliencepartnership.org/">Water Window</a>
-        </li>
-        <li>
-          <a href="{{site.baseurl}}/teams">Teams</a>
-        </li>        
-        <li>
-          <a href="http://www.globalresiliencepartnership.org/project-map/">Projects Map</a>
-        </li>
-        <!--
-        <li>
-          <a href="/events">Events</a>
-        </li>
-        -->
-        <li>
-          <a href="{{site.baseurl}}/blog">News</a>
-        </li>
-      </ul><!-- Left Nav Section -->
+          <ul class="right">
+            <li {% if page.url == "{{site.baseurl}}/aboutus/index.html" %}class="active"{% endif %}>
+              <a href="{{site.baseurl}}/aboutus">About us</a>
+            </li>
+            <li {% if page.url == "{{site.baseurl}}/challenge/index.html" %}class="active"{% endif %}>
+              <a href="{{site.baseurl}}/challenge">Challenges</a>
+            </li>
+
+            <li >
+              <a href="http://www.globalresiliencepartnership.org/project-map/">Project Map</a>
+            </li>
+
+            <li {% if page.url == "{{site.baseurl}}/news/index.html" %}class="active"{% endif %}>
+              <a href="{{site.baseurl}}/news">News</a>
+            </li>
+            <li>
+              <a class="twitter headerSocial" href="https://twitter.com/grp_resilience" target="_blank"><span class="visually-hidden">Twitter</span></a>
+            </li>
+            <li>
+              <a class="instagram headerSocial" href="https://www.instagram.com/global_resilience_partnership/" target="_blank"><span class="visually-hidden">Instagram</span></a>
+            </li>
+
+            <li>
+              <a class="news headerSocial" href="{{site.baseurl}}/letter/" target="_blank"><span class="visually-hidden">Newsletter</span></a>
+            </li>
+          </ul>
+          <!-- Left Nav Section -->
+
+        </section>
+      </nav>
+    </div>
+  </header>
+
+  {{content}}
 
 
-    </section>
-  </nav>
-</div>
-   </header>
-
-	{{content}}
 
 
-	<section class="sign-up">
-	  <div class="row medium-6 offset-medium-3 small-7">
-	    <p><a id="sign-up"></a> Sign up for email updates</p>
-        {% include mailchimp.html %}
-	  </div>
-	</section>
+  <section class="partners">
+    <div class="row row-partners">
+      <div class="medium-6 medium-offset-3">
+        <a id="rockefeller-logo" href="http://www.rockefellerfoundation.org/">The Rockefeller Foundation</a>
+        <a id="usaid-logo" href="http://www.usaid.gov/">USAID</a>
+        <a id="sweden-logo" href="http://www.sida.se/English/">SIDA</a>
+      </div>
+    </div>
+  </section>
 
-	<section class="partners">
-		<div class="row row-partners">
-		  <div class="medium-6 medium-offset-3">
-		  <a id="rockefeller-logo" href="http://www.rockefellerfoundation.org/">The Rockefeller Foundation</a>
-		  <a id="usaid-logo" href="http://www.usaid.gov/">USAID</a>
-		  <a id="sweden-logo" href="http://www.sida.se/English/">SIDA</a>
-		  </div>
-		</div>
-	</section>
+  <footer>
 
-	<footer>
-	
-	<div class="row">
-		<div class="medium-8 columns">
-		 <p><a href="{{site.baseurl}}/privacy">Privacy Policy</a></p>
-		  <!--<p>For more resilience-related literature, please visit <a href='http://www.rockefellerfoundation.org/blog/publications/32' target='_blank'>Rockefeller Foundation's site</a> and the <a href='http://www.usaid.gov/resilience/resources' target='_blank'>Resilience Resources</a> on USAID's site.</p>-->
-		  <!--<p class='link'><a href='{{site.baseurl}}/resource/GRP_Brochure.pdf' download='GRP_Brochure.pdf' onClick="_gaq.push(['_trackEvent', 'Click', 'Download', 'GRP_Brochure']);">Download the GRP Brochure </a>for additional information.</p>-->
+    <div class="row">
+      <div class="medium-8 columns">
+        <p><a href="{{site.baseurl}}/privacy">Privacy Policy</a></p>
+        <!--<p>For more resilience-related literature, please visit <a href='http://www.rockefellerfoundation.org/blog/publications/32' target='_blank'>Rockefeller Foundation's site</a> and the <a href='http://www.usaid.gov/resilience/resources' target='_blank'>Resilience Resources</a> on USAID's site.</p>-->
+        <!--<p class='link'><a href='{{site.baseurl}}/resource/GRP_Brochure.pdf' download='GRP_Brochure.pdf' onClick="_gaq.push(['_trackEvent', 'Click', 'Download', 'GRP_Brochure']);">Download the GRP Brochure </a>for additional information.</p>-->
 
-			<!--<p>Photos: <a href='https://www.flickr.com/photos/chucksimmins/2947856660' target='_blank'>Chuck Simmins</a> and <a href='https://www.flickr.com/photos/3oheme/5141328136' target='_blank'>Ignacio Palomo Duarte</a>.
+        <!--<p>Photos: <a href='https://www.flickr.com/photos/chucksimmins/2947856660' target='_blank'>Chuck Simmins</a> and <a href='https://www.flickr.com/photos/3oheme/5141328136' target='_blank'>Ignacio Palomo Duarte</a>.
 			Icons: World designed by Juan Pablo Bravo; Explore, Group Talk, Writing, Presentation designed by <a href="http://www.thenounproject.com/takaoumehara">Takao Umehara</a> from the <a href="http://www.thenounproject.com">Noun Project</a></p>-->
-		</div>	
-		
-		<div class="medium-4 columns">		
-			<p class='website'>Website by <a href='http://developmentseed.org'>Development Seed</a></p>
-		</div>
-		
-	</footer>
+      </div>
 
-	<script src='{{site.baseurl}}/assets/scripts/jquery-2.1.3.min.js'></script>
-	<script src="http://d3js.org/topojson.v1.min.js"></script>
-	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.js'></script>
-	<!-- <script src='{{site.baseurl}}/assets/scripts/jquery.plugin.js'></script>  -->
+      <div class="medium-4 columns">
+        <p class='website'>Website by <a target="_blank" href='https://www.zilojo.com/'>Zilojo</a></p>
+      </div>
+    </div>
 
-	<!--<script src='{{site.baseurl}}/assets/scripts/jquery.countdown.js'></script>-->
-	
-	<script src='{{site.baseurl}}/assets/scripts/site.js'></script>
+  </footer>
 
-	<!-- Google Analytics -->
-	<script type="text/javascript">
+  <script src='{{site.baseurl}}/assets/scripts/jquery-2.1.3.min.js'></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.js'></script>
+  <!-- <script src='{{site.baseurl}}/assets/scripts/jquery.plugin.js'></script>  -->
 
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-55784219-1']);
-	  _gaq.push(['_trackPageview']);
+  <!--<script src='{{site.baseurl}}/assets/scripts/jquery.countdown.js'></script>-->
 
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
+  <script src='{{site.baseurl}}/assets/scripts/site.js'></script>
+  <script src='{{site.baseurl}}/assets/scripts/slider.js'></script>
 
-	</script>
+  {% if page.url == "/" %}
+  <script src='{{site.baseurl}}/assets/scripts/twitter-feed.js'></script>
+  {% endif %}
 
-	<!-- Second GA account -->
-	<script type="text/javascript">
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-55784219-1']);
+    _gaq.push(['_trackPageview']);
 
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-88478-45']);
-	  _gaq.push(['_trackPageview']);
+    (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
+  <!-- Second GA account -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-88478-45']);
+    _gaq.push(['_trackPageview']);
 
-	</script>
-	
-	<!-- Zilojo GA account -->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 
-	  ga('create', 'UA-18474211-47', 'auto');
-	  ga('send', 'pageview');
+  <!-- Zilojo GA account -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-	</script>
+    ga('create', 'UA-18474211-47', 'auto');
+    ga('send', 'pageview');
+  </script>
 
 </body>
+
 </html>

@@ -4,6 +4,7 @@ layout: blog_post
 category: blog
 title: Solutions Not Band-Aids&#58; Building flood resilience with the world&#39;s most vulnerable people
 subtitle: Author&#58; Dr Luca Alinovi, Executive Director, Global Resilience Partnership
+thumbnail: solutions_not_bandaids.jpg
 ---
 What comes to mind when you think hazards and disasters? Earthquakes, droughts, war? 
 

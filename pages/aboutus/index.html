@@ -1,0 +1,53 @@
+---
+permalink: aboutus/index.html
+layout: page
+title: Rethinking the approach
+---
+<section class="carousel">
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <img src="{{site.baseurl}}/img/sliders/3.jpg" />
+        <div class="content">
+          <h1>About Us</h1>
+          <p>We face a new reality: disasters and shocks are occurring more frequently and chronic stresses are lasting longer. Our future will be defined by three drivers: increasing complexity; where societies and ecosystems become more intertwined, global interconnectivity, and surprise. Stability and assumptions of linear, incremental change are history. Shock and stress – from rapid climate change, growing urbanization, to pandemics and conflict are here to stay. Protracted crises have become the new norm. And the most vulnerable are hit hardest.</p>
+          <span class="arrow"></span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+{% assign sections = site.index_sections %}
+
+  {% for post in sections %}
+    {% if post.tags contains 'challenge' %}
+    
+    {% else %}
+    <section class='clearfix {{post.class}} index-post firstSection'>
+    
+    {% if post.tags contains 'map'%}
+
+    <div class='map' id='map'></div>
+    
+    {% endif %}
+
+    <div class="row">
+      <div class="medium-12 columns">
+      {% if post.tags contains 'map' %}
+
+      <div class='map-intro'>
+        <h1 class='pop'>{{post.content}}</h1>
+      </div>{% else %} {{post.content}} 
+      {% endif %}
+      </div>
+    </div>
+    
+
+    
+  </section>
+  
+   {% endif %}
+  
+  {% endfor %}
+
+  <div></div>

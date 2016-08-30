@@ -1,0 +1,62 @@
+---
+permalink: news/index.html
+layout: news
+---
+
+<section class="carousel">
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <img src="{{site.baseurl}}/img/sliders/6.jpg" />
+        <div class="content">
+          <h1>Latest News</h1>
+          <p></p>
+          <span class="arrow"></span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<div class="row newsFeed firstSection">
+
+	<div class="columns large-12">
+
+		<ul class="posts-list">
+		  {% for post in site.posts %}
+		  <li class="large-4 column end">
+        {% if post.thumbnail %}
+        <img src="{{ site.baseurl }}/img/news/{{ post.thumbnail }}" alt="">
+        <figure class="overlay"></figure>
+        {% endif %}
+		    <article class="card blog">
+          <time class="date" datetime="{{ post.date | date: '%d/%m/%Y' }}" pubdate>{{ post.date | date: '%e %B %Y' }}</time>
+		      <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+		      
+		     
+		    </article>
+		  </li>
+		  {% endfor %}
+		</ul>
+
+	</div>
+
+	<!-- <div class="columns large-4 socialFeed">
+		
+    <div class="row large-12 devex">
+
+      <div class="column devex-webinar">
+        <h3>Devex Webinar Presentation</h3>
+        <p>We recently joined with Devex to discuss how to apply for up to US$1million in funding for innovative ideas to improve flood resilience through the Global Resilience Partnership’s new Water Window Challenge. To view the webinar presentation, please click on this <a href="http://waterwindow.globalresiliencepartnership.org/GRP-Water-Window-Webinar-Presentation.ppt" target="_blank">link</a></p>
+      </div>
+
+      <!-- <div class="column">
+        <h3>Devex Webinar Presentation</h3>
+        <p>The FAQ section has been refreshed to respond to additional questions asked by potential applicants</p>
+      </div> -->
+      
+    </div>
+
+	</div> -->
+
+</div>

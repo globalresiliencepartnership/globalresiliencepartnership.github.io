@@ -3,14 +3,9 @@ exclude:
   - .gitignore
   - source_assets
   - config.rb
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
-permalink: blog/:year/:month/:day/:title
-baseurl: 
-
-domain: http://www.globalresiliencepartnership.org
-
+permalink: news/:year/:month/:day/:title
+baseurl: /grp
+domain: 
 collections:
   index_sections:
     output: false

@@ -4,21 +4,38 @@ layout: page
 title: Global Resilience Challenge
 ---
 
-{% assign sections = site.index_sections %}
+<section class="carousel">
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <img src="{{site.baseurl}}/img/sliders/7.jpg" />
+        <div class="content">
+          <h1>Challenges</h1>
+          <p>The Challenges are a series of competitions hosted by the Resilience Partnership to tackle the world’s most intractable problems. Through the Challenges, the Resilience Partnership surfaces bold, innovative ideas with real-world impact that may start small, but have the potential to scale up.</p>
+          <span class="arrow"></span>
+        </div>
+      </li>
+    </ul> 
+  </div>
+</section>
 
+
+{% assign sections = site.index_sections %}
+<section class='clearfix index-post firstSection'>
+
+  <div class="row">
   {% for post in sections %}
   
    {% if post.tags contains 'challenge' %}
   
-  <section class='clearfix {{post.class}} index-post'>
-  	<div class="row">
-  	  <div class="medium-12 columns">
+  	  <div class="medium-6 columns {{post.class}}">
   	  {{post.content}}
   	  </div>
-  	</div>  
-  </section>
+  	
   
    {% endif %}
   
   {% endfor %}
+  </div>  
+</section>
 

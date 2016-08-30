@@ -2,25 +2,24 @@
 layout: page
 ---
 <div class="post row">
-  <div class="content">
+  <div class="teamHeader">
     
-    <ul class="social">
-      <li><a class="twitter" href="https://twitter.com/share?url={{ site.domain }}{{ page.url }}" onClick="_gaq.push(['_trackEvent', 'Click', 'Social', 'Twitter']);"><span class="visually-hidden">Twitter</span></a></li>
-      <li><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.domain }}{{ page.url }}" onClick="_gaq.push(['_trackEvent', 'Click', 'Social', 'Facebook']);"><span class="visually-hidden">Facebook</span></a></li>
-      <li><a class="google" href="https://plus.google.com/share?url={{ site.domain }}{{ page.url }}" onClick="_gaq.push(['_trackEvent', 'Click', 'Social', 'Google+']);"><span class="visually-hidden">google</span></a></li>
-    </ul>
-
-    <h1>{{ page.title }}</h1>
- 	<h2>{{ page.innovation }}</h2>
+		<img src="{{ site.baseurl}}/img/{{ page.image }}" alt="">
+		
+		<article>
+			<h4>{{ page.title }}</h4>
+ 			<!-- <h2>{{ page.innovation }}</h2> -->
+		</article>
+    
  	
  	 </div>
  	</div> 
  	
  	{% if content %}
  	 <div class="post row">
-     <div class="content">
+     
     	<p>{{ content }}</p>
-     </div>
+    	
     </div>
     {% endif %}
  	

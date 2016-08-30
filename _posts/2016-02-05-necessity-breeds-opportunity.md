@@ -4,8 +4,9 @@ layout: blog_post
 category: blog
 title: Necessity breeds opportunity&#58; Why the longest lasting resilience solutions are grassroots led
 subtitle: Author&#58; Shari Berenbach, President of the United States African Development Foundation (ADF)
+thumbnail: necessity.jpg
 ---
-<img alt="BRAC" src="{{ site.url }}/img/blog/USADF_work.jpg" />
+<img alt="BRAC" src="{{ site.baseurl }}/img/blog/USADF_work.jpg" />
 
 In our experience, necessity breeds opportunity. The most vulnerable communities are often the ones who are at greatest risk of the effects of changing climates and economies. Local communities deal with these complex challenges every day, giving them unique knowledge of the nuances required to overcome them.  We know that we need to harness these insights to be successful. 
 

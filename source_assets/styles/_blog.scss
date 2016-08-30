@@ -27,9 +27,9 @@ ul.posts-list {
 .post, .card {
   .date {
     display: block;
-    margin-top: -1.5rem;
-    margin-bottom: 2rem;
-    color: tint($grey, 32%);
+    color: #fff;
+    font-family:"ITC Franklin Gothic", Arial, sans-serif;
+    text-align: right;
   }
 }
 

@@ -3,29 +3,52 @@ permalink: teams/index.html
 layout: page
 title: Selected Teams
 ---
+<section class="carousel">
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <img src="{{site.baseurl}}/img/sliders/8.jpg" />
+        <div class="content">
+          <h1>Round 1 Global Resilience Challenge</h1>
+          <p>The Global Resilience Partnership plans to help millions of vulnerable people in the Sahel, the Horn of Africa and South East Asia better adapt to shocks and chronic stresses and thrive in a more resilient future. </p>
+					<span class="arrow"></span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
 
-<div class="row">
+<div class="row firstSection">
 	<h2 class="blue-header">Global Resilience Challenge Winning Teams</h2>
-	<ul class="winner-list">
-		{% for post in site.selected_teams %}
-			{% if post.category == 'winner' %}
-			<li class="winner">
-			  <article class="card">
-				<div class="mask" style="background: url({{ site.baseurl}}/img/{{ post.image }}); backgroun-size: contain;"></div>
-				<div class="team-title"><h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3><div class="triangle-bottomright"></div></div>	
-			</li>
-			{% endif %}
-		{% endfor %}
-	</ul>
-	<h2 class="blue-header">Other Global Resilience Challenge Finalists</h2>
-	<ul class="winner-list">
+	
+	{% for post in site.selected_teams %}
+		{% if post.category == 'winner' %}
+		<div class="winnerGrid columns large-4 medium-6 small-12">
+		  <article class="card">
+				<img src="{{ site.baseurl}}/img/{{ post.image }}" alt="">
+				<figure class="overlay"></figure>
+				<div class="teamDetails">
+					<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+			</article>	
+		</div>
+		{% endif %}
+	{% endfor %}
+	
+</div>
+
+<!-- <div class="row">
+	<h2 class="blue-header clearfix">Other Global Resilience Challenge Finalists</h2>
+	<div class="winner-list">
 		{% for post in site.selected_teams %}
 			{% if post.category == null %}
-			<li class="finalist">
+			<div class="finalist columns large-4 medium-6 small-12">
 			  <article class="card2">
-				<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-			</li>
+					<p>
+						<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+					</p>
+				</article>
+			</div>
 			{% endif %}
 		{% endfor %}
-	</ul>
-</div>
+	</div>
+</div> -->
