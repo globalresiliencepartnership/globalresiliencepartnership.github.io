@@ -3,9 +3,6 @@ exclude:
   - .gitignore
   - source_assets
   - config.rb
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
 permalink: news/:year/:month/:day/:title
 baseurl: 
 
