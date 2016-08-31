@@ -3,10 +3,7 @@ exclude:
   - .gitignore
   - source_assets
   - config.rb
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
-permalink: blog/:year/:month/:day/:title
+permalink: news/:year/:month/:day/:title
 baseurl: 
 
 domain: http://www.globalresiliencepartnership.org
