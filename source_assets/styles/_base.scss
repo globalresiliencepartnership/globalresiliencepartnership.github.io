@@ -196,9 +196,6 @@ ul {
         left: 50%;
         margin-left: -20px;
         cursor: pointer;
-        animation: bounce linear 1s infinite alternate;
-        -webkit-animation: bounce linear 1s infinite alternate;
-        -moz-animation: bounce linear 1s infinite alternate;
       }
     }
     .flex-control-paging, .flex-direction-nav {
@@ -209,13 +206,29 @@ ul {
     position: absolute;
     top: 50%;
     width: 100%;
+    margin-top: -40px;
     .flex-next {
       position: absolute;
-      right: 3em;
+      right: 30px;
+      width: 80px;
+      height: 80px;
+      background: url(../../img/sliders/right_arrow.png) center center no-repeat;
+
+      img{
+        display: none;
+      }
     }
     .flex-prev {
       position: absolute;
-      left: 3em;
+      width: 80px;
+      height: 80px;
+      background: url(../../img/sliders/left_arrow.png) center center no-repeat;
+
+      left: 30px;
+
+      img{
+        display: none;
+      }
     }
   }
 }
@@ -919,6 +932,22 @@ section {
   }
 
   .carousel{
+    
+    .custom-navigation{
+      top: 80%;
+    }
+
+    .custom-navigation .flex-next{
+      width: 40px;
+      height: 40px;
+      background: url(../../img/sliders/right_arrow_small.png) center center no-repeat;
+    }
+
+    .custom-navigation .flex-prev{
+      width: 40px;
+      height: 40px;
+      background: url(../../img/sliders/left_arrow_small.png) center center no-repeat;
+    }
 
     .flexslider{
 
