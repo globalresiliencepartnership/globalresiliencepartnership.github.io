@@ -2,7 +2,7 @@
 title: "Satellite Technologies, Innovative and Smart Financing for Food Security (SATISFy)"
 layout: team
 category: winner
-image: bridge.jpg
+image: ifpri.jpg
 
 focus: Horn of Africa
 

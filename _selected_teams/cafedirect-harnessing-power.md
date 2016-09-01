@@ -3,7 +3,7 @@ title: "Harnessing the Power of Technology to Catalyze Value Chain Efficiency Im
 
 layout: team
 category: winner
-image: supplychain.jpg
+image: cafe_direct.jpg
 
 focus: Horn of Africa
 
