@@ -675,7 +675,7 @@ section.challenge p {
 }
 /* line 577, ../../source_assets/styles/_base.scss */
 .winnerGrid.columns .teamDetails {
-  top: 30%;
+  top: 20%;
   left: 20px;
   position: absolute;
   z-index: 10;

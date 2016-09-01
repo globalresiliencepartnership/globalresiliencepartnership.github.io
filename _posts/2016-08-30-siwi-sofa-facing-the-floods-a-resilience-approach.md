@@ -2,7 +2,7 @@
 published: true
 layout: blog_post
 category: blog
-title:  Facing the floods A resilience approach.
+title:  Facing the floods &#58; A resilience approach.
 thumbnail: siwa.jpg
 ---
 
