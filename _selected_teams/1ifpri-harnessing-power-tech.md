@@ -13,6 +13,9 @@ countries:
   - Scalable to Horn of Africa
 
 local_org:
+  - Equity Bank, Kenya
+  - Regional Centre for Mapping of Resources for Development, Kenya
+
 intl_org:
   - Vienna University of Technology
   - Cornell University

@@ -16,6 +16,10 @@ countries:
   - Ethiopia
 
 local_org: 
+  - KALRO
+  - Sireet Outgrowers Cooperative
+  - Mabale Tea Factory
+  - Gumutindo Coffee Cooperative
 intl_org:
   - MasterCard Labs
   - Vodafone
