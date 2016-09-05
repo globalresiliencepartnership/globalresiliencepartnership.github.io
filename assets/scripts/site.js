@@ -14,8 +14,19 @@
 {% include scripts/foundation/foundation.tab.js %}
 {% include scripts/vendor/jquery.plugin.js %}
 {% include scripts/vendor/jquery.countdown.js %}
+{% include scripts/vendor/jpreloader.js %}
 
 $(function(){
+
+  $('body').jpreLoader({
+      
+      showSplash:false,
+      autoClose:true,
+      loaderVPos: '50%'
+        
+  },function(){
+
+  });
 
 	$(document).foundation();
   $(document).foundation('accordion', 'reflow');

@@ -5,5 +5,6 @@
 {% include styles/foundation.css %}
 {% include styles/fonts.css %}
 {% include styles/normalize.css %}
+{% include styles/jpreloader.css %}
 {% include styles/main.css %}
 {% include styles/multiselect.css %}
