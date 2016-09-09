@@ -6,7 +6,7 @@ published: true
 tags: challenge
 ---
 
-<h2>Round 1 Global Resilience Challenge</h2>
+<h2>Round 1 Challenge</h2>
 
 <p>10 winners were announced in early 2016. Each received up to US$ 1million to implement and scale-up their solutions. Read on for inspiring resilience approaches for fixing protracted issues.</p>
 
