@@ -18,15 +18,15 @@
 
 $(function(){
 
-  $('body').jpreLoader({
+  // $('body').jpreLoader({
       
-      showSplash:false,
-      autoClose:true,
-      loaderVPos: '50%'
+  //     showSplash:false,
+  //     autoClose:true,
+  //     loaderVPos: '50%'
         
-  },function(){
+  // },function(){
 
-  });
+  // });
 
 	$(document).foundation();
   $(document).foundation('accordion', 'reflow');
