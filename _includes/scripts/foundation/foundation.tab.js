@@ -76,6 +76,7 @@
       // Location hash change event
       S(window).on('hashchange.fndtn.tab', function (e) {
         e.preventDefault();
+        document.location.hash = this.href.split('#')[1]+'/';
         self.handle_location_hash_change();
       });
     },

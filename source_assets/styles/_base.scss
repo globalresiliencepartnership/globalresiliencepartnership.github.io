@@ -239,7 +239,7 @@ ul {
       right: 30px;
       width: 80px;
       height: 80px;
-      background: url(../../img/sliders/right_arrow.png) center center no-repeat;
+      background: url(../../img/sliders/arrow_sprite.png) no-repeat -127px -2px;
 
       img{
         display: none;
@@ -249,7 +249,7 @@ ul {
       position: absolute;
       width: 80px;
       height: 80px;
-      background: url(../../img/sliders/left_arrow.png) center center no-repeat;
+      background: url(../../img/sliders/arrow_sprite.png) no-repeat -1px -2px;
 
       left: 30px;
 
@@ -419,15 +419,6 @@ section {
       min-width: 60px;
       margin-left: 5px;
       margin-right: 5px;
-    }
-    .twitter {
-      background: url(../../img/social/twitter.png) center top no-repeat;
-    }
-    .news {
-      background: url(../../img/social/message.png) center top no-repeat;
-    }
-    .instagram {
-      background: url(../../img/social/instagram.png) center top no-repeat;
     }
   }
 }
@@ -967,13 +958,13 @@ section {
     .custom-navigation .flex-next{
       width: 40px;
       height: 40px;
-      background: url(../../img/sliders/right_arrow_small.png) center center no-repeat;
+      background: url(../../img/sliders/arrow_sprite.png) no-repeat -149px -91px;
     }
 
     .custom-navigation .flex-prev{
       width: 40px;
       height: 40px;
-      background: url(../../img/sliders/left_arrow_small.png) center center no-repeat;
+      background: url(../../img/sliders/arrow_sprite.png) no-repeat -20px -91px;
     }
 
     .flexslider{
