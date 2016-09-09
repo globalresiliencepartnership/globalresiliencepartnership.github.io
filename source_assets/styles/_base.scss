@@ -1127,6 +1127,14 @@ section {
   .round1challenge,
   .waterwindow {
     min-height: 320px;
+
+    .button{
+      max-width: 145px;
+      display: block;
+      margin: 0 auto;
+    }
+
+
   }
 
   .round1challenge {

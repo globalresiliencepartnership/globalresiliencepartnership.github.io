@@ -1257,48 +1257,55 @@ section.challenge p {
 .index-post .waterwindow {
   min-height: 320px;
 }
-/* line 1132, ../../source_assets/styles/_base.scss */
+/* line 1131, ../../source_assets/styles/_base.scss */
+.index-post .round1challenge .button,
+.index-post .waterwindow .button {
+  max-width: 145px;
+  display: block;
+  margin: 0 auto;
+}
+/* line 1140, ../../source_assets/styles/_base.scss */
 .index-post .round1challenge {
   background: #145868;
   border-right: 5px solid #fff;
 }
-/* line 1135, ../../source_assets/styles/_base.scss */
+/* line 1143, ../../source_assets/styles/_base.scss */
 .index-post .round1challenge p,
 .index-post .round1challenge h2 {
   color: #fff;
 }
-/* line 1139, ../../source_assets/styles/_base.scss */
+/* line 1147, ../../source_assets/styles/_base.scss */
 .index-post .round1challenge h2 {
   font-size: 40px;
 }
-/* line 1142, ../../source_assets/styles/_base.scss */
+/* line 1150, ../../source_assets/styles/_base.scss */
 .index-post .round1challenge p {
   font-size: 19px;
 }
-/* line 1146, ../../source_assets/styles/_base.scss */
+/* line 1154, ../../source_assets/styles/_base.scss */
 .index-post .waterwindow {
   background: #136B63;
 }
-/* line 1148, ../../source_assets/styles/_base.scss */
+/* line 1156, ../../source_assets/styles/_base.scss */
 .index-post .waterwindow p,
 .index-post .waterwindow h2 {
   color: #fff;
 }
-/* line 1152, ../../source_assets/styles/_base.scss */
+/* line 1160, ../../source_assets/styles/_base.scss */
 .index-post .waterwindow h2 {
   font-size: 40px;
 }
-/* line 1155, ../../source_assets/styles/_base.scss */
+/* line 1163, ../../source_assets/styles/_base.scss */
 .index-post .waterwindow p {
   font-size: 19px;
 }
 
-/* line 1161, ../../source_assets/styles/_base.scss */
+/* line 1169, ../../source_assets/styles/_base.scss */
 .index-post ul {
   margin: 40px 0;
   margin-bottom: 4em;
 }
-/* line 1164, ../../source_assets/styles/_base.scss */
+/* line 1172, ../../source_assets/styles/_base.scss */
 .index-post ul li {
   list-style: none;
   margin: 0 15%;
@@ -1308,7 +1315,7 @@ section.challenge p {
   border-right: 1px solid #49853E;
   background: #f5f3f3;
 }
-/* line 1172, ../../source_assets/styles/_base.scss */
+/* line 1180, ../../source_assets/styles/_base.scss */
 .index-post ul li:first-child {
   background: #49853E;
   color: #fff;
@@ -1316,20 +1323,20 @@ section.challenge p {
   text-align: center;
   padding: 1em 2em;
 }
-/* line 1179, ../../source_assets/styles/_base.scss */
+/* line 1187, ../../source_assets/styles/_base.scss */
 .index-post ul li:last-child {
   border-bottom: 1px solid #49853E;
   padding-bottom: 2em;
 }
 
-/* line 1192, ../../source_assets/styles/_base.scss */
+/* line 1200, ../../source_assets/styles/_base.scss */
 ul.winner-list li:nth-child(2) .card,
 ul.winner-list li:nth-child(3) .card,
 ul.winner-list li:nth-child(6) .card,
 ul.winner-list li:nth-child(7) .card {
   background: #009EDE;
 }
-/* line 1200, ../../source_assets/styles/_base.scss */
+/* line 1208, ../../source_assets/styles/_base.scss */
 ul.winner-list li:nth-child(2) .triangle-bottomright,
 ul.winner-list li:nth-child(3) .triangle-bottomright,
 ul.winner-list li:nth-child(6) .triangle-bottomright,
@@ -1337,7 +1344,7 @@ ul.winner-list li:nth-child(7) .triangle-bottomright {
   border-bottom: 50px solid #46863C;
   border-left: 50px solid transparent;
 }
-/* line 1210, ../../source_assets/styles/_base.scss */
+/* line 1218, ../../source_assets/styles/_base.scss */
 ul.winner-list li:nth-child(2) .team-title:hover .triangle-bottomright,
 ul.winner-list li:nth-child(3) .team-title:hover .triangle-bottomright,
 ul.winner-list li:nth-child(6) .team-title:hover .triangle-bottomright,
@@ -1346,7 +1353,7 @@ ul.winner-list li:nth-child(7) .team-title:hover .triangle-bottomright {
   border-bottom: none;
   border-left: none;
 }
-/* line 1217, ../../source_assets/styles/_base.scss */
+/* line 1225, ../../source_assets/styles/_base.scss */
 ul.winner-list .card2 {
   background: #009ede;
   height: 100px;
@@ -1355,20 +1362,20 @@ ul.winner-list .card2 {
   margin-top: 30px;
   box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
 }
-/* line 1225, ../../source_assets/styles/_base.scss */
+/* line 1233, ../../source_assets/styles/_base.scss */
 ul.winner-list .card2 h3 a {
   color: #fff !important;
 }
-/* line 1230, ../../source_assets/styles/_base.scss */
+/* line 1238, ../../source_assets/styles/_base.scss */
 ul.winner-list li {
   margin-right: 4%;
 }
-/* line 1233, ../../source_assets/styles/_base.scss */
+/* line 1241, ../../source_assets/styles/_base.scss */
 ul.winner-list .blue-header {
   color: #009ede;
   font-weight: bold;
 }
-/* line 1237, ../../source_assets/styles/_base.scss */
+/* line 1245, ../../source_assets/styles/_base.scss */
 ul.winner-list .card {
   height: 200px;
   padding: 2rem;
@@ -1377,34 +1384,34 @@ ul.winner-list .card {
   box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
   background: #46863C;
 }
-/* line 1244, ../../source_assets/styles/_base.scss */
+/* line 1252, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .avatar {
   margin: -1rem -1rem 0 -1rem;
 }
-/* line 1247, ../../source_assets/styles/_base.scss */
+/* line 1255, ../../source_assets/styles/_base.scss */
 ul.winner-list .card h1 {
   padding: 0;
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
   position: relative;
 }
-/* line 1253, ../../source_assets/styles/_base.scss */
+/* line 1261, ../../source_assets/styles/_base.scss */
 ul.winner-list .card h3 a {
   color: #fff !important;
 }
-/* line 1257, ../../source_assets/styles/_base.scss */
+/* line 1265, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .metadata dt {
   text-transform: uppercase;
   color: #49853E;
 }
-/* line 1263, ../../source_assets/styles/_base.scss */
+/* line 1271, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .enum li {
   list-style-type: initial;
   text-transform: initial;
   color: #58595B;
   text-align: left;
 }
-/* line 1270, ../../source_assets/styles/_base.scss */
+/* line 1278, ../../source_assets/styles/_base.scss */
 ul.winner-list .card .prose {
   text-transform: none;
   font-size: 1rem;
@@ -1412,17 +1419,17 @@ ul.winner-list .card .prose {
   text-align: left;
 }
 
-/* line 1280, ../../source_assets/styles/_base.scss */
+/* line 1288, ../../source_assets/styles/_base.scss */
 nav .sub-nav {
   overflow: visible;
 }
-/* line 1283, ../../source_assets/styles/_base.scss */
+/* line 1291, ../../source_assets/styles/_base.scss */
 nav .sub-nav .global-resilience-challenge,
 nav .sub-nav .global-resilience-challenge.active {
   position: relative;
 }
 @media only screen and (min-width: 1072px) {
-  /* line 1287, ../../source_assets/styles/_base.scss */
+  /* line 1295, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif,
   nav .sub-nav .global-resilience-challenge.active .winners-notif {
     position: absolute;
@@ -1437,18 +1444,18 @@ nav .sub-nav .global-resilience-challenge.active {
     border-radius: 4px;
     line-height: normal;
   }
-  /* line 1299, ../../source_assets/styles/_base.scss */
+  /* line 1307, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:link, nav .sub-nav .global-resilience-challenge .winners-notif:visited,
   nav .sub-nav .global-resilience-challenge.active .winners-notif:link,
   nav .sub-nav .global-resilience-challenge.active .winners-notif:visited {
     color: #FFF !important;
   }
-  /* line 1303, ../../source_assets/styles/_base.scss */
+  /* line 1311, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:hover,
   nav .sub-nav .global-resilience-challenge.active .winners-notif:hover {
     color: #49853E !important;
   }
-  /* line 1306, ../../source_assets/styles/_base.scss */
+  /* line 1314, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:after, nav .sub-nav .global-resilience-challenge .winners-notif:before,
   nav .sub-nav .global-resilience-challenge.active .winners-notif:after,
   nav .sub-nav .global-resilience-challenge.active .winners-notif:before {
@@ -1462,7 +1469,7 @@ nav .sub-nav .global-resilience-challenge.active {
     pointer-events: none;
     border-color: rgba(255, 255, 255, 0);
   }
-  /* line 1318, ../../source_assets/styles/_base.scss */
+  /* line 1326, ../../source_assets/styles/_base.scss */
   nav .sub-nav .global-resilience-challenge .winners-notif:after,
   nav .sub-nav .global-resilience-challenge.active .winners-notif:after {
     border-top-color: rgba(0, 0, 0, 0.64);
@@ -1472,12 +1479,12 @@ nav .sub-nav .global-resilience-challenge.active {
 }
 
 @media only screen and (min-width: 1072px) {
-  /* line 1332, ../../source_assets/styles/_base.scss */
+  /* line 1340, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif,
   [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif {
     top: 35px;
   }
-  /* line 1334, ../../source_assets/styles/_base.scss */
+  /* line 1342, ../../source_assets/styles/_base.scss */
   [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge .winners-notif:after,
   [data-magellan-expedition-clone] + [data-magellan-expedition] .global-resilience-challenge.active .winners-notif:after {
     border-top: none;
@@ -1488,7 +1495,7 @@ nav .sub-nav .global-resilience-challenge.active {
     margin-left: -10px;
   }
 }
-/* line 1348, ../../source_assets/styles/_base.scss */
+/* line 1356, ../../source_assets/styles/_base.scss */
 .page-card .content {
   border-top: 4px solid #46863C;
   background: #FFF;
@@ -1496,14 +1503,14 @@ nav .sub-nav .global-resilience-challenge.active {
   margin: 2rem 0;
   box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
 }
-/* line 1354, ../../source_assets/styles/_base.scss */
+/* line 1362, ../../source_assets/styles/_base.scss */
 .page-card .content h1 {
   margin: 0 0 1rem 0;
   padding: 0;
   line-height: 1.3;
   text-align: left;
 }
-/* line 1360, ../../source_assets/styles/_base.scss */
+/* line 1368, ../../source_assets/styles/_base.scss */
 .page-card .content h2 {
   padding: 0;
   line-height: 1.3;
@@ -1511,7 +1518,7 @@ nav .sub-nav .global-resilience-challenge.active {
   margin: 2rem 0;
   text-align: left;
 }
-/* line 1367, ../../source_assets/styles/_base.scss */
+/* line 1375, ../../source_assets/styles/_base.scss */
 .page-card .content h3 {
   padding: 0;
   line-height: 1.3;
@@ -1519,63 +1526,63 @@ nav .sub-nav .global-resilience-challenge.active {
   margin: 2rem 0;
   text-align: left;
 }
-/* line 1374, ../../source_assets/styles/_base.scss */
+/* line 1382, ../../source_assets/styles/_base.scss */
 .page-card .content ul {
   list-style-type: disc;
   list-style-position: inside;
   margin: 0 0 0rem 0;
 }
-/* line 1378, ../../source_assets/styles/_base.scss */
+/* line 1386, ../../source_assets/styles/_base.scss */
 .page-card .content ul li {
   color: #58595b;
 }
 
-/* line 1385, ../../source_assets/styles/_base.scss */
+/* line 1393, ../../source_assets/styles/_base.scss */
 button,
 .button {
   background: #009ede;
   color: #fff !important;
 }
 
-/* line 1391, ../../source_assets/styles/_base.scss */
+/* line 1399, ../../source_assets/styles/_base.scss */
 button:hover,
 .button:hover {
   background: #49853E !important;
   color: #fff !important;
 }
 
-/* line 1397, ../../source_assets/styles/_base.scss */
+/* line 1405, ../../source_assets/styles/_base.scss */
 .sign-up {
   padding: 30px 0;
 }
-/* line 1399, ../../source_assets/styles/_base.scss */
+/* line 1407, ../../source_assets/styles/_base.scss */
 .sign-up #mc-embedded-subscribe {
   margin-top: 20px;
   padding: 20px 10px;
   margin-left: -15px;
   margin-top: 10px;
 }
-/* line 1405, ../../source_assets/styles/_base.scss */
+/* line 1413, ../../source_assets/styles/_base.scss */
 .sign-up #mce-EMAIL {
   width: 95%;
 }
-/* line 1408, ../../source_assets/styles/_base.scss */
+/* line 1416, ../../source_assets/styles/_base.scss */
 .sign-up p {
   text-transform: uppercase;
   font-size: 13px;
 }
 
-/* line 1414, ../../source_assets/styles/_base.scss */
+/* line 1422, ../../source_assets/styles/_base.scss */
 .partners {
   background: #F2F2F2;
 }
 
-/* line 1418, ../../source_assets/styles/_base.scss */
+/* line 1426, ../../source_assets/styles/_base.scss */
 .row-partners {
   padding: 40px 0;
   border-top: 2px solid #3863A0;
 }
-/* line 1421, ../../source_assets/styles/_base.scss */
+/* line 1429, ../../source_assets/styles/_base.scss */
 .row-partners #rockefeller-logo {
   width: 150px;
   height: 100px;
@@ -1587,7 +1594,7 @@ button:hover,
   float: left;
   margin: 0 50px 0 0;
 }
-/* line 1432, ../../source_assets/styles/_base.scss */
+/* line 1440, ../../source_assets/styles/_base.scss */
 .row-partners #usaid-logo {
   width: 100px;
   height: 100px;
@@ -1599,7 +1606,7 @@ button:hover,
   float: left;
   margin: 0 50px 0 0;
 }
-/* line 1443, ../../source_assets/styles/_base.scss */
+/* line 1451, ../../source_assets/styles/_base.scss */
 .row-partners #sweden-logo {
   width: 100px;
   height: 80px;
@@ -1611,45 +1618,45 @@ button:hover,
   float: left;
 }
 
-/* line 1455, ../../source_assets/styles/_base.scss */
+/* line 1463, ../../source_assets/styles/_base.scss */
 footer {
   padding: 40px 0;
 }
-/* line 1457, ../../source_assets/styles/_base.scss */
+/* line 1465, ../../source_assets/styles/_base.scss */
 footer p {
   font-size: 12px;
   color: #bbb;
   margin: 0;
 }
-/* line 1462, ../../source_assets/styles/_base.scss */
+/* line 1470, ../../source_assets/styles/_base.scss */
 footer a {
   color: #ccc;
 }
-/* line 1465, ../../source_assets/styles/_base.scss */
+/* line 1473, ../../source_assets/styles/_base.scss */
 footer .website {
   text-align: right;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 1471, ../../source_assets/styles/_base.scss */
+  /* line 1479, ../../source_assets/styles/_base.scss */
   .sign-up #mce-EMAIL {
     width: 100%;
   }
 
-  /* line 1474, ../../source_assets/styles/_base.scss */
+  /* line 1482, ../../source_assets/styles/_base.scss */
   .sign-up #mc-embedded-subscribe {
     width: 80%;
     margin: 20px 0 0 20px;
   }
 
-  /* line 1478, ../../source_assets/styles/_base.scss */
+  /* line 1486, ../../source_assets/styles/_base.scss */
   .row-partners a {
     float: none !important;
     margin: 0 auto 40px auto !important;
     width: 60% !important;
   }
 
-  /* line 1483, ../../source_assets/styles/_base.scss */
+  /* line 1491, ../../source_assets/styles/_base.scss */
   .winnerGrid.small-12 {
     width: 96%;
     margin-right: 2%;
@@ -1657,7 +1664,7 @@ footer .website {
     margin-bottom: 2%;
   }
 
-  /* line 1490, ../../source_assets/styles/_base.scss */
+  /* line 1498, ../../source_assets/styles/_base.scss */
   .winner-list .finalist {
     width: 96%;
     margin-left: 2%;
@@ -1666,7 +1673,7 @@ footer .website {
   }
 }
 @media only screen and (max-width: 900px) {
-  /* line 1500, ../../source_assets/styles/_base.scss */
+  /* line 1508, ../../source_assets/styles/_base.scss */
   .row-partners a {
     float: none !important;
     margin: 0 auto 40px auto !important;
