@@ -15,6 +15,11 @@
   <!--[if lt IE 10]>
 	<link href='{{site.baseurl}}/assets/styles/style-ie9.css' rel='stylesheet'/>
 	<![endif]-->
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+    <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+  <![endif]-->
   <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon">
 </head>
@@ -136,6 +141,8 @@
   {% if page.url == "/" %}
   <script src='{{site.baseurl}}/assets/scripts/twitter-feed.js'></script>
   {% endif %}
+
+  <script src='{{site.baseurl}}/assets/scripts/rem.min.js'></script>
 
   <!-- Google Analytics -->
   <script type="text/javascript">
