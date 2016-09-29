@@ -7,21 +7,22 @@ image: ifpri.jpg
 focus: Horn of Africa
 
 organizations:
-  - IFPRI
+  - International Food Policy Research Institute (IFPRI)
+  
 countries: 
   - Kenya 
   - Scalable to Horn of Africa
 
 local_org:
   - Equity Bank, Kenya
-  - Regional Centre for Mapping of Resources for Development, Kenya
+  - Tegemeo Institute Of Agricultural Policy And Development, Egerton University, Kenya
 
 intl_org:
-  - Vienna University of Technology
+  - Columbia University
   - Cornell University
-  - Doctors Without Borders-MSF
   - Swiss Re
-team_lead: "Liangzhi You"
+  
+team_lead: "Liangzhi You and Apurba Shee"
 
 ---
 
