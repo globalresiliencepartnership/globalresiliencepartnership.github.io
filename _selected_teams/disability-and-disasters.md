@@ -7,8 +7,7 @@ image: disaster.jpg
 focus: South and Southeast Asia
 
 organizations:
-  - University of Sydney
-  - University of Sydney, Sydney AUS
+  - University of Sydney, Australia.
 
 countries: 
   - Thailand
@@ -18,9 +17,8 @@ countries:
 
 local_org: 
   - KPC Consultant Co. Ltd
-  - Philippine Accessible Deaf Services (PADS)
   - Inclusive Development and Empowerment Agenda (IDEA)
-  -  Cambodian Disabled People’s Organization (CDPO)
+  - Cambodian Disabled People’s Organization (CDPO)
 
 intl_org:
   - Cambodian Disabled People’s Organization (CDPO)
