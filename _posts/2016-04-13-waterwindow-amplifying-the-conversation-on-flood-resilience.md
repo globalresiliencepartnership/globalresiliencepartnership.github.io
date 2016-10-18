@@ -4,7 +4,11 @@ layout: blog_post
 category: blog
 subtitle: Authors&#58; Mandy McAnally, Richard Jones 
 title: #WaterWindow: Amplifying the conversation on flood resilience
+thumbnail: 2016_04_13_thumb.jpg
 ---
+
+<img src="{{ site.baseurl }}/img/news/2016_04_13_banner.jpg" alt="">
+
 When people are prepared, they are much more resilient to catastrophic climate-related events — including droughts and floods.
 
 With the variability of water resources only set to increase with climate change, the risk of disasters outstripping the capacity of governments, humanitarian aid and global development actors to adapt represents a clear and present danger to communities across the globe. 

@@ -4,6 +4,7 @@ layout: blog_post
 category: blog
 subtitle: Author&#58; Helen Morgan
 title: Engage women in building disaster resilience
+thumbnail: 2016_06_15_thumb.jpg
 ---
 
 <div class="videoWrapper">

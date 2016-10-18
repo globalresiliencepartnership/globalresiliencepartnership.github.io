@@ -4,7 +4,11 @@ layout: blog_post
 category: blog
 subtitle: Author&#58; Flavie Halais 
 title: How to achieve flood resilience? Embrace innovation
+thumbnail: 2016_04_13_thumb2.jpg
 ---
+
+<img src="{{ site.baseurl }}/img/news/2016_04_13_banner2.jpg" alt="">
+
 Floods are now causing more economic, social and humanitarian losses worldwide than any other type of natural hazard and are affecting 250 million people each year on average, according to the U.N. Office for Disaster Risk Reduction. With climate change, population growth and urbanization, the problem is only expected to worsen in the coming years.
 
 In 2013, Zurich Insurance Group launched its global flood resilience program as a corporate social responsibility initiative backed by the Z Zurich Foundation. The initiative established a series of cross-sector partnerships with the International Federation of Red Cross and Red Crescent Societies, the Wharton Business School, Practical Action and the International Institute for Applied Systems Analysis — consciously bringing together the humanitarian, development, academic and private sector. Together they launched dozens of community programs in Mexico, Indonesia, Nepal, Peru and Bangladesh. Although fruitful, the programs revealed a host of challenges when it comes to creating innovative solutions to support resilience.

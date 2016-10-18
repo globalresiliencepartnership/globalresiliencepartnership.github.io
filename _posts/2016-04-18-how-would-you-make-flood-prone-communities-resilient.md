@@ -4,6 +4,7 @@ layout: blog_post
 category: blog
 subtitle: Author&#58; Mandy McAnally
 title: How would you make flood-prone communities resilient?
+thumbnail: 2016_04_13_thumb.jpg
 ---
 
 <div class="videoWrapper">
