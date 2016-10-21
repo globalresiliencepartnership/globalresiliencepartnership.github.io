@@ -13,7 +13,6 @@ countries:
   - Thailand
   - Philippines
   - Cambodia
-  - Indonesia
 
 local_org: 
   - KPC Consultant Co. Ltd
