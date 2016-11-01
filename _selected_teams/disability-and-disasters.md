@@ -23,6 +23,7 @@ intl_org:
   - Cambodian Disabled People’s Organization (CDPO)
   - Stockholm Environment Institute Asia Centre
   - Monash University
+  - Craigs Consultants International (CCI)
 
 team_lead: "Dr. Emma Calgaro, Natural Hazards Research GroupUniversity of Sydney, Australia"
 
