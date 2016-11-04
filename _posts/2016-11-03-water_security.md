@@ -13,9 +13,7 @@ thumbnail: 2016_11_03_water_security_thumb.jpg
 
 <p class="caption">In 2011 in Pakistan, over 5.4 million people – including 2.7 million children – were affected by monsoon rains and flooding, and this number was expected to rise (Pic: UNICEF)</p>
 
-The Global Resilience Partnership (GRP) plans to help millions of vulnerable people better adapt to shocks and chronic stresses and thrive in a more resilient future
-
-Next week I, along with a range of innovators and experts, will take to the stage at COP 22 to discuss how we address one of the world’s most pressing and complex climate issues – water security.
+<strong>Next week I, along with a range of innovators and experts, will take to the stage at COP 22 to discuss how we address one of the world’s most pressing and complex climate issues – water security.</strong>
 
 As those of you heading to Marrakech will know, this is a highly complex issue driven by three core factors: water scarcity, governance and transboundary access. 
 Outside of these sit a further range of variables which impact water security, spanning biophysical, infrastructural, political, social, institutional and financial issues.
@@ -33,7 +31,7 @@ Investing to bring about both financial benefit for the investor and to support 
 
 The Global Resilience Partnership (GRP), convened with US$ 150million by The Rockefeller Foundation, USAID and Sida, plans to help millions of vulnerable people in the Sahel, the Horn of Africa, and South and South East Asia better adapt to shocks and chronic stresses and thrive in a more resilient future.
 
-<em>Turning Risk into Reward: Opportunities for Business at the Development Table will take place at 10-11.30am, 10 November, Africa Pavilion, COP22, Marrakech. All welcome</em>
+<em class="blueBrorderGrayBg"><strong>Turning Risk into Reward: Opportunities for Business at the Development Table will take place at 10-11.30am, 10 November, Africa Pavilion, COP22, Marrakech. All welcome</strong></em>
 
 Working in tandem with business, we identify and scale solutions which help vulnerable communities thrive as climate (and other) shocks threaten lives and livelihoods.
 
@@ -44,6 +42,8 @@ David Nash, Head of the Z Zurich Foundation, will tell the story behind this par
 The discussion will focus on the growing challenges facing people living, and businesses operating in Africa.
 
 Outlining in detail the scale of the continent’s water security issues, the panel will explain why there has never been a more pertinent time to take on an issue which has remained a challenge for decades.
+
+<a href="http://www.climatechangenews.com/2016/11/01/us-election-result-to-dominate-cop22-un-climate-summit/" class="blueBrorderGrayBg">Preview: US election result to dominate COP22 UN climate summit</a>
 
 We will hear about the role data can play in assisting those most in need.
 
@@ -61,3 +61,5 @@ A live Twitter Q&A session will allow guests (both present and virtual) to raise
 After listening to these diverse viewpoints I believe our guests will see, as we do at GRP, that through insight, innovation and a willingness to correctly assess risk, there is no reason why businesses can’t facilitate long-lasting development progress, ensuring hundreds of thousands more people can expect a clean and consistent water supply, whilst realising tangible business benefits.
 
 This isn’t a discussion motivated by pity or pointing the finger, it’s about being brave, backing innovation and making real change. It’s about working together with businesses to identify viable solutions and scale them rapidly. It’s about turning risk into reward.
+
+<em>Luca Alinovi is executive director at the Global Resilience Partnership (GRP)</em>
