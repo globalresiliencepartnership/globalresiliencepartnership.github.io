@@ -43,7 +43,7 @@ The discussion will focus on the growing challenges facing people living, and bu
 
 Outlining in detail the scale of the continent’s water security issues, the panel will explain why there has never been a more pertinent time to take on an issue which has remained a challenge for decades.
 
-<a href="http://www.climatechangenews.com/2016/11/01/us-election-result-to-dominate-cop22-un-climate-summit/" class="blueBrorderGrayBg">Preview: US election result to dominate COP22 UN climate summit</a>
+<!-- <a href="http://www.climatechangenews.com/2016/11/01/us-election-result-to-dominate-cop22-un-climate-summit/" class="blueBrorderGrayBg">Preview: US election result to dominate COP22 UN climate summit</a> -->
 
 We will hear about the role data can play in assisting those most in need.
 
