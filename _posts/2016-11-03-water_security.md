@@ -7,7 +7,11 @@ title: Water security&#58; huge climate risk, huge business opportunity
 thumbnail: 2016_11_03_water_security_thumb.jpg
 ---
 
+<h3>The Global Resilience Partnership (GRP) plans to help millions of vulnerable people better adapt to shocks and chronic stresses and thrive in a more resilient future</h3>
+
 <img src="{{ site.baseurl }}/img/news/2016_11_03_water_security.jpg" alt="">
+
+<p class="caption">In 2011 in Pakistan, over 5.4 million people – including 2.7 million children – were affected by monsoon rains and flooding, and this number was expected to rise (Pic: UNICEF)</p>
 
 The Global Resilience Partnership (GRP) plans to help millions of vulnerable people better adapt to shocks and chronic stresses and thrive in a more resilient future
 
@@ -17,6 +21,9 @@ As those of you heading to Marrakech will know, this is a highly complex issue d
 Outside of these sit a further range of variables which impact water security, spanning biophysical, infrastructural, political, social, institutional and financial issues.
 
 The result, a clean and consistent water supply, something we take for granted, becomes a highly volatile and heavily politicised commodity.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">There&#39;s only *1* link you&#39;ll need for <a href="https://twitter.com/hashtag/COP22?src=hash">#COP22</a>. Bookmark it now <a href="https://t.co/2WQUKsX9aq">https://t.co/2WQUKsX9aq</a> <a href="https://twitter.com/hashtag/climate?src=hash">#climate</a> <a href="https://t.co/2ysrLGJ0FP">pic.twitter.com/2ysrLGJ0FP</a></p>&mdash; Climate Home (@ClimateHome) <a href="https://twitter.com/ClimateHome/status/792811983288561664">October 30, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 As policymakers mix with business leaders in the ancient city to tackle these and other issues, it’s clear that the private sector has an opportunity to take a seat at the table.
 
@@ -45,6 +52,9 @@ Dr Sandy Andelman, Chief Scientist at Conservation International, will introduce
 Insight will also be shared from those ambitious organisations on the ground who are implementing innovative ways to tackle the problem of water security, using a resilience approach.
 
 Meta Meta’s Frank van Steenbergen will introduce a project taking shape in the Horn of Africa and how, after being backed by the GRP, they are transforming the way roads – the conduits for life and commerce – are not only planned and built but their role, moving beyond transport to supporting agriculture and development.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">12 reports to read before <a href="https://twitter.com/hashtag/COP22?src=hash">#COP22</a> climate talks in Marrakech: <a href="https://t.co/j8jrJe4xYb">https://t.co/j8jrJe4xYb</a> <a href="https://t.co/jCuLjurzQH">pic.twitter.com/jCuLjurzQH</a></p>&mdash; Climate Home (@ClimateHome) <a href="https://twitter.com/ClimateHome/status/793766856418926593">November 2, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 A live Twitter Q&A session will allow guests (both present and virtual) to raise queries in real time, with an opportunity to meet the panel and discuss key topics further at the end of the session.
 
