@@ -78,3 +78,20 @@ prose:
         field:
           element: "text"
           label: "Team Lead"
+    _careers:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image URL"
+      - name: "focus"
+        field:
+          element: "text"
+          label: "Geographic Focus"
+      - name: "team_lead"
+        field:
+          element: "text"
+          label: "Team Lead"

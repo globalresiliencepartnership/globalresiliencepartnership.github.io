@@ -1,0 +1,45 @@
+---
+permalink: careers/index.html
+layout: page
+---
+<section class="carousel">
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <img src="{{site.baseurl}}/img/careers/banner.jpg" />
+        <div class="content">
+
+          <h1>Careers</h1>
+          <p>Explore exciting career opportunities with us. Be part of our talented, passionate, experienced team.</p>
+          
+
+          <span class="arrow"></span>
+
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class='clearfix firstSection'>
+  <div class="row">
+
+    <div class="columns large-12">
+      <ul class="careerList">
+      {% for post in site.careers %}
+
+        {% if post.tags contains 'career'%}
+
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        
+        {% endif %}
+        
+      
+
+      {% endfor %}
+      </ul>
+    </div>    
+
+  </div>
+
+</section>

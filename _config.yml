@@ -11,7 +11,8 @@ domain: http://www.globalresiliencepartnership.org
 collections:
   index_sections:
     output: false
-
+  careers:
+    output: true 
   events:
     output: false    
   selected_teams:
