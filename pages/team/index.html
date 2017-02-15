@@ -7,47 +7,45 @@ title: Our Team Members
   <div class="flexslider">
     <ul class="slides">
       <li>
-        <img src="{{site.baseurl}}/img/sliders/3.jpg" />
+        <img src="{{site.baseurl}}/img/team/banner.jpg" />
         <div class="content">
           <h1>Our Team</h1>
-          <p>We face a new reality: disasters and shocks are occurring more frequently and chronic stresses are lasting longer. Our future will be defined by three drivers: increasing complexity; where societies and ecosystems become more intertwined, global interconnectivity, and surprise. Stability and assumptions of linear, incremental change are history. Shock and stress – from rapid climate change, growing urbanization, to pandemics and conflict are here to stay. Protracted crises have become the new norm. And the most vulnerable are hit hardest.</p>
+          <p>Meet our talented resilience team.</p>
           <span class="arrow"></span>
         </div>
       </li>
     </ul>
   </div>
 </section>
-{% assign sections = site.index_sections %}
-
-  {% for post in sections %}
-    {% if post.tags contains 'challenge' %}
-    
-    {% else %}
-    <section class='clearfix {{post.class}} index-post firstSection'>
-    
-    {% if post.tags contains 'map'%}
-
-    <div class='map' id='map'></div>
-    
-    {% endif %}
-
+{% assign sections = site.our_team %}
+  
+  <section class='clearfix {{post.class}} index-post firstSection'>
     <div class="row">
-      <div class="medium-12 columns">
-      {% if post.tags contains 'map' %}
+      <div class="columns large-12">
+        <ul>
+        {% for post in sections %}
+          <li class="large-4 column end">
+            {% if post.thumbnail %}
+            <img src="{{ site.baseurl }}/img/team/{{ post.thumbnail }}" alt="">
+            {% endif %}
+            <article class="card blog">
+              <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
 
-      <div class='map-intro'>
-        <h1 class='pop'>{{post.content}}</h1>
-      </div>{% else %} {{post.content}} 
-      {% endif %}
+              <p>{{ post.position }}</p>
+              
+             
+            </article>
+          </li>
+        {% endfor %}
+        </ul>
       </div>
     </div>
+    
+  
     
 
     
   </section>
+    
   
-   {% endif %}
-  
-  {% endfor %}
 
-  <div></div>

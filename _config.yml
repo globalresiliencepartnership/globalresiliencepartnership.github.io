@@ -12,6 +12,8 @@ collections:
   index_sections:
     output: false
   careers:
+    output: true
+  our_team:
     output: true 
   events:
     output: false    

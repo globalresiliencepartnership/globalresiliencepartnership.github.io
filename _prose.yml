@@ -95,3 +95,21 @@ prose:
         field:
           element: "text"
           label: "Team Lead"
+
+    _our_team:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image URL"
+      - name: "focus"
+        field:
+          element: "text"
+          label: "Geographic Focus"
+      - name: "team_lead"
+        field:
+          element: "text"
+          label: "Team Lead"
