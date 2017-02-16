@@ -1346,6 +1346,111 @@ nav .sub-nav {
   }
 }
 
+/***** CAREER LIST  *******/
+.careerList{
+
+  margin-top: 55px;
+  margin-bottom: 55px;
+
+  li{
+
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background: #4F80FF;
+    margin-bottom: 10px;
+
+    a{
+
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #fff !important;
+      text-indent: 20px;
+
+    }
+
+  }
+
+  li:nth-child(1n){
+    background: #4F80FF;
+  }
+
+  li:nth-child(2n){
+    background: #772C77;
+  }
+
+  li:nth-child(3n){
+    background: #497739;
+  }
+
+}
+/***** END CAREER LIST  *******/
+
+
+/***** OUR TEAM GRID *******/
+.teamGrid{
+  
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  a{
+    width: 31%;
+    margin-right: 2%;
+    float: left;
+    height: 420px;
+    position: relative;
+
+    img{
+      width: 100%;
+    }
+
+    article{
+      
+      border: 1px solid #3863A0;
+      padding: 10px 0px;
+      
+      p{
+        
+        color: #3863A0;
+        margin-bottom: 10px;
+        text-indent: 20px;
+
+      }
+
+    }
+
+  }
+
+}
+
+/***** END OUR TEAM GRID *******/
+
+/***** TEAM MEMBER PROFILE *******/
+.teammember{
+  
+  img{
+    
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  h1{
+
+    margin-bottom: 0px;
+  
+  }
+
+  h3{
+    
+    font-size: 20px;
+    margin:10px 0px;
+
+  }
+}
+/***** END TEAM MEMBER PROFILE *******/
 @media only screen and (min-width: 1072px) {
   [data-magellan-expedition-clone] + [data-magellan-expedition] {
     .global-resilience-challenge,

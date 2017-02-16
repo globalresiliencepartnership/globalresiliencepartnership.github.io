@@ -19,25 +19,21 @@ title: Our Team Members
 </section>
 {% assign sections = site.our_team %}
   
-  <section class='clearfix {{post.class}} index-post firstSection'>
+  <section class='clearfix teamGrid'>
     <div class="row">
       <div class="columns large-12">
-        <ul>
         {% for post in sections %}
-          <li class="large-4 column end">
-            {% if post.thumbnail %}
-            <img src="{{ site.baseurl }}/img/team/{{ post.thumbnail }}" alt="">
-            {% endif %}
-            <article class="card blog">
-              <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {% if post.thumbnail %}
+          <img src="{{ site.baseurl }}/img/team/{{ post.thumbnail }}" alt="">
+          {% endif %}
+          <article class="">
+            <p>{{ post.title }}</p>
 
-              <p>{{ post.position }}</p>
-              
-             
-            </article>
-          </li>
+            <p>{{ post.position }}</p>
+          </article>
+        </a>
         {% endfor %}
-        </ul>
       </div>
     </div>
     
