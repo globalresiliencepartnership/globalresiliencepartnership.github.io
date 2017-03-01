@@ -28,6 +28,8 @@ $(function(){
 
   // });
 
+  $(".mapIframe").css('min-height', $(window).height());
+
 	$(document).foundation();
   $(document).foundation('accordion', 'reflow');
 
