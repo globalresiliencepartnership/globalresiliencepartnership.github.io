@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: blog_post
 category: blog
 title: Water Window Challenge Winners Announced
