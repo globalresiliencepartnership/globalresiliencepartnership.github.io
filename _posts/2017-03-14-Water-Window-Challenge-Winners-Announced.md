@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: blog_post
 category: blog
 title: Water Window Challenge Winners Announced
@@ -10,7 +10,7 @@ thumbnail : 2017_03_14_thumb.jpg
 
 <img src="{{ site.baseurl }}/img/news/2017_03_14_banner1.jpg" alt="">
 
-Twelve innovative projects will share a US$10 million competition pool to tackle flooding in some of the world’s most vulnerable communities.
+Twelve innovative projects will share a US$10 million competition pool to tackle flooding in some of the world's most vulnerable communities.
 
 The partnership between the Global Resilience Partnership (GRP) and Z Zurich Foundation of Zurich Insurance, sees grants of up to US$1m awarded to teams offering innovative solutions to issues affecting flood-prone communities in the Sahel, Horn of Africa and South and Southeast Asia.
 
@@ -34,7 +34,7 @@ Luca Alinovi, executive director of the Global Resilience Partnership, said: "Fl
 
 "GRP believes that a resilience approach, where we not only look to pre-empt shocks and support people to persist through crisis, but actively seek to transform crisis into opportunity, is the only way for long term poverty alleviation.
 
-Through the Challenge, we are able to mobilise communities, the world’s best experts and researchers to innovate, challenge the norm and benefit millions of people.” 
+Through the Challenge, we are able to mobilise communities, the world’s best experts and researchers to innovate, challenge the norm and benefit millions of people."
 
 <h3>For more information please contact:</h3>
 
