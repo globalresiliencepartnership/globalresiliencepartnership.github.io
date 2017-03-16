@@ -81,6 +81,8 @@ Mercy Corps provides an information-based model for trans-boundary collaboration
 <h3>Building the resilience of vulnerable coastal communities against floods in Sri Lanka
 </h3>
 
+<img src="{{ site.baseurl }}/img/news/2017_03_14_banner1.jpg" alt="">
+
 Seacology aims to build resilience through a project focused on the conservation of mangroves among vulnerable communities in Northern and Eastern Sri Lanka.
 
 <h3>Community Flood Resilience Programme (CFRP) </h3>
@@ -96,6 +98,8 @@ The Danish Refugee Council (DRC) aims to provide solutions to help refugee commu
 One Architecture proposes the development of a protective coastal greenbelt in the Tacloban area composed of restored fish ponds reforested with mangroves.
 
 <h3>Agricultural and Water Resilience in Coastal Areas of Bangladesh</h3>
+
+<img src="{{ site.baseurl }}/img/news/2017_03_14_practical.jpg" alt="">
 
 Practical Action will use meteorological agricultural information services and the improved commercial production and marketability of flood-saline resilient crops to build resilience in vulnerable communities in Bangladesh.
 
