@@ -3,12 +3,11 @@ published: true
 layout: blog_post
 category: blog
 title: Water Window Challenge Winners Announced
-thumbnail : 2017_03_14_thumb.jpg
+thumbnail : 2017_03_15_thumb.jpg
 
 ---
 
-
-<img src="{{ site.baseurl }}/img/news/2017_03_14_banner1.jpg" alt="">
+<img src="{{ site.baseurl }}/img/news/2017_03_14_mercy.jpg" alt="">
 
 Twelve innovative projects will share a US$10 million competition pool to tackle flooding in some of the world’s most vulnerable communities.
 
