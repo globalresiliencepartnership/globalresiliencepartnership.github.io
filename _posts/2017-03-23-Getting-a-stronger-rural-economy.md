@@ -4,11 +4,8 @@ layout: blog_post
 category: blog
 title: Getting a stronger rural economy
 thumbnail : 2017_03_23_thumb.jpg
-<<<<<<< HEAD
 subtitle: Authors&#58; Frank van Steenbergen, Edris Hussien, Fredu Nega Tegebu and Letty Fajardo Vera
-=======
-subtitle: AuthorS&#58; Frank van Steenbergen, Edris Hussien, Fredu Nega Tegebu and Letty Fajardo Vera
->>>>>>> origin/master
+
 
 ---
 
