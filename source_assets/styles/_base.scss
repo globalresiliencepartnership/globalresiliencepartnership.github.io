@@ -68,6 +68,33 @@ p.caption{
 
 }
 
+.maintainance{
+  
+  position:fixed;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  background:#fff;
+  z-index:1000;
+
+  article{
+
+    max-width:600px;
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+
+    h1{
+
+    }
+
+    p{
+
+    }
+  }
+}
+
 .pop {
   * {
     text-align: left;
