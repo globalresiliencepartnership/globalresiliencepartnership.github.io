@@ -206,7 +206,7 @@ a:focus {
 /* line 188, ../../source_assets/styles/_base.scss */
 [data-magellan-expedition] .sub-nav:first-child:before,
 [data-magellan-expedition-clone] .sub-nav:first-child:before {
-  content: 'Ôû╝';
+  content: '▼';
   position: absolute;
   margin: -50px 0 0 92px;
   -webkit-animation: flash 6s both infinite;
@@ -1742,49 +1742,64 @@ button:hover,
   background: url("../../img/sweden-desat.png") no-repeat;
   background-position: center center;
   background-size: contain;
+  margin: 7px 45px 0 0;
   display: block;
   float: left;
 }
-
 /* line 1621, ../../source_assets/styles/_base.scss */
+.row-partners #zurich-logo {
+  width: 100px;
+  height: 80px;
+  text-indent: -9999px;
+  background: url("../../img/zurich-desat.png") no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: block;
+  float: left;
+  margin-top: 9px;
+  position: relative;
+  left: 5px;
+}
+
+/* line 1636, ../../source_assets/styles/_base.scss */
 footer {
   padding: 40px 0;
 }
-/* line 1623, ../../source_assets/styles/_base.scss */
+/* line 1638, ../../source_assets/styles/_base.scss */
 footer p {
   font-size: 12px;
   color: #bbb;
   margin: 0;
 }
-/* line 1628, ../../source_assets/styles/_base.scss */
+/* line 1643, ../../source_assets/styles/_base.scss */
 footer a {
   color: #ccc;
 }
-/* line 1631, ../../source_assets/styles/_base.scss */
+/* line 1646, ../../source_assets/styles/_base.scss */
 footer .website {
   text-align: right;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 1637, ../../source_assets/styles/_base.scss */
+  /* line 1652, ../../source_assets/styles/_base.scss */
   .sign-up #mce-EMAIL {
     width: 100%;
   }
 
-  /* line 1640, ../../source_assets/styles/_base.scss */
+  /* line 1655, ../../source_assets/styles/_base.scss */
   .sign-up #mc-embedded-subscribe {
     width: 80%;
     margin: 20px 0 0 20px;
   }
 
-  /* line 1644, ../../source_assets/styles/_base.scss */
+  /* line 1659, ../../source_assets/styles/_base.scss */
   .row-partners a {
     float: none !important;
     margin: 0 auto 40px auto !important;
     width: 60% !important;
   }
 
-  /* line 1649, ../../source_assets/styles/_base.scss */
+  /* line 1664, ../../source_assets/styles/_base.scss */
   .winnerGrid.small-12 {
     width: 96%;
     margin-right: 2%;
@@ -1792,7 +1807,7 @@ footer .website {
     margin-bottom: 2%;
   }
 
-  /* line 1656, ../../source_assets/styles/_base.scss */
+  /* line 1671, ../../source_assets/styles/_base.scss */
   .winner-list .finalist {
     width: 96%;
     margin-left: 2%;
@@ -1801,7 +1816,7 @@ footer .website {
   }
 }
 @media only screen and (max-width: 900px) {
-  /* line 1666, ../../source_assets/styles/_base.scss */
+  /* line 1681, ../../source_assets/styles/_base.scss */
   .row-partners a {
     float: none !important;
     margin: 0 auto 40px auto !important;

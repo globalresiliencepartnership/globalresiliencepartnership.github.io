@@ -1613,8 +1613,23 @@ button:hover,
     background: url("../../img/sweden-desat.png") no-repeat;
     background-position: center center;
     background-size: contain;
+    margin: 7px 45px 0 0;
     display: block;
     float: left;
+  }
+
+  #zurich-logo {
+    width: 100px;
+    height: 80px;
+    text-indent: -9999px;
+    background: url("../../img/zurich-desat.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: block;
+    float: left;
+    margin-top: 9px;
+    position: relative;
+    left: 5px;
   }
 }
 

@@ -21,33 +21,22 @@ title: Rethinking the approach
 
   {% for post in sections %}
     {% if post.tags contains 'challenge' %}
-    
+
     {% else %}
     <section class='clearfix {{post.class}} index-post firstSection'>
-    
-    {% if post.tags contains 'map'%}
-
-    <div class='map' id='map'></div>
-    
-    {% endif %}
 
     <div class="row">
       <div class="medium-12 columns">
-      {% if post.tags contains 'map' %}
-
-      <div class='map-intro'>
-        <h1 class='pop'>{{post.content}}</h1>
-      </div>{% else %} {{post.content}} 
-      {% endif %}
+      {{post.content}}
       </div>
     </div>
-    
 
-    
+
+
   </section>
-  
+
    {% endif %}
-  
+
   {% endfor %}
 
   <div></div>
