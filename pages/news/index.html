@@ -30,9 +30,12 @@ layout: news
         <figure class="overlay"></figure>
         {% endif %}
 		    <article class="card blog">
-          <time class="date" datetime="{{ post.date | date: '%d/%m/%Y' }}" pubdate>{{ post.date | date: '%e %B %Y' }}</time>
-		      <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
-		      
+          <time class="date" datetime="{{ post.date | date: '%d/%m/%Y' }}" pubdate>{{ post.date | date: '%e %B %Y' }} </time>
+		      {% if post.externalUrl %}
+			    <p><a href="{{ post.externalUrl }}" target="_blank">{{ post.title }}</a></p>
+		      {% else %}
+			    <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+			  {% endif %}
 		     
 		    </article>
 		  </li>
