@@ -4,6 +4,7 @@ layout: blog_post
 category: blog
 title: Updates from the GRP Secretariat
 thumbnail : 2018_01_17_thumb.jpg
+subtitle: Author&#58; Ida Gabrielsson
 
 ---
 
